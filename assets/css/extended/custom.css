@@ -1,5 +1,5 @@
 /* Measure ~70-75ch at PaperMod's body size; generous leading for long prose */
-:root { --main-width: 46rem; }
+:root { --main-width: 55.2rem; }
 .post-content { line-height: 1.65; }
 
 /* Wide tables scroll inside their wrapper; the page never scrolls at 375px */
@@ -23,15 +23,15 @@
 /* Use more of large screens: widen the column and scale type with it so the
    measure stays readable. No effect below 1440px. */
 @media (min-width: 1440px) {
-  :root { --main-width: 54rem; }
+  :root { --main-width: 64.8rem; }
   .post-content { font-size: 1.1875rem; }
 }
 @media (min-width: 1920px) {
-  :root { --main-width: 62rem; }
+  :root { --main-width: 74.4rem; }
   .post-content { font-size: 1.25rem; }
 }
 @media (min-width: 3600px) {
-  :root { --main-width: 80rem; }
+  :root { --main-width: 96rem; }
   .post-content { font-size: 1.5rem; }
 }
 
