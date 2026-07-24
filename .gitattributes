@@ -4,3 +4,4 @@
 # Icon assets: never let text=auto's heuristic touch these.
 *.png binary
 *.ico binary
+*.pdf binary

@@ -1,7 +1,0 @@
-{{- $name := .Get 0 -}}
-{{- $lang := .Get 1 | default "python" -}}
-{{- with .Page.Resources.Get $name -}}
-{{ transform.Highlight .Content $lang }}
-{{- else -}}
-{{- errorf "include-code: resource %q not found in bundle of %q" $name $.Page.Path -}}
-{{- end -}}

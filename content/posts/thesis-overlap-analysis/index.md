@@ -11,7 +11,7 @@ TocOpen: true
 
 ## Abstract
 
-Following press coverage of plagiarism allegations concerning a Cambridge professor, I ran a sentence-level semantic similarity analysis on two openly deposited UK doctoral theses: Jason Arday's 2015 PhD (Liverpool John Moores University) and Paula Zwozdiak-Myers' 2009 PhD (Brunel University). Both are freely downloadable from their institutional repositories.
+Following press coverage of plagiarism allegations concerning a Cambridge professor, I ran a sentence-level semantic similarity analysis on two openly deposited UK doctoral theses: [Jason Arday's 2015 PhD](https://researchonline.ljmu.ac.uk/id/eprint/4552/1/158222_Jason%20Arday_%20Final%20PhD%20Thesis%20Vesrion%20Final%20Draft%20Oct%202015.pdf) (Liverpool John Moores University) and [Paula Zwozdiak-Myers' 2009 PhD](https://bura.brunel.ac.uk/bitstream/2438/4316/1/FulltextThesis.pdf) (Brunel University). Both are freely downloadable from their institutional repositories.
 
 The headline aggregate similarity is unremarkable. Median cosine similarity across all 11.09 million cross-document sentence pairs is 0.280 — exactly what two theses in the same subfield should look like. Anyone reporting a single document-level similarity score here would be reporting noise.
 
@@ -37,7 +37,7 @@ What this establishes is textual derivation. It does not establish intent, and i
 
 ## 1. Why this analysis
 
-On 24 July 2026 the Telegraph published a piece headlined "Cambridge's diversity poster boy in plagiarism row." The underlying allegations have circulated for some time on PubPeer and in outlets including Varsity. I have not reproduced or assessed the claims made in that coverage; this article is an independent measurement exercise on two public documents, conducted from the primary sources.
+On 24 July 2026 the Telegraph published a piece headlined "[Cambridge's diversity poster boy in plagiarism row](https://www.telegraph.co.uk/news/2026/07/24/cambridges-diversity-poster-boy-in-plagiarism-row/)." The underlying allegations have circulated for some time on PubPeer and in outlets including Varsity. I have not reproduced or assessed the claims made in that coverage; this article is an independent measurement exercise on two public documents, conducted from the primary sources.
 
 The motivating question was narrow and technical: *can standard sentence embeddings distinguish genuine textual derivation from the ordinary similarity of two theses in the same field?*
 
@@ -258,13 +258,13 @@ Neither Arday nor Zwozdiak-Myers was contacted before publication, and neither h
 
 **Primary documents**
 
-- Arday, J. (2015). PhD thesis, Liverpool John Moores University. `researchonline.ljmu.ac.uk/id/eprint/4552/`
-- Zwozdiak-Myers, P. (2009). *An analysis of the concept reflective practice and an investigation into the development of student teachers' reflective practice within the context of action research.* PhD thesis, Brunel University. `bura.brunel.ac.uk/handle/2438/4316`
+- Arday, J. (2015). PhD thesis, Liverpool John Moores University. `researchonline.ljmu.ac.uk/id/eprint/4552/` — [local mirror](arday-2015.pdf)
+- Zwozdiak-Myers, P. (2009). *An analysis of the concept reflective practice and an investigation into the development of student teachers' reflective practice within the context of action research.* PhD thesis, Brunel University. `bura.brunel.ac.uk/handle/2438/4316` — [local mirror](zwozdiak-myers-2009.pdf)
 
 **Controls**
 
-- Kushkiev, P. (2022). EdD thesis, University of Sheffield. `etheses.whiterose.ac.uk/id/eprint/31670/`
-- Alhumaidan, A. (2025). PhD thesis, University of York. `etheses.whiterose.ac.uk/id/eprint/38362/`
+- Kushkiev, P. (2022). EdD thesis, University of Sheffield. `etheses.whiterose.ac.uk/id/eprint/31670/` — [local mirror](kushkiev-2022.pdf)
+- Alhumaidan, A. (2025). PhD thesis, University of York. `etheses.whiterose.ac.uk/id/eprint/38362/` — [local mirror](alhumaidan-2025.pdf)
 
 **Press**
 
@@ -277,7 +277,5 @@ Full pipeline attached — extraction, segmentation, embedding, control construc
 {{< download-link "overlap_analysis.py" >}}
 
 [Full list of 185 matched pairs (appendix)]({{< relref "posts/thesis-overlap-appendix.md" >}})
-
-{{< include-code "overlap_analysis.py" "python" >}}
 
 *If you replicate this and get different numbers, I want to hear about it.*
