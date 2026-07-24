@@ -14,6 +14,12 @@ enableGitInfo   = true      # git-based lastmod (pairs with fetch-depth: 0 in CI
   disableXML = true         # keep --minify away from RSS/sitemap XML
 
 [markup]
+  [markup.goldmark.extensions.typographer]
+    # The appendix uses two-character Q/C status codes ([--], [-C], [Q-], [QC]).
+    # Goldmark's default en-dash substitution folds "--" into a single "–",
+    # corrupting 141 of those codes. Emit "--" literally; all other smart
+    # punctuation (quotes, em dash, ellipsis) is left at theme/Hugo defaults.
+    enDash = "--"
   [markup.highlight]
     noClasses = false       # REQUIRED: classes-based Chroma, styled by PaperMod in both modes
   [markup.tableOfContents]
