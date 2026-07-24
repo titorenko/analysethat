@@ -6,6 +6,7 @@ summary: "Sentence-level semantic similarity of two doctoral theses, with matche
 tags: ["text-analysis", "embeddings", "reproducibility"]
 cover:
   image: cover.png
+  relative: true
   alt: "Two documents drawn as columns of text lines; a sparse set of matching lines is linked across the gap between them, with one exact match highlighted."
 ShowToc: true
 TocOpen: true
