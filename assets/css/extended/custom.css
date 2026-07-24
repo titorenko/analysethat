@@ -33,21 +33,6 @@
 @media (min-width: 3600px) {
   :root { --main-width: 80rem; }
   .post-content { font-size: 1.5rem; }
-  .post-content .table-wrap { max-width: min(96rem, calc(100vw - 4rem)); }
-}
-
-/* On wide screens, tables break out of the text column so they fit without
-   scrolling; prose keeps its measure. Anything wider than the cap still
-   scrolls inside the wrapper. No effect below 900px. */
-@media (min-width: 900px) {
-  .post-content .table-wrap {
-    width: fit-content;
-    min-width: 100%;
-    max-width: min(72rem, calc(100vw - 4rem));
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 }
 
 /* Long prose cells wrap instead of stretching the table; cells shorter than
