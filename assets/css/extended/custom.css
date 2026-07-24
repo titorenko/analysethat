@@ -45,6 +45,14 @@
   }
 }
 
+/* Long prose cells wrap instead of stretching the table; cells shorter than
+   the cap (all numeric/compact columns) are unaffected. Top-align so wrapped
+   rows read cleanly. */
+.post-content .table-wrap td {
+  max-width: 44ch;
+  vertical-align: top;
+}
+
 /* Aligned decimal points in numeric columns */
 .post-content table td,
 .post-content table th { font-variant-numeric: tabular-nums; }
