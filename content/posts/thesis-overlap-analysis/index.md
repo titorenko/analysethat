@@ -4,6 +4,9 @@ description: "A reproducible embedding-based analysis of Arday (2015) and Zwozdi
 date: 2026-07-24
 summary: "Sentence-level semantic similarity of two doctoral theses, with matched controls: 9 near-identical pairs in 11.09M comparisons vs 1 in 34.29M control comparisons."
 tags: ["text-analysis", "embeddings", "reproducibility"]
+cover:
+  image: cover.png
+  alt: "Two documents drawn as columns of text lines; a sparse set of matching lines is linked across the gap between them, with one exact match highlighted."
 ShowToc: true
 TocOpen: true
 ---
@@ -191,12 +194,14 @@ Re-derived from raw text rather than normalised text, because Arday's thesis use
 
 Pooled control rate: 0.029 near-identical pairs per million (95% CI 0.0007–0.16). Expected in the focal corpus: 0.324 events (CI 0.008–1.803). Observed: 9, forming 8 spatially independent blocks.
 
-| test | P(observed \| independent composition) |
-|---|---|
-| Near-identity, point estimate of null rate | 8.0 × 10⁻¹¹ |
-| Near-identity, upper 95% CI on null rate | 1.1 × 10⁻⁴ |
-| Near-identity, upper CI **and** block-corrected | **5.7 × 10⁻⁴** |
-| Shared runs ≥ 12 words (67 vs 0.32 expected) | ~10⁻⁷⁹ |
+| test | P(observed \| independent composition) | ≈ σ (one-sided) |
+|---|---|---|
+| Near-identity, point estimate of null rate | 8.0 × 10⁻¹¹ | 6.4σ |
+| Near-identity, upper 95% CI on null rate | 1.1 × 10⁻⁴ | 3.7σ |
+| Near-identity, upper CI **and** block-corrected | **5.7 × 10⁻⁴** | **3.2σ** |
+| Shared runs ≥ 12 words (67 vs 0.32 expected) | ~10⁻⁷⁹ | ~19σ |
+
+For calibration: in the one-sided Gaussian convention used in particle physics, the 5σ discovery standard corresponds to p ≈ 2.9 × 10⁻⁷. The fully conservative near-identity test does not reach that bar on its own; the point-estimate and shared-run figures clear it by a wide margin.
 
 Converting to a posterior requires a prior. At the conservative likelihood ratio of 1,760: 0.95 at a 1% prior, 0.99 at 5%, 0.995 at 10%. On the point estimate (LR ≈ 1.25 × 10¹⁰) any prior above 10⁻⁸ exceeds 99%.
 
