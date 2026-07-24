@@ -30,6 +30,11 @@
   :root { --main-width: 62rem; }
   .post-content { font-size: 1.25rem; }
 }
+@media (min-width: 3600px) {
+  :root { --main-width: 80rem; }
+  .post-content { font-size: 1.5rem; }
+  .post-content .table-wrap { max-width: min(96rem, calc(100vw - 4rem)); }
+}
 
 /* On wide screens, tables break out of the text column so they fit without
    scrolling; prose keeps its measure. Anything wider than the cap still
