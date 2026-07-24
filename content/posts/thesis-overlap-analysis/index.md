@@ -77,7 +77,7 @@ Removing bibliographies matters: leaving them in produces large spurious overlap
 
 ### 3.2 Embedding
 
-`sentence-transformers/all-MiniLM-L6-v2` - 384 dimensions, L2-normalised, cosine similarity by dot product. A widely used general-purpose sentence encoder, deliberately chosen as a *standard* rather than optimal instrument.
+`sentence-transformers/all-MiniLM-L6-v2` - 384 dimensions, L2-normalised, cosine similarity by dot product. A widely used general-purpose sentence encoder, deliberately chosen as a *standard* rather than optimal instrument. All findings were replicated with five further encoders - `all-mpnet-base-v2`, `bge-large-en-v1.5`, `e5-large-v2`, `gte-large` and `Qwen3-Embedding-0.6B` - with similarity thresholds re-derived per model from the control corpus; replication code in §7.
 
 ### 3.3 The control design
 
