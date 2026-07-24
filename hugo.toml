@@ -1,0 +1,41 @@
+baseURL      = "https://titorenko.github.io/analysethat/"
+locale       = "en-gb"      # `languageCode` is deprecated as of Hugo 0.158.0
+title        = "Analyse That"
+theme        = "PaperMod"
+timeZone     = "Europe/London"
+
+enableRobotsTXT = true      # PaperMod robots.txt template; includes Sitemap: line
+enableGitInfo   = true      # git-based lastmod (pairs with fetch-depth: 0 in CI)
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true         # keep --minify away from RSS/sitemap XML
+
+[markup]
+  [markup.highlight]
+    noClasses = false       # REQUIRED: classes-based Chroma, styled by PaperMod in both modes
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+
+[params]
+  env          = "production"
+  description  = "Long-form quantitative analysis write-ups."
+  defaultTheme = "auto"     # FOUC-free by construction (inline pre-paint script in theme head)
+  ShowReadingTime     = true
+  ShowToc             = true
+  ShowBreadCrumbs     = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks    = true
+
+[menus]
+  [[menus.main]]
+    name = "Posts"
+    url  = "posts/"
+    weight = 1
+  [[menus.main]]
+    name = "About"
+    url  = "about/"
+    weight = 2

@@ -1,0 +1,25 @@
+/* Measure ~70-75ch at PaperMod's body size; generous leading for long prose */
+:root { --main-width: 46rem; }
+.post-content { line-height: 1.65; }
+
+/* Wide tables scroll inside their wrapper; the page never scrolls at 375px */
+.post-content .table-wrap {
+  overflow-x: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+  margin-block: 1.5em;
+}
+.post-content .table-wrap > table {
+  /* PaperMod's reset.css sets `table { display: block; width: 100%; overflow-x: auto }`
+     on every table; undo it here so the wrapper owns the scrolling. */
+  display: table;
+  overflow: visible;
+  margin: 0;            /* wrapper owns vertical rhythm */
+  width: max-content;   /* wide tables exceed wrapper and scroll */
+  min-width: 100%;
+  max-width: none;
+}
+
+/* Aligned decimal points in numeric columns */
+.post-content table td,
+.post-content table th { font-variant-numeric: tabular-nums; }
