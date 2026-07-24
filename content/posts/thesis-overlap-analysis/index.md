@@ -259,10 +259,9 @@ Neither Arday nor Zwozdiak-Myers was contacted before publication, and neither h
 
 1. **Two controls is thin.** The conservative confidence interval is wide because a single incidental event underpins the null rate. Three or four more matched theses would tighten it substantially.
 2. **Controls are imperfectly matched** - shorter (79k and 86k words) and less topically proximate to each other than the focal pair. The topical gap is small relative to the effect, but a control matched precisely on subfield would be better.
-3. **One embedding model - since replicated.** `all-mpnet-base-v2`, `bge-large-en-v1.5`, `e5-large-v2`, `gte-large` and `Qwen3-Embedding-0.6B` reproduce every conclusion, with the same nine near-identical pairs under each numerically clean model. Similarity thresholds do not transfer between models and were re-derived per model from the control corpus. Replication code in §7.
-4. **Quotation detection is the weakest measurement.** It depends on quote glyphs surviving PDF extraction. Block quotes indented without quote marks read as unattributed.
-5. **One source only.** Material Arday may have drawn from elsewhere is invisible here, so extent figures are a lower bound on any global claim.
-6. **Percentages are of cleaned body text**, excluding bibliography and front matter.
+3. **Quotation detection is the weakest measurement.** It depends on quote glyphs surviving PDF extraction. Block quotes indented without quote marks read as unattributed.
+4. **One source only.** Material Arday may have drawn from elsewhere is invisible here, so extent figures are a lower bound on any global claim.
+5. **Percentages are of cleaned body text**, excluding bibliography and front matter.
 
 ---
 
