@@ -17,21 +17,21 @@ TocOpen: true
 
 Following press coverage of plagiarism allegations concerning a Cambridge professor, I ran a sentence-level semantic similarity analysis on two openly deposited UK doctoral theses: [Jason Arday's 2015 PhD](https://researchonline.ljmu.ac.uk/id/eprint/4552/1/158222_Jason%20Arday_%20Final%20PhD%20Thesis%20Vesrion%20Final%20Draft%20Oct%202015.pdf) (Liverpool John Moores University) and [Paula Zwozdiak-Myers' 2009 PhD](https://bura.brunel.ac.uk/bitstream/2438/4316/1/FulltextThesis.pdf) (Brunel University). Both are freely downloadable from their institutional repositories.
 
-The headline aggregate similarity is unremarkable. Median cosine similarity across all 11.09 million cross-document sentence pairs is 0.280 — exactly what two theses in the same subfield should look like. Anyone reporting a single document-level similarity score here would be reporting noise.
+The headline aggregate similarity is unremarkable. Median cosine similarity across all 11.09 million cross-document sentence pairs is 0.280 - exactly what two theses in the same subfield should look like. Anyone reporting a single document-level similarity score here would be reporting noise.
 
 The signal is in the tail, and it survives controls. Against two independent education doctorates matched on discipline and partially on topic, the focal pair shows:
 
-- **9 near-identical sentence pairs** (cosine ≥ 0.999) in 11.09M comparisons, against **1** in 34.29M control comparisons — and that single control match is the standard thesis declaration ("This work has not previously been presented for an award at this, or any other, university").
+- **9 near-identical sentence pairs** (cosine ≥ 0.999) in 11.09M comparisons, against **1** in 34.29M control comparisons - and that single control match is the standard thesis declaration ("This work has not previously been presented for an award at this, or any other, university").
 - **67 sentence pairs sharing 12 or more consecutive identical words**, against an expected 0.32 under the null. Longest shared run: 63 words.
-- Conditional on high semantic similarity, cross-document pairs share a median run of **11.5 identical consecutive words**, versus 4.0 and 7.5 for sentences *within* each thesis — that is, the two documents phrase shared ideas alike more often than either document does when restating itself.
+- Conditional on high semantic similarity, cross-document pairs share a median run of **11.5 identical consecutive words**, versus 4.0 and 7.5 for sentences *within* each thesis - that is, the two documents phrase shared ideas alike more often than either document does when restating itself.
 
 Under the most conservative assumptions available, the probability of observing this pattern under independent composition is **5.7 × 10⁻⁴**; on the central estimate of the null rate, **8 × 10⁻¹¹**.
 
-Twenty-eight of the matched pairs are Zwozdiak-Myers writing about her own study — chapter structure, research findings, her stated conceptual definition. A shared third source cannot produce sentences like "This thesis is divided into six chapters." Chronology fixes direction: 2009 precedes 2015.
+Twenty-eight of the matched pairs are Zwozdiak-Myers writing about her own study - chapter structure, research findings, her stated conceptual definition. A shared third source cannot produce sentences like "This thesis is divided into six chapters." Chronology fixes direction: 2009 precedes 2015.
 
 **Estimated extent: roughly 4,000–9,000 words showing clear derivation**, depending on where the paraphrase threshold is set, concentrated almost entirely in the introduction and literature review, where local density reaches 21–26% of sentences. The methodology, data and findings chapters are essentially clean (1.1%).
 
-What this establishes is textual derivation. It does not establish intent, and it is not a finding of misconduct — that determination involves citation conventions, supervision, and institutional process, none of which is recoverable from text. Full code is included for replication.
+What this establishes is textual derivation. It does not establish intent, and it is not a finding of misconduct - that determination involves citation conventions, supervision, and institutional process, none of which is recoverable from text. Full code is included for replication.
 
 {{< download-link "overlap_analysis.py" >}}
 
@@ -45,7 +45,7 @@ On 24 July 2026 the Telegraph published a piece headlined "[Cambridge's diversit
 
 The motivating question was narrow and technical: *can standard sentence embeddings distinguish genuine textual derivation from the ordinary similarity of two theses in the same field?*
 
-That question matters beyond this case. Embedding similarity is increasingly reached for as a plagiarism heuristic, and it is close to useless when applied naively — two documents about the same thing score high whether or not a word moved between them. Getting a defensible answer requires controls, and most published applications don't use them.
+That question matters beyond this case. Embedding similarity is increasingly reached for as a plagiarism heuristic, and it is close to useless when applied naively - two documents about the same thing score high whether or not a word moved between them. Getting a defensible answer requires controls, and most published applications don't use them.
 
 ---
 
@@ -53,10 +53,10 @@ That question matters beyond this case. Embedding similarity is increasingly rea
 
 | Document | Institution | Year | Words | Sentences (post-clean) |
 |---|---|---|---|---|
-| Arday, J. — PhD thesis | Liverpool John Moores | 2015 | 146,201 | 4,259 |
-| Zwozdiak-Myers, P. — PhD thesis | Brunel | 2009 | 134,983 | 2,605 |
-| *Control 1:* Kushkiev, P. — EdD | Sheffield | 2022 | 79,455 | 1,837 |
-| *Control 2:* Alhumaidan, A. — PhD | York | 2025 | 85,674 | 2,492 |
+| Arday, J. - PhD thesis | Liverpool John Moores | 2015 | 146,201 | 4,259 |
+| Zwozdiak-Myers, P. - PhD thesis | Brunel | 2009 | 134,983 | 2,605 |
+| *Control 1:* Kushkiev, P. - EdD | Sheffield | 2022 | 79,455 | 1,837 |
+| *Control 2:* Alhumaidan, A. - PhD | York | 2025 | 85,674 | 2,492 |
 
 Both focal theses concern reflective practice among student teachers in initial teacher education and draw on an overlapping literature (Dewey, Schön, Habermas, Kolb, Zeichner, Hatton & Smith).
 
@@ -76,7 +76,7 @@ Removing bibliographies matters: leaving them in produces large spurious overlap
 
 ### 3.2 Embedding
 
-`sentence-transformers/all-MiniLM-L6-v2` — 384 dimensions, L2-normalised, cosine similarity by dot product. A widely used general-purpose sentence encoder, deliberately chosen as a *standard* rather than optimal instrument.
+`sentence-transformers/all-MiniLM-L6-v2` - 384 dimensions, L2-normalised, cosine similarity by dot product. A widely used general-purpose sentence encoder, deliberately chosen as a *standard* rather than optimal instrument.
 
 ### 3.3 The control design
 
@@ -84,17 +84,17 @@ This is the part that carries the argument.
 
 A raw count of similar sentence pairs is uninterpretable without knowing what two unrelated documents in the same field produce. I used two baselines:
 
-**Within-document baseline.** Similarity between sentences in the *same* thesis, separated by at least 200 sentences. This is the ceiling for independent prose on one topic in one voice, and it is deliberately conservative — authors restate themselves across chapters, so this baseline is inflated relative to a true independent-composition null.
+**Within-document baseline.** Similarity between sentences in the *same* thesis, separated by at least 200 sentences. This is the ceiling for independent prose on one topic in one voice, and it is deliberately conservative - authors restate themselves across chapters, so this baseline is inflated relative to a true independent-composition null.
 
-**Cross-document control baseline.** All pairings among the four documents that exclude the focal pair: A×C1, A×C2, Z×C1, Z×C2, C1×C2 — 34.29M sentence pairs of known-independent authorship.
+**Cross-document control baseline.** All pairings among the four documents that exclude the focal pair: A×C1, A×C2, Z×C1, Z×C2, C1×C2 - 34.29M sentence pairs of known-independent authorship.
 
 ### 3.4 Statistics
 
 Three, chosen for increasing immunity to topical confounding:
 
-1. **Cosine distribution** — heavily topic-confounded, reported for completeness.
-2. **Near-identity count** (cosine ≥ 0.999) — a different mechanism from topical similarity.
-3. **Longest shared run of identical consecutive words**, conditional on high cosine — nearly immune to topic, and the statistic that does the work.
+1. **Cosine distribution** - heavily topic-confounded, reported for completeness.
+2. **Near-identity count** (cosine ≥ 0.999) - a different mechanism from topical similarity.
+3. **Longest shared run of identical consecutive words**, conditional on high cosine - nearly immune to topic, and the statistic that does the work.
 
 Significance via Poisson tests against the pooled control rate. Because matched sentences can cluster within copied passages, I additionally collapsed matches into spatially independent blocks (matches within 3 sentence positions of each other in both documents treated as one event) and re-ran the tests on block counts.
 
@@ -110,7 +110,7 @@ Significance via Poisson tests against the pooled control rate. Because matched 
 | Within Zwozdiak-Myers | 0.312 | 0.686 | 0.805 | 0.898 | 0.990 |
 | **Cross-document** | 0.280 | 0.619 | 0.742 | 0.825 | **1.000** |
 
-Mean cross-document similarity is *lower* than either within-document baseline. At a threshold of 0.95 the cross-document rate of high-similarity pairs is 0.9× the within-document rate — no enrichment whatsoever.
+Mean cross-document similarity is *lower* than either within-document baseline. At a threshold of 0.95 the cross-document rate of high-similarity pairs is 0.9× the within-document rate - no enrichment whatsoever.
 
 If you stopped here you would conclude there is nothing to see. The maximum column is the tell: within-document maxima top out at 0.986 and 0.990. The cross-document maximum is exactly 1.000.
 
@@ -121,13 +121,13 @@ Per million sentence pairs:
 | pair | mean cos | max | ≥.95 | ≥.98 | ≥.999 | median run | max run | run≥12 |
 |---|---|---|---|---|---|---|---|---|
 | **Arday × Zwozdiak-Myers** | **0.280** | **1.000** | **5.50** | **2.25** | **0.811** | **11.5** | **63** | **6.04** |
-| Arday × Kushkiev | 0.243 | 0.858 | 0 | 0 | 0 | — | 0 | 0 |
+| Arday × Kushkiev | 0.243 | 0.858 | 0 | 0 | 0 | - | 0 | 0 |
 | Arday × Alhumaidan | 0.152 | 0.914 | 0 | 0 | 0 | 6.0 | 6 | 0 |
-| Zwozdiak-Myers × Kushkiev | 0.255 | 0.879 | 0 | 0 | 0 | — | 0 | 0 |
-| Zwozdiak-Myers × Alhumaidan | 0.174 | 0.881 | 0 | 0 | 0 | — | 0 | 0 |
+| Zwozdiak-Myers × Kushkiev | 0.255 | 0.879 | 0 | 0 | 0 | - | 0 | 0 |
+| Zwozdiak-Myers × Alhumaidan | 0.174 | 0.881 | 0 | 0 | 0 | - | 0 | 0 |
 | Kushkiev × Alhumaidan | 0.161 | 1.000 | 0.22 | 0.22 | 0.218 | 16.0 | 16 | 0.22 |
 
-The decisive comparison is topical proximity against tail behaviour. The focal pair sits at mean cosine 0.280; the near-controls at 0.243 and 0.255 — roughly 10% less proximate. The tail statistics differ by two orders of magnitude. Topic cannot carry that gap.
+The decisive comparison is topical proximity against tail behaviour. The focal pair sits at mean cosine 0.280; the near-controls at 0.243 and 0.255 - roughly 10% less proximate. The tail statistics differ by two orders of magnitude. Topic cannot carry that gap.
 
 **The null validates itself.** The single near-identical pair anywhere in 34.29M control comparisons is:
 
@@ -181,11 +181,11 @@ The 29% carrying third-party citations *are* common-source explicable. The 15% a
 | "1.4 Structure of the thesis This thesis is divided into six chapters." | "1.6 Structure of the thesis The thesis is divided into seven chapters." | 0.944 |
 | "In this study, reflective practice has been defined as: a disposition to enquiry incorporating the process through which student teachers' structure or restructure actions, knowledge, theories or beliefs…" | "Reflective practice, within the confines of this study, has been defined as a disposition to enquiry incorporating the process through which student teachers' structure, or restructure actions informed by…" | 0.935 |
 
-Self-referential statements about one's own chapter structure and findings cannot be inherited from shared literature. The fourth is the conceptual definition Zwozdiak-Myers' abstract describes as a new framework — her stated original contribution.
+Self-referential statements about one's own chapter structure and findings cannot be inherited from shared literature. The fourth is the conceptual definition Zwozdiak-Myers' abstract describes as a new framework - her stated original contribution.
 
 ### 4.6 Attribution
 
-Re-derived from raw text rather than normalised text, because Arday's thesis uses single quotation marks that Unicode normalisation collapses into apostrophes — an error I made on the first pass:
+Re-derived from raw text rather than normalised text, because Arday's thesis uses single quotation marks that Unicode normalisation collapses into apostrophes - an error I made on the first pass:
 
 - Near-verbatim band: **24 of 32** Arday sentences carry neither quotation marks nor any citation.
 - Paraphrase band: **88 of 114**.
@@ -225,15 +225,15 @@ The thesis-wide figure badly understates the concentration:
 
 | section | sentences with a counterpart (≥0.80) | words |
 |---|---|---|
-| Deciles 1–2 — introduction, literature review | 177 / 852 — **20.8%** | 6,351 |
-| Deciles 9–10 — discussion, conclusion | 60 / 851 — 7.1% | 2,029 |
-| Deciles 3–8 — methodology, data, findings | 29 / 2,556 — **1.1%** | 917 |
+| Deciles 1–2 - introduction, literature review | 177 / 852 - **20.8%** | 6,351 |
+| Deciles 9–10 - discussion, conclusion | 60 / 851 - 7.1% | 2,029 |
+| Deciles 3–8 - methodology, data, findings | 29 / 2,556 - **1.1%** | 917 |
 
 Decile 2 alone runs at 25.8%. **The empirical core of the thesis is clean.** Whatever happened, happened in the framing chapters.
 
 The overlap is also scattered rather than block-copied: at cosine ≥ 0.85 the matches form 103 separate runs, only 16 of length ≥ 2, longest 3 consecutive sentences. That pattern is consistent with sentence-by-sentence reworking of a source rather than lifted sections.
 
-My estimate: **4,000–9,000 words showing clear derivation.** I would not defend the ≥ 0.75 row — below roughly 0.80, measurements shade into ordinary shared-field phrasing. The threshold dependence is not a technicality: where the paraphrase line falls moves the answer by a factor of five, and that line is a judgement about scholarly norms, not something embeddings can settle.
+My estimate: **4,000–9,000 words showing clear derivation.** I would not defend the ≥ 0.75 row - below roughly 0.80, measurements shade into ordinary shared-field phrasing. The threshold dependence is not a technicality: where the paraphrase line falls moves the answer by a factor of five, and that line is a judgement about scholarly norms, not something embeddings can settle.
 
 ---
 
@@ -241,9 +241,9 @@ My estimate: **4,000–9,000 words showing clear derivation.** I would not defen
 
 **Establishes:** the two documents are not independently composed. The overlap includes material originating with Zwozdiak-Myers that a common source cannot explain, and chronology fixes the direction.
 
-**Does not establish:** intent. Nothing here distinguishes deliberate appropriation from note-taking that lost its provenance, or from reliance on intermediate materials. Nor does it constitute a finding of academic misconduct — that determination rests on citation conventions in the discipline, supervisory practice, institutional definitions and due process, none of which is recoverable from text.
+**Does not establish:** intent. Nothing here distinguishes deliberate appropriation from note-taking that lost its provenance, or from reliance on intermediate materials. Nor does it constitute a finding of academic misconduct - that determination rests on citation conventions in the discipline, supervisory practice, institutional definitions and due process, none of which is recoverable from text.
 
-Two further routes are worth naming. Zwozdiak-Myers published *The Teacher's Reflective Practice Handbook* (Routledge, 2012), which consolidates her doctoral work; material reaching the 2015 thesis via the book rather than the thesis would still originate with her, though some matches — the chapter-structure sentence, for instance — are specific to the thesis artifact. And where matched passages carry third-party citations, the shared-source explanation remains live.
+Two further routes are worth naming. Zwozdiak-Myers published *The Teacher's Reflective Practice Handbook* (Routledge, 2012), which consolidates her doctoral work; material reaching the 2015 thesis via the book rather than the thesis would still originate with her, though some matches - the chapter-structure sentence, for instance - are specific to the thesis artifact. And where matched passages carry third-party citations, the shared-source explanation remains live.
 
 Neither Arday nor Zwozdiak-Myers was contacted before publication, and neither has commented on this analysis.
 
@@ -252,7 +252,7 @@ Neither Arday nor Zwozdiak-Myers was contacted before publication, and neither h
 ## 6. Limitations
 
 1. **Two controls is thin.** The conservative confidence interval is wide because a single incidental event underpins the null rate. Three or four more matched theses would tighten it substantially.
-2. **Controls are imperfectly matched** — shorter (79k and 86k words) and less topically proximate to each other than the focal pair. The topical gap is small relative to the effect, but a control matched precisely on subfield would be better.
+2. **Controls are imperfectly matched** - shorter (79k and 86k words) and less topically proximate to each other than the focal pair. The topical gap is small relative to the effect, but a control matched precisely on subfield would be better.
 3. **One embedding model.** Replication with `all-mpnet-base-v2` or `gte-large` is cheap and should be done before anyone relies on these figures.
 4. **Quotation detection is the weakest measurement.** It depends on quote glyphs surviving PDF extraction. Block quotes indented without quote marks read as unattributed.
 5. **One source only.** Material Arday may have drawn from elsewhere is invisible here, so extent figures are a lower bound on any global claim.
@@ -264,13 +264,13 @@ Neither Arday nor Zwozdiak-Myers was contacted before publication, and neither h
 
 **Primary documents**
 
-- Arday, J. (2015). PhD thesis, Liverpool John Moores University. `researchonline.ljmu.ac.uk/id/eprint/4552/` — [local mirror](arday-2015.pdf)
-- Zwozdiak-Myers, P. (2009). *An analysis of the concept reflective practice and an investigation into the development of student teachers' reflective practice within the context of action research.* PhD thesis, Brunel University. `bura.brunel.ac.uk/handle/2438/4316` — [local mirror](zwozdiak-myers-2009.pdf)
+- Arday, J. (2015). PhD thesis, Liverpool John Moores University. `researchonline.ljmu.ac.uk/id/eprint/4552/` - [local mirror](arday-2015.pdf)
+- Zwozdiak-Myers, P. (2009). *An analysis of the concept reflective practice and an investigation into the development of student teachers' reflective practice within the context of action research.* PhD thesis, Brunel University. `bura.brunel.ac.uk/handle/2438/4316` - [local mirror](zwozdiak-myers-2009.pdf)
 
 **Controls**
 
-- Kushkiev, P. (2022). EdD thesis, University of Sheffield. `etheses.whiterose.ac.uk/id/eprint/31670/` — [local mirror](kushkiev-2022.pdf)
-- Alhumaidan, A. (2025). PhD thesis, University of York. `etheses.whiterose.ac.uk/id/eprint/38362/` — [local mirror](alhumaidan-2025.pdf)
+- Kushkiev, P. (2022). EdD thesis, University of Sheffield. `etheses.whiterose.ac.uk/id/eprint/31670/` - [local mirror](kushkiev-2022.pdf)
+- Alhumaidan, A. (2025). PhD thesis, University of York. `etheses.whiterose.ac.uk/id/eprint/38362/` - [local mirror](alhumaidan-2025.pdf)
 
 **Press**
 
@@ -278,7 +278,7 @@ Neither Arday nor Zwozdiak-Myers was contacted before publication, and neither h
 
 **Code**
 
-Full pipeline attached — extraction, segmentation, embedding, control construction, Poisson testing, provenance classification and extent estimation. It downloads all four documents from their repositories and reproduces every figure in this article from scratch. Runs on CPU in about twenty minutes.
+Full pipeline attached - extraction, segmentation, embedding, control construction, Poisson testing, provenance classification and extent estimation. It downloads all four documents from their repositories and reproduces every figure in this article from scratch. Runs on CPU in about twenty minutes.
 
 {{< download-link "overlap_analysis.py" >}}
 

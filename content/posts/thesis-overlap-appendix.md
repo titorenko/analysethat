@@ -1,5 +1,5 @@
 ---
-title: "Appendix: Matched Sentence Pairs — Arday (2015) vs Zwozdiak-Myers (2009)"
+title: "Appendix: Matched Sentence Pairs - Arday (2015) vs Zwozdiak-Myers (2009)"
 description: "185 deduplicated matched sentence pairs in three similarity bands, with cosine, Jaccard and identical-run statistics."
 date: 2026-07-24
 url: /posts/thesis-overlap-analysis/appendix/
