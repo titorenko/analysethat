@@ -36,6 +36,10 @@ enableGitInfo   = true      # git-based lastmod (pairs with fetch-depth: 0 in CI
   ShowCodeCopyButtons = true
   ShowPostNavLinks    = true
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-4KVT0WMKBX"     # emitted by PaperMod's head only in production builds
+
 [menus]
   [[menus.main]]
     name = "Posts"
