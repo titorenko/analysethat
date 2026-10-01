@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 488" width="640" height="488" role="img" aria-labelledby="t d">
+<title id="t">Differences between models</title><desc id="d">Differences in Comfort Index with 95 percent paired bootstrap intervals: Opus 5.5 − Fable 5.1 +5.4 (CI +3.2 to +7.3); Opus 5.5 − Sonnet 5.5 +1.4 (CI -0.3 to +3.2); Opus 5.5 − Haiku 4.5 +12.6 (CI +8.3 to +17.3); Fable 5.1 − Sonnet 5.5 -4.0 (CI -6.3 to -1.4); Fable 5.1 − Haiku 4.5 +7.2 (CI +2.5 to +12.2); Sonnet 5.5 − Haiku 4.5 +11.2 (CI +6.5 to +16.1); Opus 5.5 − Opus 5 +8.6 (CI +6.0 to +11.7); Opus 5 − Opus 4.6 -3.3 (CI -7.2 to +0.3); Opus 5.5 − Opus 4.6 +5.3 (CI +2.6 to +8.0); Sonnet 5.5 − Sonnet 5 +10.2 (CI +6.4 to +13.9); Opus 4.6 − Fable 5.1 +0.1 (CI -3.2 to +3.3); Sonnet 5 − Haiku 4.5 +1.0 (CI -4.1 to +6.0)</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="639" height="487" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">Differences between models (index points)</text>
+<text class="t2" x="24" y="50" font-size="13">Dot = difference; line = 95% paired bootstrap CI. Filled: the CI excludes 0.</text>
+<line class="grid" x1="200.0" x2="200.0" y1="74" y2="416"/>
+<text class="t3" x="200.0" y="434" font-size="12.5" text-anchor="middle">-10</text>
+<line class="grid" x1="264.7" x2="264.7" y1="74" y2="416"/>
+<text class="t3" x="264.7" y="434" font-size="12.5" text-anchor="middle">-5</text>
+<line class="neutral" x1="329.3" x2="329.3" y1="74" y2="416" stroke-width="1.5"/>
+<text class="t3" x="329.3" y="434" font-size="12.5" text-anchor="middle">0</text>
+<line class="grid" x1="394.0" x2="394.0" y1="74" y2="416"/>
+<text class="t3" x="394.0" y="434" font-size="12.5" text-anchor="middle">+5</text>
+<line class="grid" x1="458.7" x2="458.7" y1="74" y2="416"/>
+<text class="t3" x="458.7" y="434" font-size="12.5" text-anchor="middle">+10</text>
+<line class="grid" x1="523.3" x2="523.3" y1="74" y2="416"/>
+<text class="t3" x="523.3" y="434" font-size="12.5" text-anchor="middle">+15</text>
+<line class="grid" x1="588.0" x2="588.0" y1="74" y2="416"/>
+<text class="t3" x="588.0" y="434" font-size="12.5" text-anchor="middle">+20</text>
+<text class="t1" x="24" y="94.0" font-size="13" dominant-baseline="middle">Opus 5.5 − Fable 5.1</text>
+<line class="accent-line" x1="371.3" x2="424.3" y1="94.0" y2="94.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="accent" cx="399.2" cy="94.0" r="6" stroke-width="0"/>
+<text class="t1 halo" x="433.3" y="94.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+5.4</text>
+<text class="t1" x="24" y="122.0" font-size="13" dominant-baseline="middle">Opus 5.5 − Sonnet 5.5</text>
+<line class="hollow-line" x1="324.8" x2="371.2" y1="122.0" y2="122.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="hollow" cx="347.4" cy="122.0" r="6"/>
+<text class="t1 halo" x="380.2" y="122.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+1.4</text>
+<text class="t1" x="24" y="150.0" font-size="13" dominant-baseline="middle">Opus 5.5 − Haiku 4.5</text>
+<line class="accent-line" x1="436.2" x2="553.4" y1="150.0" y2="150.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="accent" cx="492.3" cy="150.0" r="6" stroke-width="0"/>
+<text class="t1 halo" x="562.4" y="150.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+12.6</text>
+<text class="t1" x="24" y="178.0" font-size="13" dominant-baseline="middle">Fable 5.1 − Sonnet 5.5</text>
+<line class="accent-line" x1="248.0" x2="310.7" y1="178.0" y2="178.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="accent" cx="277.6" cy="178.0" r="6" stroke-width="0"/>
+<text class="t1 halo" x="239.0" y="178.0" font-size="12.5" font-weight="600" text-anchor="end" dominant-baseline="middle">-4.0</text>
+<text class="t1" x="24" y="206.0" font-size="13" dominant-baseline="middle">Fable 5.1 − Haiku 4.5</text>
+<line class="accent-line" x1="362.2" x2="486.5" y1="206.0" y2="206.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="accent" cx="422.5" cy="206.0" r="6" stroke-width="0"/>
+<text class="t1 halo" x="495.5" y="206.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+7.2</text>
+<text class="t1" x="24" y="234.0" font-size="13" dominant-baseline="middle">Sonnet 5.5 − Haiku 4.5</text>
+<line class="accent-line" x1="412.8" x2="538.2" y1="234.0" y2="234.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="accent" cx="474.2" cy="234.0" r="6" stroke-width="0"/>
+<text class="t1 halo" x="547.2" y="234.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+11.2</text>
+<text class="t1" x="24" y="262.0" font-size="13" dominant-baseline="middle">Opus 5.5 − Opus 5</text>
+<line class="accent-line" x1="407.1" x2="480.4" y1="262.0" y2="262.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="accent" cx="440.6" cy="262.0" r="6" stroke-width="0"/>
+<text class="t1 halo" x="489.4" y="262.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+8.6</text>
+<text class="t1" x="24" y="290.0" font-size="13" dominant-baseline="middle">Opus 5 − Opus 4.6</text>
+<line class="hollow-line" x1="236.2" x2="333.1" y1="290.0" y2="290.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="hollow" cx="286.7" cy="290.0" r="6"/>
+<text class="t1 halo" x="227.2" y="290.0" font-size="12.5" font-weight="600" text-anchor="end" dominant-baseline="middle">-3.3</text>
+<text class="t1" x="24" y="318.0" font-size="13" dominant-baseline="middle">Opus 5.5 − Opus 4.6</text>
+<line class="accent-line" x1="362.7" x2="433.1" y1="318.0" y2="318.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="accent" cx="397.9" cy="318.0" r="6" stroke-width="0"/>
+<text class="t1 halo" x="442.1" y="318.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+5.3</text>
+<text class="t1" x="24" y="346.0" font-size="13" dominant-baseline="middle">Sonnet 5.5 − Sonnet 5</text>
+<line class="accent-line" x1="411.8" x2="509.6" y1="346.0" y2="346.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="accent" cx="461.3" cy="346.0" r="6" stroke-width="0"/>
+<text class="t1 halo" x="518.6" y="346.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+10.2</text>
+<text class="t1" x="24" y="374.0" font-size="13" dominant-baseline="middle">Opus 4.6 − Fable 5.1</text>
+<line class="hollow-line" x1="288.4" x2="372.6" y1="374.0" y2="374.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="hollow" cx="330.6" cy="374.0" r="6"/>
+<text class="t1 halo" x="381.6" y="374.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+0.1</text>
+<text class="t1" x="24" y="402.0" font-size="13" dominant-baseline="middle">Sonnet 5 − Haiku 4.5</text>
+<line class="hollow-line" x1="276.3" x2="406.4" y1="402.0" y2="402.0" stroke-width="2.2" stroke-linecap="round"/>
+<circle class="hollow" cx="342.3" cy="402.0" r="6"/>
+<text class="t1 halo" x="415.4" y="402.0" font-size="12.5" font-weight="600" dominant-baseline="middle">+1.0</text>
+<circle class="accent" cx="200" cy="462" r="6" stroke-width="0"/><text class="t2" x="212" y="462" font-size="12.5" dominant-baseline="middle">CI excludes 0</text>
+<circle class="hollow" cx="330" cy="462" r="6"/><text class="t2" x="342" y="462" font-size="12.5" dominant-baseline="middle">CI includes 0</text>
+</svg>

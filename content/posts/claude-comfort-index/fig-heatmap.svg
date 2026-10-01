@@ -8,6 +8,8 @@
   .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
   .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
   .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
   text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
   @media (prefers-color-scheme: dark) {
     .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
@@ -17,6 +19,8 @@
     .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
     .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
     .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
   }
 .b0{fill:#cde2fb}.k0{fill:#0b0b0b}
 .b1{fill:#c2daf8}.k1{fill:#0b0b0b}

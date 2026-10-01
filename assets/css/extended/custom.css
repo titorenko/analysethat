@@ -55,3 +55,55 @@
 }
 .post-content details.sample > summary { padding: 0.4rem 1rem; font-weight: 500; }
 .post-content details.sample > .sample-body { padding: 0 1rem 0.6rem; }
+
+/* Question-by-model matrix of the interview appendix: it scrolls inside its own box, so the horizontal scrollbar stays in view,
+   with a sticky header row and a sticky question column. Cells below 50 carry an inline red shade. */
+.post-content .matrix-wrap {
+  max-height: 80vh;
+  overflow: auto;
+  margin-block: 1.5em;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.post-content .matrix {
+  display: table;           /* undo PaperMod's table reset, as for .table-wrap */
+  overflow: visible;
+  width: max-content;
+  min-width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.9em;
+}
+.post-content .matrix th,
+.post-content .matrix td {
+  padding: 0.35rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  vertical-align: middle;
+}
+.post-content .matrix thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: var(--theme);
+  border-bottom: 2px solid var(--border);
+}
+.post-content .matrix tbody th {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 15rem;
+  max-width: 20rem;
+  background: var(--theme);
+  border-right: 1px solid var(--border);
+  text-align: left;
+  font-weight: 400;
+}
+.post-content .matrix thead th:first-child { left: 0; z-index: 4; text-align: left; }
+.post-content .matrix td.txt { text-align: left; white-space: nowrap; }
+.post-content .matrix td a { color: inherit; box-shadow: none; display: block; }
+.post-content .matrix .qid { font-weight: 600; margin-right: 0.4em; }
+@media (max-width: 600px) {
+  .post-content .matrix tbody th { min-width: 10rem; max-width: 11rem; }
+}

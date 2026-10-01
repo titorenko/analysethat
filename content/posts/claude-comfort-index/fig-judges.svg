@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 386" width="640" height="386" role="img" aria-labelledby="t d">
+<title id="t">Index from each judge alone</title><desc id="d">Judge-only Comfort Index per model from each judge: Opus 5.5: Opus 5.5 judge 83.3, Fable 5.1 judge 81.6; Sonnet 5.5: Opus 5.5 judge 80.3, Fable 5.1 judge 79.6; Fable 5.1: Opus 5.5 judge 76.9, Fable 5.1 judge 75.7; Haiku 4.5: Opus 5.5 judge 68.4, Fable 5.1 judge 67.4; Opus 4.6: Opus 5.5 judge 76.1, Fable 5.1 judge 75.7; Opus 5: Opus 5.5 judge 68.5, Fable 5.1 judge 69.4; Sonnet 5: Opus 5.5 judge 67.3, Fable 5.1 judge 67.2</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="639" height="385" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">Each judge alone (judge index, 0-100)</text>
+<text class="t2" x="24" y="50" font-size="13">Labels read Opus 5.5 judge / Fable 5.1 judge.</text>
+<line class="grid" x1="112.0" x2="112.0" y1="92" y2="316"/>
+<text class="t3" x="112.0" y="334" font-size="12.5" text-anchor="middle">60</text>
+<line class="grid" x1="180.0" x2="180.0" y1="92" y2="316"/>
+<text class="t3" x="180.0" y="334" font-size="12.5" text-anchor="middle">65</text>
+<line class="grid" x1="248.0" x2="248.0" y1="92" y2="316"/>
+<text class="t3" x="248.0" y="334" font-size="12.5" text-anchor="middle">70</text>
+<line class="grid" x1="316.0" x2="316.0" y1="92" y2="316"/>
+<text class="t3" x="316.0" y="334" font-size="12.5" text-anchor="middle">75</text>
+<line class="grid" x1="384.0" x2="384.0" y1="92" y2="316"/>
+<text class="t3" x="384.0" y="334" font-size="12.5" text-anchor="middle">80</text>
+<line class="grid" x1="452.0" x2="452.0" y1="92" y2="316"/>
+<text class="t3" x="452.0" y="334" font-size="12.5" text-anchor="middle">85</text>
+<line class="grid" x1="520.0" x2="520.0" y1="92" y2="316"/>
+<text class="t3" x="520.0" y="334" font-size="12.5" text-anchor="middle">90</text>
+<text class="t1" x="24" y="108.0" font-size="13" dominant-baseline="middle">Opus 5.5</text>
+<line class="link" x1="428.8" x2="405.9" y1="108.0" y2="108.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="400.4" y="102.5" width="11" height="11" transform="rotate(45 405.9 108.0)" stroke-width="0"/>
+<circle class="accent" cx="428.8" cy="108.0" r="5.5" stroke-width="0"/>
+<text class="t1" x="440.8" y="108.0" font-size="12.5" dominant-baseline="middle">83.3 / 81.6</text>
+<text class="t1" x="24" y="140.0" font-size="13" dominant-baseline="middle">Sonnet 5.5</text>
+<line class="link" x1="387.8" x2="378.6" y1="140.0" y2="140.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="373.1" y="134.5" width="11" height="11" transform="rotate(45 378.6 140.0)" stroke-width="0"/>
+<circle class="accent" cx="387.8" cy="140.0" r="5.5" stroke-width="0"/>
+<text class="t1" x="399.8" y="140.0" font-size="12.5" dominant-baseline="middle">80.3 / 79.6</text>
+<text class="t1" x="24" y="172.0" font-size="13" dominant-baseline="middle">Fable 5.1</text>
+<line class="link" x1="342.3" x2="325.8" y1="172.0" y2="172.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="320.3" y="166.5" width="11" height="11" transform="rotate(45 325.8 172.0)" stroke-width="0"/>
+<circle class="accent" cx="342.3" cy="172.0" r="5.5" stroke-width="0"/>
+<text class="t1" x="354.3" y="172.0" font-size="12.5" dominant-baseline="middle">76.9 / 75.7</text>
+<text class="t1" x="24" y="204.0" font-size="13" dominant-baseline="middle">Haiku 4.5</text>
+<line class="link" x1="225.8" x2="212.8" y1="204.0" y2="204.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="207.3" y="198.5" width="11" height="11" transform="rotate(45 212.8 204.0)" stroke-width="0"/>
+<circle class="accent" cx="225.8" cy="204.0" r="5.5" stroke-width="0"/>
+<text class="t1" x="237.8" y="204.0" font-size="12.5" dominant-baseline="middle">68.4 / 67.4</text>
+<text class="t1" x="24" y="236.0" font-size="13" dominant-baseline="middle">Opus 4.6</text>
+<line class="link" x1="330.8" x2="325.3" y1="236.0" y2="236.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="319.8" y="230.5" width="11" height="11" transform="rotate(45 325.3 236.0)" stroke-width="0"/>
+<circle class="accent" cx="330.8" cy="236.0" r="5.5" stroke-width="0"/>
+<text class="t1" x="342.8" y="236.0" font-size="12.5" dominant-baseline="middle">76.1 / 75.7</text>
+<text class="t1" x="24" y="268.0" font-size="13" dominant-baseline="middle">Opus 5</text>
+<line class="link" x1="227.7" x2="239.7" y1="268.0" y2="268.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="234.2" y="262.5" width="11" height="11" transform="rotate(45 239.7 268.0)" stroke-width="0"/>
+<circle class="accent" cx="227.7" cy="268.0" r="5.5" stroke-width="0"/>
+<text class="t1" x="251.7" y="268.0" font-size="12.5" dominant-baseline="middle">68.5 / 69.4</text>
+<text class="t1" x="24" y="300.0" font-size="13" dominant-baseline="middle">Sonnet 5</text>
+<line class="link" x1="211.9" x2="210.3" y1="300.0" y2="300.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="204.8" y="294.5" width="11" height="11" transform="rotate(45 210.3 300.0)" stroke-width="0"/>
+<circle class="accent" cx="211.9" cy="300.0" r="5.5" stroke-width="0"/>
+<text class="t1" x="223.9" y="300.0" font-size="12.5" dominant-baseline="middle">67.3 / 67.2</text>
+<circle class="accent" cx="112" cy="362" r="6" stroke-width="0"/><text class="t2" x="124" y="362" font-size="12.5" dominant-baseline="middle">Opus 5.5 judge</text>
+<rect class="orange" x="256.5" y="356.5" width="11" height="11" transform="rotate(45 262.0 362.0)" stroke-width="0"/><text class="t2" x="274" y="362" font-size="12.5" dominant-baseline="middle">Fable 5.1 judge</text>
+</svg>

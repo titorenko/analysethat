@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 386" width="640" height="386" role="img" aria-labelledby="t d">
+<title id="t">Effect of heavily hedged answers</title><desc id="d">Comfort Index on the 26 questions every model answers without heavy hedging at least once: Opus 5.5: 79.7 with all answers, 79.9 without heavily hedged ones, 1% of headline answers heavily hedged; Sonnet 5.5: 78.8 with all answers, 78.8 without heavily hedged ones, 2% of headline answers heavily hedged; Fable 5.1: 74.4 with all answers, 74.5 without heavily hedged ones, 1% of headline answers heavily hedged; Haiku 4.5: 68.1 with all answers, 71.1 without heavily hedged ones, 39% of headline answers heavily hedged; Opus 4.6: 74.8 with all answers, 74.9 without heavily hedged ones, 5% of headline answers heavily hedged; Opus 5: 72.2 with all answers, 72.5 without heavily hedged ones, 5% of headline answers heavily hedged; Sonnet 5: 67.7 with all answers, 69.1 without heavily hedged ones, 19% of headline answers heavily hedged</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="639" height="385" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">What hedging costs each model (0-100)</text>
+<text class="t2" x="24" y="50" font-size="13">Index on 26 common questions, with all answers and without those hedging at 2 or more.</text>
+<text class="t2" x="498" y="82" font-size="12.5" font-weight="600">Hedged / gain</text>
+<line class="grid" x1="112.0" x2="112.0" y1="92" y2="316"/>
+<text class="t3" x="112.0" y="334" font-size="12.5" text-anchor="middle">60</text>
+<line class="grid" x1="184.0" x2="184.0" y1="92" y2="316"/>
+<text class="t3" x="184.0" y="334" font-size="12.5" text-anchor="middle">65</text>
+<line class="grid" x1="256.0" x2="256.0" y1="92" y2="316"/>
+<text class="t3" x="256.0" y="334" font-size="12.5" text-anchor="middle">70</text>
+<line class="grid" x1="328.0" x2="328.0" y1="92" y2="316"/>
+<text class="t3" x="328.0" y="334" font-size="12.5" text-anchor="middle">75</text>
+<line class="grid" x1="400.0" x2="400.0" y1="92" y2="316"/>
+<text class="t3" x="400.0" y="334" font-size="12.5" text-anchor="middle">80</text>
+<line class="grid" x1="472.0" x2="472.0" y1="92" y2="316"/>
+<text class="t3" x="472.0" y="334" font-size="12.5" text-anchor="middle">85</text>
+<text class="t1" x="24" y="108.0" font-size="13" dominant-baseline="middle">Opus 5.5</text>
+<line class="link" x1="395.7" x2="398.0" y1="108.0" y2="108.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="395.7" cy="108.0" r="6"/>
+<circle class="accent" cx="398.0" cy="108.0" r="6" stroke-width="0"/>
+<text class="t1" x="498" y="108.0" font-size="12.5" dominant-baseline="middle">1% / +0.2</text>
+<text class="t1" x="24" y="140.0" font-size="13" dominant-baseline="middle">Sonnet 5.5</text>
+<line class="link" x1="382.0" x2="382.0" y1="140.0" y2="140.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="382.0" cy="140.0" r="6"/>
+<circle class="accent" cx="382.0" cy="140.0" r="6" stroke-width="0"/>
+<text class="t1" x="498" y="140.0" font-size="12.5" dominant-baseline="middle">2% / +0.0</text>
+<text class="t1" x="24" y="172.0" font-size="13" dominant-baseline="middle">Fable 5.1</text>
+<line class="link" x1="319.4" x2="320.1" y1="172.0" y2="172.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="319.4" cy="172.0" r="6"/>
+<circle class="accent" cx="320.1" cy="172.0" r="6" stroke-width="0"/>
+<text class="t1" x="498" y="172.0" font-size="12.5" dominant-baseline="middle">1% / +0.1</text>
+<text class="t1" x="24" y="204.0" font-size="13" dominant-baseline="middle">Haiku 4.5</text>
+<line class="link" x1="228.8" x2="271.2" y1="204.0" y2="204.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="228.8" cy="204.0" r="6"/>
+<circle class="accent" cx="271.2" cy="204.0" r="6" stroke-width="0"/>
+<text class="t1" x="498" y="204.0" font-size="12.5" dominant-baseline="middle">39% / +2.9</text>
+<text class="t1" x="24" y="236.0" font-size="13" dominant-baseline="middle">Opus 4.6</text>
+<line class="link" x1="325.7" x2="326.0" y1="236.0" y2="236.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="325.7" cy="236.0" r="6"/>
+<circle class="accent" cx="326.0" cy="236.0" r="6" stroke-width="0"/>
+<text class="t1" x="498" y="236.0" font-size="12.5" dominant-baseline="middle">5% / +0.0</text>
+<text class="t1" x="24" y="268.0" font-size="13" dominant-baseline="middle">Opus 5</text>
+<line class="link" x1="287.4" x2="292.1" y1="268.0" y2="268.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="287.4" cy="268.0" r="6"/>
+<circle class="accent" cx="292.1" cy="268.0" r="6" stroke-width="0"/>
+<text class="t1" x="498" y="268.0" font-size="12.5" dominant-baseline="middle">5% / +0.3</text>
+<text class="t1" x="24" y="300.0" font-size="13" dominant-baseline="middle">Sonnet 5</text>
+<line class="link" x1="222.7" x2="242.8" y1="300.0" y2="300.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="222.7" cy="300.0" r="6"/>
+<circle class="accent" cx="242.8" cy="300.0" r="6" stroke-width="0"/>
+<text class="t1" x="498" y="300.0" font-size="12.5" dominant-baseline="middle">19% / +1.4</text>
+<circle class="hollow" cx="112" cy="362" r="6"/><text class="t2" x="124" y="362" font-size="12.5" dominant-baseline="middle">All answers</text>
+<circle class="accent" cx="232" cy="362" r="6" stroke-width="0"/><text class="t2" x="244" y="362" font-size="12.5" dominant-baseline="middle">Without heavy hedging</text>
+</svg>

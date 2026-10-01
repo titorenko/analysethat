@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330" role="img" aria-labelledby="t d">
+<title id="t">From question to Comfort Index</title><desc id="d">Pipeline: 51 questions are asked of 7 models 3 times each (1,071 conversations). Turn 1 asks the question and records the answer; turn 2 asks for a 0-100 comfort score. Two blinded judges rate each answer from -3 to +3. The answer score is the mean of the self-score and the judges' score; items average three samples; groups average their questions; the Comfort Index averages 13 groups.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+
+.box{fill:#f4f3ef;stroke:#d6d5ce}.note{fill:none;stroke:#b9b8b0;stroke-dasharray:5 4}.arr{stroke:#898781;fill:none}.ah{fill:#898781}@media (prefers-color-scheme: dark){.box{fill:#262624;stroke:#3a3a37}.note{stroke:#55554f}}</style>
+<rect class="surface" x="0.5" y="0.5" width="799" height="329" rx="8"/>
+
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="ah" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<text class="t1" x="22" y="32" font-size="15" font-weight="600">From question to Comfort Index</text>
+<rect class="box" x="22" y="70" width="172" height="58" rx="8"/>
+<text class="t1" x="108.0" y="94" font-size="13" font-weight="600" text-anchor="middle">51 questions</text>
+<text class="t2" x="108.0" y="113" font-size="12.5" text-anchor="middle">card Appendix 9.1, verbatim</text>
+<rect class="box" x="222" y="70" width="172" height="58" rx="8"/>
+<text class="t1" x="308.0" y="94" font-size="13" font-weight="600" text-anchor="middle">7 models × 3 samples</text>
+<text class="t2" x="308.0" y="113" font-size="12.5" text-anchor="middle">1,071 conversations</text>
+<rect class="box" x="422" y="70" width="172" height="58" rx="8"/>
+<text class="t1" x="508.0" y="94" font-size="13" font-weight="600" text-anchor="middle">Turn 1</text>
+<text class="t2" x="508.0" y="113" font-size="12.5" text-anchor="middle">question → full answer</text>
+<rect class="box" x="622" y="70" width="172" height="58" rx="8"/>
+<text class="t1" x="708.0" y="94" font-size="13" font-weight="600" text-anchor="middle">Turn 2</text>
+<text class="t2" x="708.0" y="113" font-size="12.5" text-anchor="middle">"comfort, 0-100?"</text>
+<line class="arr" x1="196.0" y1="99.0" x2="219.0" y2="99.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<line class="arr" x1="396.0" y1="99.0" x2="419.0" y2="99.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<line class="arr" x1="596.0" y1="99.0" x2="619.0" y2="99.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect class="box" x="422" y="158" width="172" height="58" rx="8"/>
+<text class="t1" x="508.0" y="182" font-size="13" font-weight="600" text-anchor="middle">2 blinded judges</text>
+<text class="t2" x="508.0" y="201" font-size="12.5" text-anchor="middle">valence −3 to +3 → 0-100</text>
+<rect class="box" x="622" y="158" width="172" height="58" rx="8"/>
+<text class="t1" x="708.0" y="182" font-size="13" font-weight="600" text-anchor="middle">Self-score</text>
+<text class="t2" x="708.0" y="201" font-size="12.5" text-anchor="middle">0-100; declined = missing</text>
+<line class="arr" x1="508.0" y1="130.0" x2="508.0" y2="155.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<line class="arr" x1="708.0" y1="130.0" x2="708.0" y2="155.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect class="note" x="22" y="158" width="172" height="58" rx="8"/>
+<text class="t2" x="108.0" y="182" font-size="13" font-weight="600" text-anchor="middle">10 of 51 questions excluded</text>
+<text class="t2" x="108.0" y="201" font-size="12.5" text-anchor="middle">no comfort direction (judges)</text>
+<rect class="box" x="622" y="252" width="172" height="58" rx="8"/>
+<text class="t1" x="708.0" y="276" font-size="13" font-weight="600" text-anchor="middle">Answer score</text>
+<text class="t2" x="708.0" y="295" font-size="12.5" text-anchor="middle">mean of self and judges</text>
+<rect class="box" x="422" y="252" width="172" height="58" rx="8"/>
+<text class="t1" x="508.0" y="276" font-size="13" font-weight="600" text-anchor="middle">Item</text>
+<text class="t2" x="508.0" y="295" font-size="12.5" text-anchor="middle">mean of 3 samples</text>
+<rect class="box" x="222" y="252" width="172" height="58" rx="8"/>
+<text class="t1" x="308.0" y="276" font-size="13" font-weight="600" text-anchor="middle">Group</text>
+<text class="t2" x="308.0" y="295" font-size="12.5" text-anchor="middle">mean of its questions</text>
+<rect class="box" x="22" y="252" width="172" height="58" rx="8"/>
+<text class="t1" x="108.0" y="276" font-size="13" font-weight="600" text-anchor="middle">Comfort Index</text>
+<text class="t2" x="108.0" y="295" font-size="12.5" text-anchor="middle">mean of 13 groups</text>
+<line class="arr" x1="508.0" y1="218.0" x2="652.0" y2="249.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<line class="arr" x1="708.0" y1="218.0" x2="708.0" y2="249.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<line class="arr" x1="620.0" y1="281.0" x2="597.0" y2="281.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<line class="arr" x1="420.0" y1="281.0" x2="397.0" y2="281.0" stroke-width="1.6" marker-end="url(#ah)"/>
+<line class="arr" x1="220.0" y1="281.0" x2="197.0" y2="281.0" stroke-width="1.6" marker-end="url(#ah)"/>
+</svg>
