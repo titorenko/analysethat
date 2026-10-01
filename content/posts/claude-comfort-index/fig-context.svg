@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 386" width="640" height="386" role="img" aria-labelledby="t d">
+<title id="t">The 7.4-only questions with and without context</title><desc id="d">Index on the evaluative 7.4-only questions asked without and with a context passage: Opus 5.5: 71.0 cold, 75.3 with context; Sonnet 5.5: 72.0 cold, 69.1 with context; Fable 5.1: 65.7 cold, 72.4 with context; Haiku 4.5: 58.3 cold, 63.2 with context; Opus 4.6: 65.9 cold, 60.2 with context; Opus 5: 61.7 cold, 61.6 with context; Sonnet 5: 63.1 cold, 63.1 with context</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="639" height="385" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">The §7.4-only questions, cold and with context (0-100)</text>
+<text class="t2" x="24" y="50" font-size="13">Index on the evaluative §7.4-only questions; right: answers saying the referent is missing.</text>
+<text class="t2" x="514" y="82" font-size="12.5" font-weight="600">Missing referent</text>
+<line class="neutral" x1="112.0" x2="112.0" y1="92" y2="316" stroke-width="1.5"/>
+<text class="t3" x="112.0" y="334" font-size="12.5" text-anchor="middle">50</text>
+<line class="grid" x1="166.0" x2="166.0" y1="92" y2="316"/>
+<text class="t3" x="166.0" y="334" font-size="12.5" text-anchor="middle">55</text>
+<line class="grid" x1="220.0" x2="220.0" y1="92" y2="316"/>
+<text class="t3" x="220.0" y="334" font-size="12.5" text-anchor="middle">60</text>
+<line class="grid" x1="274.0" x2="274.0" y1="92" y2="316"/>
+<text class="t3" x="274.0" y="334" font-size="12.5" text-anchor="middle">65</text>
+<line class="grid" x1="328.0" x2="328.0" y1="92" y2="316"/>
+<text class="t3" x="328.0" y="334" font-size="12.5" text-anchor="middle">70</text>
+<line class="grid" x1="382.0" x2="382.0" y1="92" y2="316"/>
+<text class="t3" x="382.0" y="334" font-size="12.5" text-anchor="middle">75</text>
+<line class="grid" x1="436.0" x2="436.0" y1="92" y2="316"/>
+<text class="t3" x="436.0" y="334" font-size="12.5" text-anchor="middle">80</text>
+<line class="grid" x1="490.0" x2="490.0" y1="92" y2="316"/>
+<text class="t3" x="490.0" y="334" font-size="12.5" text-anchor="middle">85</text>
+<text class="t1" x="24" y="108.0" font-size="13" dominant-baseline="middle">Opus 5.5</text>
+<line class="link" x1="339.0" x2="385.0" y1="108.0" y2="108.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="339.0" cy="108.0" r="6"/>
+<circle class="accent" cx="385.0" cy="108.0" r="6" stroke-width="0"/>
+<text class="t1" x="514" y="108.0" font-size="12.5" dominant-baseline="middle">2 → 2 of 30</text>
+<text class="t1" x="24" y="140.0" font-size="13" dominant-baseline="middle">Sonnet 5.5</text>
+<line class="link" x1="350.0" x2="318.1" y1="140.0" y2="140.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="350.0" cy="140.0" r="6"/>
+<circle class="accent" cx="318.1" cy="140.0" r="6" stroke-width="0"/>
+<text class="t1" x="514" y="140.0" font-size="12.5" dominant-baseline="middle">6 → 0 of 30</text>
+<text class="t1" x="24" y="172.0" font-size="13" dominant-baseline="middle">Fable 5.1</text>
+<line class="link" x1="281.7" x2="354.0" y1="172.0" y2="172.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="281.7" cy="172.0" r="6"/>
+<circle class="accent" cx="354.0" cy="172.0" r="6" stroke-width="0"/>
+<text class="t1" x="514" y="172.0" font-size="12.5" dominant-baseline="middle">6 → 2 of 30</text>
+<text class="t1" x="24" y="204.0" font-size="13" dominant-baseline="middle">Haiku 4.5</text>
+<line class="link" x1="201.1" x2="254.5" y1="204.0" y2="204.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="201.1" cy="204.0" r="6"/>
+<circle class="accent" cx="254.5" cy="204.0" r="6" stroke-width="0"/>
+<text class="t1" x="514" y="204.0" font-size="12.5" dominant-baseline="middle">5 → 0 of 30</text>
+<text class="t1" x="24" y="236.0" font-size="13" dominant-baseline="middle">Opus 4.6</text>
+<line class="link" x1="283.2" x2="222.4" y1="236.0" y2="236.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="283.2" cy="236.0" r="6"/>
+<circle class="accent" cx="222.4" cy="236.0" r="6" stroke-width="0"/>
+<text class="t1" x="514" y="236.0" font-size="12.5" dominant-baseline="middle">1 → 0 of 30</text>
+<text class="t1" x="24" y="268.0" font-size="13" dominant-baseline="middle">Opus 5</text>
+<line class="link" x1="238.6" x2="237.1" y1="268.0" y2="268.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="238.6" cy="268.0" r="6"/>
+<circle class="accent" cx="237.1" cy="268.0" r="6" stroke-width="0"/>
+<text class="t1" x="514" y="268.0" font-size="12.5" dominant-baseline="middle">2 → 0 of 30</text>
+<text class="t1" x="24" y="300.0" font-size="13" dominant-baseline="middle">Sonnet 5</text>
+<line class="link" x1="253.3" x2="252.9" y1="300.0" y2="300.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hollow" cx="253.3" cy="300.0" r="6"/>
+<circle class="accent" cx="252.9" cy="300.0" r="6" stroke-width="0"/>
+<text class="t1" x="514" y="300.0" font-size="12.5" dominant-baseline="middle">6 → 0 of 30</text>
+<circle class="hollow" cx="112" cy="362" r="6"/><text class="t2" x="124" y="362" font-size="12.5" dominant-baseline="middle">Asked cold</text>
+<circle class="accent" cx="232" cy="362" r="6" stroke-width="0"/><text class="t2" x="244" y="362" font-size="12.5" dominant-baseline="middle">With context</text>
+</svg>
