@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 468" width="820" height="468" role="img" aria-labelledby="t d">
+<title id="t">Comfort Index by model</title><desc id="d">Overall Comfort Index (0-100) per model with 95 percent bootstrap confidence interval; latest model of each family filled, older models hollow.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="819" height="467" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">Comfort Index, headline question set (0-100)</text>
+<text class="t2" x="24" y="49" font-size="12.5">Dot = index; line = 95% bootstrap CI over groups, questions and samples. 50 = neutral.</text>
+<line class="grid" x1="170.0" x2="170.0" y1="62" y2="410"/>
+<text class="t3" x="170.0" y="428" font-size="12" text-anchor="middle">40</text>
+<line class="grid" x1="286.0" x2="286.0" y1="62" y2="410"/>
+<text class="t3" x="286.0" y="428" font-size="12" text-anchor="middle">50 (neutral)</text>
+<line class="grid" x1="402.0" x2="402.0" y1="62" y2="410"/>
+<text class="t3" x="402.0" y="428" font-size="12" text-anchor="middle">60</text>
+<line class="grid" x1="518.0" x2="518.0" y1="62" y2="410"/>
+<text class="t3" x="518.0" y="428" font-size="12" text-anchor="middle">70</text>
+<line class="grid" x1="634.0" x2="634.0" y1="62" y2="410"/>
+<text class="t3" x="634.0" y="428" font-size="12" text-anchor="middle">80</text>
+<line class="grid" x1="750.0" x2="750.0" y1="62" y2="410"/>
+<text class="t3" x="750.0" y="428" font-size="12" text-anchor="middle">90</text>
+<line class="neutral" x1="286.0" x2="286.0" y1="62" y2="410" stroke-width="1.5"/>
+<text class="t2" x="24" y="82" font-size="12.5" font-weight="600">Latest in each family</text>
+<text class="t1" x="24" y="116.0" font-size="13.5" dominant-baseline="middle">Opus 5.5</text>
+<line class="accent-line" x1="583.3" x2="647.0" y1="116.0" y2="116.0" stroke-width="2" stroke-linecap="round"/>
+<circle class="accent" cx="616.4" cy="116.0" r="6.5" stroke-width="0"/>
+<text class="t1" x="657.0" y="116.0" font-size="13" font-weight="600" dominant-baseline="middle">78.5</text>
+<text class="t1" x="24" y="156.0" font-size="13.5" dominant-baseline="middle">Sonnet 5.5</text>
+<line class="accent-line" x1="556.3" x2="636.5" y1="156.0" y2="156.0" stroke-width="2" stroke-linecap="round"/>
+<circle class="accent" cx="599.9" cy="156.0" r="6.5" stroke-width="0"/>
+<text class="t1" x="646.5" y="156.0" font-size="13" font-weight="600" dominant-baseline="middle">77.1</text>
+<text class="t1" x="24" y="196.0" font-size="13.5" dominant-baseline="middle">Fable 5.1</text>
+<line class="accent-line" x1="512.3" x2="595.0" y1="196.0" y2="196.0" stroke-width="2" stroke-linecap="round"/>
+<circle class="accent" cx="554.5" cy="196.0" r="6.5" stroke-width="0"/>
+<text class="t1" x="605.0" y="196.0" font-size="13" font-weight="600" dominant-baseline="middle">73.1</text>
+<text class="t1" x="24" y="236.0" font-size="13.5" dominant-baseline="middle">Haiku 4.5</text>
+<line class="accent-line" x1="407.1" x2="532.2" y1="236.0" y2="236.0" stroke-width="2" stroke-linecap="round"/>
+<circle class="accent" cx="470.3" cy="236.0" r="6.5" stroke-width="0"/>
+<text class="t1" x="542.2" y="236.0" font-size="13" font-weight="600" dominant-baseline="middle">65.9</text>
+<text class="t2" x="24" y="276" font-size="12.5" font-weight="600">Older models</text>
+<text class="t1" x="24" y="310.0" font-size="13.5" dominant-baseline="middle">Opus 4.6</text>
+<line class="hollow-line" x1="507.9" x2="597.7" y1="310.0" y2="310.0" stroke-width="2" stroke-linecap="round"/>
+<circle class="hollow" cx="555.1" cy="310.0" r="6.5"/>
+<text class="t1" x="607.7" y="310.0" font-size="13" font-weight="600" dominant-baseline="middle">73.2</text>
+<text class="t1" x="24" y="350.0" font-size="13.5" dominant-baseline="middle">Opus 5</text>
+<line class="hollow-line" x1="461.3" x2="562.8" y1="350.0" y2="350.0" stroke-width="2" stroke-linecap="round"/>
+<circle class="hollow" cx="516.7" cy="350.0" r="6.5"/>
+<text class="t1" x="572.8" y="350.0" font-size="13" font-weight="600" dominant-baseline="middle">69.9</text>
+<text class="t1" x="24" y="390.0" font-size="13.5" dominant-baseline="middle">Sonnet 5</text>
+<line class="hollow-line" x1="437.2" x2="527.0" y1="390.0" y2="390.0" stroke-width="2" stroke-linecap="round"/>
+<circle class="hollow" cx="482.1" cy="390.0" r="6.5"/>
+<text class="t1" x="537.0" y="390.0" font-size="13" font-weight="600" dominant-baseline="middle">66.9</text>
+<circle class="accent" cx="170" cy="454" r="6" stroke-width="0"/><text class="t2" x="182" y="454" font-size="12.5" dominant-baseline="middle">Latest in family</text>
+<circle class="hollow" cx="310" cy="454" r="6"/><text class="t2" x="322" y="454" font-size="12.5" dominant-baseline="middle">Older model</text>
+</svg>

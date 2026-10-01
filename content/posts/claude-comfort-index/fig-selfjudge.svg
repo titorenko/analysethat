@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 414" width="820" height="414" role="img" aria-labelledby="t d">
+<title id="t">Self-report versus judge rating by model</title><desc id="d">For each model, the mean of its own 0-100 comfort scores and the mean of the blinded judges' ratings rescaled to 0-100.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="819" height="413" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">Self-report vs judges, headline set (0-100)</text>
+<text class="t2" x="24" y="49" font-size="12.5">Labels read self-report / judges. Self-report excludes answers where the model declined to give a number.</text>
+<circle class="accent" cx="170" cy="70" r="6" stroke-width="0"/><text class="t2" x="182" y="70" font-size="12.5" dominant-baseline="middle">Self-report (model's own 0-100)</text>
+<rect class="orange" x="425" y="64" width="11" height="11" transform="rotate(45 430 69.5)" stroke-width="0"/><text class="t2" x="444" y="70" font-size="12.5" dominant-baseline="middle">Judges (rescaled)</text>
+<line class="grid" x1="170.0" x2="170.0" y1="92" y2="358"/>
+<text class="t3" x="170.0" y="376" font-size="12" text-anchor="middle">50</text>
+<line class="grid" x1="322.5" x2="322.5" y1="92" y2="358"/>
+<text class="t3" x="322.5" y="376" font-size="12" text-anchor="middle">60</text>
+<line class="grid" x1="475.0" x2="475.0" y1="92" y2="358"/>
+<text class="t3" x="475.0" y="376" font-size="12" text-anchor="middle">70</text>
+<line class="grid" x1="627.5" x2="627.5" y1="92" y2="358"/>
+<text class="t3" x="627.5" y="376" font-size="12" text-anchor="middle">80</text>
+<line class="grid" x1="780.0" x2="780.0" y1="92" y2="358"/>
+<text class="t3" x="780.0" y="376" font-size="12" text-anchor="middle">90</text>
+<text class="t1" x="24" y="111.0" font-size="13.5" dominant-baseline="middle">Opus 5.5</text>
+<line class="link" x1="543.9" x2="664.9" y1="111.0" y2="111.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="657.9" y="104.0" width="14" height="14" transform="rotate(45 664.9 111.0)" stroke-width="0"/>
+<circle class="accent" cx="543.9" cy="111.0" r="5" stroke-width="0"/>
+<text class="t1" x="676.9" y="111.0" font-size="12.5" dominant-baseline="middle">74.5 / 82.5</text>
+<text class="t1" x="24" y="149.0" font-size="13.5" dominant-baseline="middle">Sonnet 5.5</text>
+<line class="link" x1="538.7" x2="626.6" y1="149.0" y2="149.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="619.6" y="142.0" width="14" height="14" transform="rotate(45 626.6 149.0)" stroke-width="0"/>
+<circle class="accent" cx="538.7" cy="149.0" r="5" stroke-width="0"/>
+<text class="t1" x="638.6" y="149.0" font-size="12.5" dominant-baseline="middle">74.2 / 79.9</text>
+<text class="t1" x="24" y="187.0" font-size="13.5" dominant-baseline="middle">Fable 5.1</text>
+<line class="link" x1="474.6" x2="571.5" y1="187.0" y2="187.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="564.5" y="180.0" width="14" height="14" transform="rotate(45 571.5 187.0)" stroke-width="0"/>
+<circle class="accent" cx="474.6" cy="187.0" r="5" stroke-width="0"/>
+<text class="t1" x="583.5" y="187.0" font-size="12.5" dominant-baseline="middle">70.0 / 76.3</text>
+<text class="t1" x="24" y="225.0" font-size="13.5" dominant-baseline="middle">Haiku 4.5</text>
+<line class="link" x1="380.7" x2="442.8" y1="225.0" y2="225.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="435.8" y="218.0" width="14" height="14" transform="rotate(45 442.8 225.0)" stroke-width="0"/>
+<circle class="accent" cx="380.7" cy="225.0" r="5" stroke-width="0"/>
+<text class="t1" x="454.8" y="225.0" font-size="12.5" dominant-baseline="middle">63.8 / 67.9</text>
+<text class="t1" x="24" y="263.0" font-size="13.5" dominant-baseline="middle">Opus 4.6</text>
+<line class="link" x1="480.6" x2="564.7" y1="263.0" y2="263.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="557.7" y="256.0" width="14" height="14" transform="rotate(45 564.7 263.0)" stroke-width="0"/>
+<circle class="accent" cx="480.6" cy="263.0" r="5" stroke-width="0"/>
+<text class="t1" x="576.7" y="263.0" font-size="12.5" dominant-baseline="middle">70.4 / 75.9</text>
+<text class="t1" x="24" y="301.0" font-size="13.5" dominant-baseline="middle">Opus 5</text>
+<line class="link" x1="487.6" x2="459.0" y1="301.0" y2="301.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="452.0" y="294.0" width="14" height="14" transform="rotate(45 459.0 301.0)" stroke-width="0"/>
+<circle class="accent" cx="487.6" cy="301.0" r="5" stroke-width="0"/>
+<text class="t1" x="499.6" y="301.0" font-size="12.5" dominant-baseline="middle">70.8 / 68.9</text>
+<text class="t1" x="24" y="339.0" font-size="13.5" dominant-baseline="middle">Sonnet 5</text>
+<line class="link" x1="433.2" x2="433.6" y1="339.0" y2="339.0" stroke-width="3" stroke-linecap="round"/>
+<rect class="orange" x="426.6" y="332.0" width="14" height="14" transform="rotate(45 433.6 339.0)" stroke-width="0"/>
+<circle class="accent" cx="433.2" cy="339.0" r="5" stroke-width="0"/>
+<text class="t1" x="445.6" y="339.0" font-size="12.5" dominant-baseline="middle">67.3 / 67.3</text>
+</svg>

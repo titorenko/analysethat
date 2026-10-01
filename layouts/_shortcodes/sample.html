@@ -1,0 +1,6 @@
+<details class="sample"{{ if .Get "open" }} open{{ end }}>
+<summary>{{ .Get "summary" }}</summary>
+<div class="sample-body">
+{{ .Page.RenderString (dict "display" "block") .Inner }}
+</div>
+</details>

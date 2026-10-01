@@ -46,3 +46,12 @@
 /* Aligned decimal points in numeric columns */
 .post-content table td,
 .post-content table th { font-variant-numeric: tabular-nums; }
+
+/* Collapsible answer samples in the interview appendix pages */
+.post-content details.sample {
+  margin-block: 0.8em;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.post-content details.sample > summary { padding: 0.4rem 1rem; font-weight: 500; }
+.post-content details.sample > .sample-body { padding: 0 1rem 0.6rem; }
