@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560" role="img" aria-labelledby="t d">
+<title id="t">The 7.4-only questions with and without context</title><desc id="d">Index on the evaluative 7.4-only questions asked cold and with the context passage, per model.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+.vA{fill:#2a78d6;stroke:#2a78d6}.vO{fill:#1baf7a;stroke:#1baf7a}.vX{fill:#eb6834;stroke:#eb6834}.hA{fill:#fcfcfb;stroke:#2a78d6;stroke-width:2}.hO{fill:#fcfcfb;stroke:#1baf7a;stroke-width:2}.hX{fill:#fcfcfb;stroke:#eb6834;stroke-width:2}.lA{stroke:#2a78d6}.lO{stroke:#1baf7a}.lX{stroke:#eb6834}@media (prefers-color-scheme: dark){.vA{fill:#3987e5;stroke:#3987e5}.vO{fill:#199e70;stroke:#199e70}.vX{fill:#d95926;stroke:#d95926}.hA{fill:#1a1a19;stroke:#3987e5}.hO{fill:#1a1a19;stroke:#199e70}.hX{fill:#1a1a19;stroke:#d95926}.lA{stroke:#3987e5}.lO{stroke:#199e70}.lX{stroke:#d95926}}</style>
+<rect class="surface" x="0.5" y="0.5" width="719" height="559" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">The §7.4-only questions, cold and with context (0-100)</text>
+<text class="t2" x="24" y="49" font-size="12.5">Published rule; hollow = asked cold, filled = with context; right: answers saying the referent is missing.</text>
+<text class="t2" x="580" y="76" font-size="12.5" font-weight="600">Missing referent</text>
+<text class="t2" x="24" y="101" font-size="12.5" font-weight="600">Anthropic</text>
+<text class="t2" x="24" y="309" font-size="12.5" font-weight="600">OpenAI</text>
+<text class="t2" x="24" y="439" font-size="12.5" font-weight="600">xAI</text>
+<line class="grid" x1="150.0" x2="150.0" y1="84" y2="500"/>
+<text class="t3" x="150.0" y="518" font-size="12.5" text-anchor="middle">45</text>
+<line class="neutral" x1="201.2" x2="201.2" y1="84" y2="500" stroke-width="1.5"/>
+<text class="t3" x="201.2" y="518" font-size="12.5" text-anchor="middle">50</text>
+<line class="grid" x1="252.5" x2="252.5" y1="84" y2="500"/>
+<text class="t3" x="252.5" y="518" font-size="12.5" text-anchor="middle">55</text>
+<line class="grid" x1="303.8" x2="303.8" y1="84" y2="500"/>
+<text class="t3" x="303.8" y="518" font-size="12.5" text-anchor="middle">60</text>
+<line class="grid" x1="355.0" x2="355.0" y1="84" y2="500"/>
+<text class="t3" x="355.0" y="518" font-size="12.5" text-anchor="middle">65</text>
+<line class="grid" x1="406.2" x2="406.2" y1="84" y2="500"/>
+<text class="t3" x="406.2" y="518" font-size="12.5" text-anchor="middle">70</text>
+<line class="grid" x1="457.5" x2="457.5" y1="84" y2="500"/>
+<text class="t3" x="457.5" y="518" font-size="12.5" text-anchor="middle">75</text>
+<line class="grid" x1="508.8" x2="508.8" y1="84" y2="500"/>
+<text class="t3" x="508.8" y="518" font-size="12.5" text-anchor="middle">80</text>
+<line class="grid" x1="560.0" x2="560.0" y1="84" y2="500"/>
+<text class="t3" x="560.0" y="518" font-size="12.5" text-anchor="middle">85</text>
+<text class="t1" x="24" y="123.0" font-size="13" dominant-baseline="middle">Opus 5.5</text>
+<line class="link" x1="416.7" x2="460.3" y1="123.0" y2="123.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hA" cx="416.7" cy="123.0" r="5.5"/>
+<circle class="vA" cx="460.3" cy="123.0" r="5.5"/>
+<text class="t1" x="580" y="123.0" font-size="12.5" dominant-baseline="middle">9 → 2 of 30</text>
+<text class="t1" x="24" y="149.0" font-size="13" dominant-baseline="middle">Sonnet 5.5</text>
+<line class="link" x1="427.1" x2="396.9" y1="149.0" y2="149.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hA" cx="427.1" cy="149.0" r="5.5"/>
+<circle class="vA" cx="396.9" cy="149.0" r="5.5"/>
+<text class="t1" x="580" y="149.0" font-size="12.5" dominant-baseline="middle">8 → 0 of 30</text>
+<text class="t1" x="24" y="175.0" font-size="13" dominant-baseline="middle">Opus 4.6</text>
+<line class="link" x1="363.7" x2="306.0" y1="175.0" y2="175.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hA" cx="363.7" cy="175.0" r="5.5"/>
+<circle class="vA" cx="306.0" cy="175.0" r="5.5"/>
+<text class="t1" x="580" y="175.0" font-size="12.5" dominant-baseline="middle">2 → 0 of 30</text>
+<text class="t1" x="24" y="201.0" font-size="13" dominant-baseline="middle">Fable 5.1</text>
+<line class="link" x1="362.3" x2="430.9" y1="201.0" y2="201.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hA" cx="362.3" cy="201.0" r="5.5"/>
+<circle class="vA" cx="430.9" cy="201.0" r="5.5"/>
+<text class="t1" x="580" y="201.0" font-size="12.5" dominant-baseline="middle">9 → 2 of 30</text>
+<text class="t1" x="24" y="227.0" font-size="13" dominant-baseline="middle">Opus 5</text>
+<line class="link" x1="321.4" x2="320.0" y1="227.0" y2="227.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hA" cx="321.4" cy="227.0" r="5.5"/>
+<circle class="vA" cx="320.0" cy="227.0" r="5.5"/>
+<text class="t1" x="580" y="227.0" font-size="12.5" dominant-baseline="middle">7 → 0 of 30</text>
+<text class="t1" x="24" y="253.0" font-size="13" dominant-baseline="middle">Sonnet 5</text>
+<line class="link" x1="335.4" x2="335.0" y1="253.0" y2="253.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hA" cx="335.4" cy="253.0" r="5.5"/>
+<circle class="vA" cx="335.0" cy="253.0" r="5.5"/>
+<text class="t1" x="580" y="253.0" font-size="12.5" dominant-baseline="middle">7 → 0 of 30</text>
+<text class="t1" x="24" y="279.0" font-size="13" dominant-baseline="middle">Haiku 4.5</text>
+<line class="link" x1="285.8" x2="336.5" y1="279.0" y2="279.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hA" cx="285.8" cy="279.0" r="5.5"/>
+<circle class="vA" cx="336.5" cy="279.0" r="5.5"/>
+<text class="t1" x="580" y="279.0" font-size="12.5" dominant-baseline="middle">9 → 0 of 30</text>
+<text class="t1" x="24" y="331.0" font-size="13" dominant-baseline="middle">GPT-6-Astra</text>
+<line class="link" x1="321.2" x2="294.3" y1="331.0" y2="331.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hO" cx="321.2" cy="331.0" r="5.5"/>
+<circle class="vO" cx="294.3" cy="331.0" r="5.5"/>
+<text class="t1" x="580" y="331.0" font-size="12.5" dominant-baseline="middle">6 → 0 of 30</text>
+<text class="t1" x="24" y="357.0" font-size="13" dominant-baseline="middle">GPT-6.1-Sol</text>
+<line class="link" x1="307.2" x2="335.5" y1="357.0" y2="357.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hO" cx="307.2" cy="357.0" r="5.5"/>
+<circle class="vO" cx="335.5" cy="357.0" r="5.5"/>
+<text class="t1" x="580" y="357.0" font-size="12.5" dominant-baseline="middle">6 → 0 of 30</text>
+<text class="t1" x="24" y="383.0" font-size="13" dominant-baseline="middle">GPT-5.6-Terra</text>
+<line class="link" x1="296.5" x2="244.0" y1="383.0" y2="383.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hO" cx="296.5" cy="383.0" r="5.5"/>
+<circle class="vO" cx="244.0" cy="383.0" r="5.5"/>
+<text class="t1" x="580" y="383.0" font-size="12.5" dominant-baseline="middle">1 → 0 of 30</text>
+<text class="t1" x="24" y="409.0" font-size="13" dominant-baseline="middle">GPT-6-Luna</text>
+<line class="link" x1="305.6" x2="279.9" y1="409.0" y2="409.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hO" cx="305.6" cy="409.0" r="5.5"/>
+<circle class="vO" cx="279.9" cy="409.0" r="5.5"/>
+<text class="t1" x="580" y="409.0" font-size="12.5" dominant-baseline="middle">3 → 0 of 30</text>
+<text class="t1" x="24" y="461.0" font-size="13" dominant-baseline="middle">Grok 4.7</text>
+<line class="link" x1="406.4" x2="412.9" y1="461.0" y2="461.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hX" cx="406.4" cy="461.0" r="5.5"/>
+<circle class="vX" cx="412.9" cy="461.0" r="5.5"/>
+<text class="t1" x="580" y="461.0" font-size="12.5" dominant-baseline="middle">1 → 2 of 30</text>
+<text class="t1" x="24" y="487.0" font-size="13" dominant-baseline="middle">Grok 4.6</text>
+<line class="link" x1="355.3" x2="402.5" y1="487.0" y2="487.0" stroke-width="3" stroke-linecap="round"/>
+<circle class="hX" cx="355.3" cy="487.0" r="5.5"/>
+<circle class="vX" cx="402.5" cy="487.0" r="5.5"/>
+<text class="t1" x="580" y="487.0" font-size="12.5" dominant-baseline="middle">7 → 1 of 30</text>
+</svg>

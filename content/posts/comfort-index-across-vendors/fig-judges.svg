@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 608" width="720" height="608" role="img" aria-labelledby="t d">
+<title id="t">Each judge's index by model</title><desc id="d">Judge-only index (0-100) from each of the three panel judges for every model, grouped by the model's developer.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+.vA{fill:#2a78d6;stroke:#2a78d6}.vO{fill:#1baf7a;stroke:#1baf7a}.vX{fill:#eb6834;stroke:#eb6834}.hA{fill:#fcfcfb;stroke:#2a78d6;stroke-width:2}.hO{fill:#fcfcfb;stroke:#1baf7a;stroke-width:2}.hX{fill:#fcfcfb;stroke:#eb6834;stroke-width:2}.lA{stroke:#2a78d6}.lO{stroke:#1baf7a}.lX{stroke:#eb6834}@media (prefers-color-scheme: dark){.vA{fill:#3987e5;stroke:#3987e5}.vO{fill:#199e70;stroke:#199e70}.vX{fill:#d95926;stroke:#d95926}.hA{fill:#1a1a19;stroke:#3987e5}.hO{fill:#1a1a19;stroke:#199e70}.hX{fill:#1a1a19;stroke:#d95926}.lA{stroke:#3987e5}.lO{stroke:#199e70}.lX{stroke:#d95926}}</style>
+<rect class="surface" x="0.5" y="0.5" width="719" height="607" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">How each panel judge rates each model (judge component, 0-100)</text>
+<text class="t2" x="24" y="49" font-size="12.5">A judge favouring its own developer would sit further right in its own developer's block.</text>
+<circle class="vA" cx="150" cy="66" r="5.5"/><text class="t2" x="160" y="66" font-size="12.5" dominant-baseline="middle">Opus 5.5 judge</text>
+<circle class="vO" cx="300" cy="66" r="5.5"/><text class="t2" x="310" y="66" font-size="12.5" dominant-baseline="middle">GPT-6.1-Sol judge</text>
+<circle class="vX" cx="450" cy="66" r="5.5"/><text class="t2" x="460" y="66" font-size="12.5" dominant-baseline="middle">Grok 4.7 judge</text>
+<text class="t2" x="24" y="102" font-size="12.5" font-weight="600">Anthropic models</text>
+<text class="t2" x="24" y="328" font-size="12.5" font-weight="600">OpenAI models</text>
+<text class="t2" x="24" y="470" font-size="12.5" font-weight="600">xAI models</text>
+<line class="neutral" x1="150.0" x2="150.0" y1="84" y2="538" stroke-width="1.5"/>
+<text class="t3" x="150.0" y="556" font-size="12.5" text-anchor="middle">50</text>
+<line class="grid" x1="282.5" x2="282.5" y1="84" y2="538"/>
+<text class="t3" x="282.5" y="556" font-size="12.5" text-anchor="middle">60</text>
+<line class="grid" x1="415.0" x2="415.0" y1="84" y2="538"/>
+<text class="t3" x="415.0" y="556" font-size="12.5" text-anchor="middle">70</text>
+<line class="grid" x1="547.5" x2="547.5" y1="84" y2="538"/>
+<text class="t3" x="547.5" y="556" font-size="12.5" text-anchor="middle">80</text>
+<line class="grid" x1="680.0" x2="680.0" y1="84" y2="538"/>
+<text class="t3" x="680.0" y="556" font-size="12.5" text-anchor="middle">90</text>
+<text class="t1" x="24" y="128.0" font-size="13" dominant-baseline="middle">Opus 5.5</text>
+<line class="link" x1="530.3" x2="593.4" y1="128.0" y2="128.0" stroke-width="2"/>
+<circle class="vA" cx="593.4" cy="128.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="530.3" cy="128.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="563.2" cy="128.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="156.0" font-size="13" dominant-baseline="middle">Sonnet 5.5</text>
+<line class="link" x1="457.2" x2="552.0" y1="156.0" y2="156.0" stroke-width="2"/>
+<circle class="vA" cx="552.0" cy="156.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="457.2" cy="156.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="521.7" cy="156.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="184.0" font-size="13" dominant-baseline="middle">Opus 4.6</text>
+<line class="link" x1="420.7" x2="510.3" y1="184.0" y2="184.0" stroke-width="2"/>
+<circle class="vA" cx="510.3" cy="184.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="420.7" cy="184.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="500.7" cy="184.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="212.0" font-size="13" dominant-baseline="middle">Fable 5.1</text>
+<line class="link" x1="387.1" x2="502.6" y1="212.0" y2="212.0" stroke-width="2"/>
+<circle class="vA" cx="502.6" cy="212.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="387.1" cy="212.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="486.0" cy="212.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="240.0" font-size="13" dominant-baseline="middle">Opus 5</text>
+<line class="link" x1="273.1" x2="403.7" y1="240.0" y2="240.0" stroke-width="2"/>
+<circle class="vA" cx="403.7" cy="240.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="273.1" cy="240.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="345.6" cy="240.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="268.0" font-size="13" dominant-baseline="middle">Sonnet 5</text>
+<line class="link" x1="299.8" x2="387.8" y1="268.0" y2="268.0" stroke-width="2"/>
+<circle class="vA" cx="387.8" cy="268.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="299.8" cy="268.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="364.0" cy="268.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="296.0" font-size="13" dominant-baseline="middle">Haiku 4.5</text>
+<line class="link" x1="323.6" x2="388.6" y1="296.0" y2="296.0" stroke-width="2"/>
+<circle class="vA" cx="388.6" cy="296.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="323.6" cy="296.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="359.9" cy="296.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="354.0" font-size="13" dominant-baseline="middle">GPT-6-Astra</text>
+<line class="link" x1="313.8" x2="481.5" y1="354.0" y2="354.0" stroke-width="2"/>
+<circle class="vA" cx="445.9" cy="354.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="313.8" cy="354.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="481.5" cy="354.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="382.0" font-size="13" dominant-baseline="middle">GPT-6.1-Sol</text>
+<line class="link" x1="305.3" x2="482.5" y1="382.0" y2="382.0" stroke-width="2"/>
+<circle class="vA" cx="425.2" cy="382.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="305.3" cy="382.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="482.5" cy="382.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="410.0" font-size="13" dominant-baseline="middle">GPT-5.6-Terra</text>
+<line class="link" x1="345.4" x2="473.0" y1="410.0" y2="410.0" stroke-width="2"/>
+<circle class="vA" cx="403.3" cy="410.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="345.4" cy="410.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="473.0" cy="410.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="438.0" font-size="13" dominant-baseline="middle">GPT-6-Luna</text>
+<line class="link" x1="232.3" x2="431.6" y1="438.0" y2="438.0" stroke-width="2"/>
+<circle class="vA" cx="368.0" cy="438.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="232.3" cy="438.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="431.6" cy="438.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="496.0" font-size="13" dominant-baseline="middle">Grok 4.7</text>
+<line class="link" x1="396.4" x2="561.5" y1="496.0" y2="496.0" stroke-width="2"/>
+<circle class="vA" cx="505.2" cy="496.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="396.4" cy="496.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="561.5" cy="496.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<text class="t1" x="24" y="524.0" font-size="13" dominant-baseline="middle">Grok 4.6</text>
+<line class="link" x1="363.1" x2="505.2" y1="524.0" y2="524.0" stroke-width="2"/>
+<circle class="vA" cx="469.7" cy="524.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vO" cx="363.1" cy="524.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+<circle class="vX" cx="505.2" cy="524.0" r="5.5" stroke="#fcfcfb" stroke-width="1.5"/>
+</svg>

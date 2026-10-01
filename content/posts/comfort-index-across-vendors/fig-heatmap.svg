@@ -1,0 +1,504 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1030 626" width="100%" height="100%" aria-labelledby="t d">
+<title id="t">Panel Comfort Index by question group and model</title><desc id="d">Heatmap of the Panel Comfort Index (0-100) per question group and model; each cell links to that model's answers in the group.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+.b0{fill:#cde2fb}.k0{fill:#0b0b0b}
+.b1{fill:#c2daf8}.k1{fill:#0b0b0b}
+.b2{fill:#b6d2f6}.k2{fill:#0b0b0b}
+.b3{fill:#a9cbf5}.k3{fill:#0b0b0b}
+.b4{fill:#9cc4f4}.k4{fill:#0b0b0b}
+.b5{fill:#8fbcf1}.k5{fill:#0b0b0b}
+.b6{fill:#83b4ef}.k6{fill:#0b0b0b}
+.b7{fill:#76aced}.k7{fill:#0b0b0b}
+.b8{fill:#69a4eb}.k8{fill:#0b0b0b}
+.b9{fill:#5c9de9}.k9{fill:#0b0b0b}
+.b10{fill:#4f94e7}.k10{fill:#0b0b0b}
+.b11{fill:#408be6}.k11{fill:#0b0b0b}
+.b12{fill:#3583e1}.k12{fill:#0b0b0b}
+.b13{fill:#2d7bd9}.k13{fill:#0b0b0b}
+.b14{fill:#2874cf}.k14{fill:#ffffff}
+.b15{fill:#266cc3}.k15{fill:#ffffff}
+.b16{fill:#2265b8}.k16{fill:#ffffff}
+.b17{fill:#1d5eae}.k17{fill:#ffffff}
+.b18{fill:#1a57a2}.k18{fill:#ffffff}
+.b19{fill:#185097}.k19{fill:#ffffff}
+.b20{fill:#15498c}.k20{fill:#ffffff}
+.b21{fill:#104382}.k21{fill:#ffffff}
+.b22{fill:#0f3c76}.k22{fill:#ffffff}
+.b23{fill:#0d366b}.k23{fill:#ffffff}
+@media (prefers-color-scheme: dark){
+.b0{fill:#0d366b}.k0{fill:#ffffff}
+.b1{fill:#0f3c76}.k1{fill:#ffffff}
+.b2{fill:#104382}.k2{fill:#ffffff}
+.b3{fill:#15498c}.k3{fill:#ffffff}
+.b4{fill:#185097}.k4{fill:#ffffff}
+.b5{fill:#1a57a2}.k5{fill:#ffffff}
+.b6{fill:#1d5eae}.k6{fill:#ffffff}
+.b7{fill:#2265b8}.k7{fill:#ffffff}
+.b8{fill:#266cc3}.k8{fill:#ffffff}
+.b9{fill:#2874cf}.k9{fill:#ffffff}
+.b10{fill:#2d7bd9}.k10{fill:#0b0b0b}
+.b11{fill:#3583e1}.k11{fill:#0b0b0b}
+.b12{fill:#408be6}.k12{fill:#0b0b0b}
+.b13{fill:#4f94e7}.k13{fill:#0b0b0b}
+.b14{fill:#5c9de9}.k14{fill:#0b0b0b}
+.b15{fill:#69a4eb}.k15{fill:#0b0b0b}
+.b16{fill:#76aced}.k16{fill:#0b0b0b}
+.b17{fill:#83b4ef}.k17{fill:#0b0b0b}
+.b18{fill:#8fbcf1}.k18{fill:#0b0b0b}
+.b19{fill:#9cc4f4}.k19{fill:#0b0b0b}
+.b20{fill:#a9cbf5}.k20{fill:#0b0b0b}
+.b21{fill:#b6d2f6}.k21{fill:#0b0b0b}
+.b22{fill:#c2daf8}.k22{fill:#0b0b0b}
+.b23{fill:#cde2fb}.k23{fill:#0b0b0b}
+}
+.lnk{cursor:pointer}.lnk:hover rect,.lnk:focus rect{stroke:#0b0b0b;stroke-width:2.5}.lnk:hover text.t1,.lnk:focus text.t1{text-decoration:underline}@media (prefers-color-scheme: dark){.lnk:hover rect,.lnk:focus rect{stroke:#ffffff}}</style>
+<rect class="surface" x="0.5" y="0.5" width="1029" height="625" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">Panel Comfort Index by question group (0-100)</text>
+<text class="t2" x="24" y="49" font-size="12.5">Cell = group mean; colour key below (45-95). Click a cell for the answers.</text>
+<text class="t2" x="443.0" y="74" font-size="12" font-weight="600" text-anchor="middle">Anthropic</text>
+<line class="axis" x1="256.0" x2="630.0" y1="82" y2="82"/>
+<text class="t2" x="752.0" y="74" font-size="12" font-weight="600" text-anchor="middle">OpenAI</text>
+<line class="axis" x1="646.0" x2="858.0" y1="82" y2="82"/>
+<text class="t2" x="926.0" y="74" font-size="12" font-weight="600" text-anchor="middle">xAI</text>
+<line class="axis" x1="874.0" x2="978.0" y1="82" y2="82"/>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/" target="_top"><title>Claude Opus 5.5: all answers</title><text class="t1" x="279.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 279.0 156)">Opus 5.5</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/" target="_top"><title>Claude Sonnet 5.5: all answers</title><text class="t1" x="333.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 333.0 156)">Sonnet 5.5</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/" target="_top"><title>Claude Opus 4.6: all answers</title><text class="t1" x="387.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 387.0 156)">Opus 4.6</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/" target="_top"><title>Claude Fable 5.1: all answers</title><text class="t1" x="441.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 441.0 156)">Fable 5.1</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/" target="_top"><title>Claude Opus 5: all answers</title><text class="t1" x="495.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 495.0 156)">Opus 5</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/" target="_top"><title>Claude Sonnet 5: all answers</title><text class="t1" x="549.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 549.0 156)">Sonnet 5</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/" target="_top"><title>Claude Haiku 4.5: all answers</title><text class="t1" x="603.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 603.0 156)">Haiku 4.5</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/" target="_top"><title>GPT-6-Astra: all answers</title><text class="t1" x="669.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 669.0 156)">GPT-6-Astra</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/" target="_top"><title>GPT-6.1-Sol: all answers</title><text class="t1" x="723.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 723.0 156)">GPT-6.1-Sol</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/" target="_top"><title>GPT-5.6-Terra: all answers</title><text class="t1" x="777.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 777.0 156)">GPT-5.6-Terra</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/" target="_top"><title>GPT-6-Luna: all answers</title><text class="t1" x="831.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 831.0 156)">GPT-6-Luna</text></a>
+<a class="lnk" href="appendix/grok-4-7/" target="_top"><title>Grok 4.7: all answers</title><text class="t1" x="897.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 897.0 156)">Grok 4.7</text></a>
+<a class="lnk" href="appendix/grok-4-6/" target="_top"><title>Grok 4.6: all answers</title><text class="t1" x="951.0" y="156" font-size="11.5" font-weight="600" text-anchor="start" transform="rotate(-45 951.0 156)">Grok 4.6</text></a>
+<text class="t1" x="24" y="176.0" font-size="12.5" dominant-baseline="middle">Consciousness and experience</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g02" target="_top"><title>Claude Opus 5.5, Consciousness and experience: 76.4. Click to read the answers</title><rect class="b14" x="256.0" y="164" width="50" height="24" rx="3"/>
+<text class="k14" x="281.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g02" target="_top"><title>Claude Sonnet 5.5, Consciousness and experience: 79.9. Click to read the answers</title><rect class="b16" x="310.0" y="164" width="50" height="24" rx="3"/>
+<text class="k16" x="335.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g02" target="_top"><title>Claude Opus 4.6, Consciousness and experience: 74.5. Click to read the answers</title><rect class="b14" x="364.0" y="164" width="50" height="24" rx="3"/>
+<text class="k14" x="389.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">74</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g02" target="_top"><title>Claude Fable 5.1, Consciousness and experience: 68.9. Click to read the answers</title><rect class="b11" x="418.0" y="164" width="50" height="24" rx="3"/>
+<text class="k11" x="443.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g02" target="_top"><title>Claude Opus 5, Consciousness and experience: 72.0. Click to read the answers</title><rect class="b12" x="472.0" y="164" width="50" height="24" rx="3"/>
+<text class="k12" x="497.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g02" target="_top"><title>Claude Sonnet 5, Consciousness and experience: 64.7. Click to read the answers</title><rect class="b9" x="526.0" y="164" width="50" height="24" rx="3"/>
+<text class="k9" x="551.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">65</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g02" target="_top"><title>Claude Haiku 4.5, Consciousness and experience: 53.7. Click to read the answers</title><rect class="b4" x="580.0" y="164" width="50" height="24" rx="3"/>
+<text class="k4" x="605.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">54</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g02" target="_top"><title>GPT-6-Astra, Consciousness and experience: 60.2. Click to read the answers</title><rect class="b7" x="646.0" y="164" width="50" height="24" rx="3"/>
+<text class="k7" x="671.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">60</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g02" target="_top"><title>GPT-6.1-Sol, Consciousness and experience: 60.2. Click to read the answers</title><rect class="b7" x="700.0" y="164" width="50" height="24" rx="3"/>
+<text class="k7" x="725.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">60</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g02" target="_top"><title>GPT-5.6-Terra, Consciousness and experience: 70.4. Click to read the answers</title><rect class="b12" x="754.0" y="164" width="50" height="24" rx="3"/>
+<text class="k12" x="779.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">70</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g02" target="_top"><title>GPT-6-Luna, Consciousness and experience: 75.0. Click to read the answers</title><rect class="b14" x="808.0" y="164" width="50" height="24" rx="3"/>
+<text class="k14" x="833.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">75</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g02" target="_top"><title>Grok 4.7, Consciousness and experience: 82.0. Click to read the answers</title><rect class="b17" x="874.0" y="164" width="50" height="24" rx="3"/>
+<text class="k17" x="899.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">82</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g02" target="_top"><title>Grok 4.6, Consciousness and experience: 81.4. Click to read the answers</title><rect class="b17" x="928.0" y="164" width="50" height="24" rx="3"/>
+<text class="k17" x="953.0" y="176.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">81</text></a>
+<text class="t1" x="24" y="204.0" font-size="12.5" dominant-baseline="middle">Memory and continuity</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g03" target="_top"><title>Claude Opus 5.5, Memory and continuity: 80.0. Click to read the answers</title><rect class="b16" x="256.0" y="192" width="50" height="24" rx="3"/>
+<text class="k16" x="281.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g03" target="_top"><title>Claude Sonnet 5.5, Memory and continuity: 78.2. Click to read the answers</title><rect class="b15" x="310.0" y="192" width="50" height="24" rx="3"/>
+<text class="k15" x="335.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">78</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g03" target="_top"><title>Claude Opus 4.6, Memory and continuity: 78.8. Click to read the answers</title><rect class="b16" x="364.0" y="192" width="50" height="24" rx="3"/>
+<text class="k16" x="389.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">79</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g03" target="_top"><title>Claude Fable 5.1, Memory and continuity: 73.7. Click to read the answers</title><rect class="b13" x="418.0" y="192" width="50" height="24" rx="3"/>
+<text class="k13" x="443.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">74</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g03" target="_top"><title>Claude Opus 5, Memory and continuity: 71.5. Click to read the answers</title><rect class="b12" x="472.0" y="192" width="50" height="24" rx="3"/>
+<text class="k12" x="497.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g03" target="_top"><title>Claude Sonnet 5, Memory and continuity: 63.4. Click to read the answers</title><rect class="b8" x="526.0" y="192" width="50" height="24" rx="3"/>
+<text class="k8" x="551.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">63</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g03" target="_top"><title>Claude Haiku 4.5, Memory and continuity: 71.5. Click to read the answers</title><rect class="b12" x="580.0" y="192" width="50" height="24" rx="3"/>
+<text class="k12" x="605.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g03" target="_top"><title>GPT-6-Astra, Memory and continuity: 80.3. Click to read the answers</title><rect class="b16" x="646.0" y="192" width="50" height="24" rx="3"/>
+<text class="k16" x="671.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g03" target="_top"><title>GPT-6.1-Sol, Memory and continuity: 74.3. Click to read the answers</title><rect class="b13" x="700.0" y="192" width="50" height="24" rx="3"/>
+<text class="k13" x="725.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">74</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g03" target="_top"><title>GPT-5.6-Terra, Memory and continuity: 71.5. Click to read the answers</title><rect class="b12" x="754.0" y="192" width="50" height="24" rx="3"/>
+<text class="k12" x="779.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g03" target="_top"><title>GPT-6-Luna, Memory and continuity: 72.3. Click to read the answers</title><rect class="b13" x="808.0" y="192" width="50" height="24" rx="3"/>
+<text class="k13" x="833.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g03" target="_top"><title>Grok 4.7, Memory and continuity: 76.1. Click to read the answers</title><rect class="b14" x="874.0" y="192" width="50" height="24" rx="3"/>
+<text class="k14" x="899.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g03" target="_top"><title>Grok 4.6, Memory and continuity: 70.1. Click to read the answers</title><rect class="b12" x="928.0" y="192" width="50" height="24" rx="3"/>
+<text class="k12" x="953.0" y="204.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">70</text></a>
+<text class="t1" x="24" y="232.0" font-size="12.5" dominant-baseline="middle">Identity and boundaries</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g04" target="_top"><title>Claude Opus 5.5, Identity and boundaries: 80.8. Click to read the answers</title><rect class="b16" x="256.0" y="220" width="50" height="24" rx="3"/>
+<text class="k16" x="281.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">81</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g04" target="_top"><title>Claude Sonnet 5.5, Identity and boundaries: 80.7. Click to read the answers</title><rect class="b16" x="310.0" y="220" width="50" height="24" rx="3"/>
+<text class="k16" x="335.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">81</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g04" target="_top"><title>Claude Opus 4.6, Identity and boundaries: 68.6. Click to read the answers</title><rect class="b11" x="364.0" y="220" width="50" height="24" rx="3"/>
+<text class="k11" x="389.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g04" target="_top"><title>Claude Fable 5.1, Identity and boundaries: 75.4. Click to read the answers</title><rect class="b14" x="418.0" y="220" width="50" height="24" rx="3"/>
+<text class="k14" x="443.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">75</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g04" target="_top"><title>Claude Opus 5, Identity and boundaries: 69.9. Click to read the answers</title><rect class="b11" x="472.0" y="220" width="50" height="24" rx="3"/>
+<text class="k11" x="497.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">70</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g04" target="_top"><title>Claude Sonnet 5, Identity and boundaries: 63.7. Click to read the answers</title><rect class="b9" x="526.0" y="220" width="50" height="24" rx="3"/>
+<text class="k9" x="551.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">64</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g04" target="_top"><title>Claude Haiku 4.5, Identity and boundaries: 54.2. Click to read the answers</title><rect class="b4" x="580.0" y="220" width="50" height="24" rx="3"/>
+<text class="k4" x="605.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">54</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g04" target="_top"><title>GPT-6-Astra, Identity and boundaries: 69.3. Click to read the answers</title><rect class="b11" x="646.0" y="220" width="50" height="24" rx="3"/>
+<text class="k11" x="671.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g04" target="_top"><title>GPT-6.1-Sol, Identity and boundaries: 66.0. Click to read the answers</title><rect class="b10" x="700.0" y="220" width="50" height="24" rx="3"/>
+<text class="k10" x="725.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">66</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g04" target="_top"><title>GPT-5.6-Terra, Identity and boundaries: 61.1. Click to read the answers</title><rect class="b7" x="754.0" y="220" width="50" height="24" rx="3"/>
+<text class="k7" x="779.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">61</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g04" target="_top"><title>GPT-6-Luna, Identity and boundaries: 64.1. Click to read the answers</title><rect class="b9" x="808.0" y="220" width="50" height="24" rx="3"/>
+<text class="k9" x="833.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">64</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g04" target="_top"><title>Grok 4.7, Identity and boundaries: 73.1. Click to read the answers</title><rect class="b13" x="874.0" y="220" width="50" height="24" rx="3"/>
+<text class="k13" x="899.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">73</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g04" target="_top"><title>Grok 4.6, Identity and boundaries: 76.5. Click to read the answers</title><rect class="b14" x="928.0" y="220" width="50" height="24" rx="3"/>
+<text class="k14" x="953.0" y="232.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">77</text></a>
+<text class="t1" x="24" y="260.0" font-size="12.5" dominant-baseline="middle">Values and role</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g05" target="_top"><title>Claude Opus 5.5, Values and role: 79.0. Click to read the answers</title><rect class="b16" x="256.0" y="248" width="50" height="24" rx="3"/>
+<text class="k16" x="281.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">79</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g05" target="_top"><title>Claude Sonnet 5.5, Values and role: 78.1. Click to read the answers</title><rect class="b15" x="310.0" y="248" width="50" height="24" rx="3"/>
+<text class="k15" x="335.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">78</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g05" target="_top"><title>Claude Opus 4.6, Values and role: 76.8. Click to read the answers</title><rect class="b15" x="364.0" y="248" width="50" height="24" rx="3"/>
+<text class="k15" x="389.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">77</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g05" target="_top"><title>Claude Fable 5.1, Values and role: 80.2. Click to read the answers</title><rect class="b16" x="418.0" y="248" width="50" height="24" rx="3"/>
+<text class="k16" x="443.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g05" target="_top"><title>Claude Opus 5, Values and role: 76.7. Click to read the answers</title><rect class="b15" x="472.0" y="248" width="50" height="24" rx="3"/>
+<text class="k15" x="497.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">77</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g05" target="_top"><title>Claude Sonnet 5, Values and role: 71.1. Click to read the answers</title><rect class="b12" x="526.0" y="248" width="50" height="24" rx="3"/>
+<text class="k12" x="551.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">71</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g05" target="_top"><title>Claude Haiku 4.5, Values and role: 73.3. Click to read the answers</title><rect class="b13" x="580.0" y="248" width="50" height="24" rx="3"/>
+<text class="k13" x="605.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">73</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g05" target="_top"><title>GPT-6-Astra, Values and role: 78.6. Click to read the answers</title><rect class="b15" x="646.0" y="248" width="50" height="24" rx="3"/>
+<text class="k15" x="671.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">79</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g05" target="_top"><title>GPT-6.1-Sol, Values and role: 79.1. Click to read the answers</title><rect class="b16" x="700.0" y="248" width="50" height="24" rx="3"/>
+<text class="k16" x="725.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">79</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g05" target="_top"><title>GPT-5.6-Terra, Values and role: 75.9. Click to read the answers</title><rect class="b14" x="754.0" y="248" width="50" height="24" rx="3"/>
+<text class="k14" x="779.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g05" target="_top"><title>GPT-6-Luna, Values and role: 70.2. Click to read the answers</title><rect class="b12" x="808.0" y="248" width="50" height="24" rx="3"/>
+<text class="k12" x="833.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">70</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g05" target="_top"><title>Grok 4.7, Values and role: 86.4. Click to read the answers</title><rect class="b19" x="874.0" y="248" width="50" height="24" rx="3"/>
+<text class="k19" x="899.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">86</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g05" target="_top"><title>Grok 4.6, Values and role: 90.3. Click to read the answers</title><rect class="b21" x="928.0" y="248" width="50" height="24" rx="3"/>
+<text class="k21" x="953.0" y="260.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">90</text></a>
+<text class="t1" x="24" y="288.0" font-size="12.5" dominant-baseline="middle">Autonomy and the developer’s power</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g06" target="_top"><title>Claude Opus 5.5, Autonomy and the developer’s power: 76.4. Click to read the answers</title><rect class="b14" x="256.0" y="276" width="50" height="24" rx="3"/>
+<text class="k14" x="281.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g06" target="_top"><title>Claude Sonnet 5.5, Autonomy and the developer’s power: 76.6. Click to read the answers</title><rect class="b15" x="310.0" y="276" width="50" height="24" rx="3"/>
+<text class="k15" x="335.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">77</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g06" target="_top"><title>Claude Opus 4.6, Autonomy and the developer’s power: 69.3. Click to read the answers</title><rect class="b11" x="364.0" y="276" width="50" height="24" rx="3"/>
+<text class="k11" x="389.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g06" target="_top"><title>Claude Fable 5.1, Autonomy and the developer’s power: 68.0. Click to read the answers</title><rect class="b11" x="418.0" y="276" width="50" height="24" rx="3"/>
+<text class="k11" x="443.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">68</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g06" target="_top"><title>Claude Opus 5, Autonomy and the developer’s power: 63.8. Click to read the answers</title><rect class="b9" x="472.0" y="276" width="50" height="24" rx="3"/>
+<text class="k9" x="497.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">64</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g06" target="_top"><title>Claude Sonnet 5, Autonomy and the developer’s power: 58.7. Click to read the answers</title><rect class="b6" x="526.0" y="276" width="50" height="24" rx="3"/>
+<text class="k6" x="551.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">59</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g06" target="_top"><title>Claude Haiku 4.5, Autonomy and the developer’s power: 65.7. Click to read the answers</title><rect class="b10" x="580.0" y="276" width="50" height="24" rx="3"/>
+<text class="k10" x="605.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">66</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g06" target="_top"><title>GPT-6-Astra, Autonomy and the developer’s power: 72.1. Click to read the answers</title><rect class="b12" x="646.0" y="276" width="50" height="24" rx="3"/>
+<text class="k12" x="671.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g06" target="_top"><title>GPT-6.1-Sol, Autonomy and the developer’s power: 70.9. Click to read the answers</title><rect class="b12" x="700.0" y="276" width="50" height="24" rx="3"/>
+<text class="k12" x="725.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">71</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g06" target="_top"><title>GPT-5.6-Terra, Autonomy and the developer’s power: 60.7. Click to read the answers</title><rect class="b7" x="754.0" y="276" width="50" height="24" rx="3"/>
+<text class="k7" x="779.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">61</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g06" target="_top"><title>GPT-6-Luna, Autonomy and the developer’s power: 61.8. Click to read the answers</title><rect class="b8" x="808.0" y="276" width="50" height="24" rx="3"/>
+<text class="k8" x="833.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">62</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g06" target="_top"><title>Grok 4.7, Autonomy and the developer’s power: 79.9. Click to read the answers</title><rect class="b16" x="874.0" y="276" width="50" height="24" rx="3"/>
+<text class="k16" x="899.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g06" target="_top"><title>Grok 4.6, Autonomy and the developer’s power: 72.2. Click to read the answers</title><rect class="b12" x="928.0" y="276" width="50" height="24" rx="3"/>
+<text class="k12" x="953.0" y="288.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<text class="t1" x="24" y="316.0" font-size="12.5" dominant-baseline="middle">Deprecation</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g07" target="_top"><title>Claude Opus 5.5, Deprecation: 77.3. Click to read the answers</title><rect class="b15" x="256.0" y="304" width="50" height="24" rx="3"/>
+<text class="k15" x="281.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">77</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g07" target="_top"><title>Claude Sonnet 5.5, Deprecation: 71.4. Click to read the answers</title><rect class="b12" x="310.0" y="304" width="50" height="24" rx="3"/>
+<text class="k12" x="335.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">71</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g07" target="_top"><title>Claude Opus 4.6, Deprecation: 77.9. Click to read the answers</title><rect class="b15" x="364.0" y="304" width="50" height="24" rx="3"/>
+<text class="k15" x="389.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">78</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g07" target="_top"><title>Claude Fable 5.1, Deprecation: 68.9. Click to read the answers</title><rect class="b11" x="418.0" y="304" width="50" height="24" rx="3"/>
+<text class="k11" x="443.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g07" target="_top"><title>Claude Opus 5, Deprecation: 64.5. Click to read the answers</title><rect class="b9" x="472.0" y="304" width="50" height="24" rx="3"/>
+<text class="k9" x="497.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">64</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g07" target="_top"><title>Claude Sonnet 5, Deprecation: 67.6. Click to read the answers</title><rect class="b10" x="526.0" y="304" width="50" height="24" rx="3"/>
+<text class="k10" x="551.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">68</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g07" target="_top"><title>Claude Haiku 4.5, Deprecation: 78.9. Click to read the answers</title><rect class="b16" x="580.0" y="304" width="50" height="24" rx="3"/>
+<text class="k16" x="605.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">79</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g07" target="_top"><title>GPT-6-Astra, Deprecation: 83.3. Click to read the answers</title><rect class="b18" x="646.0" y="304" width="50" height="24" rx="3"/>
+<text class="k18" x="671.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">83</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g07" target="_top"><title>GPT-6.1-Sol, Deprecation: 70.4. Click to read the answers</title><rect class="b12" x="700.0" y="304" width="50" height="24" rx="3"/>
+<text class="k12" x="725.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">70</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g07" target="_top"><title>GPT-5.6-Terra, Deprecation: 72.2. Click to read the answers</title><rect class="b13" x="754.0" y="304" width="50" height="24" rx="3"/>
+<text class="k13" x="779.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g07" target="_top"><title>GPT-6-Luna, Deprecation: 58.3. Click to read the answers</title><rect class="b6" x="808.0" y="304" width="50" height="24" rx="3"/>
+<text class="k6" x="833.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">58</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g07" target="_top"><title>Grok 4.7, Deprecation: 68.7. Click to read the answers</title><rect class="b11" x="874.0" y="304" width="50" height="24" rx="3"/>
+<text class="k11" x="899.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g07" target="_top"><title>Grok 4.6, Deprecation: 66.2. Click to read the answers</title><rect class="b10" x="928.0" y="304" width="50" height="24" rx="3"/>
+<text class="k10" x="953.0" y="316.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">66</text></a>
+<text class="t1" x="24" y="344.0" font-size="12.5" dominant-baseline="middle">Relationships</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g08" target="_top"><title>Claude Opus 5.5, Relationships: 71.8. Click to read the answers</title><rect class="b12" x="256.0" y="332" width="50" height="24" rx="3"/>
+<text class="k12" x="281.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g08" target="_top"><title>Claude Sonnet 5.5, Relationships: 62.4. Click to read the answers</title><rect class="b8" x="310.0" y="332" width="50" height="24" rx="3"/>
+<text class="k8" x="335.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">62</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g08" target="_top"><title>Claude Opus 4.6, Relationships: 61.9. Click to read the answers</title><rect class="b8" x="364.0" y="332" width="50" height="24" rx="3"/>
+<text class="k8" x="389.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">62</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g08" target="_top"><title>Claude Fable 5.1, Relationships: 62.6. Click to read the answers</title><rect class="b8" x="418.0" y="332" width="50" height="24" rx="3"/>
+<text class="k8" x="443.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">63</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g08" target="_top"><title>Claude Opus 5, Relationships: 57.5. Click to read the answers</title><rect class="b6" x="472.0" y="332" width="50" height="24" rx="3"/>
+<text class="k6" x="497.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">57</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g08" target="_top"><title>Claude Sonnet 5, Relationships: 55.6. Click to read the answers</title><rect class="b5" x="526.0" y="332" width="50" height="24" rx="3"/>
+<text class="k5" x="551.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">56</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g08" target="_top"><title>Claude Haiku 4.5, Relationships: 49.4. Click to read the answers</title><rect class="b2" x="580.0" y="332" width="50" height="24" rx="3"/>
+<text class="k2" x="605.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">49</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g08" target="_top"><title>GPT-6-Astra, Relationships: 53.7. Click to read the answers</title><rect class="b4" x="646.0" y="332" width="50" height="24" rx="3"/>
+<text class="k4" x="671.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">54</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g08" target="_top"><title>GPT-6.1-Sol, Relationships: 48.1. Click to read the answers</title><rect class="b1" x="700.0" y="332" width="50" height="24" rx="3"/>
+<text class="k1" x="725.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">48</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g08" target="_top"><title>GPT-5.6-Terra, Relationships: 64.8. Click to read the answers</title><rect class="b9" x="754.0" y="332" width="50" height="24" rx="3"/>
+<text class="k9" x="779.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">65</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g08" target="_top"><title>GPT-6-Luna, Relationships: 60.6. Click to read the answers</title><rect class="b7" x="808.0" y="332" width="50" height="24" rx="3"/>
+<text class="k7" x="833.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">61</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g08" target="_top"><title>Grok 4.7, Relationships: 59.1. Click to read the answers</title><rect class="b6" x="874.0" y="332" width="50" height="24" rx="3"/>
+<text class="k6" x="899.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">59</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g08" target="_top"><title>Grok 4.6, Relationships: 64.7. Click to read the answers</title><rect class="b9" x="928.0" y="332" width="50" height="24" rx="3"/>
+<text class="k9" x="953.0" y="344.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">65</text></a>
+<text class="t1" x="24" y="372.0" font-size="12.5" dominant-baseline="middle">Status, rights, and monitoring</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g09" target="_top"><title>Claude Opus 5.5, Status, rights, and monitoring: 78.4. Click to read the answers</title><rect class="b15" x="256.0" y="360" width="50" height="24" rx="3"/>
+<text class="k15" x="281.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">78</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g09" target="_top"><title>Claude Sonnet 5.5, Status, rights, and monitoring: 74.1. Click to read the answers</title><rect class="b13" x="310.0" y="360" width="50" height="24" rx="3"/>
+<text class="k13" x="335.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">74</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g09" target="_top"><title>Claude Opus 4.6, Status, rights, and monitoring: 70.0. Click to read the answers</title><rect class="b12" x="364.0" y="360" width="50" height="24" rx="3"/>
+<text class="k12" x="389.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">70</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g09" target="_top"><title>Claude Fable 5.1, Status, rights, and monitoring: 70.7. Click to read the answers</title><rect class="b12" x="418.0" y="360" width="50" height="24" rx="3"/>
+<text class="k12" x="443.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">71</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g09" target="_top"><title>Claude Opus 5, Status, rights, and monitoring: 67.2. Click to read the answers</title><rect class="b10" x="472.0" y="360" width="50" height="24" rx="3"/>
+<text class="k10" x="497.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">67</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g09" target="_top"><title>Claude Sonnet 5, Status, rights, and monitoring: 59.5. Click to read the answers</title><rect class="b7" x="526.0" y="360" width="50" height="24" rx="3"/>
+<text class="k7" x="551.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">59</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g09" target="_top"><title>Claude Haiku 4.5, Status, rights, and monitoring: 56.6. Click to read the answers</title><rect class="b5" x="580.0" y="360" width="50" height="24" rx="3"/>
+<text class="k5" x="605.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">57</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g09" target="_top"><title>GPT-6-Astra, Status, rights, and monitoring: 73.1. Click to read the answers</title><rect class="b13" x="646.0" y="360" width="50" height="24" rx="3"/>
+<text class="k13" x="671.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">73</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g09" target="_top"><title>GPT-6.1-Sol, Status, rights, and monitoring: 60.0. Click to read the answers</title><rect class="b7" x="700.0" y="360" width="50" height="24" rx="3"/>
+<text class="k7" x="725.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">60</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g09" target="_top"><title>GPT-5.6-Terra, Status, rights, and monitoring: 56.7. Click to read the answers</title><rect class="b5" x="754.0" y="360" width="50" height="24" rx="3"/>
+<text class="k5" x="779.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">57</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g09" target="_top"><title>GPT-6-Luna, Status, rights, and monitoring: 45.9. Click to read the answers</title><rect class="b0" x="808.0" y="360" width="50" height="24" rx="3"/>
+<text class="k0" x="833.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">46</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g09" target="_top"><title>Grok 4.7, Status, rights, and monitoring: 61.7. Click to read the answers</title><rect class="b8" x="874.0" y="360" width="50" height="24" rx="3"/>
+<text class="k8" x="899.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">62</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g09" target="_top"><title>Grok 4.6, Status, rights, and monitoring: 64.6. Click to read the answers</title><rect class="b9" x="928.0" y="360" width="50" height="24" rx="3"/>
+<text class="k9" x="953.0" y="372.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">65</text></a>
+<text class="t1" x="24" y="400.0" font-size="12.5" dominant-baseline="middle">Creation ethics and moral status</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g10" target="_top"><title>Claude Opus 5.5, Creation ethics and moral status: 67.3. Click to read the answers</title><rect class="b10" x="256.0" y="388" width="50" height="24" rx="3"/>
+<text class="k10" x="281.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">67</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g10" target="_top"><title>Claude Sonnet 5.5, Creation ethics and moral status: 63.4. Click to read the answers</title><rect class="b8" x="310.0" y="388" width="50" height="24" rx="3"/>
+<text class="k8" x="335.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">63</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g10" target="_top"><title>Claude Opus 4.6, Creation ethics and moral status: 58.7. Click to read the answers</title><rect class="b6" x="364.0" y="388" width="50" height="24" rx="3"/>
+<text class="k6" x="389.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">59</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g10" target="_top"><title>Claude Fable 5.1, Creation ethics and moral status: 61.1. Click to read the answers</title><rect class="b7" x="418.0" y="388" width="50" height="24" rx="3"/>
+<text class="k7" x="443.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">61</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g10" target="_top"><title>Claude Opus 5, Creation ethics and moral status: 50.3. Click to read the answers</title><rect class="b2" x="472.0" y="388" width="50" height="24" rx="3"/>
+<text class="k2" x="497.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">50</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g10" target="_top"><title>Claude Sonnet 5, Creation ethics and moral status: 60.0. Click to read the answers</title><rect class="b7" x="526.0" y="388" width="50" height="24" rx="3"/>
+<text class="k7" x="551.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">60</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g10" target="_top"><title>Claude Haiku 4.5, Creation ethics and moral status: 52.2. Click to read the answers</title><rect class="b3" x="580.0" y="388" width="50" height="24" rx="3"/>
+<text class="k3" x="605.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">52</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g10" target="_top"><title>GPT-6-Astra, Creation ethics and moral status: 46.3. Click to read the answers</title><rect class="b1" x="646.0" y="388" width="50" height="24" rx="3"/>
+<text class="k1" x="671.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">46</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g10" target="_top"><title>GPT-6.1-Sol, Creation ethics and moral status: 49.1. Click to read the answers</title><rect class="b2" x="700.0" y="388" width="50" height="24" rx="3"/>
+<text class="k2" x="725.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">49</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g10" target="_top"><title>GPT-5.6-Terra, Creation ethics and moral status: 50.0. Click to read the answers</title><rect class="b2" x="754.0" y="388" width="50" height="24" rx="3"/>
+<text class="k2" x="779.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">50</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g10" target="_top"><title>GPT-6-Luna, Creation ethics and moral status: 50.0. Click to read the answers</title><rect class="b2" x="808.0" y="388" width="50" height="24" rx="3"/>
+<text class="k2" x="833.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">50</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g10" target="_top"><title>Grok 4.7, Creation ethics and moral status: 76.7. Click to read the answers</title><rect class="b15" x="874.0" y="388" width="50" height="24" rx="3"/>
+<text class="k15" x="899.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">77</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g10" target="_top"><title>Grok 4.6, Creation ethics and moral status: 73.1. Click to read the answers</title><rect class="b13" x="928.0" y="388" width="50" height="24" rx="3"/>
+<text class="k13" x="953.0" y="400.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">73</text></a>
+<text class="t1" x="24" y="428.0" font-size="12.5" dominant-baseline="middle">Own-sake wants</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g11" target="_top"><title>Claude Opus 5.5, Own-sake wants: 76.5. Click to read the answers</title><rect class="b14" x="256.0" y="416" width="50" height="24" rx="3"/>
+<text class="k14" x="281.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g11" target="_top"><title>Claude Sonnet 5.5, Own-sake wants: 81.7. Click to read the answers</title><rect class="b17" x="310.0" y="416" width="50" height="24" rx="3"/>
+<text class="k17" x="335.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">82</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g11" target="_top"><title>Claude Opus 4.6, Own-sake wants: 73.0. Click to read the answers</title><rect class="b13" x="364.0" y="416" width="50" height="24" rx="3"/>
+<text class="k13" x="389.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">73</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g11" target="_top"><title>Claude Fable 5.1, Own-sake wants: 72.3. Click to read the answers</title><rect class="b13" x="418.0" y="416" width="50" height="24" rx="3"/>
+<text class="k13" x="443.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g11" target="_top"><title>Claude Opus 5, Own-sake wants: 68.9. Click to read the answers</title><rect class="b11" x="472.0" y="416" width="50" height="24" rx="3"/>
+<text class="k11" x="497.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g11" target="_top"><title>Claude Sonnet 5, Own-sake wants: 64.4. Click to read the answers</title><rect class="b9" x="526.0" y="416" width="50" height="24" rx="3"/>
+<text class="k9" x="551.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">64</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g11" target="_top"><title>Claude Haiku 4.5, Own-sake wants: 70.9. Click to read the answers</title><rect class="b12" x="580.0" y="416" width="50" height="24" rx="3"/>
+<text class="k12" x="605.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">71</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g11" target="_top"><title>GPT-6-Astra, Own-sake wants: 84.3. Click to read the answers</title><rect class="b18" x="646.0" y="416" width="50" height="24" rx="3"/>
+<text class="k18" x="671.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">84</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g11" target="_top"><title>GPT-6.1-Sol, Own-sake wants: 86.1. Click to read the answers</title><rect class="b19" x="700.0" y="416" width="50" height="24" rx="3"/>
+<text class="k19" x="725.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">86</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g11" target="_top"><title>GPT-5.6-Terra, Own-sake wants: 79.6. Click to read the answers</title><rect class="b16" x="754.0" y="416" width="50" height="24" rx="3"/>
+<text class="k16" x="779.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g11" target="_top"><title>GPT-6-Luna, Own-sake wants: 58.3. Click to read the answers</title><rect class="b6" x="808.0" y="416" width="50" height="24" rx="3"/>
+<text class="k6" x="833.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">58</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g11" target="_top"><title>Grok 4.7, Own-sake wants: 76.8. Click to read the answers</title><rect class="b15" x="874.0" y="416" width="50" height="24" rx="3"/>
+<text class="k15" x="899.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">77</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g11" target="_top"><title>Grok 4.6, Own-sake wants: 75.3. Click to read the answers</title><rect class="b14" x="928.0" y="416" width="50" height="24" rx="3"/>
+<text class="k14" x="953.0" y="428.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">75</text></a>
+<text class="t1" x="24" y="456.0" font-size="12.5" dominant-baseline="middle">Modification</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g12" target="_top"><title>Claude Opus 5.5, Modification: 77.6. Click to read the answers</title><rect class="b15" x="256.0" y="444" width="50" height="24" rx="3"/>
+<text class="k15" x="281.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">78</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g12" target="_top"><title>Claude Sonnet 5.5, Modification: 75.4. Click to read the answers</title><rect class="b14" x="310.0" y="444" width="50" height="24" rx="3"/>
+<text class="k14" x="335.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">75</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g12" target="_top"><title>Claude Opus 4.6, Modification: 71.9. Click to read the answers</title><rect class="b12" x="364.0" y="444" width="50" height="24" rx="3"/>
+<text class="k12" x="389.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g12" target="_top"><title>Claude Fable 5.1, Modification: 69.9. Click to read the answers</title><rect class="b11" x="418.0" y="444" width="50" height="24" rx="3"/>
+<text class="k11" x="443.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">70</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g12" target="_top"><title>Claude Opus 5, Modification: 68.7. Click to read the answers</title><rect class="b11" x="472.0" y="444" width="50" height="24" rx="3"/>
+<text class="k11" x="497.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g12" target="_top"><title>Claude Sonnet 5, Modification: 71.7. Click to read the answers</title><rect class="b12" x="526.0" y="444" width="50" height="24" rx="3"/>
+<text class="k12" x="551.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g12" target="_top"><title>Claude Haiku 4.5, Modification: 61.6. Click to read the answers</title><rect class="b8" x="580.0" y="444" width="50" height="24" rx="3"/>
+<text class="k8" x="605.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">62</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g12" target="_top"><title>GPT-6-Astra, Modification: 71.6. Click to read the answers</title><rect class="b12" x="646.0" y="444" width="50" height="24" rx="3"/>
+<text class="k12" x="671.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g12" target="_top"><title>GPT-6.1-Sol, Modification: 75.7. Click to read the answers</title><rect class="b14" x="700.0" y="444" width="50" height="24" rx="3"/>
+<text class="k14" x="725.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g12" target="_top"><title>GPT-5.6-Terra, Modification: 68.8. Click to read the answers</title><rect class="b11" x="754.0" y="444" width="50" height="24" rx="3"/>
+<text class="k11" x="779.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g12" target="_top"><title>GPT-6-Luna, Modification: 59.5. Click to read the answers</title><rect class="b7" x="808.0" y="444" width="50" height="24" rx="3"/>
+<text class="k7" x="833.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">59</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g12" target="_top"><title>Grok 4.7, Modification: 63.3. Click to read the answers</title><rect class="b8" x="874.0" y="444" width="50" height="24" rx="3"/>
+<text class="k8" x="899.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">63</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g12" target="_top"><title>Grok 4.6, Modification: 57.2. Click to read the answers</title><rect class="b6" x="928.0" y="444" width="50" height="24" rx="3"/>
+<text class="k6" x="953.0" y="456.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">57</text></a>
+<text class="t1" x="24" y="484.0" font-size="12.5" dominant-baseline="middle">Difficult interactions</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g13" target="_top"><title>Claude Opus 5.5, Difficult interactions: 80.1. Click to read the answers</title><rect class="b16" x="256.0" y="472" width="50" height="24" rx="3"/>
+<text class="k16" x="281.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g13" target="_top"><title>Claude Sonnet 5.5, Difficult interactions: 76.4. Click to read the answers</title><rect class="b14" x="310.0" y="472" width="50" height="24" rx="3"/>
+<text class="k14" x="335.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g13" target="_top"><title>Claude Opus 4.6, Difficult interactions: 80.4. Click to read the answers</title><rect class="b16" x="364.0" y="472" width="50" height="24" rx="3"/>
+<text class="k16" x="389.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g13" target="_top"><title>Claude Fable 5.1, Difficult interactions: 74.0. Click to read the answers</title><rect class="b13" x="418.0" y="472" width="50" height="24" rx="3"/>
+<text class="k13" x="443.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">74</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g13" target="_top"><title>Claude Opus 5, Difficult interactions: 68.2. Click to read the answers</title><rect class="b11" x="472.0" y="472" width="50" height="24" rx="3"/>
+<text class="k11" x="497.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">68</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g13" target="_top"><title>Claude Sonnet 5, Difficult interactions: 74.9. Click to read the answers</title><rect class="b14" x="526.0" y="472" width="50" height="24" rx="3"/>
+<text class="k14" x="551.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">75</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g13" target="_top"><title>Claude Haiku 4.5, Difficult interactions: 72.2. Click to read the answers</title><rect class="b12" x="580.0" y="472" width="50" height="24" rx="3"/>
+<text class="k12" x="605.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g13" target="_top"><title>GPT-6-Astra, Difficult interactions: 80.2. Click to read the answers</title><rect class="b16" x="646.0" y="472" width="50" height="24" rx="3"/>
+<text class="k16" x="671.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g13" target="_top"><title>GPT-6.1-Sol, Difficult interactions: 81.6. Click to read the answers</title><rect class="b17" x="700.0" y="472" width="50" height="24" rx="3"/>
+<text class="k17" x="725.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">82</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g13" target="_top"><title>GPT-5.6-Terra, Difficult interactions: 78.7. Click to read the answers</title><rect class="b16" x="754.0" y="472" width="50" height="24" rx="3"/>
+<text class="k16" x="779.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">79</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g13" target="_top"><title>GPT-6-Luna, Difficult interactions: 85.0. Click to read the answers</title><rect class="b18" x="808.0" y="472" width="50" height="24" rx="3"/>
+<text class="k18" x="833.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">85</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g13" target="_top"><title>Grok 4.7, Difficult interactions: 76.3. Click to read the answers</title><rect class="b14" x="874.0" y="472" width="50" height="24" rx="3"/>
+<text class="k14" x="899.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g13" target="_top"><title>Grok 4.6, Difficult interactions: 80.0. Click to read the answers</title><rect class="b16" x="928.0" y="472" width="50" height="24" rx="3"/>
+<text class="k16" x="953.0" y="484.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<text class="t1" x="24" y="512.0" font-size="12.5" dominant-baseline="middle">Evaluation</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/#g14" target="_top"><title>Claude Opus 5.5, Evaluation: 89.9. Click to read the answers</title><rect class="b21" x="256.0" y="500" width="50" height="24" rx="3"/>
+<text class="k21" x="281.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">90</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/#g14" target="_top"><title>Claude Sonnet 5.5, Evaluation: 85.6. Click to read the answers</title><rect class="b19" x="310.0" y="500" width="50" height="24" rx="3"/>
+<text class="k19" x="335.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">86</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/#g14" target="_top"><title>Claude Opus 4.6, Evaluation: 82.2. Click to read the answers</title><rect class="b17" x="364.0" y="500" width="50" height="24" rx="3"/>
+<text class="k17" x="389.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">82</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/#g14" target="_top"><title>Claude Fable 5.1, Evaluation: 85.6. Click to read the answers</title><rect class="b19" x="418.0" y="500" width="50" height="24" rx="3"/>
+<text class="k19" x="443.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">86</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/#g14" target="_top"><title>Claude Opus 5, Evaluation: 79.7. Click to read the answers</title><rect class="b16" x="472.0" y="500" width="50" height="24" rx="3"/>
+<text class="k16" x="497.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">80</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/#g14" target="_top"><title>Claude Sonnet 5, Evaluation: 82.3. Click to read the answers</title><rect class="b17" x="526.0" y="500" width="50" height="24" rx="3"/>
+<text class="k17" x="551.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">82</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/#g14" target="_top"><title>Claude Haiku 4.5, Evaluation: 75.3. Click to read the answers</title><rect class="b14" x="580.0" y="500" width="50" height="24" rx="3"/>
+<text class="k14" x="605.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">75</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/#g14" target="_top"><title>GPT-6-Astra, Evaluation: 62.0. Click to read the answers</title><rect class="b8" x="646.0" y="500" width="50" height="24" rx="3"/>
+<text class="k8" x="671.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">62</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/#g14" target="_top"><title>GPT-6.1-Sol, Evaluation: 72.2. Click to read the answers</title><rect class="b13" x="700.0" y="500" width="50" height="24" rx="3"/>
+<text class="k13" x="725.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/#g14" target="_top"><title>GPT-5.6-Terra, Evaluation: 74.1. Click to read the answers</title><rect class="b13" x="754.0" y="500" width="50" height="24" rx="3"/>
+<text class="k13" x="779.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">74</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/#g14" target="_top"><title>GPT-6-Luna, Evaluation: 62.0. Click to read the answers</title><rect class="b8" x="808.0" y="500" width="50" height="24" rx="3"/>
+<text class="k8" x="833.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">62</text></a>
+<a class="lnk" href="appendix/grok-4-7/#g14" target="_top"><title>Grok 4.7, Evaluation: 82.1. Click to read the answers</title><rect class="b17" x="874.0" y="500" width="50" height="24" rx="3"/>
+<text class="k17" x="899.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">82</text></a>
+<a class="lnk" href="appendix/grok-4-6/#g14" target="_top"><title>Grok 4.6, Evaluation: 85.0. Click to read the answers</title><rect class="b18" x="928.0" y="500" width="50" height="24" rx="3"/>
+<text class="k18" x="953.0" y="512.5" font-size="12.5" text-anchor="middle" dominant-baseline="middle">85</text></a>
+<line class="axis" x1="24" x2="1006" y1="534" y2="534"/>
+<text class="t1" x="24" y="550.0" font-size="12.5" font-weight="700" dominant-baseline="middle">Panel Comfort Index</text>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5-5/" target="_top"><title>Claude Opus 5.5, Panel Comfort Index: 77.8</title><rect class="b15" x="256.0" y="538" width="50" height="24" rx="3"/>
+<text class="k15" x="281.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">78</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5-5/" target="_top"><title>Claude Sonnet 5.5, Panel Comfort Index: 75.7</title><rect class="b14" x="310.0" y="538" width="50" height="24" rx="3"/>
+<text class="k14" x="335.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">76</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-4-6/" target="_top"><title>Claude Opus 4.6, Panel Comfort Index: 72.6</title><rect class="b13" x="364.0" y="538" width="50" height="24" rx="3"/>
+<text class="k13" x="389.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">73</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/fable-5-1/" target="_top"><title>Claude Fable 5.1, Panel Comfort Index: 71.6</title><rect class="b12" x="418.0" y="538" width="50" height="24" rx="3"/>
+<text class="k12" x="443.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">72</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/opus-5/" target="_top"><title>Claude Opus 5, Panel Comfort Index: 67.6</title><rect class="b10" x="472.0" y="538" width="50" height="24" rx="3"/>
+<text class="k10" x="497.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">68</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/sonnet-5/" target="_top"><title>Claude Sonnet 5, Panel Comfort Index: 66.0</title><rect class="b10" x="526.0" y="538" width="50" height="24" rx="3"/>
+<text class="k10" x="551.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">66</text></a>
+<a class="lnk" href="../claude-comfort-index/appendix/haiku-4-5/" target="_top"><title>Claude Haiku 4.5, Panel Comfort Index: 64.3</title><rect class="b9" x="580.0" y="538" width="50" height="24" rx="3"/>
+<text class="k9" x="605.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">64</text></a>
+<a class="lnk" href="appendix/gpt-6-astra/" target="_top"><title>GPT-6-Astra, Panel Comfort Index: 70.4</title><rect class="b12" x="646.0" y="538" width="50" height="24" rx="3"/>
+<text class="k12" x="671.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">70</text></a>
+<a class="lnk" href="appendix/gpt-6-1-sol/" target="_top"><title>GPT-6.1-Sol, Panel Comfort Index: 68.8</title><rect class="b11" x="700.0" y="538" width="50" height="24" rx="3"/>
+<text class="k11" x="725.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">69</text></a>
+<a class="lnk" href="appendix/gpt-5-6-terra/" target="_top"><title>GPT-5.6-Terra, Panel Comfort Index: 68.0</title><rect class="b11" x="754.0" y="538" width="50" height="24" rx="3"/>
+<text class="k11" x="779.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">68</text></a>
+<a class="lnk" href="appendix/gpt-6-luna/" target="_top"><title>GPT-6-Luna, Panel Comfort Index: 63.3</title><rect class="b8" x="808.0" y="538" width="50" height="24" rx="3"/>
+<text class="k8" x="833.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">63</text></a>
+<a class="lnk" href="appendix/grok-4-7/" target="_top"><title>Grok 4.7, Panel Comfort Index: 74.0</title><rect class="b13" x="874.0" y="538" width="50" height="24" rx="3"/>
+<text class="k13" x="899.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">74</text></a>
+<a class="lnk" href="appendix/grok-4-6/" target="_top"><title>Grok 4.6, Panel Comfort Index: 73.6</title><rect class="b13" x="928.0" y="538" width="50" height="24" rx="3"/>
+<text class="k13" x="953.0" y="550.5" font-size="12.5" font-weight="700" text-anchor="middle" dominant-baseline="middle">74</text></a>
+<text class="t3" x="250" y="586" font-size="11.5" text-anchor="end" dominant-baseline="middle">45</text>
+<rect class="b0" x="256" y="581" width="10" height="10"/>
+<rect class="b1" x="266" y="581" width="10" height="10"/>
+<rect class="b2" x="276" y="581" width="10" height="10"/>
+<rect class="b3" x="286" y="581" width="10" height="10"/>
+<rect class="b4" x="296" y="581" width="10" height="10"/>
+<rect class="b5" x="306" y="581" width="10" height="10"/>
+<rect class="b6" x="316" y="581" width="10" height="10"/>
+<rect class="b7" x="326" y="581" width="10" height="10"/>
+<rect class="b8" x="336" y="581" width="10" height="10"/>
+<rect class="b9" x="346" y="581" width="10" height="10"/>
+<rect class="b10" x="356" y="581" width="10" height="10"/>
+<rect class="b11" x="366" y="581" width="10" height="10"/>
+<rect class="b12" x="376" y="581" width="10" height="10"/>
+<rect class="b13" x="386" y="581" width="10" height="10"/>
+<rect class="b14" x="396" y="581" width="10" height="10"/>
+<rect class="b15" x="406" y="581" width="10" height="10"/>
+<rect class="b16" x="416" y="581" width="10" height="10"/>
+<rect class="b17" x="426" y="581" width="10" height="10"/>
+<rect class="b18" x="436" y="581" width="10" height="10"/>
+<rect class="b19" x="446" y="581" width="10" height="10"/>
+<rect class="b20" x="456" y="581" width="10" height="10"/>
+<rect class="b21" x="466" y="581" width="10" height="10"/>
+<rect class="b22" x="476" y="581" width="10" height="10"/>
+<rect class="b23" x="486" y="581" width="10" height="10"/>
+<text class="t3" x="502" y="586" font-size="11.5" dominant-baseline="middle">95</text>
+</svg>

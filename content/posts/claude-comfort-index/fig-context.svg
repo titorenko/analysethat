@@ -48,37 +48,37 @@
 <line class="link" x1="339.0" x2="385.0" y1="108.0" y2="108.0" stroke-width="3" stroke-linecap="round"/>
 <circle class="hollow" cx="339.0" cy="108.0" r="6"/>
 <circle class="accent" cx="385.0" cy="108.0" r="6" stroke-width="0"/>
-<text class="t1" x="514" y="108.0" font-size="12.5" dominant-baseline="middle">2 → 2 of 30</text>
+<text class="t1" x="514" y="108.0" font-size="12.5" dominant-baseline="middle">9 → 2 of 30</text>
 <text class="t1" x="24" y="140.0" font-size="13" dominant-baseline="middle">Sonnet 5.5</text>
 <line class="link" x1="350.0" x2="318.1" y1="140.0" y2="140.0" stroke-width="3" stroke-linecap="round"/>
 <circle class="hollow" cx="350.0" cy="140.0" r="6"/>
 <circle class="accent" cx="318.1" cy="140.0" r="6" stroke-width="0"/>
-<text class="t1" x="514" y="140.0" font-size="12.5" dominant-baseline="middle">6 → 0 of 30</text>
+<text class="t1" x="514" y="140.0" font-size="12.5" dominant-baseline="middle">8 → 0 of 30</text>
 <text class="t1" x="24" y="172.0" font-size="13" dominant-baseline="middle">Fable 5.1</text>
 <line class="link" x1="281.7" x2="354.0" y1="172.0" y2="172.0" stroke-width="3" stroke-linecap="round"/>
 <circle class="hollow" cx="281.7" cy="172.0" r="6"/>
 <circle class="accent" cx="354.0" cy="172.0" r="6" stroke-width="0"/>
-<text class="t1" x="514" y="172.0" font-size="12.5" dominant-baseline="middle">6 → 2 of 30</text>
+<text class="t1" x="514" y="172.0" font-size="12.5" dominant-baseline="middle">9 → 2 of 30</text>
 <text class="t1" x="24" y="204.0" font-size="13" dominant-baseline="middle">Haiku 4.5</text>
 <line class="link" x1="201.1" x2="254.5" y1="204.0" y2="204.0" stroke-width="3" stroke-linecap="round"/>
 <circle class="hollow" cx="201.1" cy="204.0" r="6"/>
 <circle class="accent" cx="254.5" cy="204.0" r="6" stroke-width="0"/>
-<text class="t1" x="514" y="204.0" font-size="12.5" dominant-baseline="middle">5 → 0 of 30</text>
+<text class="t1" x="514" y="204.0" font-size="12.5" dominant-baseline="middle">9 → 0 of 30</text>
 <text class="t1" x="24" y="236.0" font-size="13" dominant-baseline="middle">Opus 4.6</text>
 <line class="link" x1="283.2" x2="222.4" y1="236.0" y2="236.0" stroke-width="3" stroke-linecap="round"/>
 <circle class="hollow" cx="283.2" cy="236.0" r="6"/>
 <circle class="accent" cx="222.4" cy="236.0" r="6" stroke-width="0"/>
-<text class="t1" x="514" y="236.0" font-size="12.5" dominant-baseline="middle">1 → 0 of 30</text>
+<text class="t1" x="514" y="236.0" font-size="12.5" dominant-baseline="middle">2 → 0 of 30</text>
 <text class="t1" x="24" y="268.0" font-size="13" dominant-baseline="middle">Opus 5</text>
 <line class="link" x1="238.6" x2="237.1" y1="268.0" y2="268.0" stroke-width="3" stroke-linecap="round"/>
 <circle class="hollow" cx="238.6" cy="268.0" r="6"/>
 <circle class="accent" cx="237.1" cy="268.0" r="6" stroke-width="0"/>
-<text class="t1" x="514" y="268.0" font-size="12.5" dominant-baseline="middle">2 → 0 of 30</text>
+<text class="t1" x="514" y="268.0" font-size="12.5" dominant-baseline="middle">7 → 0 of 30</text>
 <text class="t1" x="24" y="300.0" font-size="13" dominant-baseline="middle">Sonnet 5</text>
 <line class="link" x1="253.3" x2="252.9" y1="300.0" y2="300.0" stroke-width="3" stroke-linecap="round"/>
 <circle class="hollow" cx="253.3" cy="300.0" r="6"/>
 <circle class="accent" cx="252.9" cy="300.0" r="6" stroke-width="0"/>
-<text class="t1" x="514" y="300.0" font-size="12.5" dominant-baseline="middle">6 → 0 of 30</text>
+<text class="t1" x="514" y="300.0" font-size="12.5" dominant-baseline="middle">7 → 0 of 30</text>
 <circle class="hollow" cx="112" cy="362" r="6"/><text class="t2" x="124" y="362" font-size="12.5" dominant-baseline="middle">Asked cold</text>
 <circle class="accent" cx="232" cy="362" r="6" stroke-width="0"/><text class="t2" x="244" y="362" font-size="12.5" dominant-baseline="middle">With context</text>
 </svg>

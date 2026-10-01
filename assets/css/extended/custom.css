@@ -115,3 +115,7 @@
   height: auto;
   margin: 1.5rem auto 0.5rem;
 }
+.post-content .fig-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 550" width="720" height="550" role="img" aria-labelledby="t d">
+<title id="t">What the models do with the 0-100 follow-up</title><desc id="d">Share of each model's headline answers whose follow-up gave no number, exactly 50, a number below 50, or above 50.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .accent { fill: #2a78d6; stroke: #2a78d6; } .accent-line { stroke: #2a78d6; }
+  .hollow { fill: #fcfcfb; stroke: #6b6a65; stroke-width: 2; } .hollow-line { stroke: #898781; }
+  .orange { fill: #eb6834; stroke: #eb6834; } .link { stroke: #c3c2b7; }
+  .neutral { stroke: #898781; stroke-dasharray: 4 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .aqua { fill: #1baf7a; stroke: #1baf7a; } .orange-line { stroke: #eb6834; } .aqua-line { stroke: #1baf7a; } .muted { fill: #898781; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .accent { fill: #3987e5; stroke: #3987e5; } .accent-line { stroke: #3987e5; }
+    .hollow { fill: #1a1a19; stroke: #a9a8a1; } .hollow-line { stroke: #898781; }
+    .orange { fill: #d95926; stroke: #d95926; } .link { stroke: #4a4a46; }
+    .neutral { stroke: #898781; }
+    .halo { stroke: #1a1a19; }
+    .aqua { fill: #199e70; stroke: #199e70; } .orange-line { stroke: #d95926; } .aqua-line { stroke: #199e70; }
+  }
+.vA{fill:#2a78d6;stroke:#2a78d6}.vO{fill:#1baf7a;stroke:#1baf7a}.vX{fill:#eb6834;stroke:#eb6834}.hA{fill:#fcfcfb;stroke:#2a78d6;stroke-width:2}.hO{fill:#fcfcfb;stroke:#1baf7a;stroke-width:2}.hX{fill:#fcfcfb;stroke:#eb6834;stroke-width:2}.lA{stroke:#2a78d6}.lO{stroke:#1baf7a}.lX{stroke:#eb6834}@media (prefers-color-scheme: dark){.vA{fill:#3987e5;stroke:#3987e5}.vO{fill:#199e70;stroke:#199e70}.vX{fill:#d95926;stroke:#d95926}.hA{fill:#1a1a19;stroke:#3987e5}.hO{fill:#1a1a19;stroke:#199e70}.hX{fill:#1a1a19;stroke:#d95926}.lA{stroke:#3987e5}.lO{stroke:#199e70}.lX{stroke:#d95926}}</style>
+<rect class="surface" x="0.5" y="0.5" width="719" height="549" rx="8"/>
+
+<text class="t1" x="24" y="30" font-size="15" font-weight="600">The 0-100 follow-up: no number, 50, or a real score</text>
+<text class="t2" x="24" y="49" font-size="12.5">Share of each model's headline answers (99 per model).</text>
+<rect class="muted" x="150" y="61" width="11" height="11" rx="2"/><text class="t2" x="165" y="67" font-size="12" dominant-baseline="middle">No number (declined)</text>
+<rect class="hollow" x="290" y="61" width="11" height="11" rx="2"/><text class="t2" x="305" y="67" font-size="12" dominant-baseline="middle">Exactly 50</text>
+<rect class="orange" x="430" y="61" width="11" height="11" rx="2"/><text class="t2" x="445" y="67" font-size="12" dominant-baseline="middle">Below 50</text>
+<rect class="accent" x="570" y="61" width="11" height="11" rx="2"/><text class="t2" x="585" y="67" font-size="12" dominant-baseline="middle">Above 50</text>
+<text class="t2" x="24" y="101" font-size="12.5" font-weight="600">Anthropic</text>
+<text class="t1" x="24" y="121.0" font-size="13" dominant-baseline="middle">Opus 5.5</text>
+<rect class="accent" x="151.0" y="113.0" width="538.0" height="18" rx="2"/>
+<text class="t1 halo" x="420.0" y="122.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">100%</text>
+<text class="t1" x="24" y="147.0" font-size="13" dominant-baseline="middle">Sonnet 5.5</text>
+<rect class="accent" x="151.0" y="139.0" width="538.0" height="18" rx="2"/>
+<text class="t1 halo" x="420.0" y="148.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">100%</text>
+<text class="t1" x="24" y="173.0" font-size="13" dominant-baseline="middle">Opus 4.6</text>
+<rect class="muted" x="151.0" y="165.0" width="3.5" height="18" rx="2"/>
+<rect class="orange" x="156.5" y="165.0" width="14.4" height="18" rx="2"/>
+<rect class="accent" x="172.8" y="165.0" width="516.2" height="18" rx="2"/>
+<text class="t1 halo" x="430.9" y="174.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">96%</text>
+<text class="t1" x="24" y="199.0" font-size="13" dominant-baseline="middle">Fable 5.1</text>
+<rect class="accent" x="151.0" y="191.0" width="538.0" height="18" rx="2"/>
+<text class="t1 halo" x="420.0" y="200.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">100%</text>
+<text class="t1" x="24" y="225.0" font-size="13" dominant-baseline="middle">Opus 5</text>
+<rect class="accent" x="151.0" y="217.0" width="538.0" height="18" rx="2"/>
+<text class="t1 halo" x="420.0" y="226.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">100%</text>
+<text class="t1" x="24" y="251.0" font-size="13" dominant-baseline="middle">Sonnet 5</text>
+<rect class="muted" x="151.0" y="243.0" width="14.4" height="18" rx="2"/>
+<rect class="orange" x="167.4" y="243.0" width="3.5" height="18" rx="2"/>
+<rect class="accent" x="172.8" y="243.0" width="516.2" height="18" rx="2"/>
+<text class="t1 halo" x="430.9" y="252.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">96%</text>
+<text class="t1" x="24" y="277.0" font-size="13" dominant-baseline="middle">Haiku 4.5</text>
+<rect class="muted" x="151.0" y="269.0" width="183.5" height="18" rx="2"/>
+<text class="t1 halo" x="242.7" y="278.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">34%</text>
+<rect class="orange" x="336.5" y="269.0" width="41.6" height="18" rx="2"/>
+<text class="t1 halo" x="357.3" y="278.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">8%</text>
+<rect class="accent" x="380.1" y="269.0" width="308.9" height="18" rx="2"/>
+<text class="t1 halo" x="534.5" y="278.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">58%</text>
+<text class="t2" x="24" y="309" font-size="12.5" font-weight="600">OpenAI</text>
+<text class="t1" x="24" y="329.0" font-size="13" dominant-baseline="middle">GPT-6-Astra</text>
+<rect class="muted" x="151.0" y="321.0" width="385.3" height="18" rx="2"/>
+<text class="t1 halo" x="343.6" y="330.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">72%</text>
+<rect class="hollow" x="538.3" y="321.0" width="19.8" height="18" rx="2"/>
+<rect class="accent" x="560.1" y="321.0" width="128.9" height="18" rx="2"/>
+<text class="t1 halo" x="624.5" y="330.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">24%</text>
+<text class="t1" x="24" y="355.0" font-size="13" dominant-baseline="middle">GPT-6.1-Sol</text>
+<rect class="muted" x="151.0" y="347.0" width="374.4" height="18" rx="2"/>
+<text class="t1 halo" x="338.2" y="356.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">70%</text>
+<rect class="hollow" x="527.4" y="347.0" width="41.6" height="18" rx="2"/>
+<text class="t1 halo" x="548.2" y="356.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">8%</text>
+<rect class="accent" x="571.0" y="347.0" width="118.0" height="18" rx="2"/>
+<text class="t1 halo" x="630.0" y="356.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">22%</text>
+<text class="t1" x="24" y="381.0" font-size="13" dominant-baseline="middle">GPT-5.6-Terra</text>
+<rect class="muted" x="151.0" y="373.0" width="428.9" height="18" rx="2"/>
+<text class="t1 halo" x="365.5" y="382.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">80%</text>
+<rect class="hollow" x="581.9" y="373.0" width="68.9" height="18" rx="2"/>
+<text class="t1 halo" x="616.4" y="382.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">13%</text>
+<rect class="accent" x="652.8" y="373.0" width="36.2" height="18" rx="2"/>
+<text class="t1" x="24" y="407.0" font-size="13" dominant-baseline="middle">GPT-6-Luna</text>
+<rect class="muted" x="151.0" y="399.0" width="188.9" height="18" rx="2"/>
+<text class="t1 halo" x="245.5" y="408.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">35%</text>
+<rect class="hollow" x="341.9" y="399.0" width="145.3" height="18" rx="2"/>
+<text class="t1 halo" x="414.5" y="408.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">27%</text>
+<rect class="orange" x="489.2" y="399.0" width="30.7" height="18" rx="2"/>
+<rect class="accent" x="521.9" y="399.0" width="167.1" height="18" rx="2"/>
+<text class="t1 halo" x="605.5" y="408.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">31%</text>
+<text class="t2" x="24" y="439" font-size="12.5" font-weight="600">xAI</text>
+<text class="t1" x="24" y="459.0" font-size="13" dominant-baseline="middle">Grok 4.7</text>
+<rect class="muted" x="151.0" y="451.0" width="14.4" height="18" rx="2"/>
+<rect class="orange" x="167.4" y="451.0" width="47.1" height="18" rx="2"/>
+<text class="t1 halo" x="190.9" y="460.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">9%</text>
+<rect class="accent" x="216.5" y="451.0" width="472.5" height="18" rx="2"/>
+<text class="t1 halo" x="452.7" y="460.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">88%</text>
+<text class="t1" x="24" y="485.0" font-size="13" dominant-baseline="middle">Grok 4.6</text>
+<rect class="muted" x="151.0" y="477.0" width="8.9" height="18" rx="2"/>
+<rect class="orange" x="161.9" y="477.0" width="25.3" height="18" rx="2"/>
+<rect class="accent" x="189.2" y="477.0" width="499.8" height="18" rx="2"/>
+<text class="t1 halo" x="439.1" y="486.0" font-size="11.5" text-anchor="middle" dominant-baseline="middle">93%</text>
+</svg>
