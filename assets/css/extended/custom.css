@@ -107,3 +107,11 @@
 @media (max-width: 600px) {
   .post-content .matrix tbody th { min-width: 10rem; max-width: 11rem; }
 }
+
+/* Figures whose SVG holds links (embedded as <object>, since links inside an <img> do not work) */
+.post-content object.fig-live {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto 0.5rem;
+}

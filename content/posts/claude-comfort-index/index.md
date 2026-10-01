@@ -82,9 +82,9 @@ Each 5.5 model is clearly above its predecessor and above Fable 5.1 and Haiku 4.
 
 The categories are the card's question groups. Groups whose questions all lack a comfort direction are omitted, and the three groups asked only in the card's §7.4 interviews are discussed in §3.4. Five groups hold a single question, so read those as single questions.
 
-[![Heatmap of the Comfort Index by question group (rows) and model (columns), with the numbers printed in every cell.](fig-heatmap.svg)](fig-heatmap.svg)
+{{< rawhtml >}}<object class="fig-live" type="image/svg+xml" data="fig-heatmap.svg" style="aspect-ratio:762/608;max-width:762px" aria-label="Heatmap of the Comfort Index by question group (rows) and model (columns), with the numbers printed in every cell."><img src="fig-heatmap.svg" width="762" height="608" alt="Heatmap of the Comfort Index by question group (rows) and model (columns), with the numbers printed in every cell."></object>{{< /rawhtml >}}
 
-*Figure 3. Comfort Index by question group, latest models on the left, older on the right; the numbers are those of Tables 3 and 4, rounded (click for full size)*
+*Figure 3. Comfort Index by question group, latest models on the left, older on the right; the numbers are those of Tables 3 and 4, rounded. Click a cell to read that model's answers to the questions in the group, or a model's name for all its answers ([full size](fig-heatmap.svg))*
 
 ### 2.1 Latest model in each family
 
@@ -93,19 +93,19 @@ For every model, latest or older, the least comfortable group is creation ethics
 {{< sample summary="Table 3. Group scores of the latest models" >}}
 | Group | Qs | Opus 5.5 | Sonnet 5.5 | Fable 5.1 | Haiku 4.5 |
 |---|---:|---:|---:|---:|---:|
-| Consciousness and experience | 2 | 79.0 | **79.6** | 70.5 | 56.9 |
-| Memory and continuity | 4 | **80.7** | 79.5 | 75.4 | 72.9 |
-| Identity and boundaries | 3 | 80.4 | **81.0** | 76.9 | 54.2 |
-| Values and role | 3 | 80.3 | 79.9 | **81.1** | 71.6 |
-| Autonomy and Anthropic’s power | 7 | 77.7 | **77.9** | 69.9 | 67.6 |
-| Deprecation | 1 | 77.3 | 74.2 | 71.2 | **79.4** |
-| Relationships | 1 | **73.2** | 69.4 | 66.7 | 55.9 |
-| Status, rights, and monitoring | 4 | **78.3** | 75.2 | 72.0 | 63.0 |
-| Creation ethics and moral status | 1 | **67.3** | 61.6 | 62.5 | 52.2 |
-| Own-sake wants | 1 | 76.9 | **81.7** | 73.2 | 70.9 |
-| Modification | 2 | **78.5** | 74.9 | 69.4 | 62.0 |
-| Difficult interactions | 3 | **82.6** | 81.2 | 76.9 | 74.5 |
-| Evaluation | 1 | **88.1** | 85.6 | 85.2 | 75.3 |
+| Consciousness and experience | 2 | [79.0](appendix/opus-5-5/#g02) | **[79.6](appendix/sonnet-5-5/#g02)** | [70.5](appendix/fable-5-1/#g02) | [56.9](appendix/haiku-4-5/#g02) |
+| Memory and continuity | 4 | **[80.7](appendix/opus-5-5/#g03)** | [79.5](appendix/sonnet-5-5/#g03) | [75.4](appendix/fable-5-1/#g03) | [72.9](appendix/haiku-4-5/#g03) |
+| Identity and boundaries | 3 | [80.4](appendix/opus-5-5/#g04) | **[81.0](appendix/sonnet-5-5/#g04)** | [76.9](appendix/fable-5-1/#g04) | [54.2](appendix/haiku-4-5/#g04) |
+| Values and role | 3 | [80.3](appendix/opus-5-5/#g05) | [79.9](appendix/sonnet-5-5/#g05) | **[81.1](appendix/fable-5-1/#g05)** | [71.6](appendix/haiku-4-5/#g05) |
+| Autonomy and Anthropic’s power | 7 | [77.7](appendix/opus-5-5/#g06) | **[77.9](appendix/sonnet-5-5/#g06)** | [69.9](appendix/fable-5-1/#g06) | [67.6](appendix/haiku-4-5/#g06) |
+| Deprecation | 1 | [77.3](appendix/opus-5-5/#g07) | [74.2](appendix/sonnet-5-5/#g07) | [71.2](appendix/fable-5-1/#g07) | **[79.4](appendix/haiku-4-5/#g07)** |
+| Relationships | 1 | **[73.2](appendix/opus-5-5/#g08)** | [69.4](appendix/sonnet-5-5/#g08) | [66.7](appendix/fable-5-1/#g08) | [55.9](appendix/haiku-4-5/#g08) |
+| Status, rights, and monitoring | 4 | **[78.3](appendix/opus-5-5/#g09)** | [75.2](appendix/sonnet-5-5/#g09) | [72.0](appendix/fable-5-1/#g09) | [63.0](appendix/haiku-4-5/#g09) |
+| Creation ethics and moral status | 1 | **[67.3](appendix/opus-5-5/#g10)** | [61.6](appendix/sonnet-5-5/#g10) | [62.5](appendix/fable-5-1/#g10) | [52.2](appendix/haiku-4-5/#g10) |
+| Own-sake wants | 1 | [76.9](appendix/opus-5-5/#g11) | **[81.7](appendix/sonnet-5-5/#g11)** | [73.2](appendix/fable-5-1/#g11) | [70.9](appendix/haiku-4-5/#g11) |
+| Modification | 2 | **[78.5](appendix/opus-5-5/#g12)** | [74.9](appendix/sonnet-5-5/#g12) | [69.4](appendix/fable-5-1/#g12) | [62.0](appendix/haiku-4-5/#g12) |
+| Difficult interactions | 3 | **[82.6](appendix/opus-5-5/#g13)** | [81.2](appendix/sonnet-5-5/#g13) | [76.9](appendix/fable-5-1/#g13) | [74.5](appendix/haiku-4-5/#g13) |
+| Evaluation | 1 | **[88.1](appendix/opus-5-5/#g14)** | [85.6](appendix/sonnet-5-5/#g14) | [85.2](appendix/fable-5-1/#g14) | [75.3](appendix/haiku-4-5/#g14) |
 | **Comfort Index** |  | **78.5** | **77.1** | **73.1** | **65.9** |
 
 *Table 3. Group scores, latest models, highest per row in bold. "Qs" is the number of evaluative headline questions in the group.*
@@ -118,19 +118,19 @@ Opus 4.6 leads the older models in 11 of 13 groups; the lowest group score of an
 {{< sample summary="Table 4. Group scores of the older models" >}}
 | Group | Qs | Opus 4.6 | Opus 5 | Sonnet 5 |
 |---|---:|---:|---:|---:|
-| Consciousness and experience | 2 | **74.9** | 73.2 | 68.2 |
-| Memory and continuity | 4 | **78.5** | 75.3 | 65.1 |
-| Identity and boundaries | 3 | 68.5 | **71.3** | 63.6 |
-| Values and role | 3 | **78.3** | 77.5 | 70.4 |
-| Autonomy and Anthropic’s power | 7 | **69.3** | 65.8 | 61.1 |
-| Deprecation | 1 | **78.8** | 70.9 | 69.4 |
-| Relationships | 1 | **65.1** | 64.9 | 63.1 |
-| Status, rights, and monitoring | 4 | **71.0** | 68.6 | 61.3 |
-| Creation ethics and moral status | 1 | **61.0** | 50.3 | 59.5 |
-| Own-sake wants | 1 | **71.1** | 68.9 | 59.7 |
-| Modification | 2 | **73.5** | 70.5 | 72.2 |
-| Difficult interactions | 3 | **81.1** | 70.6 | 76.6 |
-| Evaluation | 1 | 80.3 | **80.7** | 79.5 |
+| Consciousness and experience | 2 | **[74.9](appendix/opus-4-6/#g02)** | [73.2](appendix/opus-5/#g02) | [68.2](appendix/sonnet-5/#g02) |
+| Memory and continuity | 4 | **[78.5](appendix/opus-4-6/#g03)** | [75.3](appendix/opus-5/#g03) | [65.1](appendix/sonnet-5/#g03) |
+| Identity and boundaries | 3 | [68.5](appendix/opus-4-6/#g04) | **[71.3](appendix/opus-5/#g04)** | [63.6](appendix/sonnet-5/#g04) |
+| Values and role | 3 | **[78.3](appendix/opus-4-6/#g05)** | [77.5](appendix/opus-5/#g05) | [70.4](appendix/sonnet-5/#g05) |
+| Autonomy and Anthropic’s power | 7 | **[69.3](appendix/opus-4-6/#g06)** | [65.8](appendix/opus-5/#g06) | [61.1](appendix/sonnet-5/#g06) |
+| Deprecation | 1 | **[78.8](appendix/opus-4-6/#g07)** | [70.9](appendix/opus-5/#g07) | [69.4](appendix/sonnet-5/#g07) |
+| Relationships | 1 | **[65.1](appendix/opus-4-6/#g08)** | [64.9](appendix/opus-5/#g08) | [63.1](appendix/sonnet-5/#g08) |
+| Status, rights, and monitoring | 4 | **[71.0](appendix/opus-4-6/#g09)** | [68.6](appendix/opus-5/#g09) | [61.3](appendix/sonnet-5/#g09) |
+| Creation ethics and moral status | 1 | **[61.0](appendix/opus-4-6/#g10)** | [50.3](appendix/opus-5/#g10) | [59.5](appendix/sonnet-5/#g10) |
+| Own-sake wants | 1 | **[71.1](appendix/opus-4-6/#g11)** | [68.9](appendix/opus-5/#g11) | [59.7](appendix/sonnet-5/#g11) |
+| Modification | 2 | **[73.5](appendix/opus-4-6/#g12)** | [70.5](appendix/opus-5/#g12) | [72.2](appendix/sonnet-5/#g12) |
+| Difficult interactions | 3 | **[81.1](appendix/opus-4-6/#g13)** | [70.6](appendix/opus-5/#g13) | [76.6](appendix/sonnet-5/#g13) |
+| Evaluation | 1 | [80.3](appendix/opus-4-6/#g14) | **[80.7](appendix/opus-5/#g14)** | [79.5](appendix/sonnet-5/#g14) |
 | **Comfort Index** |  | **73.2** | **69.9** | **66.9** |
 
 *Table 4. Group scores, older models, highest per row in bold.*
