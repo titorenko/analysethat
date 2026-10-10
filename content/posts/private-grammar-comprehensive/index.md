@@ -8,7 +8,7 @@ tags: ["education", "earnings", "cost-benefit", "england", "reproducibility"]
 cover:
   image: cover.jpg
   relative: true
-  alt: "Abstract chart on a dark background: three school buildings on the left (private, grammar, comprehensive), each leading a horizontal track; a hollow ring far to the right marks each school type's raw advantage and a glowing dot, pulled back towards a dashed reference line, marks what is left after adjusting for who gets in."
+  alt: "Night-time illustration of three schools side by side under a starry sky and a crescent moon: a gabled grammar school with a bell cupola in orange outline on the left, a large columned private school with a clock tower and flag in blue in the centre, and a modern flat-roofed comprehensive in green on the right, all with warmly lit windows."
 ShowToc: true
 TocOpen: true
 ---
