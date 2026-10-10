@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" width="820" height="470" role="img" aria-labelledby="t d">
-<title id="t">Top-30 schools against the distribution of comprehensive sixth forms</title><desc id="d">Histograms of 1154 comprehensive sixth forms on A-level points per entry and on value added, with the top-30 independent and grammar schools as ticks. On points every top-30 school is above the comprehensive maximum region; on value added the top-30 independent median is at the comprehensive 87th percentile and the grammar median at the 62th.</desc>
+<title id="t">Top private and grammar schools against comprehensive sixth forms</title><desc id="d">Histograms of 1154 comprehensive sixth forms on A-level points per entry and on value added, with the top private (boys' and girls' lists) and top-30 grammar schools as ticks. On points every top school is above the comprehensive maximum region; on value added the top private median is at the comprehensive 87th percentile and the grammar median at the 62th.</desc>
 <style>
   .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
   .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
@@ -26,7 +26,7 @@
   }
 </style>
 <rect class="surface" x="0.5" y="0.5" width="819" height="469" rx="8"/>
-<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">Top-30 schools against all comprehensive sixth forms</text>
+<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">Top private and grammar schools against all comprehensive sixth forms</text>
 <text class="t2" x="40.0" y="60.0" font-size="12" text-anchor="start" font-weight="600">A-level points per entry (pooled 2023/24-2024/25)</text>
 <rect class="neu" x="41.0" y="167.1" width="36.9" height="2.9" rx="2"/>
 <rect class="neu" x="79.9" y="163.7" width="36.9" height="6.3" rx="2"/>
@@ -48,36 +48,40 @@
 <rect class="neu" x="703.1" y="170.0" width="36.9" height="0.0" rx="2"/>
 <rect class="neu" x="742.1" y="170.0" width="36.9" height="0.0" rx="2"/>
 <line class="axis" x1="40.0" y1="170.0" x2="780.0" y2="170.0" stroke-width="1"/>
-<line class="ind-l" x1="718.4" y1="176.0" x2="718.4" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="706.0" y1="176.0" x2="706.0" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="699.3" y1="176.0" x2="699.3" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="695.3" y1="176.0" x2="695.3" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="688.8" y1="176.0" x2="688.8" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="683.2" y1="176.0" x2="683.2" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="677.6" y1="176.0" x2="677.6" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="667.1" y1="176.0" x2="667.1" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="662.2" y1="176.0" x2="662.2" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="660.4" y1="176.0" x2="660.4" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="658.5" y1="176.0" x2="658.5" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="658.3" y1="176.0" x2="658.3" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="654.5" y1="176.0" x2="654.5" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="653.6" y1="176.0" x2="653.6" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="652.5" y1="176.0" x2="652.5" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="651.7" y1="176.0" x2="651.7" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="651.4" y1="176.0" x2="651.4" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="650.3" y1="176.0" x2="650.3" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="647.3" y1="176.0" x2="647.3" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="646.2" y1="176.0" x2="646.2" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="645.8" y1="176.0" x2="645.8" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="645.7" y1="176.0" x2="645.7" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="642.6" y1="176.0" x2="642.6" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="641.9" y1="176.0" x2="641.9" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="639.8" y1="176.0" x2="639.8" y2="192.0" stroke-width="2"/>
-<line class="ind-l" x1="632.1" y1="176.0" x2="632.1" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="632.1" y1="176.0" x2="632.1" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="628.8" y1="176.0" x2="628.8" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="627.4" y1="176.0" x2="627.4" y2="192.0" stroke-width="2"/>
 <line class="ind-l" x1="627.3" y1="176.0" x2="627.3" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="623.2" y1="176.0" x2="623.2" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="621.2" y1="176.0" x2="621.2" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="621.0" y1="176.0" x2="621.0" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="616.9" y1="176.0" x2="616.9" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="718.4" y1="176.0" x2="718.4" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="695.3" y1="176.0" x2="695.3" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="677.6" y1="176.0" x2="677.6" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="667.1" y1="176.0" x2="667.1" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="662.2" y1="176.0" x2="662.2" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="660.4" y1="176.0" x2="660.4" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="653.6" y1="176.0" x2="653.6" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="651.7" y1="176.0" x2="651.7" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="650.3" y1="176.0" x2="650.3" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="647.3" y1="176.0" x2="647.3" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="645.7" y1="176.0" x2="645.7" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="642.6" y1="176.0" x2="642.6" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="641.9" y1="176.0" x2="641.9" y2="192.0" stroke-width="2"/>
+<line class="ind-l" x1="632.1" y1="176.0" x2="632.1" y2="192.0" stroke-width="2"/>
 <line class="gra-l" x1="674.9" y1="196.0" x2="674.9" y2="212.0" stroke-width="2"/>
 <line class="gra-l" x1="635.6" y1="196.0" x2="635.6" y2="212.0" stroke-width="2"/>
 <line class="gra-l" x1="629.4" y1="196.0" x2="629.4" y2="212.0" stroke-width="2"/>
@@ -117,7 +121,7 @@
 <text class="t3" x="624.2" y="228.0" font-size="11" text-anchor="middle">50</text>
 <text class="t3" x="721.6" y="228.0" font-size="11" text-anchor="middle">55</text>
 <text class="t3" x="780.0" y="90.0" font-size="11" text-anchor="end">grey bars: 1154 comprehensive sixth forms</text>
-<text class="t3" x="780.0" y="106.0" font-size="11" text-anchor="end">ticks: top-30 independent (upper row), grammar (lower row)</text>
+<text class="t3" x="780.0" y="106.0" font-size="11" text-anchor="end">ticks: top private, boys' and girls' lists (upper row); top-30 grammar (lower row)</text>
 <text class="t2" x="40.0" y="260.0" font-size="12" text-anchor="start" font-weight="600">Value added 2024/25 (grades per entry)</text>
 <rect class="neu" x="41.0" y="369.1" width="35.0" height="0.9" rx="2"/>
 <rect class="neu" x="78.0" y="369.6" width="35.0" height="0.4" rx="2"/>
@@ -140,36 +144,40 @@
 <rect class="neu" x="707.0" y="370.0" width="35.0" height="0.0" rx="2"/>
 <rect class="neu" x="744.0" y="370.0" width="35.0" height="0.0" rx="2"/>
 <line class="axis" x1="40.0" y1="370.0" x2="780.0" y2="370.0" stroke-width="1"/>
-<line class="ind-l" x1="472.9" y1="376.0" x2="472.9" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="543.2" y1="376.0" x2="543.2" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="432.2" y1="376.0" x2="432.2" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="484.0" y1="376.0" x2="484.0" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="513.6" y1="376.0" x2="513.6" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="439.6" y1="376.0" x2="439.6" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="428.5" y1="376.0" x2="428.5" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="469.2" y1="376.0" x2="469.2" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="454.4" y1="376.0" x2="454.4" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="543.2" y1="376.0" x2="543.2" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="498.8" y1="376.0" x2="498.8" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="546.9" y1="376.0" x2="546.9" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="554.3" y1="376.0" x2="554.3" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="421.1" y1="376.0" x2="421.1" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="487.7" y1="376.0" x2="487.7" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="361.9" y1="376.0" x2="361.9" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="506.2" y1="376.0" x2="506.2" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="495.1" y1="376.0" x2="495.1" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="443.3" y1="376.0" x2="443.3" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="476.6" y1="376.0" x2="476.6" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="546.9" y1="376.0" x2="546.9" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="554.3" y1="376.0" x2="554.3" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="461.8" y1="376.0" x2="461.8" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="521.0" y1="376.0" x2="521.0" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="443.3" y1="376.0" x2="443.3" y2="392.0" stroke-width="2"/>
-<line class="ind-l" x1="495.1" y1="376.0" x2="495.1" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="502.5" y1="376.0" x2="502.5" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="521.0" y1="376.0" x2="521.0" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="480.3" y1="376.0" x2="480.3" y2="392.0" stroke-width="2"/>
 <line class="ind-l" x1="469.2" y1="376.0" x2="469.2" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="487.7" y1="376.0" x2="487.7" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="498.8" y1="376.0" x2="498.8" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="543.2" y1="376.0" x2="543.2" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="424.8" y1="376.0" x2="424.8" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="472.9" y1="376.0" x2="472.9" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="484.0" y1="376.0" x2="484.0" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="428.5" y1="376.0" x2="428.5" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="469.2" y1="376.0" x2="469.2" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="454.4" y1="376.0" x2="454.4" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="543.2" y1="376.0" x2="543.2" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="421.1" y1="376.0" x2="421.1" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="361.9" y1="376.0" x2="361.9" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="495.1" y1="376.0" x2="495.1" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="443.3" y1="376.0" x2="443.3" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="554.3" y1="376.0" x2="554.3" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="461.8" y1="376.0" x2="461.8" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="521.0" y1="376.0" x2="521.0" y2="392.0" stroke-width="2"/>
+<line class="ind-l" x1="495.1" y1="376.0" x2="495.1" y2="392.0" stroke-width="2"/>
 <line class="gra-l" x1="498.8" y1="396.0" x2="498.8" y2="412.0" stroke-width="2"/>
 <line class="gra-l" x1="480.3" y1="396.0" x2="480.3" y2="412.0" stroke-width="2"/>
 <line class="gra-l" x1="465.5" y1="396.0" x2="465.5" y2="412.0" stroke-width="2"/>
@@ -206,5 +214,5 @@
 <text class="t3" x="595.0" y="428.0" font-size="11" text-anchor="middle">+0.5</text>
 <text class="t3" x="780.0" y="428.0" font-size="11" text-anchor="middle">+1.0</text>
 <text class="t3" x="780.0" y="290.0" font-size="11" text-anchor="end">grey bars: 1150 comprehensive sixth forms</text>
-<text class="t3" x="780.0" y="306.0" font-size="11" text-anchor="end">ticks: top-30 independent (upper row), grammar (lower row)</text>
+<text class="t3" x="780.0" y="306.0" font-size="11" text-anchor="end">ticks: top private, boys' and girls' lists (upper row); top-30 grammar (lower row)</text>
 </svg>

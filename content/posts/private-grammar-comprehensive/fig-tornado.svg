@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 510" width="820" height="510" role="img" aria-labelledby="t d">
-<title id="t">What moves the answer: NPV of 11-18 private day school for a typical pupil</title><desc id="d">Tornado chart of NPV at 3.5% for a typical private pupil (central premium, all-employee scenario): men premium scenario low (residual only) -92k, high (1970 cohort) 7k; men discount rate 5% equity -82k, 2.1% borrowing -12k; men earnings scenario B all employees -53k, A full-time -32k; men fees top-30 median -99k, ISC average -53k; men real fee growth 3% a year -72k, 0% -53k; men extras on fees +15% -76k, +5% -61k; men bursary or sibling discount none -53k, 10% off fees -38k; men real earnings growth 1.2% -61k, 1.83% -46k; men counterfactual rank P50 -63k, P90 18k; women premium scenario low (residual only) -124k, high (1970 cohort) -35k; women discount rate 5% equity -91k, 2.1% borrowing -34k; women earnings scenario B all employees -68k, A full-time -53k; women fees top-30 median -113k, ISC average -68k; women real fee growth 3% a year -86k, 0% -68k; women extras on fees +15% -90k, +5% -75k; women bursary or sibling discount none -68k, 10% off fees -53k; women real earnings growth 1.2% -79k, 1.83% -65k; women counterfactual rank P50 -81k, P90 -36k.</desc>
+<title id="t">What moves the answer: NPV of 11-18 private day school for a typical pupil</title><desc id="d">Tornado chart of NPV at 3.5% for a typical private pupil (central premium, all-employee scenario): men premium scenario low (residual only) -92k, high (1970 cohort) 7k; men discount rate 5% equity -82k, 2.1% borrowing -12k; men earnings scenario B all employees -53k, A full-time -32k; men fees top-20 list median -103k, ISC average -53k; men real fee growth 3% a year -72k, 0% -53k; men extras on fees +15% -76k, +5% -61k; men bursary or sibling discount none -53k, 10% off fees -38k; men real earnings growth 1.2% -61k, 1.83% -46k; men counterfactual rank P50 -63k, P90 18k; women premium scenario low (residual only) -124k, high (1970 cohort) -35k; women discount rate 5% equity -91k, 2.1% borrowing -34k; women earnings scenario B all employees -68k, A full-time -53k; women fees top-20 list median -115k, ISC average -68k; women real fee growth 3% a year -86k, 0% -68k; women extras on fees +15% -90k, +5% -75k; women bursary or sibling discount none -68k, 10% off fees -53k; women real earnings growth 1.2% -79k, 1.83% -65k; women counterfactual rank P50 -81k, P90 -36k.</desc>
 <style>
   .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
   .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
@@ -35,7 +35,7 @@
 <text class="t1" x="250.0" y="180.0" font-size="12" text-anchor="end" font-weight="600">discount rate</text>
 <text class="t3" x="250.0" y="195.0" font-size="10.5" text-anchor="end">5% equity ↔ 2.1% borrowing</text>
 <text class="t1" x="250.0" y="220.0" font-size="12" text-anchor="end" font-weight="600">fees</text>
-<text class="t3" x="250.0" y="235.0" font-size="10.5" text-anchor="end">top-30 median ↔ ISC average</text>
+<text class="t3" x="250.0" y="235.0" font-size="10.5" text-anchor="end">top-20 list median ↔ ISC average</text>
 <text class="t1" x="250.0" y="260.0" font-size="12" text-anchor="end" font-weight="600">earnings scenario</text>
 <text class="t3" x="250.0" y="275.0" font-size="10.5" text-anchor="end">B all employees ↔ A full-time</text>
 <text class="t1" x="250.0" y="300.0" font-size="12" text-anchor="end" font-weight="600">real fee growth</text>
@@ -68,9 +68,9 @@
 <rect class="neu" x="321.6" y="174.0" width="62.6" height="24.0" rx="3"/>
 <text class="t3" x="388.3" y="190.0" font-size="10" text-anchor="start">-12</text>
 <text class="t3" x="317.6" y="190.0" font-size="10" text-anchor="end">-82</text>
-<rect class="neu" x="306.7" y="214.0" width="40.6" height="24.0" rx="3"/>
+<rect class="neu" x="303.4" y="214.0" width="43.9" height="24.0" rx="3"/>
 <text class="t3" x="351.3" y="230.0" font-size="10" text-anchor="start">-53</text>
-<text class="t3" x="302.7" y="230.0" font-size="10" text-anchor="end">-99</text>
+<text class="t3" x="299.4" y="230.0" font-size="10" text-anchor="end">-103</text>
 <rect class="neu" x="347.3" y="254.0" width="19.1" height="24.0" rx="3"/>
 <text class="t3" x="370.4" y="270.0" font-size="10" text-anchor="start">-32</text>
 <text class="t3" x="343.3" y="270.0" font-size="10" text-anchor="end">-53</text>
@@ -108,9 +108,9 @@
 <rect class="neu" x="593.5" y="174.0" width="51.5" height="24.0" rx="3"/>
 <text class="t3" x="649.0" y="190.0" font-size="10" text-anchor="start">-34</text>
 <text class="t3" x="589.5" y="190.0" font-size="10" text-anchor="end">-91</text>
-<rect class="neu" x="573.9" y="214.0" width="40.6" height="24.0" rx="3"/>
+<rect class="neu" x="572.7" y="214.0" width="41.7" height="24.0" rx="3"/>
 <text class="t3" x="618.5" y="230.0" font-size="10" text-anchor="start">-68</text>
-<text class="t3" x="569.9" y="230.0" font-size="10" text-anchor="end">-113</text>
+<text class="t3" x="568.7" y="230.0" font-size="10" text-anchor="end">-115</text>
 <rect class="neu" x="614.5" y="254.0" width="13.2" height="24.0" rx="3"/>
 <text class="t3" x="631.7" y="270.0" font-size="10" text-anchor="start">-53</text>
 <text class="t3" x="610.5" y="270.0" font-size="10" text-anchor="end">-68</text>

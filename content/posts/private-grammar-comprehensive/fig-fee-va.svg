@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" width="820" height="470" role="img" aria-labelledby="t d">
-<title id="t">Fees and value added, top-30 independent schools</title><desc id="d">Scatter of 2026/27 senior day fee (incl. VAT) against 2024/25 A-level value added with 95% CI, for 29 of the top-30 independent schools (Eton has no day fee). Spearman correlation -0.11.</desc>
+<title id="t">Fees and value added, top private schools</title><desc id="d">Scatter of 2026/27 senior day fee (incl. VAT) against 2024/25 A-level value added with 95% CI, for the 33 top private schools for boys or girls with a day fee. Rank correlation -0.02.</desc>
 <style>
   .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
   .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
@@ -26,7 +26,7 @@
   }
 </style>
 <rect class="surface" x="0.5" y="0.5" width="819" height="469" rx="8"/>
-<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">Fees and value added, top-30 private schools (Spearman -0.11)</text>
+<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">Fees and value added, top private schools for boys and girls (rank correlation -0.02)</text>
 <line class="grid" x1="70.0" y1="418.0" x2="790.0" y2="418.0" stroke-width="1"/>
 <text class="t3" x="62.0" y="422.0" font-size="11" text-anchor="end">-0.4</text>
 <line class="grid" x1="70.0" y1="358.3" x2="790.0" y2="358.3" stroke-width="1"/>
@@ -51,29 +51,17 @@
 <text class="t3" x="430.0" y="460.0" font-size="11" text-anchor="middle">senior day fee 2026/27, incl. VAT</text>
 <text class="t3" x="24.0" y="48.0" font-size="11" text-anchor="start">value added (grades per A-level entry), 95% CI</text>
 <line class="axis" x1="70.0" y1="298.7" x2="790.0" y2="298.7" stroke-width="1.5"/>
-<line class="ind-l" x1="505.4" y1="280.8" x2="505.4" y2="215.1" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="505.4" cy="248.0" r="5"/>
 <line class="ind-l" x1="493.5" y1="218.1" x2="493.5" y2="167.4" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="493.5" cy="191.3" r="5"/>
 <text class="t2 halo" x="501.5" y="185.3" font-size="11" text-anchor="start">St Paul's</text>
 <line class="ind-l" x1="734.3" y1="304.6" x2="734.3" y2="253.9" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="734.3" cy="280.8" r="5"/>
 <text class="t2 halo" x="726.3" y="274.8" font-size="11" text-anchor="end">Westminster</text>
-<line class="ind-l" x1="347.3" y1="286.7" x2="347.3" y2="194.3" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="347.3" cy="239.0" r="5"/>
 <line class="ind-l" x1="501.5" y1="239.0" x2="501.5" y2="191.3" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="501.5" cy="215.1" r="5"/>
 <text class="t2 halo" x="509.5" y="209.1" font-size="11" text-anchor="start">Brighton College</text>
 <line class="ind-l" x1="447.4" y1="301.7" x2="447.4" y2="250.9" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="447.4" cy="274.8" r="5"/>
-<line class="ind-l" x1="255.7" y1="319.6" x2="255.7" y2="248.0" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="255.7" cy="283.8" r="5"/>
-<line class="ind-l" x1="459.2" y1="289.7" x2="459.2" y2="209.2" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="459.2" cy="250.9" r="5"/>
-<line class="ind-l" x1="362.9" y1="298.7" x2="362.9" y2="227.1" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="362.9" cy="262.9" r="5"/>
-<line class="ind-l" x1="333.8" y1="227.1" x2="333.8" y2="152.5" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="333.8" cy="191.3" r="5"/>
 <line class="ind-l" x1="326.4" y1="253.9" x2="326.4" y2="197.2" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="326.4" cy="227.1" r="5"/>
 <line class="ind-l" x1="291.2" y1="215.1" x2="291.2" y2="161.4" stroke-width="1" opacity="0.45"/>
@@ -82,33 +70,14 @@
 <line class="ind-l" x1="367.0" y1="209.2" x2="367.0" y2="155.5" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="367.0" cy="182.3" r="5"/>
 <text class="t2 halo" x="375.0" y="176.3" font-size="11" text-anchor="start">Latymer Upper</text>
-<line class="ind-l" x1="166.1" y1="325.5" x2="166.1" y2="250.9" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="166.1" cy="289.7" r="5"/>
-<text class="t2 halo" x="174.1" y="283.7" font-size="11" text-anchor="start">KEHS Birmingham</text>
 <line class="ind-l" x1="383.1" y1="262.9" x2="383.1" y2="209.2" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="383.1" cy="236.0" r="5"/>
-<line class="ind-l" x1="730.7" y1="373.2" x2="730.7" y2="301.7" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="730.7" cy="337.4" r="5"/>
-<text class="t2 halo" x="722.7" y="331.4" font-size="11" text-anchor="end">Wycombe Abbey</text>
 <line class="ind-l" x1="376.8" y1="245.0" x2="376.8" y2="194.3" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="376.8" cy="221.1" r="5"/>
-<line class="ind-l" x1="325.4" y1="265.9" x2="325.4" y2="194.3" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="325.4" cy="230.1" r="5"/>
-<line class="ind-l" x1="365.5" y1="301.7" x2="365.5" y2="239.0" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="365.5" cy="271.8" r="5"/>
 <line class="ind-l" x1="314.5" y1="274.8" x2="314.5" y2="218.1" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="314.5" cy="245.0" r="5"/>
 <line class="ind-l" x1="376.8" y1="218.1" x2="376.8" y2="158.5" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="376.8" cy="188.3" r="5"/>
-<line class="ind-l" x1="333.8" y1="221.1" x2="333.8" y2="146.5" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="333.8" cy="182.3" r="5"/>
-<line class="ind-l" x1="106.8" y1="295.7" x2="106.8" y2="221.1" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="106.8" cy="256.9" r="5"/>
-<text class="t2 halo" x="114.8" y="250.9" font-size="11" text-anchor="start">Withington Girls'</text>
-<line class="ind-l" x1="351.5" y1="245.0" x2="351.5" y2="173.4" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="351.5" cy="209.2" r="5"/>
-<line class="ind-l" x1="333.4" y1="262.9" x2="333.4" y2="197.2" stroke-width="1" opacity="0.45"/>
-<circle class="ind" cx="333.4" cy="230.1" r="5"/>
 <line class="ind-l" x1="283.5" y1="253.9" x2="283.5" y2="194.3" stroke-width="1" opacity="0.45"/>
 <circle class="ind" cx="283.5" cy="224.1" r="5"/>
 <line class="ind-l" x1="308.2" y1="239.0" x2="308.2" y2="179.3" stroke-width="1" opacity="0.45"/>
@@ -118,5 +87,44 @@
 <line class="ind-l" x1="709.7" y1="283.8" x2="709.7" y2="218.1" stroke-width="1" opacity="0.45"/>
 <circle class="ind hollow" cx="709.7" cy="250.9" r="5" stroke-width="2"/>
 <text class="t2 halo" x="701.7" y="244.9" font-size="11" text-anchor="end">Tonbridge</text>
+<line class="ind-l" x1="350.5" y1="262.9" x2="350.5" y2="209.2" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="350.5" cy="236.0" r="5"/>
+<line class="ind-l" x1="334.0" y1="253.9" x2="334.0" y2="197.2" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="334.0" cy="227.1" r="5"/>
+<line class="ind-l" x1="662.0" y1="218.1" x2="662.0" y2="161.4" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="662.0" cy="191.3" r="5"/>
+<line class="ind-l" x1="317.8" y1="319.6" x2="317.8" y2="253.9" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="317.8" cy="286.7" r="5"/>
+<line class="ind-l" x1="505.4" y1="280.8" x2="505.4" y2="215.1" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="505.4" cy="248.0" r="5"/>
+<line class="ind-l" x1="347.3" y1="286.7" x2="347.3" y2="194.3" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="347.3" cy="239.0" r="5"/>
+<line class="ind-l" x1="255.7" y1="319.6" x2="255.7" y2="248.0" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="255.7" cy="283.8" r="5"/>
+<line class="ind-l" x1="459.2" y1="289.7" x2="459.2" y2="209.2" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="459.2" cy="250.9" r="5"/>
+<line class="ind-l" x1="362.9" y1="298.7" x2="362.9" y2="227.1" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="362.9" cy="262.9" r="5"/>
+<line class="ind-l" x1="333.8" y1="227.1" x2="333.8" y2="152.5" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="333.8" cy="191.3" r="5"/>
+<line class="ind-l" x1="166.1" y1="325.5" x2="166.1" y2="250.9" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="166.1" cy="289.7" r="5"/>
+<text class="t2 halo" x="174.1" y="283.7" font-size="11" text-anchor="start">KEHS Birmingham</text>
+<line class="ind-l" x1="730.7" y1="373.2" x2="730.7" y2="301.7" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="730.7" cy="337.4" r="5"/>
+<text class="t2 halo" x="722.7" y="331.4" font-size="11" text-anchor="end">Wycombe Abbey</text>
+<line class="ind-l" x1="325.4" y1="265.9" x2="325.4" y2="194.3" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="325.4" cy="230.1" r="5"/>
+<line class="ind-l" x1="365.5" y1="301.7" x2="365.5" y2="239.0" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="365.5" cy="271.8" r="5"/>
+<line class="ind-l" x1="333.8" y1="221.1" x2="333.8" y2="146.5" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="333.8" cy="182.3" r="5"/>
+<line class="ind-l" x1="106.8" y1="295.7" x2="106.8" y2="221.1" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="106.8" cy="256.9" r="5"/>
+<text class="t2 halo" x="114.8" y="250.9" font-size="11" text-anchor="start">Withington Girls'</text>
+<line class="ind-l" x1="351.5" y1="245.0" x2="351.5" y2="173.4" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="351.5" cy="209.2" r="5"/>
+<line class="ind-l" x1="333.4" y1="262.9" x2="333.4" y2="197.2" stroke-width="1" opacity="0.45"/>
+<circle class="ind" cx="333.4" cy="230.1" r="5"/>
 <text class="t3" x="786.0" y="410.0" font-size="11" text-anchor="end">hollow: value-added coverage below 70%</text>
 </svg>
