@@ -5,6 +5,10 @@ date: 2026-10-10
 draft: false
 summary: "Raw gaps between private, grammar and comprehensive pupils are large; about half or more of the earnings gap is who gets in. On the best current evidence, 11-18 private day fees probably do not pay for themselves in earnings for a typical pupil: NPV −£53k for boys and −£68k for girls at 3.5%, uncertain enough that a typical boy could break even."
 tags: ["education", "earnings", "cost-benefit", "england", "reproducibility"]
+cover:
+  image: cover.jpg
+  relative: true
+  alt: "Abstract chart on a dark background: three school buildings on the left (private, grammar, comprehensive), each leading a horizontal track; a hollow ring far to the right marks each school type's raw advantage and a glowing dot, pulled back towards a dashed reference line, marks what is left after adjusting for who gets in."
 ShowToc: true
 TocOpen: true
 ---
