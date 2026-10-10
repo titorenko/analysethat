@@ -7,7 +7,7 @@ tags: ["llm", "model-welfare", "evaluation", "reproducibility"]
 cover:
   image: cover.jpg
   relative: true
-  alt: "Abstract chart on a dark background: thirteen tracks in three coloured groups, each with a glowing dot at one model's Comfort Index and a faint band for its confidence interval; a dashed line marks neutral, with a red-tinted zone below it."
+  alt: "Abstract chart on a dark background: thirteen tracks in three coloured groups, led by stylized maker marks (a Claude-style spark, an OpenAI-style knot and a Grok-style ring), each with a glowing dot at one model's Comfort Index and a faint band for its confidence interval; a dashed line marks neutral, with a red-tinted zone below it."
 ShowToc: true
 TocOpen: true
 ---

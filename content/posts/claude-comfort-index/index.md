@@ -7,7 +7,7 @@ tags: ["llm", "model-welfare", "evaluation", "reproducibility"]
 cover:
   image: cover.jpg
   relative: true
-  alt: "Abstract chart on a dark background: seven speech bubbles on the left, each starting a horizontal track with a dot placed at one model's Comfort Index and a faint band for its confidence interval; a dashed line marks neutral, with a red-tinted zone below it."
+  alt: "Abstract chart on a dark background: seven Claude-style spark marks on the left, each starting a horizontal track with a dot placed at one model's Comfort Index and a faint band for its confidence interval; a dashed line marks neutral, with a red-tinted zone below it."
 ShowToc: true
 TocOpen: true
 ---
