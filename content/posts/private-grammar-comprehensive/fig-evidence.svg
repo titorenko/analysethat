@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 538" width="820" height="538" role="img" aria-labelledby="t d">
-<title id="t">Estimated pay premium of private and grammar schooling, by study</title><desc id="d">Forest plot of log-point pay premiums converted to percent, raw (hollow) and adjusted for background and early ability (filled, with 95% CI where a standard error is published), by cohort and age. NCDS 1958, age 33, all: adjusted 7.5%; BCS70, age 34, men: adjusted 20.2%; BCS70, age 34, women: adjusted 27.6%; BCS70, age 42, men: adjusted 34.6%; BCS70, age 42, women: adjusted 21.2%; Next Steps 1989-90, age 25 (background only): adjusted 17.2%; NCDS 1958, age 33, men, vs comprehensive: adjusted 24.6%; Graduates 2006/07, 3.5 yrs, men †: adjusted 9.5%; Graduates 2006/07, 3.5 yrs, women †: adjusted 4.7%; NCDS 1958, age 33, men: adjusted 9.0%; NCDS 1958, age 33, all (RD): adjusted 7.2%; Aberdeen 1950s, late 40s, men (RD): adjusted -2.8%; Aberdeen 1950s, late 40s, women (RD): adjusted 7.7%.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 552" width="820" height="552" role="img" aria-labelledby="t d">
+<title id="t">Compare like with like and the private-school pay advantage shrinks</title><desc id="d">Forest plot of log-point pay premiums converted to percent, raw (hollow) and adjusted for background and early ability (filled, with 95% CI where a standard error is published), by cohort and age. NCDS 1958, age 33, all: adjusted 7.5%; BCS70, age 34, men: adjusted 20.2%; BCS70, age 34, women: adjusted 27.6%; BCS70, age 42, men: adjusted 34.6%; BCS70, age 42, women: adjusted 21.2%; Next Steps 1989-90, age 25 (background only): adjusted 17.2%; NCDS 1958, age 33, men, vs comprehensive: adjusted 24.6%; Graduates 2006/07, 3.5 yrs, men †: adjusted 9.5%; Graduates 2006/07, 3.5 yrs, women †: adjusted 4.7%; NCDS 1958, age 33, men: adjusted 9.0%; NCDS 1958, age 33, all (RD): adjusted 7.2%; Aberdeen 1950s, late 40s, men (RD): adjusted -2.8%; Aberdeen 1950s, late 40s, women (RD): adjusted 7.7%.</desc>
 <style>
   .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
   .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
@@ -25,83 +25,84 @@
     .halo { stroke: #1a1a19; }
   }
 </style>
-<rect class="surface" x="0.5" y="0.5" width="819" height="537" rx="8"/>
-<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">Pay premium by study: raw (hollow) and adjusted for background and early ability (filled)</text>
-<text class="t3" x="24.0" y="50.0" font-size="11" text-anchor="start">hourly pay unless noted; Next Steps weekly pay, background only; † graduates only, also A levels, degree, university</text>
-<line class="grid" x1="340.0" y1="70.0" x2="340.0" y2="468.0" stroke-width="1"/>
-<text class="t3" x="340.0" y="486.0" font-size="11" text-anchor="middle">-20%</text>
-<line class="grid" x1="420.0" y1="70.0" x2="420.0" y2="468.0" stroke-width="1"/>
-<text class="t3" x="420.0" y="486.0" font-size="11" text-anchor="middle">0</text>
-<line class="grid" x1="500.0" y1="70.0" x2="500.0" y2="468.0" stroke-width="1"/>
-<text class="t3" x="500.0" y="486.0" font-size="11" text-anchor="middle">+20%</text>
-<line class="grid" x1="580.0" y1="70.0" x2="580.0" y2="468.0" stroke-width="1"/>
-<text class="t3" x="580.0" y="486.0" font-size="11" text-anchor="middle">+40%</text>
-<line class="grid" x1="660.0" y1="70.0" x2="660.0" y2="468.0" stroke-width="1"/>
-<text class="t3" x="660.0" y="486.0" font-size="11" text-anchor="middle">+60%</text>
-<line class="grid" x1="740.0" y1="70.0" x2="740.0" y2="468.0" stroke-width="1"/>
-<text class="t3" x="740.0" y="486.0" font-size="11" text-anchor="middle">+80%</text>
-<line class="axis" x1="420.0" y1="70.0" x2="420.0" y2="468.0" stroke-width="1.5"/>
-<line class="ind-l" x1="422.1" y1="93.0" x2="479.5" y2="93.0" stroke-width="2"/>
-<circle class="ind hollow" cx="522.4" cy="93.0" r="5" stroke-width="2"/>
-<circle class="ind" cx="449.9" cy="93.0" r="5.5"/>
-<text class="t1" x="290.0" y="97.0" font-size="12" text-anchor="end">NCDS 1958, age 33, all</text>
-<text class="t2 halo" x="449.9" y="84.0" font-size="11" text-anchor="middle">7%</text>
-<line class="ind-l" x1="453.4" y1="123.0" x2="553.4" y2="123.0" stroke-width="2"/>
-<circle class="ind hollow" cx="567.0" cy="123.0" r="5" stroke-width="2"/>
-<circle class="ind" cx="500.8" cy="123.0" r="5.5"/>
-<text class="t1" x="290.0" y="127.0" font-size="12" text-anchor="end">BCS70, age 34, men</text>
-<text class="t2 halo" x="500.8" y="114.0" font-size="11" text-anchor="middle">20%</text>
-<line class="ind-l" x1="476.6" y1="153.0" x2="590.9" y2="153.0" stroke-width="2"/>
-<circle class="ind hollow" cx="608.4" cy="153.0" r="5" stroke-width="2"/>
-<circle class="ind" cx="530.5" cy="153.0" r="5.5"/>
-<text class="t1" x="290.0" y="157.0" font-size="12" text-anchor="end">BCS70, age 34, women</text>
-<text class="t2 halo" x="530.5" y="144.0" font-size="11" text-anchor="middle">28%</text>
-<line class="ind-l" x1="510.7" y1="183.0" x2="610.6" y2="183.0" stroke-width="2"/>
-<circle class="ind hollow" cx="737.3" cy="183.0" r="5" stroke-width="2"/>
-<circle class="ind" cx="558.3" cy="183.0" r="5.5"/>
-<text class="t1" x="290.0" y="187.0" font-size="12" text-anchor="end">BCS70, age 42, men</text>
-<text class="t2 halo" x="558.3" y="174.0" font-size="11" text-anchor="middle">35%</text>
-<line class="ind-l" x1="461.7" y1="213.0" x2="551.9" y2="213.0" stroke-width="2"/>
-<circle class="ind hollow" cx="664.5" cy="213.0" r="5" stroke-width="2"/>
-<circle class="ind" cx="504.7" cy="213.0" r="5.5"/>
-<text class="t1" x="290.0" y="217.0" font-size="12" text-anchor="end">BCS70, age 42, women</text>
-<text class="t2 halo" x="504.7" y="204.0" font-size="11" text-anchor="middle">21%</text>
-<circle class="ind hollow" cx="585.4" cy="243.0" r="5" stroke-width="2"/>
-<circle class="ind" cx="488.9" cy="243.0" r="5.5"/>
-<text class="t1" x="290.0" y="247.0" font-size="12" text-anchor="end">Next Steps 1989-90, age 25 (background only)</text>
-<text class="t2 halo" x="488.9" y="234.0" font-size="11" text-anchor="middle">17%</text>
-<line class="ind-l" x1="468.4" y1="273.0" x2="574.1" y2="273.0" stroke-width="2"/>
-<circle class="ind" cx="518.4" cy="273.0" r="5.5"/>
-<text class="t1" x="290.0" y="277.0" font-size="12" text-anchor="end">NCDS 1958, age 33, men, vs comprehensive</text>
-<text class="t2 halo" x="518.4" y="264.0" font-size="11" text-anchor="middle">25%</text>
-<line class="ind-l" x1="441.3" y1="303.0" x2="475.6" y2="303.0" stroke-width="2"/>
-<circle class="ind hollow" cx="504.7" cy="303.0" r="5" stroke-width="2"/>
-<circle class="ind" cx="458.1" cy="303.0" r="5.5"/>
-<text class="t1" x="290.0" y="307.0" font-size="12" text-anchor="end">Graduates 2006/07, 3.5 yrs, men †</text>
-<text class="t2 halo" x="458.1" y="294.0" font-size="11" text-anchor="middle">10%</text>
-<line class="ind-l" x1="429.1" y1="333.0" x2="448.8" y2="333.0" stroke-width="2"/>
-<circle class="ind hollow" cx="480.6" cy="333.0" r="5" stroke-width="2"/>
-<circle class="ind" cx="438.8" cy="333.0" r="5.5"/>
-<text class="t1" x="290.0" y="337.0" font-size="12" text-anchor="end">Graduates 2006/07, 3.5 yrs, women †</text>
-<text class="t2 halo" x="438.8" y="324.0" font-size="11" text-anchor="middle">5%</text>
-<line class="gra-l" x1="426.2" y1="363.0" x2="487.8" y2="363.0" stroke-width="2"/>
-<circle class="gra" cx="455.9" cy="363.0" r="5.5"/>
-<text class="t1" x="290.0" y="367.0" font-size="12" text-anchor="end">NCDS 1958, age 33, men</text>
-<text class="t2 halo" x="455.9" y="354.0" font-size="11" text-anchor="middle">9%</text>
-<line class="gra-l" x1="329.3" y1="393.0" x2="614.1" y2="393.0" stroke-width="2"/>
-<circle class="gra" cx="448.7" cy="393.0" r="5.5"/>
-<text class="t1" x="290.0" y="397.0" font-size="12" text-anchor="end">NCDS 1958, age 33, all (RD)</text>
-<text class="t2 halo" x="448.7" y="384.0" font-size="11" text-anchor="middle">7%</text>
-<line class="gra-l" x1="371.9" y1="423.0" x2="450.0" y2="423.0" stroke-width="2"/>
-<circle class="gra hollow" cx="591.0" cy="423.0" r="5" stroke-width="2"/>
-<circle class="gra" cx="409.0" cy="423.0" r="5.5"/>
-<text class="t1" x="290.0" y="427.0" font-size="12" text-anchor="end">Aberdeen 1950s, late 40s, men (RD)</text>
-<text class="t2 halo" x="409.0" y="414.0" font-size="11" text-anchor="middle">-3%</text>
-<line class="gra-l" x1="411.3" y1="453.0" x2="494.2" y2="453.0" stroke-width="2"/>
-<circle class="gra hollow" cx="591.0" cy="453.0" r="5" stroke-width="2"/>
-<circle class="gra" cx="450.8" cy="453.0" r="5.5"/>
-<text class="t1" x="290.0" y="457.0" font-size="12" text-anchor="end">Aberdeen 1950s, late 40s, women (RD)</text>
-<text class="t2 halo" x="450.8" y="444.0" font-size="11" text-anchor="middle">8%</text>
-<text class="t2" x="18.0" y="350.0" font-size="11" text-anchor="start" font-weight="600">Grammar</text>
-<text class="t2" x="18.0" y="76.0" font-size="11" text-anchor="start" font-weight="600">Private</text>
+<rect class="surface" x="0.5" y="0.5" width="819" height="551" rx="8"/>
+<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">Compare like with like and the private-school pay advantage shrinks</text>
+<text class="t3" x="24.0" y="50.0" font-size="11" text-anchor="start">Pay advantage by study: raw (hollow) and allowing for background and early test scores (filled)</text>
+<text class="t3" x="24.0" y="66.0" font-size="11" text-anchor="start">hourly pay unless noted; Next Steps weekly pay, background only; † graduates only, also A levels, degree, university</text>
+<line class="grid" x1="340.0" y1="84.0" x2="340.0" y2="482.0" stroke-width="1"/>
+<text class="t3" x="340.0" y="500.0" font-size="11" text-anchor="middle">-20%</text>
+<line class="grid" x1="420.0" y1="84.0" x2="420.0" y2="482.0" stroke-width="1"/>
+<text class="t3" x="420.0" y="500.0" font-size="11" text-anchor="middle">0</text>
+<line class="grid" x1="500.0" y1="84.0" x2="500.0" y2="482.0" stroke-width="1"/>
+<text class="t3" x="500.0" y="500.0" font-size="11" text-anchor="middle">+20%</text>
+<line class="grid" x1="580.0" y1="84.0" x2="580.0" y2="482.0" stroke-width="1"/>
+<text class="t3" x="580.0" y="500.0" font-size="11" text-anchor="middle">+40%</text>
+<line class="grid" x1="660.0" y1="84.0" x2="660.0" y2="482.0" stroke-width="1"/>
+<text class="t3" x="660.0" y="500.0" font-size="11" text-anchor="middle">+60%</text>
+<line class="grid" x1="740.0" y1="84.0" x2="740.0" y2="482.0" stroke-width="1"/>
+<text class="t3" x="740.0" y="500.0" font-size="11" text-anchor="middle">+80%</text>
+<line class="axis" x1="420.0" y1="84.0" x2="420.0" y2="482.0" stroke-width="1.5"/>
+<line class="ind-l" x1="422.1" y1="107.0" x2="479.5" y2="107.0" stroke-width="2"/>
+<circle class="ind hollow" cx="522.4" cy="107.0" r="5" stroke-width="2"/>
+<circle class="ind" cx="449.9" cy="107.0" r="5.5"/>
+<text class="t1" x="290.0" y="111.0" font-size="12" text-anchor="end">NCDS 1958, age 33, all</text>
+<text class="t2 halo" x="449.9" y="98.0" font-size="11" text-anchor="middle">7%</text>
+<line class="ind-l" x1="453.4" y1="137.0" x2="553.4" y2="137.0" stroke-width="2"/>
+<circle class="ind hollow" cx="567.0" cy="137.0" r="5" stroke-width="2"/>
+<circle class="ind" cx="500.8" cy="137.0" r="5.5"/>
+<text class="t1" x="290.0" y="141.0" font-size="12" text-anchor="end">BCS70, age 34, men</text>
+<text class="t2 halo" x="500.8" y="128.0" font-size="11" text-anchor="middle">20%</text>
+<line class="ind-l" x1="476.6" y1="167.0" x2="590.9" y2="167.0" stroke-width="2"/>
+<circle class="ind hollow" cx="608.4" cy="167.0" r="5" stroke-width="2"/>
+<circle class="ind" cx="530.5" cy="167.0" r="5.5"/>
+<text class="t1" x="290.0" y="171.0" font-size="12" text-anchor="end">BCS70, age 34, women</text>
+<text class="t2 halo" x="530.5" y="158.0" font-size="11" text-anchor="middle">28%</text>
+<line class="ind-l" x1="510.7" y1="197.0" x2="610.6" y2="197.0" stroke-width="2"/>
+<circle class="ind hollow" cx="737.3" cy="197.0" r="5" stroke-width="2"/>
+<circle class="ind" cx="558.3" cy="197.0" r="5.5"/>
+<text class="t1" x="290.0" y="201.0" font-size="12" text-anchor="end">BCS70, age 42, men</text>
+<text class="t2 halo" x="558.3" y="188.0" font-size="11" text-anchor="middle">35%</text>
+<line class="ind-l" x1="461.7" y1="227.0" x2="551.9" y2="227.0" stroke-width="2"/>
+<circle class="ind hollow" cx="664.5" cy="227.0" r="5" stroke-width="2"/>
+<circle class="ind" cx="504.7" cy="227.0" r="5.5"/>
+<text class="t1" x="290.0" y="231.0" font-size="12" text-anchor="end">BCS70, age 42, women</text>
+<text class="t2 halo" x="504.7" y="218.0" font-size="11" text-anchor="middle">21%</text>
+<circle class="ind hollow" cx="585.4" cy="257.0" r="5" stroke-width="2"/>
+<circle class="ind" cx="488.9" cy="257.0" r="5.5"/>
+<text class="t1" x="290.0" y="261.0" font-size="12" text-anchor="end">Next Steps 1989-90, age 25 (background only)</text>
+<text class="t2 halo" x="488.9" y="248.0" font-size="11" text-anchor="middle">17%</text>
+<line class="ind-l" x1="468.4" y1="287.0" x2="574.1" y2="287.0" stroke-width="2"/>
+<circle class="ind" cx="518.4" cy="287.0" r="5.5"/>
+<text class="t1" x="290.0" y="291.0" font-size="12" text-anchor="end">NCDS 1958, age 33, men, vs comprehensive</text>
+<text class="t2 halo" x="518.4" y="278.0" font-size="11" text-anchor="middle">25%</text>
+<line class="ind-l" x1="441.3" y1="317.0" x2="475.6" y2="317.0" stroke-width="2"/>
+<circle class="ind hollow" cx="504.7" cy="317.0" r="5" stroke-width="2"/>
+<circle class="ind" cx="458.1" cy="317.0" r="5.5"/>
+<text class="t1" x="290.0" y="321.0" font-size="12" text-anchor="end">Graduates 2006/07, 3.5 yrs, men †</text>
+<text class="t2 halo" x="458.1" y="308.0" font-size="11" text-anchor="middle">10%</text>
+<line class="ind-l" x1="429.1" y1="347.0" x2="448.8" y2="347.0" stroke-width="2"/>
+<circle class="ind hollow" cx="480.6" cy="347.0" r="5" stroke-width="2"/>
+<circle class="ind" cx="438.8" cy="347.0" r="5.5"/>
+<text class="t1" x="290.0" y="351.0" font-size="12" text-anchor="end">Graduates 2006/07, 3.5 yrs, women †</text>
+<text class="t2 halo" x="438.8" y="338.0" font-size="11" text-anchor="middle">5%</text>
+<line class="gra-l" x1="426.2" y1="377.0" x2="487.8" y2="377.0" stroke-width="2"/>
+<circle class="gra" cx="455.9" cy="377.0" r="5.5"/>
+<text class="t1" x="290.0" y="381.0" font-size="12" text-anchor="end">NCDS 1958, age 33, men</text>
+<text class="t2 halo" x="455.9" y="368.0" font-size="11" text-anchor="middle">9%</text>
+<line class="gra-l" x1="329.3" y1="407.0" x2="614.1" y2="407.0" stroke-width="2"/>
+<circle class="gra" cx="448.7" cy="407.0" r="5.5"/>
+<text class="t1" x="290.0" y="411.0" font-size="12" text-anchor="end">NCDS 1958, age 33, all (RD)</text>
+<text class="t2 halo" x="448.7" y="398.0" font-size="11" text-anchor="middle">7%</text>
+<line class="gra-l" x1="371.9" y1="437.0" x2="450.0" y2="437.0" stroke-width="2"/>
+<circle class="gra hollow" cx="591.0" cy="437.0" r="5" stroke-width="2"/>
+<circle class="gra" cx="409.0" cy="437.0" r="5.5"/>
+<text class="t1" x="290.0" y="441.0" font-size="12" text-anchor="end">Aberdeen 1950s, late 40s, men (RD)</text>
+<text class="t2 halo" x="409.0" y="428.0" font-size="11" text-anchor="middle">-3%</text>
+<line class="gra-l" x1="411.3" y1="467.0" x2="494.2" y2="467.0" stroke-width="2"/>
+<circle class="gra hollow" cx="591.0" cy="467.0" r="5" stroke-width="2"/>
+<circle class="gra" cx="450.8" cy="467.0" r="5.5"/>
+<text class="t1" x="290.0" y="471.0" font-size="12" text-anchor="end">Aberdeen 1950s, late 40s, women (RD)</text>
+<text class="t2 halo" x="450.8" y="458.0" font-size="11" text-anchor="middle">8%</text>
+<text class="t2" x="18.0" y="364.0" font-size="11" text-anchor="start" font-weight="600">Grammar</text>
+<text class="t2" x="18.0" y="90.0" font-size="11" text-anchor="start" font-weight="600">Private</text>
 </svg>

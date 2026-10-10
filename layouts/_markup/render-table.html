@@ -1,4 +1,4 @@
-<div class="table-wrap">
+<div class="table-wrap"><div class="table-scroll">
   <table
     {{- range $k, $v := .Attributes }}
       {{- if $v }}{{ printf " %s=%q" $k $v | safeHTMLAttr }}{{ end }}
@@ -18,12 +18,15 @@
       {{- range .TBody }}
       <tr>
         {{- range . }}
+        {{- /* short single-token cells (numbers, ranges like 62.7-72.0) never wrap at their hyphen */}}
+        {{- $t := string .Text }}
         <td
           {{- with .Alignment }}{{ printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}{{ end -}}
+          {{- if and (not (strings.Contains $t " ")) (lt (len $t) 40) }} class="nw"{{ end -}}
         >{{- .Text -}}</td>
         {{- end }}
       </tr>
       {{- end }}
     </tbody>
   </table>
-</div>
+</div></div>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" width="820" height="500" role="img" aria-labelledby="t d">
-<title id="t">Break-even premium against the evidence</title><desc id="d">Break-even gross pay premium for 11-18 private day fees by the child's counterfactual earnings percentile (all employees, weighted by employment), at 3.5% (solid) and 2.1% (dashed) real discount rates, for men and women, with the low, central and high premium scenarios for today's pupils and the typical private pupil's counterfactual rank (about P64). men at 3.5%: P50 31%, P90 15%; women at 3.5%: P50 38%, P90 23%.</desc>
+<title id="t">On the central estimate, only top earners would earn back the fees</title><desc id="d">Break-even gross pay premium for 11-18 private day fees by the child's counterfactual earnings percentile (all employees, weighted by employment), at 3.5% (solid) and 2.1% (dashed) real discount rates, for men and women, with the low, central and high premium scenarios for today's pupils and the typical private pupil's counterfactual rank (about P64). men at 3.5%: P50 31%, P90 15%; women at 3.5%: P50 38%, P90 23%.</desc>
 <style>
   .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
   .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
@@ -26,8 +26,8 @@
   }
 </style>
 <rect class="surface" x="0.5" y="0.5" width="819" height="499" rx="8"/>
-<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">What premium would repay 11-18 day fees, and what the evidence supports</text>
-<text class="t3" x="24.0" y="50.0" font-size="11" text-anchor="start">black: break-even premium (solid 3.5%, dashed 2.1% real discount rate) · blue: premium scenarios for today's pupils</text>
+<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">On the central estimate, only top earners would earn back the fees</text>
+<text class="t3" x="24.0" y="50.0" font-size="11" text-anchor="start">Lifetime pay rise needed to repay 11-18 day fees (black: solid 3.5%, dashed 2.1% discount rate) against the scenarios for today's pupils (blue)</text>
 <text class="t1" x="70.0" y="74.0" font-size="13" text-anchor="start" font-weight="600">Men</text>
 <line class="grid" x1="70.0" y1="436.0" x2="390.0" y2="436.0" stroke-width="1"/>
 <text class="t3" x="64.0" y="440.0" font-size="11" text-anchor="end">0%</text>

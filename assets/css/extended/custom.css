@@ -2,37 +2,67 @@
 :root { --main-width: 50.6rem; }
 .post-content { line-height: 1.65; }
 
-/* Wide tables scroll inside their wrapper; the page never scrolls at 375px */
+/* Tables fit the page. Cells wrap and table type is a step smaller; on screens of 1024px and up a table may
+   spread into the side margins, centred on the text column, before it ever scrolls. Scrolling inside the wrapper
+   is a last resort (a many-column table on a phone); the page itself never scrolls sideways.
+   .table-wrap stays the width of the text column and is the size container, so 100cqw = the text column. */
 .post-content .table-wrap {
-  overflow-x: auto;
-  max-width: 100%;
-  -webkit-overflow-scrolling: touch;
+  container-type: inline-size;
   margin-block: 1.5em;
 }
-.post-content .table-wrap > table {
-  /* PaperMod's reset.css sets `table { display: block; width: 100%; overflow-x: auto }`
-     on every table; undo it here so the wrapper owns the scrolling. */
+.post-content .table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+@media (min-width: 1024px) {
+  /* only tables placed directly in the text column break out; a table nested in a box (e.g. details.sample)
+     stays inside it, or the box would clip the overflow */
+  .post-content > .table-wrap > .table-scroll {
+    --table-wide: max(100cqw, min(100vw - 4rem, 120rem));
+    width: var(--table-wide);
+    margin-inline: calc((100cqw - var(--table-wide)) / 2);
+  }
+}
+.md-content .table-wrap .table-scroll > table {
+  /* PaperMod's reset.css sets `table { display: block; width: 100%; overflow-x: auto; word-break: keep-all }`
+     on every table; undo it so the table sizes to its content, wraps, and the wrapper owns any scrolling. */
   display: table;
   overflow: visible;
-  margin: 0;            /* wrapper owns vertical rhythm */
-  width: max-content;   /* wide tables exceed wrapper and scroll */
-  min-width: 100%;
-  max-width: none;
+  word-break: normal;
+  margin: 0 auto;       /* centred in the wide wrapper; .table-wrap owns vertical rhythm */
+  width: auto;          /* shrink to fit: as wide as the content needs, no wider than the wrapper */
+  min-width: 100cqw;    /* never narrower than the text column */
+  font-size: 0.875em;
 }
+/* PaperMod gives every cell min-width 80px and 6px 13px padding (specificity 0,3,2); tighten for many-column tables */
+.md-content .table-wrap .table-scroll table th,
+.md-content .table-wrap .table-scroll table td {
+  min-width: 0;
+  padding: 0.35em 0.6em;
+}
+.md-content .table-wrap .table-scroll table th { vertical-align: bottom; }
+.md-content .table-wrap .table-scroll table td.nw { white-space: nowrap; }
 
-/* Use more of large screens: widen the column and scale type with it so the
-   measure stays readable. No effect below 1440px. */
+/* Use more of large screens: widen the column and scale type with it so the measure stays at roughly 85-90
+   characters while the side margins shrink. */
+@media (min-width: 1280px) {
+  :root { --main-width: 56rem; }
+}
 @media (min-width: 1440px) {
-  :root { --main-width: 59.4rem; }
+  :root { --main-width: 64rem; }
   .post-content { font-size: 1.1875rem; }
 }
 @media (min-width: 1920px) {
-  :root { --main-width: 68.2rem; }
-  .post-content { font-size: 1.25rem; }
+  :root { --main-width: 74rem; }
+  .post-content { font-size: 1.3125rem; }
+}
+@media (min-width: 2400px) {
+  :root { --main-width: 84rem; }
+  .post-content { font-size: 1.5rem; }
 }
 @media (min-width: 3600px) {
-  :root { --main-width: 88rem; }
-  .post-content { font-size: 1.5rem; }
+  :root { --main-width: 104rem; }
+  .post-content { font-size: 1.875rem; }
 }
 
 /* Long prose cells wrap instead of stretching the table; cells shorter than
