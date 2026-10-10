@@ -105,6 +105,47 @@ Two cautions. Value added covers the sixth form only, so it says nothing about a
 
 For ages 11-16, Progress 8 compares GCSEs with tests at 11. Grammar schools score +0.67, comprehensives 0.00 and non-selective schools in grammar areas −0.19. Private schools have no Progress 8. Grammar schools select on more than the tests at 11 (their own entrance test, tutoring, motivation), so +0.67 overstates what they add. A study of twins that also allowed for a genetic score found the grammar-school GCSE advantage shrank to 0.03 of a standard deviation, close to nothing (Smith-Woolley et al. 2018).
 
+### 2.4 Value added by tenths
+
+Value added is the nearest public measure of what a sixth form itself adds: in investment language, its "alpha", how far its pupils beat the results their GCSEs predicted. It can be sliced in two ways.
+
+Table 1 shows how spread out it is: the value added at each tenth of schools of each kind. For example, the "10th" column is the school that 10 in every 100 schools of that kind fall below.
+
+| Kind of school | Schools | 10th | 20th | 30th | 40th | 50th | 60th | 70th | 80th | 90th |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Private | 302 | −0.06 | +0.05 | +0.11 | +0.16 | +0.21 | +0.26 | +0.31 | +0.37 | +0.45 |
+| Grammar | 159 | −0.22 | −0.13 | −0.08 | −0.03 | +0.01 | +0.04 | +0.09 | +0.13 | +0.19 |
+| Partially selective | 21 | −0.27 | −0.24 | −0.17 | −0.05 | −0.04 | +0.04 | +0.05 | +0.12 | +0.24 |
+| Comprehensive | 1,150 | −0.35 | −0.23 | −0.15 | −0.07 | −0.02 | +0.04 | +0.09 | +0.16 | +0.24 |
+| Non-selective, grammar areas | 91 | −0.54 | −0.37 | −0.28 | −0.20 | −0.14 | −0.08 | −0.03 | +0.12 | +0.19 |
+
+*Table 1. A-level value added (grades per A level above the GCSE prediction), 2024/25, at each tenth of school sixth forms of each kind. Schools: the number with a value-added figure.*
+
+Table 2 asks whether the schools with the best results are also the ones that add most. It sorts each kind of school into ten equal groups by A-level results, best first, and shows how far pupils in each group beat their prediction on average.
+
+| Tenth by results | Private: points | Private: value added | Grammar: points | Grammar: value added | Comprehensive: points | Comprehensive: value added |
+|---|---|---|---|---|---|---|
+| 1 (best) | 51.7 | +0.20 | 49.0 | +0.04 | 40.4 | +0.14 |
+| 2 | 48.7 | +0.25 | 45.9 | +0.11 | 37.4 | +0.11 |
+| 3 | 46.6 | +0.20 | 44.1 | −0.08 | 36.0 | +0.06 |
+| 4 | 45.1 | +0.30 | 42.3 | +0.08 | 34.8 | +0.06 |
+| 5 | 43.7 | +0.32 | 41.1 | −0.01 | 33.8 | +0.01 |
+| 6 | 42.2 | +0.21 | 39.9 | −0.02 | 32.7 | −0.02 |
+| 7 | 40.6 | +0.17 | 39.0 | −0.01 | 31.6 | −0.08 |
+| 8 | 38.8 | +0.18 | 37.9 | +0.01 | 30.3 | −0.15 |
+| 9 | 36.9 | +0.14 | 35.9 | −0.03 | 28.5 | −0.22 |
+| 10 (weakest) | 33.2 | −0.01 | 32.1 | −0.20 | 25.6 | −0.34 |
+
+*Table 2. School sixth forms of each kind sorted into ten equal groups by A-level points per entry (2023/24 and 2024/25), best first. Points: the group's average (50 = A, 40 = B). Value added: the average across the group's schools, 2024/25.*
+
+[![Line chart of average A-level value added for each tenth of schools sorted by A-level results, best first: private schools between +0.14 and +0.32 in the top nine tenths and −0.01 in the bottom tenth; comprehensives falling from +0.14 to −0.34; grammars near zero except −0.20 in the bottom tenth.](fig-alpha-deciles.svg)](fig-alpha-deciles.svg)
+
+*Figure 3. Average A-level value added of each tenth of schools, sorted by A-level results, best first. (click for full size)*
+
+Among comprehensives, value added follows results closely. Pupils in the best tenth of comprehensive sixth forms beat their prediction by +0.14 of a grade per A level, and pupils in the weakest tenth fall short by 0.34. Private schools are different: pupils beat their prediction at almost every level of results, by +0.14 to +0.32 of a grade in the top nine tenths, and the middle of the private table does at least as well as the top (+0.32 in the fifth tenth against +0.20 in the first). Only the weakest tenth of private schools is about zero (−0.01). Grammar schools sit close to zero throughout, apart from the weakest tenth (−0.20).
+
+Two cautions. At private schools that use IGCSEs, some pupils have no GCSE baseline and are left out of value added (§2.3). And one good or bad year raises or lowers both a school's results and its value added, which makes the two look more closely linked in Table 2 than they really are.
+
 ---
 
 ## 3. The top schools
@@ -146,7 +187,7 @@ Value added and Cambridge places are shown beside the ranking but not used for i
 | 19 | Winchester College | £46.0k | 49.8 | 75% | +0.36 [+0.27, +0.46] | 6.8 |
 | 20 | Reigate GS | £29.7k | 49.6 | 64% | +0.04 [−0.07, +0.15] | 2.6 |
 
-*Table 1. Top 20 private schools open to boys. Fee: senior day fee for 2026/27 including VAT (boarding fee where there are no day pupils). APS: A-level points per entry (50 = A, 40 = B). A*/A: share of A-level grades at A* or A, 2024/25. Value added: grades per A level above the GCSE prediction, 2024/25, with its range. Cam/100: Cambridge places per 100 sixth-form leavers, 2022-2025. ‡ fewer than 70% of A levels have a GCSE baseline. Median day fee £32.0k (£28.1k-£49.4k).*
+*Table 3. Top 20 private schools open to boys. Fee: senior day fee for 2026/27 including VAT (boarding fee where there are no day pupils). APS: A-level points per entry (50 = A, 40 = B). A*/A: share of A-level grades at A* or A, 2024/25. Value added: grades per A level above the GCSE prediction, 2024/25, with its range. Cam/100: Cambridge places per 100 sixth-form leavers, 2022-2025. ‡ fewer than 70% of A levels have a GCSE baseline. Median day fee £32.0k (£28.1k-£49.4k).*
 
 ### 3.3 Top 20 private schools for girls
 
@@ -173,7 +214,7 @@ Value added and Cambridge places are shown beside the ranking but not used for i
 | 19 | Haberdashers' Girls' | £31.3k | 50.9 | 76% | +0.30 [+0.18, +0.42] | 5.2 |
 | 20 | James Allen's Girls' | £30.4k | 50.4 | 78% | +0.23 [+0.12, +0.34] | 8.6 |
 
-*Table 2. Top 20 private schools open to girls. Columns as in Table 1. Median day fee £31.6k (£19.7k-£49.4k). Westminster: girls (from 2026) and boys start at 11 at Westminster Under School and move up at 13; girls can also join at 13 from 2028. The national average day fee is £23.4k (ISC census 2026, 2025/26 fees). Bursaries and other fee reductions average 9.3% of gross fee income at the median school, among the 28 schools on either list with their own charity accounts.*
+*Table 4. Top 20 private schools open to girls. Columns as in Table 3. Median day fee £31.6k (£19.7k-£49.4k). Westminster: girls (from 2026) and boys start at 11 at Westminster Under School and move up at 13; girls can also join at 13 from 2028. The national average day fee is £23.4k (ISC census 2026, 2025/26 fees). Bursaries and other fee reductions average 9.3% of gross fee income at the median school, among the 28 schools on either list with their own charity accounts.*
 
 ### 3.4 Top 30 grammar schools
 
@@ -210,19 +251,19 @@ Value added and Cambridge places are shown beside the ranking but not used for i
 | 29 | Wallington Girls | 45.5 | 56% | +0.04 [−0.04, +0.12] | +0.92 | 2.6 | – |
 | 30 | Nonsuch | 45.3 | 65% | +0.17 [+0.09, +0.26] | +1.02 | 3.1 | no |
 
-*Table 3. Top 30 grammar schools. Columns as in Table 1; P8: Progress 8 (GCSEs compared with tests at 11), 2023/24. Super-sel.: super-selective, admitting by test rank from a wide area with at least five applicants per place; "–" not assessed. § Queen Elizabeth's Barnet: applicant numbers from a secondary source.*
+*Table 5. Top 30 grammar schools. Columns as in Table 3; P8: Progress 8 (GCSEs compared with tests at 11), 2023/24. Super-sel.: super-selective, admitting by test rank from a wide area with at least five applicants per place; "–" not assessed. § Queen Elizabeth's Barnet: applicant numbers from a secondary source.*
 
 ### 3.5 Fees, value added and the comprehensive benchmark
 
 [![Scatter of senior day fee against A-level value added for the top private schools for boys and girls: no relationship, rank correlation −0.02.](fig-fee-va.svg)](fig-fee-va.svg)
 
-*Figure 3. Fees against A-level value added at the top private schools on either list, with each school's range. (click for full size)*
+*Figure 4. Fees against A-level value added at the top private schools on either list, with each school's range. (click for full size)*
 
 Among the top private schools, higher fees do not go with more value added (the rank correlation is −0.02 across 33 schools with a day fee; with so few schools and fees this close together, a modest link cannot be ruled out). The range of value added is above zero at 26 of the 34 private schools and at 13 of the 30 grammars.
 
 [![Histograms of comprehensive sixth forms (1,154 on A-level points, 1,150 on value added), with the top private and grammar schools marked: on points all are at the top; on value added the middle private school is at the comprehensive 87th percentile and the middle grammar at the 62nd.](fig-overlay.svg)](fig-overlay.svg)
 
-*Figure 4. The top schools against all comprehensive sixth forms (1,154 with A-level points, 1,150 with value added). (click for full size)*
+*Figure 5. The top schools against all comprehensive sixth forms (1,154 with A-level points, 1,150 with value added). (click for full size)*
 
 On raw results every top school is above almost every comprehensive. On value added the picture changes. The middle top private school ranks at the 87th percentile of comprehensives and the middle top grammar at the 62nd, and 12% of comprehensive sixth forms add more than the middle top private school.
 
@@ -234,7 +275,7 @@ On raw results every top school is above almost every comprehensive. On value ad
 
 [![Line chart of private pupils' pay at 30 relative to state pupils' (not on free school meals), at each percentile: 1.25 at the 10th, 1.45 at the 50th, 1.61 at the 90th, 2.12 at the 99th; for pupils with the same GCSE results the ratio is 1.18-1.39.](fig-ons-ratio.svg)](fig-ons-ratio.svg)
 
-*Figure 5. Pay at 30 (from tax records: ONS 2022, people aged 30 in 2017-2019) of private-school pupils relative to state pupils not on free school meals, rank by rank. Grey band: the same comparison for pupils with the same GCSE results (averages). (click for full size)*
+*Figure 6. Pay at 30 (from tax records: ONS 2022, people aged 30 in 2017-2019) of private-school pupils relative to state pupils not on free school meals, rank by rank. Grey band: the same comparison for pupils with the same GCSE results (averages). (click for full size)*
 
 At 30, the middle private-school earner earns 1.45 times as much as the middle state-school earner. The gap is about the same from the 25th to the 75th percentile (1.48 and 1.48 times) and widens only in the top quarter: 1.61 times at the 90th percentile and 2.12 times at the 99th (£181k against £85k a year). Among pupils with the same GCSE results the gap in average pay is 1.18-1.39 times; but that comparison holds GCSEs fixed and so removes part of what the school does. ONS does not split state schools into grammar and comprehensive.
 
@@ -242,9 +283,9 @@ At 30, the middle private-school earner earns 1.45 times as much as the middle s
 
 [![Chart of pay advantages by study, raw (hollow) and allowing for background and early test scores (filled; the 1989-90 group for background only): born 1958 7% (men and women; men against comprehensives 25%); born 1970, men 20% at 34 and 35% at 42, women 28% and 21%; born 1989-90 17% at 25; graduates 10% men and 5% women; grammar 9%, 7%, −3% and 8%.](fig-evidence.svg)](fig-evidence.svg)
 
-*Figure 6. The private-school (blue) and grammar-school (orange) pay advantage in each study: raw (hollow circle) and after comparing pupils with similar family backgrounds and early test scores (filled, with the range where the study gives one). Graduates: also the same A levels, degree and university. (click for full size)*
+*Figure 7. The private-school (blue) and grammar-school (orange) pay advantage in each study: raw (hollow circle) and after comparing pupils with similar family backgrounds and early test scores (filled, with the range where the study gives one). Graduates: also the same A levels, degree and university. (click for full size)*
 
-Every study finds the same pattern. Comparing like with like removes a large part of the raw private-school pay gap: between 37% and 71% of it in the studies of people born in 1958, 1970 and 1989-90 (measured on the log scale economists use to compare pay gaps; Figure 6 shows most of these comparisons). For people born in 1970, the private-school advantage after allowing for background and early test scores was 20% for men at 34 and 35% at 42, and 28% for women at 34 and 21% at 42 (Green, Machin, Murphy and Zhu 2012; Green, Henseke and Vignoles 2017). For men born in 1958 it was only 8% compared with all state schools, but 25% compared with comprehensives (Dearden, Ferri and Meghir 2002). The working-paper version of the 2012 study does not say at what age school type was recorded, and a later paper co-authored by Green describes it as private *primary* school; if so, its test scores at 10 and 11 may already reflect the school.
+Every study finds the same pattern. Comparing like with like removes a large part of the raw private-school pay gap: between 37% and 71% of it in the studies of people born in 1958, 1970 and 1989-90 (measured on the log scale economists use to compare pay gaps; Figure 7 shows most of these comparisons). For people born in 1970, the private-school advantage after allowing for background and early test scores was 20% for men at 34 and 35% at 42, and 28% for women at 34 and 21% at 42 (Green, Machin, Murphy and Zhu 2012; Green, Henseke and Vignoles 2017). For men born in 1958 it was only 8% compared with all state schools, but 25% compared with comprehensives (Dearden, Ferri and Meghir 2002). The working-paper version of the 2012 study does not say at what age school type was recorded, and a later paper co-authored by Green describes it as private *primary* school; if so, its test scores at 10 and 11 may already reflect the school.
 
 The most recent estimate is for people born in 1989-90 who were at private school at 13: 17% higher weekly pay at 25, comparing people with similar family backgrounds but without early test scores (Green, Anders, Henderson and Henseke 2020). For people born in 1970, adding early test scores barely changed the answer. But for children born in 2000-02, adding gender, ethnicity and test scores at age 3 moves the private-school GCSE advantage from +0.05 to −0.12 of a grade (Anders et al. 2024; neither figure can be told apart from chance). So the 17% for 1989-90, which cannot allow for early test scores, may overstate the private-school effect.
 
@@ -280,7 +321,7 @@ For private sixth form only (16-18), the range is 0 to 6.3%. The central 1.7% co
 
 For a child at a given percentile, pay at each age from 22 to 67 comes from the 2025 national earnings survey (ASHE), for men or women and for all employees, full- and part-time. Each year is weighted by the chance of being in work: 89.5% for male and 85.9% for female graduates (DfE). Pay grows 1.7% a year faster than prices. The pay advantage raises yearly pay by the scenario's percentage, and the gain is counted after income tax, National Insurance and student-loan repayments, with tax thresholds frozen until 2031 as announced.
 
-Fees are the national average for day schools including VAT (ISC census 2026, 2025/26 fees): £149k in today's money for ages 11-18. Scaled by ISC's regional figures, that is about £184k in London and £109k in the North West. Section 6 does the same calculation with the fees of the top schools. Fees are assumed to stay level after inflation, and extras (lunches, trips, uniform) are left out; both make private school look better than it is. Bursaries and sibling discounts are also left out, which makes it look worse (a 10% discount is one of the bars in Figure 8).
+Fees are the national average for day schools including VAT (ISC census 2026, 2025/26 fees): £149k in today's money for ages 11-18. Scaled by ISC's regional figures, that is about £184k in London and £109k in the North West. Section 6 does the same calculation with the fees of the top schools. Fees are assumed to stay level after inflation, and extras (lunches, trips, uniform) are left out; both make private school look better than it is. Bursaries and sibling discounts are also left out, which makes it look worse (a 10% discount is one of the bars in Figure 9).
 
 Where the child would otherwise sit in the earnings ranking matters, because a percentage pay rise is worth more to a high earner. A typical private pupil would, at a state school, earn at about the 64th percentile. This comes from taking the middle private pupil's pay at 30, removing the pay advantage, and seeing where that falls among state pupils (ONS).
 
@@ -297,7 +338,7 @@ The private-school figures describe, roughly, children whose parents actually ch
 
 [![Chart of the lifetime pay advantage needed to repay 11-18 day fees, by the child's earnings rank, for men and women, at 3.5% and 2.1%, with the three scenarios: at the median, 31% (men) and 38% (women) at 3.5%; the central scenario is 17%.](fig-breakeven.svg)](fig-breakeven.svg)
 
-*Figure 7. The lifetime pay advantage needed to repay 11-18 day fees (black lines), against the scenarios for today's pupils (blue). (click for full size)*
+*Figure 8. The lifetime pay advantage needed to repay 11-18 day fees (black lines), against the scenarios for today's pupils (blue). (click for full size)*
 
 To repay the fees, a child at the middle of the earnings ranking needs to earn 31% more for life (boys) or 38% more (girls) at a 3.5% discount rate, or 21% and 27% at 2.1%. At the typical private pupil's place the bar is about 27% for boys and 33% for girls; at the 90th percentile it falls to 15% and 23%. The bar is higher for girls because women are more often out of work or part-time, so a percentage pay rise adds up to less over a career.
 
@@ -312,7 +353,7 @@ To repay the fees, a child at the middle of the earnings ranking needs to earn 3
 | | **central** | **−£68k** | −£34k | **1.3%** | £247k |
 | | low | −£124k | −£118k | −2.2% | £76k |
 
-*Table 4. 11-18 private day school at national average fees, for a typical private pupil (at the earnings place each scenario implies). Fees level after inflation, no extras, no bursary. Fees not discounted: £165k. At the two ends of the central scenario's range the net gain at 3.5% is −£117k to +£7k for a boy and −£123k to −£18k for a girl.*
+*Table 6. 11-18 private day school at national average fees, for a typical private pupil (at the earnings place each scenario implies). Fees level after inflation, no extras, no bursary. Fees not discounted: £165k. At the two ends of the central scenario's range the net gain at 3.5% is −£117k to +£7k for a boy and −£123k to −£18k for a girl.*
 
 In the central scenario the fees earn 1.8% a year for a boy and 1.3% for a girl after inflation, less than a mortgage costs. Over a career the boy earns £291k more after tax, well above the £165k of fees; but the fees are paid in the child's teens and the extra pay arrives over the following 50 years.
 
@@ -322,7 +363,7 @@ Private sixth form only (16-18, £48k of fees, counted at age 16) needs a lifeti
 
 [![Chart showing how the net gain for a typical boy and girl changes as each assumption changes: the pay-advantage scenario matters most; then, for boys, the child's earnings rank and for girls the discount rate; then fees and the rest.](fig-tornado.svg)](fig-tornado.svg)
 
-*Figure 8. Each bar changes one assumption and keeps the rest at the central scenario. Earnings rank: where the child would sit in the earnings ranking at a state school. (click for full size)*
+*Figure 9. Each bar changes one assumption and keeps the rest at the central scenario. Earnings rank: where the child would sit in the earnings ranking at a state school. (click for full size)*
 
 For a typical boy the answer depends first on which pay advantage applies to today's pupils and on where he would otherwise sit in the earnings ranking, then on the discount rate and the fees. He comes out ahead only:
 - if the advantage is as large as for people born in 1970 (+£7k);
@@ -335,7 +376,7 @@ A 2.1% discount rate brings him close to breaking even (−£12k). The fees of t
 
 ## 6. The top 20 private schools for boys and for girls
 
-This section repeats the calculation of §5 for the schools in Tables 1 and 2, using their own fees rather than the national average. Boys are priced at the boys' list and girls at the girls' list. Fees are the middle (median) day fees of each list for 2026/27, including VAT, converted to 2025/26 prices: for boys £31.4k a year to 16 and £31.4k in the sixth form (£199k in today's money for ages 11-18); for girls £30.9k and £31.2k (£196k). Boarding-only schools (Eton College) are left out of the boys' median.
+This section repeats the calculation of §5 for the schools in Tables 3 and 4, using their own fees rather than the national average. Boys are priced at the boys' list and girls at the girls' list. Fees are the middle (median) day fees of each list for 2026/27, including VAT, converted to 2025/26 prices: for boys £31.4k a year to 16 and £31.4k in the sixth form (£199k in today's money for ages 11-18); for girls £30.9k and £31.2k (£196k). Boarding-only schools (Eton College) are left out of the boys' median.
 
 There is no separate evidence on pay for pupils of these particular schools, so the same three scenarios are used. But the pupils of the most selective schools may well sit higher in the earnings ranking than the typical private pupil, so the results are also given at the 75th and 90th percentiles.
 
@@ -348,7 +389,7 @@ There is no separate evidence on pay for pupils of these particular schools, so 
 | | **central** | **−£115k** | −£111k | −£82k | **0.4%** | 44% |
 | | low | −£171k | −£171k | −£165k | −3.0% | 42% |
 
-*Table 5. 11-18 day school at the top 20 private schools for boys and for girls. Same assumptions as Table 4 apart from the fees. The typical place differs slightly by scenario (a bigger pay advantage means the typical private pupil would have sat lower at a state school), so the pay advantage needed differs slightly too. At the two ends of the central scenario's range the net gain at the typical place is −£167k to −£43k for a boy and −£170k to −£65k for a girl.*
+*Table 7. 11-18 day school at the top 20 private schools for boys and for girls. Same assumptions as Table 6 apart from the fees. The typical place differs slightly by scenario (a bigger pay advantage means the typical private pupil would have sat lower at a state school), so the pay advantage needed differs slightly too. At the two ends of the central scenario's range the net gain at the typical place is −£167k to −£43k for a boy and −£170k to −£65k for a girl.*
 
 At these schools' fees the bar is higher: a typical boy would need to earn 35% more for life and a typical girl 44%, against the central scenario's 17%. In the central scenario a boy at the top boys' schools ends up £103k worse off in today's money and a girl at the top girls' schools £115k worse off. Even a boy who would be a top-10% earner anyway still loses in the central scenario (−£32k); he comes out ahead only with the high scenario (+£82k) or the top of the central range (+£101k). Could these schools add more than private schools in general? On A levels there is no sign of it: their pupils beat their GCSE prediction by +0.21 of a grade, the same as at the middle private school (+0.21). And no study measures their pupils' pay.
 
@@ -368,7 +409,7 @@ Buying a home in a good state school's catchment means paying more for the house
 | Cost in today's money, family moving anyway (premium 10-20%) | £9k-£17k | £12k-£23k | £17k-£34k |
 | Cost in today's money, school the only reason to move (premium 10-20%) | £25k-£34k | £36k-£48k | £57k-£73k |
 
-*Table 6. The cost of a catchment premium held for seven years, at 3.5%. A family moving anyway pays only the extra stamp duty on the premium and the cost of holding it. A family moving only for the school also pays the stamp duty on the whole new home, the cost of selling the old one (1.8% of its price, an assumption) and about £2,500 of moving costs (an assumption). The premium is assumed to grow with house prices, 0.65% a year faster than inflation (OBR forecast). Not counted: the risk that the premium falls, and the cost of moving out again once school is over (which would add the selling costs and stamp duty of another move).*
+*Table 8. The cost of a catchment premium held for seven years, at 3.5%. A family moving anyway pays only the extra stamp duty on the premium and the cost of holding it. A family moving only for the school also pays the stamp duty on the whole new home, the cost of selling the old one (1.8% of its price, an assumption) and about £2,500 of moving costs (an assumption). The premium is assumed to grow with house prices, 0.65% a year faster than inflation (OBR forecast). Not counted: the risk that the premium falls, and the cost of moving out again once school is over (which would add the selling costs and stamp duty of another move).*
 
 Even in London and counting the stamp duty, a move made only for the school (£57k-£73k) costs 31%-40% of London private day fees (£184k). A family that would have moved anyway pays far less.
 
