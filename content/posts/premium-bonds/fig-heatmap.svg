@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 492" width="860" height="492" role="img" aria-labelledby="t d">
+<title id="t">Premium Bonds beat the best account for higher-rate savers with bigger pots; basic-rate savers gain little</title><desc id="d">Heat map of 8 tax positions by 5 amounts; Premium Bonds ahead in 16 of 40 cells.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .pb { fill: #2a78d6; stroke: #2a78d6; } .pb-l { stroke: #2a78d6; fill: none; } .pb-band { fill: #2a78d6; opacity: .22; }
+  .riv { fill: #eb6834; stroke: #eb6834; } .riv-l { stroke: #eb6834; fill: none; }
+  .aq { fill: #1baf7a; stroke: #1baf7a; } .aq-l { stroke: #1baf7a; fill: none; }
+  .neu { fill: #898781; stroke: #898781; } .neu-l { stroke: #898781; fill: none; }
+  .up1 { fill: #2a78d6; opacity: .16; } .up2 { fill: #2a78d6; opacity: .34; } .up3 { fill: #2a78d6; opacity: .55; }
+  .dn1 { fill: #e34948; opacity: .14; } .dn2 { fill: #e34948; opacity: .30; } .dn3 { fill: #e34948; opacity: .50; }
+  .mid { fill: #f0efec; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .dash { stroke-dasharray: 5 4; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .pb { fill: #3987e5; stroke: #3987e5; } .pb-l { stroke: #3987e5; } .pb-band { fill: #3987e5; }
+    .riv { fill: #d95926; stroke: #d95926; } .riv-l { stroke: #d95926; }
+    .aq { fill: #199e70; stroke: #199e70; } .aq-l { stroke: #199e70; }
+    .up1, .up2, .up3 { fill: #3987e5; } .dn1, .dn2, .dn3 { fill: #e66767; }
+    .mid { fill: #383835; }
+    .halo { stroke: #1a1a19; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="859" height="491" rx="8"/>
+<text class="t1" x="24.0" y="34.0" font-size="17" text-anchor="start" font-weight="600">Premium Bonds beat the best account for higher-rate savers with bigger pots; basic-rate savers gain little</text>
+<text class="t3" x="24.0" y="56.0" font-size="13" text-anchor="start">Typical Premium Bond return minus the best easy-access account after tax and fees, percentage points; taxable money, a year of 12 draws</text>
+<text class="t2" x="308.0" y="92.0" font-size="13" text-anchor="middle" font-weight="600">£1k</text>
+<text class="t2" x="424.0" y="92.0" font-size="13" text-anchor="middle" font-weight="600">£5k</text>
+<text class="t2" x="540.0" y="92.0" font-size="13" text-anchor="middle" font-weight="600">£10k</text>
+<text class="t2" x="656.0" y="92.0" font-size="13" text-anchor="middle" font-weight="600">£25k</text>
+<text class="t2" x="772.0" y="92.0" font-size="13" text-anchor="middle" font-weight="600">£50k</text>
+<text class="t2" x="238.0" y="128.0" font-size="13" text-anchor="end">Pays no tax on interest</text>
+<rect class="dn3" x="251.0" y="105.0" width="114.0" height="38.0" rx="4"><title>Pays no tax on interest, £1k: -4.52 pp; Premium Bonds ahead in 35% of draws</title></rect>
+<text class="t1" x="308.0" y="123.0" font-size="14" text-anchor="middle" font-weight="600">-4.5</text>
+<text class="t3" x="308.0" y="137.0" font-size="10.5" text-anchor="middle">35% chance</text>
+<rect class="dn3" x="367.0" y="105.0" width="114.0" height="38.0" rx="4"><title>Pays no tax on interest, £5k: -1.52 pp; Premium Bonds ahead in 30% of draws</title></rect>
+<text class="t1" x="424.0" y="123.0" font-size="14" text-anchor="middle" font-weight="600">-1.5</text>
+<text class="t3" x="424.0" y="137.0" font-size="10.5" text-anchor="middle">30% chance</text>
+<rect class="dn3" x="483.0" y="105.0" width="114.0" height="38.0" rx="4"><title>Pays no tax on interest, £10k: -1.02 pp; Premium Bonds ahead in 28% of draws</title></rect>
+<text class="t1" x="540.0" y="123.0" font-size="14" text-anchor="middle" font-weight="600">-1.0</text>
+<text class="t3" x="540.0" y="137.0" font-size="10.5" text-anchor="middle">28% chance</text>
+<rect class="dn2" x="599.0" y="105.0" width="114.0" height="38.0" rx="4"><title>Pays no tax on interest, £25k: -0.82 pp; Premium Bonds ahead in 27% of draws</title></rect>
+<text class="t1" x="656.0" y="123.0" font-size="14" text-anchor="middle" font-weight="600">-0.8</text>
+<text class="t3" x="656.0" y="137.0" font-size="10.5" text-anchor="middle">27% chance</text>
+<rect class="dn2" x="715.0" y="105.0" width="114.0" height="38.0" rx="4"><title>Pays no tax on interest, £50k: -0.72 pp; Premium Bonds ahead in 26% of draws</title></rect>
+<text class="t1" x="772.0" y="123.0" font-size="14" text-anchor="middle" font-weight="600">-0.7</text>
+<text class="t3" x="772.0" y="137.0" font-size="10.5" text-anchor="middle">26% chance</text>
+<text class="t2" x="238.0" y="168.0" font-size="13" text-anchor="end">Basic rate, allowance unused</text>
+<rect class="dn3" x="251.0" y="145.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance unused, £1k: -4.52 pp; Premium Bonds ahead in 35% of draws</title></rect>
+<text class="t1" x="308.0" y="163.0" font-size="14" text-anchor="middle" font-weight="600">-4.5</text>
+<text class="t3" x="308.0" y="177.0" font-size="10.5" text-anchor="middle">35% chance</text>
+<rect class="dn3" x="367.0" y="145.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance unused, £5k: -1.52 pp; Premium Bonds ahead in 30% of draws</title></rect>
+<text class="t1" x="424.0" y="163.0" font-size="14" text-anchor="middle" font-weight="600">-1.5</text>
+<text class="t3" x="424.0" y="177.0" font-size="10.5" text-anchor="middle">30% chance</text>
+<rect class="dn3" x="483.0" y="145.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance unused, £10k: -1.02 pp; Premium Bonds ahead in 28% of draws</title></rect>
+<text class="t1" x="540.0" y="163.0" font-size="14" text-anchor="middle" font-weight="600">-1.0</text>
+<text class="t3" x="540.0" y="177.0" font-size="10.5" text-anchor="middle">28% chance</text>
+<rect class="dn2" x="599.0" y="145.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance unused, £25k: -0.72 pp; Premium Bonds ahead in 29% of draws</title></rect>
+<text class="t1" x="656.0" y="163.0" font-size="14" text-anchor="middle" font-weight="600">-0.7</text>
+<text class="t3" x="656.0" y="177.0" font-size="10.5" text-anchor="middle">29% chance</text>
+<rect class="dn1" x="715.0" y="145.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance unused, £50k: -0.22 pp; Premium Bonds ahead in 41% of draws</title></rect>
+<text class="t1" x="772.0" y="163.0" font-size="14" text-anchor="middle" font-weight="600">-0.2</text>
+<text class="t3" x="772.0" y="177.0" font-size="10.5" text-anchor="middle">41% chance</text>
+<text class="t2" x="238.0" y="208.0" font-size="13" text-anchor="end">Basic rate, allowance used</text>
+<rect class="dn3" x="251.0" y="185.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance used, £1k: -3.62 pp; Premium Bonds ahead in 35% of draws</title></rect>
+<text class="t1" x="308.0" y="203.0" font-size="14" text-anchor="middle" font-weight="600">-3.6</text>
+<text class="t3" x="308.0" y="217.0" font-size="10.5" text-anchor="middle">35% chance</text>
+<rect class="dn2" x="367.0" y="185.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance used, £5k: -0.62 pp; Premium Bonds ahead in 44% of draws</title></rect>
+<text class="t1" x="424.0" y="203.0" font-size="14" text-anchor="middle" font-weight="600">-0.6</text>
+<text class="t3" x="424.0" y="217.0" font-size="10.5" text-anchor="middle">44% chance</text>
+<rect class="dn1" x="483.0" y="185.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance used, £10k: -0.12 pp; Premium Bonds ahead in 47% of draws</title></rect>
+<text class="t1" x="540.0" y="203.0" font-size="14" text-anchor="middle" font-weight="600">-0.1</text>
+<text class="t3" x="540.0" y="217.0" font-size="10.5" text-anchor="middle">47% chance</text>
+<rect class="mid" x="599.0" y="185.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance used, £25k: +0.08 pp; Premium Bonds ahead in 51% of draws</title></rect>
+<text class="t1" x="656.0" y="203.0" font-size="14" text-anchor="middle" font-weight="600">+0.1</text>
+<text class="t3" x="656.0" y="217.0" font-size="10.5" text-anchor="middle">51% chance</text>
+<rect class="up1" x="715.0" y="185.0" width="114.0" height="38.0" rx="4"><title>Basic rate, allowance used, £50k: +0.18 pp; Premium Bonds ahead in 57% of draws</title></rect>
+<text class="t1" x="772.0" y="203.0" font-size="14" text-anchor="middle" font-weight="600">+0.2</text>
+<text class="t3" x="772.0" y="217.0" font-size="10.5" text-anchor="middle">57% chance</text>
+<text class="t2" x="238.0" y="248.0" font-size="13" text-anchor="end">Higher rate, allowance unused</text>
+<rect class="dn3" x="251.0" y="225.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance unused, £1k: -4.52 pp; Premium Bonds ahead in 35% of draws</title></rect>
+<text class="t1" x="308.0" y="243.0" font-size="14" text-anchor="middle" font-weight="600">-4.5</text>
+<text class="t3" x="308.0" y="257.0" font-size="10.5" text-anchor="middle">35% chance</text>
+<rect class="dn3" x="367.0" y="225.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance unused, £5k: -1.52 pp; Premium Bonds ahead in 30% of draws</title></rect>
+<text class="t1" x="424.0" y="243.0" font-size="14" text-anchor="middle" font-weight="600">-1.5</text>
+<text class="t3" x="424.0" y="257.0" font-size="10.5" text-anchor="middle">30% chance</text>
+<rect class="dn3" x="483.0" y="225.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance unused, £10k: -1.02 pp; Premium Bonds ahead in 28% of draws</title></rect>
+<text class="t1" x="540.0" y="243.0" font-size="14" text-anchor="middle" font-weight="600">-1.0</text>
+<text class="t3" x="540.0" y="257.0" font-size="10.5" text-anchor="middle">28% chance</text>
+<rect class="up1" x="599.0" y="225.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance unused, £25k: +0.19 pp; Premium Bonds ahead in 54% of draws</title></rect>
+<text class="t1" x="656.0" y="243.0" font-size="14" text-anchor="middle" font-weight="600">+0.2</text>
+<text class="t3" x="656.0" y="257.0" font-size="10.5" text-anchor="middle">54% chance</text>
+<rect class="up2" x="715.0" y="225.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance unused, £50k: +0.69 pp; Premium Bonds ahead in 77% of draws</title></rect>
+<text class="t1" x="772.0" y="243.0" font-size="14" text-anchor="middle" font-weight="600">+0.7</text>
+<text class="t3" x="772.0" y="257.0" font-size="10.5" text-anchor="middle">77% chance</text>
+<text class="t2" x="238.0" y="288.0" font-size="13" text-anchor="end">Higher rate, allowance used</text>
+<rect class="dn3" x="251.0" y="265.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance used, £1k: -2.71 pp; Premium Bonds ahead in 35% of draws</title></rect>
+<text class="t1" x="308.0" y="283.0" font-size="14" text-anchor="middle" font-weight="600">-2.7</text>
+<text class="t3" x="308.0" y="297.0" font-size="10.5" text-anchor="middle">35% chance</text>
+<rect class="up1" x="367.0" y="265.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance used, £5k: +0.29 pp; Premium Bonds ahead in 60% of draws</title></rect>
+<text class="t1" x="424.0" y="283.0" font-size="14" text-anchor="middle" font-weight="600">+0.3</text>
+<text class="t3" x="424.0" y="297.0" font-size="10.5" text-anchor="middle">60% chance</text>
+<rect class="up2" x="483.0" y="265.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance used, £10k: +0.79 pp; Premium Bonds ahead in 69% of draws</title></rect>
+<text class="t1" x="540.0" y="283.0" font-size="14" text-anchor="middle" font-weight="600">+0.8</text>
+<text class="t3" x="540.0" y="297.0" font-size="10.5" text-anchor="middle">69% chance</text>
+<rect class="up2" x="599.0" y="265.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance used, £25k: +0.99 pp; Premium Bonds ahead in 79% of draws</title></rect>
+<text class="t1" x="656.0" y="283.0" font-size="14" text-anchor="middle" font-weight="600">+1.0</text>
+<text class="t3" x="656.0" y="297.0" font-size="10.5" text-anchor="middle">79% chance</text>
+<rect class="up3" x="715.0" y="265.0" width="114.0" height="38.0" rx="4"><title>Higher rate, allowance used, £50k: +1.09 pp; Premium Bonds ahead in 89% of draws</title></rect>
+<text class="t1" x="772.0" y="283.0" font-size="14" text-anchor="middle" font-weight="600">+1.1</text>
+<text class="t3" x="772.0" y="297.0" font-size="10.5" text-anchor="middle">89% chance</text>
+<text class="t2" x="238.0" y="328.0" font-size="13" text-anchor="end">Higher rate + child benefit charge</text>
+<rect class="dn3" x="251.0" y="305.0" width="114.0" height="38.0" rx="4"><title>Higher rate + child benefit charge, £1k: -3.99 pp; Premium Bonds ahead in 35% of draws</title></rect>
+<text class="t1" x="308.0" y="323.0" font-size="14" text-anchor="middle" font-weight="600">-4.0</text>
+<text class="t3" x="308.0" y="337.0" font-size="10.5" text-anchor="middle">35% chance</text>
+<rect class="dn2" x="367.0" y="305.0" width="114.0" height="38.0" rx="4"><title>Higher rate + child benefit charge, £5k: -0.99 pp; Premium Bonds ahead in 44% of draws</title></rect>
+<text class="t1" x="424.0" y="323.0" font-size="14" text-anchor="middle" font-weight="600">-1.0</text>
+<text class="t3" x="424.0" y="337.0" font-size="10.5" text-anchor="middle">44% chance</text>
+<rect class="dn1" x="483.0" y="305.0" width="114.0" height="38.0" rx="4"><title>Higher rate + child benefit charge, £10k: -0.49 pp; Premium Bonds ahead in 42% of draws</title></rect>
+<text class="t1" x="540.0" y="323.0" font-size="14" text-anchor="middle" font-weight="600">-0.5</text>
+<text class="t3" x="540.0" y="337.0" font-size="10.5" text-anchor="middle">42% chance</text>
+<rect class="up2" x="599.0" y="305.0" width="114.0" height="38.0" rx="4"><title>Higher rate + child benefit charge, £25k: +0.72 pp; Premium Bonds ahead in 73% of draws</title></rect>
+<text class="t1" x="656.0" y="323.0" font-size="14" text-anchor="middle" font-weight="600">+0.7</text>
+<text class="t3" x="656.0" y="337.0" font-size="10.5" text-anchor="middle">73% chance</text>
+<rect class="up3" x="715.0" y="305.0" width="114.0" height="38.0" rx="4"><title>Higher rate + child benefit charge, £50k: +1.22 pp; Premium Bonds ahead in 93% of draws</title></rect>
+<text class="t1" x="772.0" y="323.0" font-size="14" text-anchor="middle" font-weight="600">+1.2</text>
+<text class="t3" x="772.0" y="337.0" font-size="10.5" text-anchor="middle">93% chance</text>
+<text class="t2" x="238.0" y="368.0" font-size="13" text-anchor="end">£100k-£125k (60% band)</text>
+<rect class="dn3" x="251.0" y="345.0" width="114.0" height="38.0" rx="4"><title>£100k-£125k (60% band), £1k: -3.62 pp; Premium Bonds ahead in 35% of draws</title></rect>
+<text class="t1" x="308.0" y="363.0" font-size="14" text-anchor="middle" font-weight="600">-3.6</text>
+<text class="t3" x="308.0" y="377.0" font-size="10.5" text-anchor="middle">35% chance</text>
+<rect class="dn2" x="367.0" y="345.0" width="114.0" height="38.0" rx="4"><title>£100k-£125k (60% band), £5k: -0.62 pp; Premium Bonds ahead in 44% of draws</title></rect>
+<text class="t1" x="424.0" y="363.0" font-size="14" text-anchor="middle" font-weight="600">-0.6</text>
+<text class="t3" x="424.0" y="377.0" font-size="10.5" text-anchor="middle">44% chance</text>
+<rect class="dn1" x="483.0" y="345.0" width="114.0" height="38.0" rx="4"><title>£100k-£125k (60% band), £10k: -0.12 pp; Premium Bonds ahead in 47% of draws</title></rect>
+<text class="t1" x="540.0" y="363.0" font-size="14" text-anchor="middle" font-weight="600">-0.1</text>
+<text class="t3" x="540.0" y="377.0" font-size="10.5" text-anchor="middle">47% chance</text>
+<rect class="up3" x="599.0" y="345.0" width="114.0" height="38.0" rx="4"><title>£100k-£125k (60% band), £25k: +1.09 pp; Premium Bonds ahead in 82% of draws</title></rect>
+<text class="t1" x="656.0" y="363.0" font-size="14" text-anchor="middle" font-weight="600">+1.1</text>
+<text class="t3" x="656.0" y="377.0" font-size="10.5" text-anchor="middle">82% chance</text>
+<rect class="up3" x="715.0" y="345.0" width="114.0" height="38.0" rx="4"><title>£100k-£125k (60% band), £50k: +1.59 pp; Premium Bonds ahead in 98% of draws</title></rect>
+<text class="t1" x="772.0" y="363.0" font-size="14" text-anchor="middle" font-weight="600">+1.6</text>
+<text class="t3" x="772.0" y="377.0" font-size="10.5" text-anchor="middle">98% chance</text>
+<text class="t2" x="238.0" y="408.0" font-size="13" text-anchor="end">Additional rate (45%)</text>
+<rect class="dn3" x="251.0" y="385.0" width="114.0" height="38.0" rx="4"><title>Additional rate (45%), £1k: -2.49 pp; Premium Bonds ahead in 44% of draws</title></rect>
+<text class="t1" x="308.0" y="403.0" font-size="14" text-anchor="middle" font-weight="600">-2.5</text>
+<text class="t3" x="308.0" y="417.0" font-size="10.5" text-anchor="middle">44% chance</text>
+<rect class="up2" x="367.0" y="385.0" width="114.0" height="38.0" rx="4"><title>Additional rate (45%), £5k: +0.51 pp; Premium Bonds ahead in 67% of draws</title></rect>
+<text class="t1" x="424.0" y="403.0" font-size="14" text-anchor="middle" font-weight="600">+0.5</text>
+<text class="t3" x="424.0" y="417.0" font-size="10.5" text-anchor="middle">67% chance</text>
+<rect class="up3" x="483.0" y="385.0" width="114.0" height="38.0" rx="4"><title>Additional rate (45%), £10k: +1.01 pp; Premium Bonds ahead in 75% of draws</title></rect>
+<text class="t1" x="540.0" y="403.0" font-size="14" text-anchor="middle" font-weight="600">+1.0</text>
+<text class="t3" x="540.0" y="417.0" font-size="10.5" text-anchor="middle">75% chance</text>
+<rect class="up3" x="599.0" y="385.0" width="114.0" height="38.0" rx="4"><title>Additional rate (45%), £25k: +1.21 pp; Premium Bonds ahead in 87% of draws</title></rect>
+<text class="t1" x="656.0" y="403.0" font-size="14" text-anchor="middle" font-weight="600">+1.2</text>
+<text class="t3" x="656.0" y="417.0" font-size="10.5" text-anchor="middle">87% chance</text>
+<rect class="up3" x="715.0" y="385.0" width="114.0" height="38.0" rx="4"><title>Additional rate (45%), £50k: +1.31 pp; Premium Bonds ahead in 95% of draws</title></rect>
+<text class="t1" x="772.0" y="403.0" font-size="14" text-anchor="middle" font-weight="600">+1.3</text>
+<text class="t3" x="772.0" y="417.0" font-size="10.5" text-anchor="middle">95% chance</text>
+<text class="t3" x="250.0" y="450.0" font-size="12" text-anchor="start">Blue: the typical Premium Bond holder is ahead. Red: the best alternative is ahead.</text>
+<text class="t3" x="250.0" y="468.0" font-size="12" text-anchor="start">Small print: the chance a year of Premium Bonds beats it.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420" role="img" aria-labelledby="t d">
+<title id="t">At 40% tax, Premium Bonds beat the best account in every one of the last 24 months</title><desc id="d">Line chart over 24 months of the Premium Bond median return and the best easy-access rate after 0%, 20% and 40% tax.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .pb { fill: #2a78d6; stroke: #2a78d6; } .pb-l { stroke: #2a78d6; fill: none; } .pb-band { fill: #2a78d6; opacity: .22; }
+  .riv { fill: #eb6834; stroke: #eb6834; } .riv-l { stroke: #eb6834; fill: none; }
+  .aq { fill: #1baf7a; stroke: #1baf7a; } .aq-l { stroke: #1baf7a; fill: none; }
+  .neu { fill: #898781; stroke: #898781; } .neu-l { stroke: #898781; fill: none; }
+  .up1 { fill: #2a78d6; opacity: .16; } .up2 { fill: #2a78d6; opacity: .34; } .up3 { fill: #2a78d6; opacity: .55; }
+  .dn1 { fill: #e34948; opacity: .14; } .dn2 { fill: #e34948; opacity: .30; } .dn3 { fill: #e34948; opacity: .50; }
+  .mid { fill: #f0efec; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  .dash { stroke-dasharray: 5 4; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .pb { fill: #3987e5; stroke: #3987e5; } .pb-l { stroke: #3987e5; } .pb-band { fill: #3987e5; }
+    .riv { fill: #d95926; stroke: #d95926; } .riv-l { stroke: #d95926; }
+    .aq { fill: #199e70; stroke: #199e70; } .aq-l { stroke: #199e70; }
+    .up1, .up2, .up3 { fill: #3987e5; } .dn1, .dn2, .dn3 { fill: #e66767; }
+    .mid { fill: #383835; }
+    .halo { stroke: #1a1a19; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="859" height="419" rx="8"/>
+<text class="t1" x="24.0" y="34.0" font-size="17" text-anchor="start" font-weight="600">At 40% tax, Premium Bonds beat the best account in every one of the last 24 months</text>
+<text class="t3" x="24.0" y="56.0" font-size="13" text-anchor="start">£50k, allowance used: typical one-year Premium Bond return at each month's prize table vs the best clean easy-access rate after tax, %</text>
+<line class="grid" x1="56.0" y1="395.5" x2="690.0" y2="395.5" stroke-width="1"/>
+<text class="t3" x="48.0" y="399.5" font-size="11" text-anchor="end">2.0%</text>
+<line class="grid" x1="56.0" y1="344.4" x2="690.0" y2="344.4" stroke-width="1"/>
+<text class="t3" x="48.0" y="348.4" font-size="11" text-anchor="end">2.5%</text>
+<line class="grid" x1="56.0" y1="293.4" x2="690.0" y2="293.4" stroke-width="1"/>
+<text class="t3" x="48.0" y="297.4" font-size="11" text-anchor="end">3.0%</text>
+<line class="grid" x1="56.0" y1="242.3" x2="690.0" y2="242.3" stroke-width="1"/>
+<text class="t3" x="48.0" y="246.3" font-size="11" text-anchor="end">3.5%</text>
+<line class="grid" x1="56.0" y1="191.2" x2="690.0" y2="191.2" stroke-width="1"/>
+<text class="t3" x="48.0" y="195.2" font-size="11" text-anchor="end">4.0%</text>
+<line class="grid" x1="56.0" y1="140.2" x2="690.0" y2="140.2" stroke-width="1"/>
+<text class="t3" x="48.0" y="144.2" font-size="11" text-anchor="end">4.5%</text>
+<line class="grid" x1="56.0" y1="89.1" x2="690.0" y2="89.1" stroke-width="1"/>
+<text class="t3" x="48.0" y="93.1" font-size="11" text-anchor="end">5.0%</text>
+<text class="t3" x="138.7" y="390.0" font-size="11" text-anchor="middle">Jan 2025</text>
+<text class="t3" x="304.1" y="390.0" font-size="11" text-anchor="middle">Jul 2025</text>
+<text class="t3" x="469.5" y="390.0" font-size="11" text-anchor="middle">Jan 2026</text>
+<text class="t3" x="634.9" y="390.0" font-size="11" text-anchor="middle">Jul 2026</text>
+<path class="neu-l" d="M56.0,104.4 L83.6,104.4 L111.1,124.9 L138.7,140.2 L166.3,133.0 L193.8,130.0 L221.4,125.9 L249.0,144.3 L276.5,135.1 L304.1,135.1 L331.7,135.1 L359.2,150.4 L386.8,150.4 L414.3,150.4 L441.9,150.4 L469.5,180.0 L497.0,180.0 L524.6,186.1 L552.2,173.9 L579.7,173.9 L607.3,166.7 L634.9,158.6 L662.4,158.6 L690.0,155.5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path class="aq-l" d="M56.0,203.5 L83.6,203.5 L111.1,219.8 L138.7,232.1 L166.3,226.4 L193.8,223.9 L221.4,220.6 L249.0,235.4 L276.5,228.0 L304.1,228.0 L331.7,228.0 L359.2,240.3 L386.8,240.3 L414.3,240.3 L441.9,240.3 L469.5,263.9 L497.0,263.9 L524.6,268.9 L552.2,259.0 L579.7,259.0 L607.3,253.3 L634.9,246.8 L662.4,246.8 L690.0,244.3" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path class="riv-l" d="M56.0,302.6 L83.6,302.6 L111.1,314.8 L138.7,324.0 L166.3,319.7 L193.8,317.9 L221.4,315.4 L249.0,326.5 L276.5,320.9 L304.1,320.9 L331.7,320.9 L359.2,330.1 L386.8,330.1 L414.3,330.1 L441.9,330.1 L469.5,347.9 L497.0,347.9 L524.6,351.6 L552.2,344.2 L579.7,344.2 L607.3,339.9 L634.9,335.0 L662.4,335.0 L690.0,333.2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path class="pb-l" d="M56.0,206.6 L83.6,232.1 L111.1,247.4 L138.7,247.4 L166.3,247.4 L193.8,262.7 L221.4,262.7 L249.0,262.7 L276.5,262.7 L304.1,283.1 L331.7,283.1 L359.2,283.1 L386.8,283.1 L414.3,283.1 L441.9,283.1 L469.5,283.1 L497.0,283.1 L524.6,308.7 L552.2,308.7 L579.7,308.7 L607.3,262.7 L634.9,262.7 L662.4,211.7 L690.0,211.7" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text class="t2" x="698.0" y="159.5" font-size="12" text-anchor="start">Best account, no tax</text>
+<text class="t1" x="698.0" y="215.7" font-size="12" text-anchor="start">Premium Bonds, £50k</text>
+<text class="t2" x="698.0" y="248.3" font-size="12" text-anchor="start">after 20% tax</text>
+<text class="t2" x="698.0" y="337.2" font-size="12" text-anchor="start">after 40% tax</text>
+</svg>
