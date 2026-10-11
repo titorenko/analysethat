@@ -63,11 +63,27 @@ Because every bond has the same chance and prize values are fixed, the full spre
 
 Unlucky and lucky are the 10th and 90th percentiles: one holder in ten does worse than the first, one in ten better than the second. The table assumes prizes are paid out, as they must be at the £50,000 maximum; the average is then 4.35%. Reinvesting prizes below the maximum lifts the average to 4.44%. A couple's £100,000 is 100,000 bonds, so luck evens out a little more than for one person's £50,000. Luck also evens out with time: over five years, half of £10,000 holders earn between 3.2% and 4.6% a year, and eight in ten between 2.7% and 5.5%, with a typical 3.8%.
 
+Each month NS&I also pays 96 prizes of £100,000 and two of £1 million: a chance of 1 in 1.4 billion for each bond in each draw. Table 2 shows the chance of winning at least one, if those odds held for as long as the money is held. It grows almost in step with the money and the time: twice the amount, or twice as long, about doubles it. £10,000 held for a year has a 1 in 12,000 chance; even £50,000 held for 20 years has only a 1 in 120 chance.
+
+**Table 2. The chance of a £100,000 or £1 million prize, by amount and years held** (at least one such prize; 12 draws a year at the October 2026 odds; the couple holds £50,000 each)
+
+| Amount | 1 year | 2 years | 5 years | 10 years | 20 years |
+|---|---|---|---|---|---|
+| £100 | 1 in 1.2 million | 1 in 580,000 | 1 in 230,000 | 1 in 120,000 | 1 in 58,000 |
+| £1,000 | 1 in 120,000 | 1 in 58,000 | 1 in 23,000 | 1 in 12,000 | 1 in 5,800 |
+| £5,000 | 1 in 23,000 | 1 in 12,000 | 1 in 4,700 | 1 in 2,300 | 1 in 1,200 |
+| £10,000 | 1 in 12,000 | 1 in 5,800 | 1 in 2,300 | 1 in 1,200 | 1 in 590 |
+| £25,000 | 1 in 4,700 | 1 in 2,300 | 1 in 940 | 1 in 470 | 1 in 230 |
+| £50,000 | 1 in 2,300 | 1 in 1,200 | 1 in 470 | 1 in 230 | 1 in 120 |
+| £100,000 (couple) | 1 in 1,200 | 1 in 590 | 1 in 230 | 1 in 120 | 1 in 59 |
+
+The table counts single prizes. Total winnings reach £100,000 more often over long holdings, because ordinary prizes add up: a couple holding £100,000 for 20 years can expect about £87,000 in all, and 11% of such couples would pass £100,000.
+
 ### 1.2 New money loses about a month of prizes
 
 A bond bought in any month first enters the draw a month after next: buy in mid-October and your first draw is December. It stays in each month's draw as long as you still hold it on the 1st. And a cash-in requested in the last two working days of a month is held back until after the next draw, so it keeps that draw. Each draw is worth 0.36% at today's rate, so timing matters.
 
-**Table 2. Typical (median) winnings for new money held about a year, by timing**
+**Table 3. Typical (median) winnings for new money held about a year, by timing**
 
 | Bought | Cash-in requested | Days to the request | Draws | £10,000 | £50,000 |
 |---|---|---|---|---|---|
@@ -83,7 +99,7 @@ Money held for a year from mid-month gets 11 draws. To get 12, buy at the end of
 
 ### 2.1 The best accounts pay more than the prize rate
 
-**Table 3. What each option pays today, before tax**
+**Table 4. What each option pays today, before tax**
 
 | Option | Rate | Product | As of | Source |
 |---|---|---|---|---|
@@ -121,7 +137,7 @@ In 22 of the 48 combinations the typical Premium Bond holder comes out ahead of 
 
 These compare the typical holder. On average Premium Bonds pay 4.35%, so the average gap is smaller: for a non-taxpayer with £10,000 it is 0.2 points, not 1.0. The typical figure is what most holders get.
 
-**Table 4. Return after tax and fees on £10,000, % a year, today's rates held for a year**
+**Table 5. Return after tax and fees on £10,000, % a year, today's rates held for a year**
 
 | Saver | Premium Bonds, typical (unlucky-lucky) | Best easy access | Best 1-year fix | Money market fund (AJ Bell) | Gilt to Jan 2028 | Chance Premium Bonds beat easy access |
 |---|---|---|---|---|---|---|
@@ -136,7 +152,7 @@ These compare the typical holder. On average Premium Bonds pay 4.35%, so the ave
 
 The best of the five for each saver is in bold. The fix and the gilt tie your money up; the others don't.
 
-**Table 5. The same on £50,000**
+**Table 6. The same on £50,000**
 
 | Saver | Premium Bonds, typical (unlucky-lucky) | Best easy access | Best 1-year fix | Money market fund (AJ Bell) | Gilt to Jan 2028 | Chance Premium Bonds beat easy access |
 |---|---|---|---|---|---|---|
@@ -153,7 +169,7 @@ The best of the five for each saver is in bold. The fix and the gilt tie your mo
 
 The Premium Bond column shows the typical holder, with the unlucky and lucky outcomes in brackets. On £10,000 several rows match because the interest fits inside the tax-free allowance. Tax is at 2026/27 rates; interest paid after 5 April 2027 faces the higher rates in section 7.
 
-**Table 6. The typical Premium Bond holder minus the best easy-access account, percentage points: money already held (12 draws) and new money's first year (11 draws), for one person and for a couple**
+**Table 7. The typical Premium Bond holder minus the best easy-access account, percentage points: money already held (12 draws) and new money's first year (11 draws), for one person and for a couple**
 
 | Saver | £10,000, held | £10,000, new | £50,000, held | £50,000, new | £100,000 couple, held | £100,000 couple, new |
 |---|---|---|---|---|---|---|
@@ -168,7 +184,7 @@ The Premium Bond column shows the typical holder, with the unlucky and lucky out
 
 Another way to read it: the rate a taxable account would need to pay to match the typical Premium Bond holder.
 
-**Table 7. The interest rate a taxable account must pay to match the typical Premium Bond holding (12 draws)**
+**Table 8. The interest rate a taxable account must pay to match the typical Premium Bond holding (12 draws)**
 
 | Saver | £5,000 | £10,000 | £25,000 | £50,000 | £100,000 (couple) |
 |---|---|---|---|---|---|
@@ -185,7 +201,7 @@ Another way to read it: the rate a taxable account would need to pay to match th
 
 UK government bonds (gilts) are as safe as Premium Bonds: both are Treasury debt. A gilt pays a small fixed coupon and repays £100 at maturity. Low-coupon gilts trade below £100, and the rise to £100 is a capital gain that is free of capital gains tax. Only the tiny coupon is taxed.
 
-The 0 1/8% Treasury Gilt 2028 (TN28) cost 94.79 on 9 October 2026 and matures on 31 January 2028. Before tax it yields 4.29% a year. After tax and AJ Bell's dealing fee (£5) and account fee (capped at £42 a year), it returns 3.96%-4.03% a year on £10,000 and 4.16%-4.23% on £50,000, whatever your tax band (Tables 4 and 5). That beats the typical Premium Bond holding for every saver in the tables, though not the 4.35% average.
+The 0 1/8% Treasury Gilt 2028 (TN28) cost 94.79 on 9 October 2026 and matures on 31 January 2028. Before tax it yields 4.29% a year. After tax and AJ Bell's dealing fee (£5) and account fee (capped at £42 a year), it returns 3.96%-4.03% a year on £10,000 and 4.16%-4.23% on £50,000, whatever your tax band (Tables 5 and 6). That beats the typical Premium Bond holding for every saver in the tables, though not the 4.35% average.
 
 The one-year fixed account (5.13%) is simpler and, where little of its interest is taxed, pays more than the gilt: for anyone who pays no tax on their interest, and for most savers on £10,000. Once enough of the fix's interest is taxed (at 40% or more, or at 20% on £50,000), the gilt wins, because its return is almost all tax-free.
 
@@ -195,7 +211,7 @@ The catches: both tie your money up (the gilt until 31 January 2028, the fix for
 
 Premium Bonds, bank accounts and NS&I accounts charge nothing. The money market fund charges 0.10% a year inside the fund, and the platform you hold it on charges again.
 
-**Table 8. Holding the Royal London money market fund: platform charge and what's left, before tax**
+**Table 9. Holding the Royal London money market fund: platform charge and what's left, before tax**
 
 | Platform | £5,000 pot | £10,000 pot | £50,000 pot | £100,000 pot |
 |---|---|---|---|---|
@@ -216,7 +232,7 @@ Today's rates are a snapshot. Here is what each option actually paid over the la
 
 Month by month, the typical £50,000 holding beat the best easy-access account after 40% tax (allowance used) in all 24 months, and after 20% tax in 2 (Figure 3). August 2026 has no archived best-buy page, so the previous month's rate is carried forward. One difference: a basic-rate saver with the allowance used did better in the account (3.62% against 3.35%), where today's rates give Premium Bonds a small edge.
 
-**Table 9. What £50,000 actually earned, a year, after tax and fees, over the last two years**
+**Table 10. What £50,000 actually earned, a year, after tax and fees, over the last two years**
 
 | Saver | Premium Bonds, typical | Best-buy chaser | Average easy-access account | Two 1-year fixes | Money market fund (AJ Bell) | Chance Premium Bonds beat the chaser |
 |---|---|---|---|---|---|---|
@@ -248,7 +264,7 @@ So comparing Premium Bonds with Bank Rate is misleading. For 43 months in a row,
 
 NS&I gave between 4 and 71 days' notice of each of the 17 changes since 2020.
 
-**Table 10. Every change in the Premium Bond prize rate since 2020**
+**Table 11. Every change in the Premium Bond prize rate since 2020**
 
 | Announced | First draw | Prize rate | Days since Bank Rate last moved | Change in 1-year gilt yield in the 3 months before the announcement month (points) |
 |---|---|---|---|---|
@@ -272,7 +288,7 @@ NS&I gave between 4 and 71 days' notice of each of the 17 changes since 2020.
 
 ## 6. Treasury backing has no limit; bank protection stops at £120,000
 
-**Table 11. How safe, and how quick**
+**Table 12. How safe, and how quick**
 
 | Option | Protection | Getting money out | Limits |
 |---|---|---|---|
@@ -288,7 +304,7 @@ Two changes are already law. Tax on savings income rises by 2 percentage points,
 
 ## 8. What this can't tell us
 
-- **Future rates.** "Today's rates" assumes they hold for a year. They won't: banks cut and raise easy-access rates at will, and NS&I changes the prize rate several times a year (Table 10).
+- **Future rates.** "Today's rates" assumes they hold for a year. They won't: banks cut and raise easy-access rates at will, and NS&I changes the prize rate several times a year (Table 11).
 - **Your own tax position.** The eight savers are examples. Pension contributions, Gift Aid and other income all shift the bands. Interest can itself push you over a line: crossing £50,270 of total income halves the tax-free allowance. Scottish taxpayers pay UK rates on savings income, so pick your row by the UK bands: a Scottish taxpayer earning up to £50,270 is a basic-rate saver here, whatever rate they pay on wages. In the £100,000-£125,140 band their cost is 62.5% rather than 60%.
 - **Effort and behaviour.** The best easy-access account changes often, and the trailing "best-buy chaser" switched every month, at the start of the month. Few people do.
 - **Gaps in the best-buy history.** Archived best-buy pages were missing for August 2026; the previous month's best buy is carried forward.
