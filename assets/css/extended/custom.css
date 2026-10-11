@@ -40,7 +40,9 @@
   min-width: 0;
   padding: 0.35em 0.6em;
 }
-.md-content .table-wrap .table-scroll table th { vertical-align: bottom; }
+/* Headers wrap: a long header would otherwise set its column's width on wide screens, where the table has room to
+   spread, leaving a wide column of short numbers. Capped near the width of a date or a short phrase. */
+.md-content .table-wrap .table-scroll table th { vertical-align: bottom; max-width: 16ch; }
 .md-content .table-wrap .table-scroll table td.nw { white-space: nowrap; }
 
 /* Use more of large screens: widen the column and scale type with it so the measure stays at roughly 85-90
