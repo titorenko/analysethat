@@ -8,6 +8,7 @@
   .gra { fill: #eb6834; stroke: #eb6834; } .gra-l { stroke: #eb6834; fill: none; }
   .com { fill: #1baf7a; stroke: #1baf7a; } .com-l { stroke: #1baf7a; fill: none; }
   .neu { fill: #898781; stroke: #898781; } .neu-l { stroke: #898781; fill: none; } .neu-band { fill: #898781; opacity: .14; }
+  .abr { fill: #d9d8d1; }
   .hollow { fill: #fcfcfb; stroke-width: 2; }
   .ink { stroke: #0b0b0b; fill: none; }
   .dash { stroke-dasharray: 5 4; }
@@ -21,6 +22,7 @@
     .gra { fill: #d95926; stroke: #d95926; } .gra-l { stroke: #d95926; }
     .com { fill: #199e70; stroke: #199e70; } .com-l { stroke: #199e70; }
     .hollow { fill: #1a1a19; }
+    .abr { fill: #3d3d3a; }
     .ink { stroke: #ffffff; }
     .halo { stroke: #1a1a19; }
   }

@@ -1,6 +1,6 @@
 ---
 title: "Does Private School Pay? Private, Grammar and Comprehensive Schools from A Levels to Lifetime Earnings"
-description: "English private, grammar and comprehensive schools compared on university entry, A levels and lifetime earnings, before and after allowing for who gets in, with a cost-benefit calculation and profiles of the top and bottom private and grammar schools"
+description: "English private, grammar and comprehensive schools compared on university entry, A levels and lifetime earnings, before and after allowing for who gets in, with outcomes beyond pay, a cost-benefit calculation and profiles of the top and bottom private and grammar schools"
 date: 2026-10-10
 draft: false
 summary: "Private and grammar school pupils do far better than everyone else, but much of that is who walks through the door. On the best evidence available, private day school from 11 to 18 probably does not pay for itself in earnings for a typical pupil: in today's money a boy ends up about £53k worse off and a girl about £68k, though the evidence leaves room for a boy to break even."
@@ -14,6 +14,8 @@ TocOpen: true
 ---
 *Private and grammar schools get great results. How much of that is the school, and how much is who gets in? And at today's fees, does private school pay?*
 
+*Updated 11 October 2026: added section 8, on PhDs, top jobs and satisfaction with life.*
+
 ## The short version
 
 Children at private and grammar schools get better A levels, go to better universities and earn more than children at comprehensives. None of that is in doubt. The question is why. These schools pick their pupils, by price or by test, and the pupils they pick would often have done well anywhere.
@@ -22,13 +24,14 @@ So I took the question apart. First the raw gaps; then the gaps once you compare
 
 **The answer, on the best evidence available: for a typical pupil, private day school probably does not pay for itself in earnings.** In today's money, a boy ends up about £53k worse off and a girl about £68k. Put another way, the fees earn 1.8% a year for a boy and 1.3% for a girl after inflation: less than a mortgage costs. The evidence is loose enough that a typical boy could just break even (+£7k); a typical girl would still lose (−£18k). At the top 20 schools, where fees are higher, the loss grows to about £103k for a boy and £115k for a girl.
 
-Five things stand out:
+Six things stand out:
 
 - **Grammar schools match private schools on most raw results.** By 19, 88.8% of grammar sixth-formers and 86.9% of private sixth-formers are at university, against 77.2% elsewhere. For every A-level student they have, grammar sixth forms now send 10%-24% more pupils to Cambridge than private ones (Figure 1).
 - **Much of the pay gap is who gets in.** At 30, the middle private-school earner makes 1.45 times what the middle state-school earner makes (leaving out pupils on free school meals). In studies that compare people from similar families, 37% to 71% of each study's raw pay gap disappears. For the most recent generation studied, born in 1989-90, a pay advantage of about 17% remains. Chance alone puts the true figure between 5% and 31%, and it may be lower still: that study had no early test scores to allow for. For grammar schools, children who just passed the 11-plus earn about the same as those who just missed it.
 - **The fees set a high bar.** Day fees from 11 to 18 are worth £149k in today's money. To earn that back, a typical private pupil would need to earn about 27% more for life (boys) or 33% more (girls). The central estimate is 17%.
 - **The size of the gain isn't the problem. The timing is.** Over a whole career, the typical boy earns £291k more after tax, against £165k of fees. But the fees go out now and the extra pay trickles in over 50 years, and money now is worth more than money later.
 - **The cheaper routes really are cheaper.** Moving into a good state school's catchment in London costs about £65k if the school is your only reason to move, about £29.9k of it stamp duty. A grammar place costs only the tutoring.
+- **Beyond pay, private pupils reach the top more often, but there's no clear sign they're happier.** On raw numbers, they start PhDs at 2.6 times the average rate and are over-represented in 42 of 46 elite groups. At 25 they are 7 percentage points more likely to be satisfied with life, but only 2 once family background is allowed for, too uncertain to tell from no gap.
 
 On A levels, pupils at the top private schools beat their GCSE-based prediction by about +0.21 of a grade; at the top grammars, by +0.05. And there's no sign that paying more buys more of it.
 
@@ -502,20 +505,78 @@ A private place saves the state about £49k of school spending over seven years 
 
 ---
 
-## 8. What this can't tell us
+## 8. Beyond pay: private pupils reach the top more often, but there's no clear sign they're happier
+
+Pay is one measure of how a life turns out. This section looks at five others: PhDs, the top of academia, the top of public life, job status in mid-life, and satisfaction with life. The evidence is thinner than for pay. Most of it is raw, with nothing allowed for family background or ability, and none of it is in the cost-benefit sums.
+
+### 8.1 Private pupils start PhDs at 2.6 times the average rate
+
+The best evidence comes from linked school and university records for everyone in England who sat GCSEs in 2002 (Britton and van der Erve, IFS 2020). By 30, 3.1% of private-school pupils had started a PhD, against 1.2% of everyone: 2.6 times the average rate, and 1.5 times the rate for the most advantaged fifth of state-school pupils (Table 11).
+
+| Started by age 30 | Any postgraduate degree | PhD |
+|---|---|---|
+| Private school | 27.4% | 3.1% |
+| State school, most advantaged fifth | 18.1% | 2.1% |
+| State school, least advantaged fifth | 3.8% | 0.2% |
+| Everyone | 11.2% | 1.2% |
+
+*Table 11. Pupils who sat GCSEs in England in 2002 who had started each kind of degree at a UK university by 30, including those who didn't finish. State-school pupils are split into fifths by a measure of family background built from free school meals and the area they lived in at 16. Grammar-school pupils are among the state pupils; the study doesn't show them separately. Source: Britton and van der Erve (IFS 2020), their Table 1.*
+
+For postgraduate study as a whole, grades explain almost all of the gap. Compared with the least advantaged fifth of state pupils with the same GCSEs and A levels, private pupils were about as likely to start a postgraduate degree: the gap "virtually disappear[s] once GCSEs and A levels are controlled for". In the terms of §1.1, that allows for later results, and there are three catches. The grades are partly the school's doing, so the school may still matter by raising them. Many private pupils have no test score from age 11, so earlier ability can't be separated out. And the study never looked at PhDs alone: its sample was too small to split them out even for its main comparison.
+
+### 8.2 The UK's top scientists and scholars came overwhelmingly from private and grammar schools
+
+In 2009 the Sutton Trust found the UK school of 1,341 fellows of the Royal Society and the British Academy, the UK's leading scientists and scholars. Fellows schooled abroad, and a few hundred whose school wasn't found, are left out. Most were born before the Second World War, so most went to secondary school before the 1960s, when state secondary schooling was selective: a minority of children went to grammar schools and most went elsewhere.
+
+| School | Fellows | Fellows born in the 1950s | Pupils, 1950-1970 | Fellows relative to pupils |
+|---|---|---|---|---|
+| Private | 42% | 35% | 6% | 6.9× |
+| Direct-grant grammar (partly fee-paying) | 12% | 10% | 3% | 4.1× |
+| State grammar | 43% | 48% | 25% | 1.7× |
+| Non-selective state (mostly secondary modern) | 3% | 5% | 65% | 0.05× |
+
+*Table 12. Fellows of the Royal Society and the British Academy with a known UK school, by type of school, against the share of pupils in each type of school in England in 1950-1970 (the report's comparison; many fellows were at school before 1950). The fellows column is computed from the report's counts: it prints 2% for non-selective schools, but its counts give 3%. Ratios use unrounded shares. Source: Sutton Trust (2009).*
+
+Private schools taught about 6% of children and produced 42% of the fellows. Grammar schools did well too. But grammars, and many private schools, picked their pupils by ability, so this mostly shows that the academic elite came from the academically selected, not what any school added. The non-selective schools, mostly secondary moderns, taught 65% of children and produced few fellows. Comprehensives barely existed when most of these people were at school, so the table says little about them. Even among the youngest fellows, born in the 1950s, 35% went to private school. *Elitist Britain*, in the next section, counts direct-grant schools as private; on that basis 54% of the fellows went private.
+
+I found no count of today's professors by school. The nearest is university vice-chancellors in 2025: 15% went to private school, 13% to a grammar and 50% to a comprehensive, and 22% were at school abroad. That makes them one of the least privately educated groups in the next section.
+
+### 8.3 Privately educated people are over-represented in 42 of 46 elite groups
+
+The Sutton Trust's *Elitist Britain 2025* records where the people at the top of 46 fields went to school, from judges and generals to pop stars and Olympic medallists (Figure 10). About 7% of people went to private school. In 42 of the 46 groups, more than that did. The exceptions are the cabinet (7%, the same as the population), men's and women's footballers (5% and 4%), and the Northern Ireland Assembly (0%), in a part of the UK where almost no pupils go private. Halfway down the list, about 29% went private (counting those schooled abroad), about 4 times the population share. Of everyone in the report who was at school in the UK, 36% did.
+
+[![Stacked bar chart of where 46 elite groups went to school in 2025, sorted by the share privately educated: senior military officers 63% private, senior judges 62%, men's cricketers 59%, House of Lords 52%, Olympic medallists 33%, MPs 24%, university vice-chancellors 15%, pop stars 10%, men's footballers 5%. 42 of 46 groups are above the 7% population share.](fig-elites.svg)](fig-elites.svg)
+
+*Figure 10. Where each person spent most of their secondary education, for 46 elite groups in 2025: private (blue), grammar (orange), comprehensive (green, including the old secondary moderns) and abroad (grey). Direct-grant grammars count as private. The dashed line is the 7% of people who went to private school. Shares include people schooled abroad, so among those schooled in the UK they are higher (FTSE 100 chief executives: 18% of all, 37% of the UK-schooled). They are shares of the people whose school the Trust could find: it aimed to find at least 60% of each group, and for seven groups, including the armed forces and police chiefs, found between 50% and 60%. Some groups cover the whole UK, where school systems differ. Source: Sutton Trust, Elitist Britain 2025. (click for full size)*
+
+The private share is highest among senior military officers (two-star rank and above; 63%), senior judges (62%) and men's cricketers (59%), and more than half of peers went private (52%). Sport is split: 59% of men's cricketers but 5% of men's footballers, and 33% of Olympic medallists. It is lower among actors and pop stars: 32% of leading film and TV actors and 10% of pop stars. Grammar schools show up too: 15% of senior judges, 20% of peers and 12% of MPs. Grammars have taught about 5% of pupils since the late 1970s but about 25% in the 1960s, when the oldest of these people were at school, so there is no single yardstick for them.
+
+These are raw shares: they don't say how many of these people would have reached the top from a state school. Families who pay for school also bring money, contacts and expectations.
+
+### 8.4 Top jobs: the grammar edge fades, part of the private one stays
+
+For job status, one study does allow for family and ability. Among people born in 1970, the share in the top social class at 42 (higher managers and professionals) was 9% for those from secondary moderns, 14% from comprehensives, 24% from grammars, 35% from private schools outside the Tatler Schools Guide's list of leading public schools (a split the study makes for boys only), and 39% from schools on it. Compare people with similar family backgrounds and test scores at 5 and 10, and the grammar-school edge is no longer clear: 1.1 times the odds of comprehensive pupils, range 0.8 to 1.5. People from the other private schools still had a clearly better chance: 1.7 times the odds (range 1.3 to 2.2). For the Tatler-list schools, the estimate of 1.3, with a range of 0.8 to 2.0, is too uncertain to tell from no advantage (Sullivan, Parsons, Green, Wiggins and Ploubidis 2018).
+
+### 8.5 No sign that private school makes people more satisfied with life
+
+In the Next Steps study of people born in 1989-90, 78% of privately educated men said at 25 that they were very or fairly satisfied with life, against 71% of state-educated men; for women, 84% against 76%. Compare people from similar families (income, parents' jobs and education, housing, ethnicity and region) and the gap for men and women together shrinks from 7 percentage points to 2, too uncertain to tell from no gap (range −4 to +8 points). In their fullest models, which also allow for test scores at 11, earlier mental health and, at 25, degree, relationships and work, the authors found "no evidence of a difference by school type for mental health at age 14 and 25 and life satisfaction for either men or women at age 20 and age 25" (Henderson, Anders, Green and Henseke 2022). That isn't proof of no effect: the range still includes a gap as large as the raw one.
+
+---
+
+## 9. What this can't tell us
 
 - **Differences no survey measures.** The like-for-like comparisons allow for family background and early test scores, but families who pay for school may still differ in motivation or contacts. That would make the estimates too high rather than too low, but the data can't show it.
 - **Old evidence.** Every study of adult pay is of people who were at school between the 1960s and 2000s. Fees after inflation are now several times what their parents paid, and today's private-school exam advantage is smaller.
-- **Pay only.** Pensions, self-employment and investment income, health, happiness and the school years themselves aren't counted. Self-employment matters most at the top, where private-school pupils are more common.
+- **Pay only, in the sums.** The cost-benefit sums count pay alone, not pensions, self-employment and investment income, health, happiness or the school years themselves. Section 8 looks at some other outcomes, but they aren't in the sums. Self-employment matters most at the top, where private-school pupils are more common.
 - **Simplifications.** Each child keeping the same place in the earnings ranking, today's pay at each age read as one person's career, and a flat employment rate are all simplifications. The three scenarios are meant to span the evidence, not to put a precise range on the answer.
 - **Data not yet used.** The large studies that followed everyone born in one week of 1958 and of 1970, the study of a large sample of children born in 2000-02, and the Next Steps study could be re-analysed directly: comparing on early test scores, checking for false effects, and putting private, grammar and comprehensive pupils in one model. Their licence doesn't allow AI-assisted analysis without permission, which has been requested; until then, this article relies on published results.
 
 ---
 
-## 9. How this was done
+## 10. How this was done
 
-**Sources.** DfE (16-18 results and value added, GCSE results and Progress 8, university entry, destinations, graduate employment); Get Information About Schools; University of Cambridge admissions statistics and figures by school, 2013-2025; Oxford admissions reports; ONS (earnings gaps by free-school-meal status 2022, national earnings survey ASHE 2025 and its top-earner tables); DfE research report RR1125; IFS (2026) lifetime returns to degrees; ISC census 2026; school fee pages, admissions pages and charity accounts; grammar-school admission documents; OBR (March 2026 forecast, July 2026 long-run); HMRC and gov.uk tax and stamp-duty rates; UK House Price Index. Every download is logged with its address, date and a fingerprint (hash).
+**Sources.** DfE (16-18 results and value added, GCSE results and Progress 8, university entry, destinations, graduate employment); Get Information About Schools; University of Cambridge admissions statistics and figures by school, 2013-2025; Oxford admissions reports; Sutton Trust (Elitist Britain 2025, and its 2009 study of Royal Society and British Academy fellows); IFS briefing on access to postgraduate degrees; ONS (earnings gaps by free-school-meal status 2022, national earnings survey ASHE 2025 and its top-earner tables); DfE research report RR1125; IFS (2026) lifetime returns to degrees; ISC census 2026; school fee pages, admissions pages and charity accounts; grammar-school admission documents; OBR (March 2026 forecast, July 2026 long-run); HMRC and gov.uk tax and stamp-duty rates; UK House Price Index. Every download is logged with its address, date and a fingerprint (hash).
 
-**Checks.** Each table built from the sources was checked by a script against the published figure it reproduces (national DfE totals, Cambridge tables, ONS percentiles, fees and accounts, admission figures, and quotes from 25 papers). Every check passes, with three limits. The IFS (2026) lifetime figure could be checked only part by part. 9 of the 312 figures from the literature could not be checked against a source, and none of them is used. Two papers were checked against their working-paper versions (Green, Machin, Murphy and Zhu: IZA DP 5018; Clark and Del Bono: IZA DP 8617). The tax calculation matches an online take-home-pay calculator to within £4 at five salaries. The sums reproduce the IFS (2026) discounting and its share of tax in a degree's extra pay to within 10%. Every result number in this article is filled in by a script from the results files, and a check fails if any is typed by hand (inputs such as the tutoring cost and the house-price premium are stated as assumptions).
+**Checks.** Each table built from the sources was checked by a script against the published figure it reproduces (national DfE totals, Cambridge tables, ONS percentiles, fees and accounts, admission figures, and quotes from 25 papers; the section 8 figures are read by a script from their five source documents and checked against them). Every check passes, with three limits. The IFS (2026) lifetime figure could be checked only part by part. 9 of the 312 figures from the literature could not be checked against a source, and none of them is used. Two papers were checked against their working-paper versions (Green, Machin, Murphy and Zhu: IZA DP 5018; Clark and Del Bono: IZA DP 8617). The tax calculation matches an online take-home-pay calculator to within £4 at five salaries. The sums reproduce the IFS (2026) discounting and its share of tax in a degree's extra pay to within 10%. Every result number in this article is filled in by a script from the results files, and a check fails if any is typed by hand (inputs such as the tutoring cost and the house-price premium are stated as assumptions).
 
 **Replication.** Code, tables and the source list: [replication.zip](replication.zip).

@@ -1,0 +1,323 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 952" width="820" height="952" role="img" aria-labelledby="t d">
+<title id="t">Privately educated people are over-represented in 42 of 46 elite groups</title><desc id="d">Stacked bars: share of each of 46 elite groups who mostly attended a private, grammar or comprehensive secondary school, or were schooled abroad, from the Sutton Trust's Elitist Britain 2025, sorted by the private share; the population benchmark is 7% private. Senior military officers: private 63%, grammar 18%, comprehensive 16%; Senior judges: private 62%, grammar 15%, comprehensive 21%; Cricketers (men): private 59%, grammar 0%, comprehensive 32%; Sunday Times Young Power List: private 54%, grammar 7%, comprehensive 37%; Diplomats: private 53%, grammar 17%, comprehensive 28%; House of Lords: private 52%, grammar 20%, comprehensive 23%; Shadow cabinet: private 52%, grammar 12%, comprehensive 32%; Newspaper columnists: private 50%, grammar 15%, comprehensive 18%; Cricketers (women): private 50%, grammar 4%, comprehensive 46%; Permanent secretaries: private 47%, grammar 18%, comprehensive 29%; FTSE 100 chairs: private 47%, grammar 14%, comprehensive 9%; Political commentators: private 47%, grammar 13%, comprehensive 33%; Property owners and landowners: private 46%, grammar 6%, comprehensive 27%; Podcasters: private 45%, grammar 4%, comprehensive 43%; PR consultancy CEOs: private 43%, grammar 16%, comprehensive 32%; Shadow junior ministers: private 41%, grammar 21%, comprehensive 36%; BBC executives: private 38%, grammar 14%, comprehensive 29%; Rugby players (men): private 36%, grammar 4%, comprehensive 49%; Charity CEOs: private 34%, grammar 15%, comprehensive 42%; News media 100: private 33%, grammar 10%, comprehensive 48%; Olympic medallists (2024): private 33%, grammar 8%, comprehensive 52%; Film and TV actors: private 32%, grammar 9%, comprehensive 41%; Journalists: private 30%, grammar 9%, comprehensive 54%; Public body CEOs: private 28%, grammar 17%, comprehensive 45%; Entrepreneurs: private 27%, grammar 9%, comprehensive 26%; Sunday Times Rich List: private 27%, grammar 6%, comprehensive 16%; Tech firm CEOs: private 26%, grammar 9%, comprehensive 23%; Think-tank leaders: private 25%, grammar 10%, comprehensive 53%; MPs: private 24%, grammar 12%, comprehensive 62%; Junior ministers: private 23%, grammar 12%, comprehensive 63%; Police chiefs and commissioners: private 21%, grammar 19%, comprehensive 60%; Scottish Parliament: private 21%, grammar 0%, comprehensive 74%; Special advisers: private 20%, grammar 20%, comprehensive 55%; Paralympic medallists (2024): private 20%, grammar 4%, comprehensive 73%; FTSE 100 chief executives: private 18%, grammar 14%, comprehensive 16%; Influencers and content creators: private 18%, grammar 10%, comprehensive 68%; University vice-chancellors: private 15%, grammar 13%, comprehensive 50%; Senedd Cymru: private 14%, grammar 8%, comprehensive 78%; Trade union leaders: private 12%, grammar 9%, comprehensive 76%; Local government leaders: private 10%, grammar 16%, comprehensive 74%; Pop stars: private 10%, grammar 10%, comprehensive 76%; Rugby players (women): private 9%, grammar 1%, comprehensive 80%; Cabinet: private 7%, grammar 7%, comprehensive 86%; Footballers (men): private 5%, grammar 1%, comprehensive 93%; Footballers (women): private 4%, grammar 5%, comprehensive 85%; Northern Ireland Assembly: private 0%, grammar 62%, comprehensive 37%.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ind { fill: #2a78d6; stroke: #2a78d6; } .ind-l { stroke: #2a78d6; fill: none; } .ind-band { fill: #2a78d6; opacity: .18; }
+  .gra { fill: #eb6834; stroke: #eb6834; } .gra-l { stroke: #eb6834; fill: none; }
+  .com { fill: #1baf7a; stroke: #1baf7a; } .com-l { stroke: #1baf7a; fill: none; }
+  .neu { fill: #898781; stroke: #898781; } .neu-l { stroke: #898781; fill: none; } .neu-band { fill: #898781; opacity: .14; }
+  .abr { fill: #d9d8d1; }
+  .hollow { fill: #fcfcfb; stroke-width: 2; }
+  .ink { stroke: #0b0b0b; fill: none; }
+  .dash { stroke-dasharray: 5 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .ind { fill: #3987e5; stroke: #3987e5; } .ind-l { stroke: #3987e5; } .ind-band { fill: #3987e5; }
+    .gra { fill: #d95926; stroke: #d95926; } .gra-l { stroke: #d95926; }
+    .com { fill: #199e70; stroke: #199e70; } .com-l { stroke: #199e70; }
+    .hollow { fill: #1a1a19; }
+    .abr { fill: #3d3d3a; }
+    .ink { stroke: #ffffff; }
+    .halo { stroke: #1a1a19; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="819" height="951" rx="8"/>
+<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">Privately educated people are over-represented in 42 of 46 elite groups</text>
+<text class="t3" x="24.0" y="50.0" font-size="11" text-anchor="start">School where each person spent most of their secondary education, % of each group (Sutton Trust, Elitist Britain 2025)</text>
+<text class="t3" x="24.0" y="66.0" font-size="11" text-anchor="start">Dashed line: 7% of people went to private school. Comprehensive includes secondary moderns; direct-grant grammars count as private</text>
+<rect class="ind" x="24.0" y="78.0" width="10.0" height="10.0" rx="2"/>
+<text class="t2" x="39.0" y="87.0" font-size="11" text-anchor="start">Private</text>
+<rect class="gra" x="103.1" y="78.0" width="10.0" height="10.0" rx="2"/>
+<text class="t2" x="118.1" y="87.0" font-size="11" text-anchor="start">Grammar</text>
+<rect class="com" x="182.2" y="78.0" width="10.0" height="10.0" rx="2"/>
+<text class="t2" x="197.2" y="87.0" font-size="11" text-anchor="start">Comprehensive</text>
+<rect class="abr" x="299.1" y="78.0" width="10.0" height="10.0" rx="2"/>
+<text class="t2" x="314.1" y="87.0" font-size="11" text-anchor="start">Schooled abroad</text>
+<text class="t3" x="800.0" y="104.0" font-size="11" text-anchor="end">Private</text>
+<line class="grid" x1="250.0" y1="108.0" x2="250.0" y2="894.0" stroke-width="1"/>
+<text class="t3" x="250.0" y="910.0" font-size="11" text-anchor="middle">0%</text>
+<line class="grid" x1="380.0" y1="108.0" x2="380.0" y2="894.0" stroke-width="1"/>
+<text class="t3" x="380.0" y="910.0" font-size="11" text-anchor="middle">25%</text>
+<line class="grid" x1="510.0" y1="108.0" x2="510.0" y2="894.0" stroke-width="1"/>
+<text class="t3" x="510.0" y="910.0" font-size="11" text-anchor="middle">50%</text>
+<line class="grid" x1="640.0" y1="108.0" x2="640.0" y2="894.0" stroke-width="1"/>
+<text class="t3" x="640.0" y="910.0" font-size="11" text-anchor="middle">75%</text>
+<line class="grid" x1="770.0" y1="108.0" x2="770.0" y2="894.0" stroke-width="1"/>
+<text class="t3" x="770.0" y="910.0" font-size="11" text-anchor="middle">100%</text>
+<rect class="ind" x="250.0" y="115.0" width="326.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="578.6" y="115.0" width="91.6" height="12.0" rx="1.5"/>
+<rect class="com" x="672.2" y="115.0" width="81.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="755.4" y="115.0" width="14.6" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="125.0" font-size="11.5" text-anchor="end">Senior military officers</text>
+<text class="t2" x="800.0" y="125.0" font-size="11" text-anchor="end">63%</text>
+<rect class="ind" x="250.0" y="132.0" width="321.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="573.4" y="132.0" width="76.0" height="12.0" rx="1.5"/>
+<rect class="com" x="651.4" y="132.0" width="107.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="760.6" y="132.0" width="9.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="142.0" font-size="11.5" text-anchor="end">Senior judges</text>
+<text class="t2" x="800.0" y="142.0" font-size="11" text-anchor="end">62%</text>
+<rect class="ind" x="250.0" y="149.0" width="305.8" height="12.0" rx="1.5"/>
+<rect class="com" x="557.8" y="149.0" width="164.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="724.2" y="149.0" width="45.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="159.0" font-size="11.5" text-anchor="end">Cricketers (men)</text>
+<text class="t2" x="800.0" y="159.0" font-size="11" text-anchor="end">59%</text>
+<rect class="ind" x="250.0" y="166.0" width="279.8" height="12.0" rx="1.5"/>
+<rect class="gra" x="531.8" y="166.0" width="34.4" height="12.0" rx="1.5"/>
+<rect class="com" x="568.2" y="166.0" width="190.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="760.6" y="166.0" width="9.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="176.0" font-size="11.5" text-anchor="end">Sunday Times Young Power List</text>
+<text class="t2" x="800.0" y="176.0" font-size="11" text-anchor="end">54%</text>
+<rect class="ind" x="250.0" y="183.0" width="274.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="526.6" y="183.0" width="86.4" height="12.0" rx="1.5"/>
+<rect class="com" x="615.0" y="183.0" width="143.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="760.6" y="183.0" width="9.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="193.0" font-size="11.5" text-anchor="end">Diplomats</text>
+<text class="t2" x="800.0" y="193.0" font-size="11" text-anchor="end">53%</text>
+<rect class="ind" x="250.0" y="200.0" width="269.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="521.4" y="200.0" width="102.0" height="12.0" rx="1.5"/>
+<rect class="com" x="625.4" y="200.0" width="117.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="745.0" y="200.0" width="25.0" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="210.0" font-size="11.5" text-anchor="end">House of Lords</text>
+<text class="t2" x="800.0" y="210.0" font-size="11" text-anchor="end">52%</text>
+<rect class="ind" x="250.0" y="217.0" width="269.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="521.4" y="217.0" width="60.4" height="12.0" rx="1.5"/>
+<rect class="com" x="583.8" y="217.0" width="164.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="750.2" y="217.0" width="19.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="227.0" font-size="11.5" text-anchor="end">Shadow cabinet</text>
+<text class="t2" x="800.0" y="227.0" font-size="11" text-anchor="end">52%</text>
+<rect class="ind" x="250.0" y="234.0" width="259.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="511.0" y="234.0" width="76.0" height="12.0" rx="1.5"/>
+<rect class="com" x="589.0" y="234.0" width="91.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="682.6" y="234.0" width="87.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="244.0" font-size="11.5" text-anchor="end">Newspaper columnists</text>
+<text class="t2" x="800.0" y="244.0" font-size="11" text-anchor="end">50%</text>
+<rect class="ind" x="250.0" y="251.0" width="259.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="511.0" y="251.0" width="18.8" height="12.0" rx="1.5"/>
+<rect class="com" x="531.8" y="251.0" width="238.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="261.0" font-size="11.5" text-anchor="end">Cricketers (women)</text>
+<text class="t2" x="800.0" y="261.0" font-size="11" text-anchor="end">50%</text>
+<rect class="ind" x="250.0" y="268.0" width="243.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="495.4" y="268.0" width="91.6" height="12.0" rx="1.5"/>
+<rect class="com" x="589.0" y="268.0" width="148.8" height="12.0" rx="1.5"/>
+<rect class="abr" x="739.8" y="268.0" width="30.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="278.0" font-size="11.5" text-anchor="end">Permanent secretaries</text>
+<text class="t2" x="800.0" y="278.0" font-size="11" text-anchor="end">47%</text>
+<rect class="ind" x="250.0" y="285.0" width="243.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="495.4" y="285.0" width="70.8" height="12.0" rx="1.5"/>
+<rect class="com" x="568.2" y="285.0" width="44.8" height="12.0" rx="1.5"/>
+<rect class="abr" x="615.0" y="285.0" width="155.0" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="295.0" font-size="11.5" text-anchor="end">FTSE 100 chairs</text>
+<text class="t2" x="800.0" y="295.0" font-size="11" text-anchor="end">47%</text>
+<rect class="ind" x="250.0" y="302.0" width="243.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="495.4" y="302.0" width="65.6" height="12.0" rx="1.5"/>
+<rect class="com" x="563.0" y="302.0" width="169.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="734.6" y="302.0" width="35.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="312.0" font-size="11.5" text-anchor="end">Political commentators</text>
+<text class="t2" x="800.0" y="312.0" font-size="11" text-anchor="end">47%</text>
+<rect class="ind" x="250.0" y="319.0" width="238.2" height="12.0" rx="1.5"/>
+<rect class="gra" x="490.2" y="319.0" width="29.2" height="12.0" rx="1.5"/>
+<rect class="com" x="521.4" y="319.0" width="138.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="661.8" y="319.0" width="108.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="329.0" font-size="11.5" text-anchor="end">Property owners and landowners</text>
+<text class="t2" x="800.0" y="329.0" font-size="11" text-anchor="end">46%</text>
+<rect class="ind" x="250.0" y="336.0" width="233.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="485.0" y="336.0" width="18.8" height="12.0" rx="1.5"/>
+<rect class="com" x="505.8" y="336.0" width="221.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="729.4" y="336.0" width="40.6" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="346.0" font-size="11.5" text-anchor="end">Podcasters</text>
+<text class="t2" x="800.0" y="346.0" font-size="11" text-anchor="end">45%</text>
+<rect class="ind" x="250.0" y="353.0" width="222.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="474.6" y="353.0" width="81.2" height="12.0" rx="1.5"/>
+<rect class="com" x="557.8" y="353.0" width="164.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="724.2" y="353.0" width="45.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="363.0" font-size="11.5" text-anchor="end">PR consultancy CEOs</text>
+<text class="t2" x="800.0" y="363.0" font-size="11" text-anchor="end">43%</text>
+<rect class="ind" x="250.0" y="370.0" width="212.2" height="12.0" rx="1.5"/>
+<rect class="gra" x="464.2" y="370.0" width="107.2" height="12.0" rx="1.5"/>
+<rect class="com" x="573.4" y="370.0" width="185.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="760.6" y="370.0" width="9.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="380.0" font-size="11.5" text-anchor="end">Shadow junior ministers</text>
+<text class="t2" x="800.0" y="380.0" font-size="11" text-anchor="end">41%</text>
+<rect class="ind" x="250.0" y="387.0" width="196.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="448.6" y="387.0" width="70.8" height="12.0" rx="1.5"/>
+<rect class="com" x="521.4" y="387.0" width="148.8" height="12.0" rx="1.5"/>
+<rect class="abr" x="672.2" y="387.0" width="97.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="397.0" font-size="11.5" text-anchor="end">BBC executives</text>
+<text class="t2" x="800.0" y="397.0" font-size="11" text-anchor="end">38%</text>
+<rect class="ind" x="250.0" y="404.0" width="186.2" height="12.0" rx="1.5"/>
+<rect class="gra" x="438.2" y="404.0" width="18.8" height="12.0" rx="1.5"/>
+<rect class="com" x="459.0" y="404.0" width="252.8" height="12.0" rx="1.5"/>
+<rect class="abr" x="713.8" y="404.0" width="56.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="414.0" font-size="11.5" text-anchor="end">Rugby players (men)</text>
+<text class="t2" x="800.0" y="414.0" font-size="11" text-anchor="end">36%</text>
+<rect class="ind" x="250.0" y="421.0" width="175.8" height="12.0" rx="1.5"/>
+<rect class="gra" x="427.8" y="421.0" width="76.0" height="12.0" rx="1.5"/>
+<rect class="com" x="505.8" y="421.0" width="216.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="724.2" y="421.0" width="45.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="431.0" font-size="11.5" text-anchor="end">Charity CEOs</text>
+<text class="t2" x="800.0" y="431.0" font-size="11" text-anchor="end">34%</text>
+<rect class="ind" x="250.0" y="438.0" width="170.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="422.6" y="438.0" width="50.0" height="12.0" rx="1.5"/>
+<rect class="com" x="474.6" y="438.0" width="247.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="724.2" y="438.0" width="45.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="448.0" font-size="11.5" text-anchor="end">News media 100</text>
+<text class="t2" x="800.0" y="448.0" font-size="11" text-anchor="end">33%</text>
+<rect class="ind" x="250.0" y="455.0" width="170.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="422.6" y="455.0" width="39.6" height="12.0" rx="1.5"/>
+<rect class="com" x="464.2" y="455.0" width="268.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="734.6" y="455.0" width="35.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="465.0" font-size="11.5" text-anchor="end">Olympic medallists (2024)</text>
+<text class="t2" x="800.0" y="465.0" font-size="11" text-anchor="end">33%</text>
+<rect class="ind" x="250.0" y="472.0" width="165.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="417.4" y="472.0" width="44.8" height="12.0" rx="1.5"/>
+<rect class="com" x="464.2" y="472.0" width="211.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="677.4" y="472.0" width="92.6" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="482.0" font-size="11.5" text-anchor="end">Film and TV actors</text>
+<text class="t2" x="800.0" y="482.0" font-size="11" text-anchor="end">32%</text>
+<rect class="ind" x="250.0" y="489.0" width="155.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="407.0" y="489.0" width="44.8" height="12.0" rx="1.5"/>
+<rect class="com" x="453.8" y="489.0" width="278.8" height="12.0" rx="1.5"/>
+<rect class="abr" x="734.6" y="489.0" width="35.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="499.0" font-size="11.5" text-anchor="end">Journalists</text>
+<text class="t2" x="800.0" y="499.0" font-size="11" text-anchor="end">30%</text>
+<rect class="ind" x="250.0" y="506.0" width="144.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="396.6" y="506.0" width="86.4" height="12.0" rx="1.5"/>
+<rect class="com" x="485.0" y="506.0" width="232.0" height="12.0" rx="1.5"/>
+<rect class="abr" x="719.0" y="506.0" width="51.0" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="516.0" font-size="11.5" text-anchor="end">Public body CEOs</text>
+<text class="t2" x="800.0" y="516.0" font-size="11" text-anchor="end">28%</text>
+<rect class="ind" x="250.0" y="523.0" width="139.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="391.4" y="523.0" width="44.8" height="12.0" rx="1.5"/>
+<rect class="com" x="438.2" y="523.0" width="133.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="573.4" y="523.0" width="196.6" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="533.0" font-size="11.5" text-anchor="end">Entrepreneurs</text>
+<text class="t2" x="800.0" y="533.0" font-size="11" text-anchor="end">27%</text>
+<rect class="ind" x="250.0" y="540.0" width="139.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="391.4" y="540.0" width="29.2" height="12.0" rx="1.5"/>
+<rect class="com" x="422.6" y="540.0" width="81.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="505.8" y="540.0" width="264.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="550.0" font-size="11.5" text-anchor="end">Sunday Times Rich List</text>
+<text class="t2" x="800.0" y="550.0" font-size="11" text-anchor="end">27%</text>
+<rect class="ind" x="250.0" y="557.0" width="134.2" height="12.0" rx="1.5"/>
+<rect class="gra" x="386.2" y="557.0" width="44.8" height="12.0" rx="1.5"/>
+<rect class="com" x="433.0" y="557.0" width="117.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="552.6" y="557.0" width="217.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="567.0" font-size="11.5" text-anchor="end">Tech firm CEOs</text>
+<text class="t2" x="800.0" y="567.0" font-size="11" text-anchor="end">26%</text>
+<rect class="ind" x="250.0" y="574.0" width="129.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="381.0" y="574.0" width="50.0" height="12.0" rx="1.5"/>
+<rect class="com" x="433.0" y="574.0" width="273.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="708.6" y="574.0" width="61.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="584.0" font-size="11.5" text-anchor="end">Think-tank leaders</text>
+<text class="t2" x="800.0" y="584.0" font-size="11" text-anchor="end">25%</text>
+<rect class="ind" x="250.0" y="591.0" width="123.8" height="12.0" rx="1.5"/>
+<rect class="gra" x="375.8" y="591.0" width="60.4" height="12.0" rx="1.5"/>
+<rect class="com" x="438.2" y="591.0" width="320.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="760.6" y="591.0" width="9.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="601.0" font-size="11.5" text-anchor="end">MPs</text>
+<text class="t2" x="800.0" y="601.0" font-size="11" text-anchor="end">24%</text>
+<rect class="ind" x="250.0" y="608.0" width="118.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="370.6" y="608.0" width="60.4" height="12.0" rx="1.5"/>
+<rect class="com" x="433.0" y="608.0" width="325.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="760.6" y="608.0" width="9.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="618.0" font-size="11.5" text-anchor="end">Junior ministers</text>
+<text class="t2" x="800.0" y="618.0" font-size="11" text-anchor="end">23%</text>
+<rect class="ind" x="250.0" y="625.0" width="108.2" height="12.0" rx="1.5"/>
+<rect class="gra" x="360.2" y="625.0" width="96.8" height="12.0" rx="1.5"/>
+<rect class="com" x="459.0" y="625.0" width="311.0" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="635.0" font-size="11.5" text-anchor="end">Police chiefs and commissioners</text>
+<text class="t2" x="800.0" y="635.0" font-size="11" text-anchor="end">21%</text>
+<rect class="ind" x="250.0" y="642.0" width="108.2" height="12.0" rx="1.5"/>
+<rect class="com" x="360.2" y="642.0" width="382.8" height="12.0" rx="1.5"/>
+<rect class="abr" x="745.0" y="642.0" width="25.0" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="652.0" font-size="11.5" text-anchor="end">Scottish Parliament</text>
+<text class="t2" x="800.0" y="652.0" font-size="11" text-anchor="end">21%</text>
+<rect class="ind" x="250.0" y="659.0" width="103.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="355.0" y="659.0" width="102.0" height="12.0" rx="1.5"/>
+<rect class="com" x="459.0" y="659.0" width="284.0" height="12.0" rx="1.5"/>
+<rect class="abr" x="745.0" y="659.0" width="25.0" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="669.0" font-size="11.5" text-anchor="end">Special advisers</text>
+<text class="t2" x="800.0" y="669.0" font-size="11" text-anchor="end">20%</text>
+<rect class="ind" x="250.0" y="676.0" width="103.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="355.0" y="676.0" width="18.8" height="12.0" rx="1.5"/>
+<rect class="com" x="375.8" y="676.0" width="377.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="755.4" y="676.0" width="14.6" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="686.0" font-size="11.5" text-anchor="end">Paralympic medallists (2024)</text>
+<text class="t2" x="800.0" y="686.0" font-size="11" text-anchor="end">20%</text>
+<rect class="ind" x="250.0" y="693.0" width="92.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="344.6" y="693.0" width="70.8" height="12.0" rx="1.5"/>
+<rect class="com" x="417.4" y="693.0" width="81.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="500.6" y="693.0" width="269.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="703.0" font-size="11.5" text-anchor="end">FTSE 100 chief executives</text>
+<text class="t2" x="800.0" y="703.0" font-size="11" text-anchor="end">18%</text>
+<rect class="ind" x="250.0" y="710.0" width="92.6" height="12.0" rx="1.5"/>
+<rect class="gra" x="344.6" y="710.0" width="50.0" height="12.0" rx="1.5"/>
+<rect class="com" x="396.6" y="710.0" width="351.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="750.2" y="710.0" width="19.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="720.0" font-size="11.5" text-anchor="end">Influencers and content creators</text>
+<text class="t2" x="800.0" y="720.0" font-size="11" text-anchor="end">18%</text>
+<rect class="ind" x="250.0" y="727.0" width="77.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="329.0" y="727.0" width="65.6" height="12.0" rx="1.5"/>
+<rect class="com" x="396.6" y="727.0" width="258.0" height="12.0" rx="1.5"/>
+<rect class="abr" x="656.6" y="727.0" width="113.4" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="737.0" font-size="11.5" text-anchor="end">University vice-chancellors</text>
+<text class="t2" x="800.0" y="737.0" font-size="11" text-anchor="end">15%</text>
+<rect class="ind" x="250.0" y="744.0" width="71.8" height="12.0" rx="1.5"/>
+<rect class="gra" x="323.8" y="744.0" width="39.6" height="12.0" rx="1.5"/>
+<rect class="com" x="365.4" y="744.0" width="404.6" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="754.0" font-size="11.5" text-anchor="end">Senedd Cymru</text>
+<text class="t2" x="800.0" y="754.0" font-size="11" text-anchor="end">14%</text>
+<rect class="ind" x="250.0" y="761.0" width="61.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="313.4" y="761.0" width="44.8" height="12.0" rx="1.5"/>
+<rect class="com" x="360.2" y="761.0" width="393.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="755.4" y="761.0" width="14.6" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="771.0" font-size="11.5" text-anchor="end">Trade union leaders</text>
+<text class="t2" x="800.0" y="771.0" font-size="11" text-anchor="end">12%</text>
+<rect class="ind" x="250.0" y="778.0" width="51.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="303.0" y="778.0" width="81.2" height="12.0" rx="1.5"/>
+<rect class="com" x="386.2" y="778.0" width="383.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="788.0" font-size="11.5" text-anchor="end">Local government leaders</text>
+<text class="t2" x="800.0" y="788.0" font-size="11" text-anchor="end">10%</text>
+<rect class="ind" x="250.0" y="795.0" width="51.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="303.0" y="795.0" width="50.0" height="12.0" rx="1.5"/>
+<rect class="com" x="355.0" y="795.0" width="393.2" height="12.0" rx="1.5"/>
+<rect class="abr" x="750.2" y="795.0" width="19.8" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="805.0" font-size="11.5" text-anchor="end">Pop stars</text>
+<text class="t2" x="800.0" y="805.0" font-size="11" text-anchor="end">10%</text>
+<rect class="ind" x="250.0" y="812.0" width="45.8" height="12.0" rx="1.5"/>
+<rect class="gra" x="297.8" y="812.0" width="3.2" height="12.0" rx="1.5"/>
+<rect class="com" x="303.0" y="812.0" width="414.0" height="12.0" rx="1.5"/>
+<rect class="abr" x="719.0" y="812.0" width="51.0" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="822.0" font-size="11.5" text-anchor="end">Rugby players (women)</text>
+<text class="t2" x="800.0" y="822.0" font-size="11" text-anchor="end">9%</text>
+<rect class="ind" x="250.0" y="829.0" width="35.4" height="12.0" rx="1.5"/>
+<rect class="gra" x="287.4" y="829.0" width="34.4" height="12.0" rx="1.5"/>
+<rect class="com" x="323.8" y="829.0" width="446.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="839.0" font-size="11.5" text-anchor="end">Cabinet</text>
+<text class="t2" x="800.0" y="839.0" font-size="11" text-anchor="end">7%</text>
+<rect class="ind" x="250.0" y="846.0" width="25.0" height="12.0" rx="1.5"/>
+<rect class="gra" x="277.0" y="846.0" width="3.2" height="12.0" rx="1.5"/>
+<rect class="com" x="282.2" y="846.0" width="481.6" height="12.0" rx="1.5"/>
+<rect class="abr" x="765.8" y="846.0" width="4.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="856.0" font-size="11.5" text-anchor="end">Footballers (men)</text>
+<text class="t2" x="800.0" y="856.0" font-size="11" text-anchor="end">5%</text>
+<rect class="ind" x="250.0" y="863.0" width="19.8" height="12.0" rx="1.5"/>
+<rect class="gra" x="271.8" y="863.0" width="24.0" height="12.0" rx="1.5"/>
+<rect class="com" x="297.8" y="863.0" width="440.0" height="12.0" rx="1.5"/>
+<rect class="abr" x="739.8" y="863.0" width="30.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="873.0" font-size="11.5" text-anchor="end">Footballers (women)</text>
+<text class="t2" x="800.0" y="873.0" font-size="11" text-anchor="end">4%</text>
+<rect class="gra" x="250.0" y="880.0" width="321.4" height="12.0" rx="1.5"/>
+<rect class="com" x="573.4" y="880.0" width="190.4" height="12.0" rx="1.5"/>
+<rect class="abr" x="765.8" y="880.0" width="4.2" height="12.0" rx="1.5"/>
+<text class="t1" x="242.0" y="890.0" font-size="11.5" text-anchor="end">Northern Ireland Assembly</text>
+<text class="t2" x="800.0" y="890.0" font-size="11" text-anchor="end">0%</text>
+<line class="ink dash" x1="286.4" y1="106.0" x2="286.4" y2="898.0" stroke-width="1.5"/>
+<text class="t2" x="290.4" y="926.0" font-size="11" text-anchor="start">7%: whole population</text>
+</svg>
