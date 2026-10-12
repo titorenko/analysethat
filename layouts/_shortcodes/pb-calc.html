@@ -1,0 +1,9 @@
+{{- /* Premium Bonds calculator (premium-bonds post, section 1.3). pb-calc.js builds it inside the box from the prize
+   table in pb-calc.json; both are written into the bundle by the study's build. */ -}}
+{{- $js := .Page.Resources.Get "pb-calc.js" -}}
+{{- $data := .Page.Resources.Get "pb-calc.json" -}}
+{{- if not (and $js $data) -}}
+{{- errorf "pb-calc: pb-calc.js or pb-calc.json not found in bundle of %q" .Page.Path -}}
+{{- end -}}
+<div class="pb-calc" data-src="{{ $data.RelPermalink }}"><noscript><p class="pbc-note">The calculator needs JavaScript. The tables above give the same numbers for common amounts.</p></noscript></div>
+<script src="{{ $js.RelPermalink }}" defer></script>

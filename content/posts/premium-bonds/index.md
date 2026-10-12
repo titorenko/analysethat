@@ -14,7 +14,7 @@ TocOpen: true
 ---
 *Premium Bonds pay no interest, only prizes, and the prizes are tax-free. Is that a better deal than a savings account, a money market fund or a gilt once tax, fees and luck are counted? It depends on how much you hold and what tax you pay. Here is how much.*
 
-*This article is rebuilt from the latest rates each month. Rates as of 11 October 2026: the October 2026 Premium Bond draw, best buys on 11 October 2026.*
+*This article is rebuilt from the latest rates each month. Rates as of 12 October 2026: the October 2026 Premium Bond draw, best buys on 11 October 2026.*
 
 ## The short version
 
@@ -94,6 +94,12 @@ A bond bought in any month first enters the draw a month after next: buy in mid-
 | 1 October 2026 | 24 September 2027 | 358 | 10 | £300 | £1,575 |
 
 Money held for a year from mid-month gets 11 draws. To get 12, buy at the end of a month and either cash in just after the 1st a year later, or ask in the last two working days of the month (the money then arrives after the next draw). Buy on the 1st and cash in before the last two working days of the month just under a year later, and you get 10. Money already in Premium Bonds has no such cost. Cash-ins take 3 to 5 days.
+
+### 1.3 Work out your own odds
+
+The calculator below does the same exact calculation in your browser, at the October 2026 prize table: enter an amount and the number of draws you hold it for, and it shows the chance of every possible total, with prizes paid out. Nothing you enter leaves the page. For the amounts in Tables 1 and 2 it gives the same numbers.
+
+{{< pb-calc >}}
 
 ## 2. After tax and fees, Premium Bonds win clearly only in the higher tax bands
 
@@ -312,7 +318,7 @@ Two changes are already law. Tax on savings income rises by 2 percentage points,
 
 ## 9. How this was done
 
-**Premium Bonds.** For each monthly draw I took the official count of prizes at each value from NS&I's winning-numbers files (all 82 draws from January 2020 to October 2026; each count sums exactly to the published total) and the number of eligible bonds. Each £1 bond has the same chance of each prize, so the distribution of total winnings for any holding over any run of draws is a convolution of the per-draw prize tables; I computed it exactly with a fast Fourier transform on a £25 grid, with prizes paid out. The average with prizes reinvested is exact too, because averages add up draw by draw; a simulation of true reinvestment agrees. The method reproduces MoneySavingExpert's published medians (£350, £925, £1,900 for £10k, £25k and £50k) and its chance-of-beating table to within 0.5 points, and the old simulation it replaces.
+**Premium Bonds.** For each monthly draw I took the official count of prizes at each value from NS&I's winning-numbers files (all 82 draws from January 2020 to October 2026; each count sums exactly to the published total) and the number of eligible bonds. Each £1 bond has the same chance of each prize, so the distribution of total winnings for any holding over any run of draws is a convolution of the per-draw prize tables; I computed it exactly with a fast Fourier transform on a £25 grid, with prizes paid out. The calculator in section 1.3 does the same in JavaScript; a check confirms that it matches the Python code to the pound and reproduces every Premium Bond number in Tables 1 and 2. The average with prizes reinvested is exact too, because averages add up draw by draw; a simulation of true reinvestment agrees. The method reproduces MoneySavingExpert's published medians (£350, £925, £1,900 for £10k, £25k and £50k) and its chance-of-beating table to within 0.5 points, and the old simulation it replaces.
 
 **Rivals.** Best buys from Moneyfacts' best-buy tables, filtered by the rule in section 2.1: Moneyfacts' own search tests the £1,000 and £50,000 limits, and conditions its data does not show are checked against MoneySavingExpert's best-buy pages. For the past two years, archived pages were coded by hand to the same rule, and the automatic filter, run on those archived pages, picks the same rate on 39 of 41 archived pages, easy-access and one-year-fix (the others are an account with a deposit limit that a single archived search cannot test). Average rates and Bank Rate come from the Bank of England; the money market fund's yield from Royal London and its daily prices from the FT (which reproduce Royal London's published five-year return to 0.003 points); NS&I rates from NS&I; the gilt price from Hargreaves Lansdown; platform charges from each platform's tariff page; inflation from the ONS.
 
