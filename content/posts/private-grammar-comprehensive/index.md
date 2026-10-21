@@ -229,7 +229,7 @@ Value added and Cambridge places sit beside the ranking but don't drive it. Camb
 | 1 | QE Barnet | 52.6 | 87% | +0.24 [+0.15, +0.32] | +1.22 | 17.5 | yes |
 | 2 | Colchester RGS | 50.6 | 78% | +0.19 [+0.11, +0.28] | +1.09 | 11.8 | no |
 | 3 | Pate's GS | 50.3 | 78% | +0.15 [+0.07, +0.22] | +1.01 | 5.6 | – |
-| 4 | Henrietta Barnett | 50.1 | 72% | −0.35 [−0.45, −0.26] | +1.09 | 14.1 | – |
+| 4 | Henrietta Barnett | 50.1 | 72% | −0.35 [−0.45, −0.26] | +1.09 | 14.1 | probable § |
 | 5 | Wilson's | 50.0 | 80% | +0.03 [−0.05, +0.11] | +1.27 | 9.6 | – |
 | 6 | St Olave's | 49.9 | 78% | +0.10 [+0.02, +0.17] | +1.27 | 7.9 | probable |
 | 7 | Tiffin Girls' | 49.8 | 72% | −0.05 [−0.14, +0.05] | +1.06 | 5.0 | probable |
@@ -257,7 +257,7 @@ Value added and Cambridge places sit beside the ranking but don't drive it. Camb
 | 29 | Wallington Girls | 45.5 | 56% | +0.04 [−0.04, +0.12] | +0.92 | 2.6 | – |
 | 30 | Nonsuch | 45.3 | 65% | +0.17 [+0.09, +0.26] | +1.02 | 3.1 | no |
 
-*Table 5. Top 30 grammar schools. Columns as in Table 3; P8: Progress 8 (GCSEs compared with tests at 11), 2023/24. Super-sel.: super-selective, admitting by test rank from a wide area with at least five applicants per place; "–" not assessed.*
+*Table 5. Top 30 grammar schools. Columns as in Table 3; P8: Progress 8 (GCSEs compared with tests at 11), 2023/24. Super-sel.: super-selective, admitting by test rank from a wide area with at least five applicants per place; "–" not assessed. § Henrietta Barnett: no catchment area, but looked-after children, pupil-premium girls and girls living within three miles are offered places first (all from the top 300 in the first-round test); everyone else is ranked by score. Marked probable, not yes, because the share of places the priority groups take is not published.*
 
 ### 3.5 Bottom 20 private schools (the same list for boys and girls)
 
