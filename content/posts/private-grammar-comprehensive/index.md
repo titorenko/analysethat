@@ -2,6 +2,7 @@
 title: "Private, Grammar or Comprehensive? What Each School Does for Results, Careers and Lifetime Pay"
 description: "English private, grammar and comprehensive schools compared on university entry, A levels and lifetime earnings, before and after allowing for who gets in, with outcomes beyond pay, a cost-benefit calculation and profiles of the top and bottom private and grammar schools"
 date: 2026-10-10
+updated: 2026-11-05
 draft: false
 summary: "Private and grammar school pupils do far better than everyone else, but much of that is who walks through the door. On the best evidence available, private day school from 11 to 18 probably does not pay for itself in earnings for a typical pupil: in today's money a boy ends up about £53k worse off and a girl about £68k, though the evidence leaves room for a boy to break even."
 tags: ["education", "earnings", "cost-benefit", "england", "reproducibility"]
