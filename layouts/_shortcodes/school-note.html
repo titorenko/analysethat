@@ -1,0 +1,29 @@
+{{- /* Admissions note for a school in a table (schools post, Table 5). Hidden until a table link to #<id> is clicked, which
+   opens it as a row under that school; a second click closes it. The handler runs in the capture phase so PaperMod's
+   smooth-scroll script, which claims every "#" link, never sees these clicks. */ -}}
+<template id="{{ .Get "id" }}">{{ .Page.RenderString (dict "display" "block") .Inner }}</template>
+{{- if not (.Page.Store.Get "school-note-js") -}}
+{{- .Page.Store.Set "school-note-js" true }}
+<noscript><p>The admissions detail behind school names in this table needs JavaScript; the figures are in the replication files.</p></noscript>
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('a[href^="#school-"]');
+  if (!a) return;
+  e.preventDefault();
+  e.stopPropagation();
+  var tr = a.closest('tr'), next = tr.nextElementSibling;
+  if (next && next.className === 'school-more') {
+    next.remove();
+    a.setAttribute('aria-expanded', 'false');
+    return;
+  }
+  var row = tr.parentNode.insertRow(tr.sectionRowIndex + 1), td = row.insertCell();
+  row.className = 'school-more';
+  td.colSpan = tr.cells.length;
+  var body = td.appendChild(document.createElement('div'));
+  body.className = 'school-more-body';
+  body.appendChild(document.getElementById(a.getAttribute('href').slice(1)).content.cloneNode(true));
+  a.setAttribute('aria-expanded', 'true');
+}, true);
+</script>
+{{- end -}}

@@ -220,3 +220,14 @@
 }
 .post-content .pb-calc .pbc-tile .s { font-size: 0.8em; color: var(--secondary); }
 .post-content .pb-calc .pbc-note { margin-top: 0.9em; font-size: 0.85em; color: var(--secondary); }
+
+/* Schools post, Table 5: school names that open an admissions note as a row under the school */
+.post-content a[href^="#school-"] { text-decoration: underline dotted; text-underline-offset: 0.2em; }
+.post-content tr.school-more > td { background: var(--code-bg); padding: 0.7rem 1rem; }
+.post-content tr.school-more p { margin-block: 0.5em; }
+/* Below 1024px the table is wider than the screen: keep the note in view rather than as wide as the table */
+@media (max-width: 1023.98px) {
+  .post-content .school-more-body { position: sticky; left: 1rem; width: calc(100cqw - 2rem); }
+  .md-content .school-more-body .table-wrap .table-scroll table th,
+  .md-content .school-more-body .table-wrap .table-scroll table td { padding-inline: 0.3em; }
+}

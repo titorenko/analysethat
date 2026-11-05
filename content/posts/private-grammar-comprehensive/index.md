@@ -1,5 +1,5 @@
 ---
-title: "Does Private School Pay? Private, Grammar and Comprehensive Schools from A Levels to Lifetime Earnings"
+title: "Private, Grammar or Comprehensive? What Each School Does for Results, Careers and Lifetime Pay"
 description: "English private, grammar and comprehensive schools compared on university entry, A levels and lifetime earnings, before and after allowing for who gets in, with outcomes beyond pay, a cost-benefit calculation and profiles of the top and bottom private and grammar schools"
 date: 2026-10-10
 draft: false
@@ -15,6 +15,8 @@ TocOpen: true
 *Private and grammar schools get great results. How much of that is the school, and how much is who gets in? And at today's fees, does private school pay?*
 
 *Updated 11 October 2026: added section 8, on PhDs, top jobs and satisfaction with life.*
+
+*Updated 5 November 2026: new title, and admission figures from freedom of information replies behind the underlined schools in Table 5.*
 
 ## The short version
 
@@ -226,10 +228,10 @@ Value added and Cambridge places sit beside the ranking but don't drive it. Camb
 
 | # | School | APS | A*/A | Value added [95% CI] | P8 | Cam/100 | Super-sel. |
 |---|---|---|---|---|---|---|---|
-| 1 | QE Barnet | 52.6 | 87% | +0.24 [+0.15, +0.32] | +1.22 | 17.5 | yes |
+| 1 | [QE Barnet](#school-qe) | 52.6 | 87% | +0.24 [+0.15, +0.32] | +1.22 | 17.5 | yes |
 | 2 | Colchester RGS | 50.6 | 78% | +0.19 [+0.11, +0.28] | +1.09 | 11.8 | no |
 | 3 | Pate's GS | 50.3 | 78% | +0.15 [+0.07, +0.22] | +1.01 | 5.6 | – |
-| 4 | Henrietta Barnett | 50.1 | 72% | −0.35 [−0.45, −0.26] | +1.09 | 14.1 | probable § |
+| 4 | [Henrietta Barnett](#school-hbs) | 50.1 | 72% | −0.35 [−0.45, −0.26] | +1.09 | 14.1 | probable § |
 | 5 | Wilson's | 50.0 | 80% | +0.03 [−0.05, +0.11] | +1.27 | 9.6 | – |
 | 6 | St Olave's | 49.9 | 78% | +0.10 [+0.02, +0.17] | +1.27 | 7.9 | probable |
 | 7 | Tiffin Girls' | 49.8 | 72% | −0.05 [−0.14, +0.05] | +1.06 | 5.0 | probable |
@@ -246,7 +248,7 @@ Value added and Cambridge places sit beside the ranking but don't drive it. Camb
 | 18 | Camp Hill Boys | 47.1 | 65% | −0.14 [−0.23, −0.04] | +1.09 | 3.8 | no |
 | 19 | St Michael's (Barnet) | 46.9 | 61% | +0.11 [−0.02, +0.23] | +0.98 | 2.4 | – |
 | 20 | Judd | 46.7 | 67% | +0.13 [+0.06, +0.20] | +0.85 | 4.0 | no |
-| 21 | Chelmsford County High | 46.5 | 62% | +0.03 [−0.06, +0.13] | +0.76 | 6.0 | yes |
+| 21 | [Chelmsford County High](#school-cchs) | 46.5 | 62% | +0.03 [−0.06, +0.13] | +0.76 | 6.0 | yes |
 | 22 | Altrincham Boys | 46.3 | 60% | −0.02 [−0.11, +0.07] | +1.32 | 3.0 | no |
 | 23 | Sutton GS | 46.2 | 67% | +0.28 [+0.19, +0.37] | +1.16 | 4.7 | – |
 | 24 | Stratford Girls' | 45.9 | 52% | −0.02 [−0.13, +0.10] | +1.07 | 2.2 | no |
@@ -254,10 +256,74 @@ Value added and Cambridge places sit beside the ranking but don't drive it. Camb
 | 26 | Blue Coat | 45.8 | 64% | +0.18 [+0.09, +0.27] | +0.77 | 5.5 | yes |
 | 27 | Dr Challoner's High | 45.7 | 57% | +0.02 [−0.06, +0.11] | +1.11 | 2.5 | no |
 | 28 | Langley GS | 45.7 | 60% | +0.23 [+0.15, +0.32] | +0.75 | 1.3 | probable |
-| 29 | Wallington Girls | 45.5 | 56% | +0.04 [−0.04, +0.12] | +0.92 | 2.6 | – |
-| 30 | Nonsuch | 45.3 | 65% | +0.17 [+0.09, +0.26] | +1.02 | 3.1 | no |
+| 29 | [Wallington Girls](#school-wallington) | 45.5 | 56% | +0.04 [−0.04, +0.12] | +0.92 | 2.6 | no |
+| 30 | [Nonsuch](#school-nonsuch) | 45.3 | 65% | +0.17 [+0.09, +0.26] | +1.02 | 3.1 | no |
 
-*Table 5. Top 30 grammar schools. Columns as in Table 3; P8: Progress 8 (GCSEs compared with tests at 11), 2023/24. Super-sel.: super-selective, admitting by test rank from a wide area with at least five applicants per place; "–" not assessed. § Henrietta Barnett: no catchment area, but looked-after children, pupil-premium girls and girls living within three miles are offered places first (all from the top 300 in the first-round test); everyone else is ranked by score. Marked probable, not yes, because the share of places the priority groups take is not published.*
+*Table 5. Top 30 grammar schools. Columns as in Table 3; P8: Progress 8 (GCSEs compared with tests at 11), 2023/24. Super-sel.: super-selective, admitting by test rank from a wide area with at least five applicants per place; "–" not assessed. Click a school with a dotted underline for its admission figures. § Henrietta Barnett: no catchment area, but looked-after children, pupil-premium girls and girls living within three miles are offered places first (all from the top 300 in the first-round test); everyone else is ranked by score. Marked probable, not yes, because the share of places the priority groups take is not published.*
+
+{{< school-note id="school-qe" >}}
+**QE Barnet: admission figures.** 3,433 boys took the test for 2025 entry, about 18 for each offer on national offer day. There is no catchment area, so places go by score. The school's freedom of information reply adds two things its admissions guide doesn't give: the lowest score on offer day, and total offers once the waiting list has run.
+
+| Entry | Took the test | Offers, whole round | Lowest score, offer day | Lowest score, after waiting list |
+|---|---|---|---|---|
+| 2023 | 3,106 | 224 | 234 | 232 |
+| 2024 | 3,294 | 229 | 238 | 235 |
+| 2025 | 3,433 | 225 | 237 | 235 |
+
+The school withheld 2026 entry while that round was live and says it will publish in the spring term. From a freedom of information reply, October 2026, and the school's admissions guide.
+{{< /school-note >}}
+
+{{< school-note id="school-hbs" >}}
+**Henrietta Barnett: admission figures.** 2,637 girls sat the first round for 2026 entry, about 22 for each offer, and the top 300 went through to the second. Offers rose from 104 to 120 that year, and the lowest combined score fell from 578.25 to 563.73.
+
+| Entry | Sat round 1 | Round 1 cut-off | Lowest combined score | Offers |
+|---|---|---|---|---|
+| 2023 | 2,545 | 348.04 | 574.98 | 104 |
+| 2024 | 2,649 | 348.49 | 569.14 | 104 |
+| 2025 | 2,686 | 347.65 | 578.25 | 104 |
+| 2026 | 2,637 | 345.05 | 563.73 | 120 |
+
+The reply doesn't explain its labels. The cut-off is read as the score of the last girl through to round 2; how the rounds are combined, and whether the lowest score is from national offer day, aren't stated. From a freedom of information reply, October 2026.
+{{< /school-note >}}
+
+{{< school-note id="school-cchs" >}}
+**Chelmsford County High: admission figures.** Girls from outside the priority area, about 20 km around the school, needed about 5-12 points more than girls inside it.
+
+| Entry | Last offer, inside the area | Last offer, outside the area |
+|---|---|---|
+| 2023 | 107-108 | 116-117 |
+| 2024 | 108-109 | 113-114 |
+| 2025 | 107-108 | 116-117 |
+| 2026 | 106-107 | 118-119 |
+
+Scores are released as ranges, and the date of the figures varies a little by year. From answers to freedom of information requests on the school's website.
+{{< /school-note >}}
+
+{{< school-note id="school-wallington" >}}
+**Wallington Girls: admission figures.** Nonsuch and Wallington Girls share an entrance test, which 2,565 girls sat for 2026 entry: about 6 for each place across the two schools. That clears the five-per-place mark, but up to 110 of the school's 210 places can go by score to girls living within 6.7 km, so it isn't marked super-selective.
+
+| Entry | Girls sitting the test (both schools) | Open to all (100 places) | Catchment (up to 110) | Pupil premium (up to 35) |
+|---|---|---|---|---|
+| 2023 | 2,557 | 309 | 278 | 229 |
+| 2024 | 2,704 | 311 | 283 | 228 |
+| 2025 | 2,670 | 311 | 292 | 230 |
+| 2026 | 2,565 | 315 | 292 | 230 |
+
+Lowest score offered a place on national offer day, by route. Scores are the test total: second-stage marks plus half the first-stage marks. Pupil premium is extra school funding for poorer pupils. From a freedom of information reply, November 2026.
+{{< /school-note >}}
+
+{{< school-note id="school-nonsuch" >}}
+**Nonsuch: admission figures.** Nonsuch and Wallington Girls share an entrance test, which 2,565 girls sat for 2026 entry: about 6 for each place across the two schools. That clears the five-per-place mark, but up to 125 of the school's 210 places can go by score to girls living within 5.25 km, so it isn't marked super-selective.
+
+| Entry | Girls sitting the test (both schools) | Open to all (85 places) | Catchment (up to 125) | Pupil premium (up to 35) |
+|---|---|---|---|---|
+| 2023 | 2,557 | 322 | 288 | 228 |
+| 2024 | 2,704 | 321 | 290 | 228 |
+| 2025 | 2,670 | 323 | 300 | 221 |
+| 2026 | 2,565 | 318 | 294 | 212 |
+
+Lowest score offered a place on national offer day, by route. Scores are the test total: second-stage marks plus half the first-stage marks. Pupil premium is extra school funding for poorer pupils. From a freedom of information reply, November 2026.
+{{< /school-note >}}
 
 ### 3.5 Bottom 20 private schools (the same list for boys and girls)
 
@@ -499,6 +565,9 @@ Even in London, and counting the stamp duty, a move made only for the school (£
 
 With £3,000 of tutoring and a one-in-four chance of a place, a lifetime grammar-school pay advantage of 2.3% (boys) or 3.1% (girls) would repay the tutoring. With £8,000 of tutoring and a one-in-ten chance at a super-selective school, it would take 16.5% or 21.0%. On the central (zero) estimate, the tutoring is simply lost; on the most generous one, a boy in the middle of the earnings ranking gains +£9k.
 
+Those odds vary from family to family, because the test score is often not the only thing that counts. Most of the top grammar schools favour children who live nearby, through a priority area or a distance rule, and many set aside places for children on pupil premium (extra school funding for poorer pupils). A child on one of these routes can get in with a noticeably lower score than an applicant without one. So the chance of a place depends on where a family lives, and on how much it earns, as well as on the child. Chelmsford County High and Nonsuch, in Table 5, show how this works.
+
+
 ### 7.3 For the country
 
 A private place saves the state about £49k of school spending over seven years (IFS figure for secondary pupils, including sixth forms). The fees come to £125k without VAT, which is left out because it is a payment to the Treasury rather than a cost to the country. So a private place costs the country about £75k, net. Whether the pay advantage is a real gain to the country, or just moves good jobs from one pupil to another, is a separate question. In one survey, education, type of job and industry together account for nearly all of the men's private-school pay advantage, but that survey has no early test scores (Green, Henseke and Vignoles 2017).
@@ -575,7 +644,7 @@ In the Next Steps study of people born in 1989-90, 78% of privately educated men
 
 ## 10. How this was done
 
-**Sources.** DfE (16-18 results and value added, GCSE results and Progress 8, university entry, destinations, graduate employment); Get Information About Schools; University of Cambridge admissions statistics and figures by school, 2013-2025; Oxford admissions reports; Sutton Trust (Elitist Britain 2025, and its 2009 study of Royal Society and British Academy fellows); IFS briefing on access to postgraduate degrees; ONS (earnings gaps by free-school-meal status 2022, national earnings survey ASHE 2025 and its top-earner tables); DfE research report RR1125; IFS (2026) lifetime returns to degrees; ISC census 2026; school fee pages, admissions pages and charity accounts; grammar-school admission documents and two schools' replies to freedom of information requests; OBR (March 2026 forecast, July 2026 long-run); HMRC and gov.uk tax and stamp-duty rates; UK House Price Index. Every download is logged with its address, date and a fingerprint (hash).
+**Sources.** DfE (16-18 results and value added, GCSE results and Progress 8, university entry, destinations, graduate employment); Get Information About Schools; University of Cambridge admissions statistics and figures by school, 2013-2025; Oxford admissions reports; Sutton Trust (Elitist Britain 2025, and its 2009 study of Royal Society and British Academy fellows); IFS briefing on access to postgraduate degrees; ONS (earnings gaps by free-school-meal status 2022, national earnings survey ASHE 2025 and its top-earner tables); DfE research report RR1125; IFS (2026) lifetime returns to degrees; ISC census 2026; school fee pages, admissions pages and charity accounts; grammar-school admission documents, the London Borough of Sutton's transfer booklet and replies from four schools to freedom of information requests; OBR (March 2026 forecast, July 2026 long-run); HMRC and gov.uk tax and stamp-duty rates; UK House Price Index. Every download is logged with its address, date and a fingerprint (hash).
 
 **Checks.** Each table built from the sources was checked by a script against the published figure it reproduces (national DfE totals, Cambridge tables, ONS percentiles, fees and accounts, admission figures, and quotes from 25 papers; the section 8 figures are read by a script from their five source documents and checked against them). Every check passes, with three limits. The IFS (2026) lifetime figure could be checked only part by part. 9 of the 312 figures from the literature could not be checked against a source, and none of them is used. Two papers were checked against their working-paper versions (Green, Machin, Murphy and Zhu: IZA DP 5018; Clark and Del Bono: IZA DP 8617). The tax calculation matches an online take-home-pay calculator to within £4 at five salaries. The sums reproduce the IFS (2026) discounting and its share of tax in a degree's extra pay to within 10%. Every result number in this article is filled in by a script from the results files, and a check fails if any is typed by hand (inputs such as the tutoring cost and the house-price premium are stated as assumptions).
 
