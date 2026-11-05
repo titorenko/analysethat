@@ -15,17 +15,13 @@ TocOpen: true
 ---
 *Private and grammar schools get great results. How much of that is the school, and how much is who gets in? And at today's fees, does private school pay?*
 
-*Updated 11 October 2026: added section 8, on PhDs, top jobs and satisfaction with life.*
-
-*Updated 5 November 2026: new title, and admission figures from freedom of information replies behind the underlined schools in Table 5.*
-
 ## The short version
 
 Children at private and grammar schools get better A levels, go to better universities and earn more than children at comprehensives. None of that is in doubt. The question is why. These schools pick their pupils, by price or by test, and the pupils they pick would often have done well anywhere.
 
 So I took the question apart. First the raw gaps; then the gaps once you compare like with like; then the money: what 11-18 day fees cost against what the extra pay is worth, after tax, over a whole career.
 
-**The answer, on the best evidence available: for a typical pupil, private day school probably does not pay for itself in earnings.** In today's money, a boy ends up about £53k worse off and a girl about £68k. Put another way, the fees earn 1.8% a year for a boy and 1.3% for a girl after inflation: less than a mortgage costs. The evidence is loose enough that a typical boy could just break even (+£7k); a typical girl would still lose (−£18k). At the top 20 schools, where fees are higher, the loss grows to about £103k for a boy and £115k for a girl.
+**The answer, on the best evidence available: for a typical pupil, private day school probably does not pay for itself in earnings.** In today's money, a boy ends up about £53k worse off and a girl about £68k. Put another way, the fees earn 1.8% a year above inflation for a boy and 1.3% for a girl: less than index-linked gilts, UK government bonds that rise with inflation, pay at almost no risk (1.9%-2.4%). The evidence is loose enough that a typical boy could just break even (+£7k); a typical girl would still lose (−£18k). At the top 20 schools, where fees are higher, the loss grows to about £103k for a boy and £115k for a girl.
 
 Six things stand out:
 
@@ -59,7 +55,7 @@ Every number in this article is one of three kinds, and the difference matters:
 ### 1.2 Reading the numbers
 
 - **Percentile.** Rank out of 100. Someone "at the 64th percentile" of earnings earns more than 64 in every 100 people of the same sex and age. The 50th percentile is the middle.
-- **Today's money.** A pound in 20 years is worth less than a pound now, because money now can be saved or used to pay off a mortgage. So future amounts are marked down by a set rate each year, the *discount rate*, to give their value today. I use HM Treasury's rule for public spending (the "Green Book"): 3.5% a year for 30 years, then 3.0%. I also show 2.1%, roughly the cost of a mortgage after inflation. All amounts are in 2025/26 prices.
+- **Today's money.** A pound in 20 years is worth less than a pound now, because money now can be saved or used to pay off a mortgage. So future amounts are marked down by a set rate each year, the *discount rate*, to give their value today. I use HM Treasury's rule for public spending (the "Green Book"): 3.5% a year for 30 years, then 3.0%. I also show 2.1%, roughly the cost of a mortgage after inflation, and the yields on index-linked gilts: UK government bonds whose payments rise with inflation, so their yield is what a saver can earn above inflation at almost no risk if they hold to the end. Those yields were 1.9%-2.4% for 10 to 40 years on 4 November 2026, and each future amount is marked down at the yield for its date. All amounts are in 2025/26 prices.
 - **Net gain.** The value today of the extra lifetime pay after tax, minus the value today of the fees. Below zero means the fees don't pay for themselves.
 - **Return on the fees.** The yearly interest rate the fees would be earning if the extra pay were interest on them. The fees pay if this beats the discount rate.
 - **Range (95% interval).** Where the true figure very probably lies, given how many people a study observed. It covers the luck of who happened to be in the study, not flaws in the comparison itself.
@@ -81,7 +77,7 @@ Every number in this article is one of three kinds, and the difference matters:
 | Pay at 30, same GCSE results, relative to state | 1.18-1.39× | no split | 1.00× | Allowing for later results; ONS |
 | Pay advantage, born 1989-90, similar family background | 17% (range 5%-31%) | no estimate | reference | Allowing for background only; §4.2 |
 | Pay advantage, born 1970, at 42, similar background and early test scores | 35% (men), 21% (women) | no estimate | reference | Allowing for intake; §4.2 |
-| Pay advantage of grammar, born 1950s and 1958 | — | about 0 for children near the pass mark; up to 9.0% (men, less reliable method) | reference | Allowing for intake; §4.2 |
+| Pay advantage of grammar, born 1950s and 1958 | — | about 0; up to 9.0% (men) | reference | Allowing for intake, near the pass mark; the upper figure uses a less reliable method; §4.2 |
 | Net gain from 11-18 day school, typical pupil, at 3.5% | −£53k (boys), −£68k (girls) | −£3k (the tutoring, central case) | reference | This study, §5 |
 
 *The comparison group changes by row. The DfE and Cambridge rows compare with comprehensives or with all other state schools, as labelled. The ONS rows compare with all state pupils not on free school meals, grammar pupils included. The private-school studies of people born in 1970 and 1989-90 compare with all state schools; Dearden et al. also compare with comprehensives only. The grammar studies compare with secondary moderns or comprehensives (§4.2).*
@@ -491,18 +487,18 @@ To repay the fees, a child in the middle of the earnings ranking needs to earn 3
 
 ### 5.3 The bottom line
 
-| | Scenario | Net gain at 3.5% | Net gain at 2.1% | Return on the fees, a year after inflation | Extra pay over a career, after tax (not discounted) |
-|---|---|---|---|---|---|
-| Boy | high | +£7k | +£87k | 3.5% | £524k |
-| | **central** | **−£53k** | −£12k | **1.8%** | £291k |
-| | low | −£92k | −£69k | 0.2% | £177k |
-| Girl | high | −£35k | +£17k | 2.5% | £358k |
-| | **central** | **−£68k** | −£34k | **1.3%** | £247k |
-| | low | −£124k | −£118k | −2.2% | £76k |
+| | Scenario | Net gain at 3.5% | Net gain at 2.1% | Net gain at gilt rates | Return on the fees, a year above inflation | Extra pay over a career, after tax (not discounted) |
+|---|---|---|---|---|---|---|
+| Boy | high | +£7k | +£87k | +£83k | 3.5% | £524k |
+| | **central** | **−£53k** | −£12k | −£17k | **1.8%** | £291k |
+| | low | −£92k | −£69k | −£74k | 0.2% | £177k |
+| Girl | high | −£35k | +£17k | +£12k | 2.5% | £358k |
+| | **central** | **−£68k** | −£34k | −£39k | **1.3%** | £247k |
+| | low | −£124k | −£118k | −£123k | −2.2% | £76k |
 
-*Table 8. 11-18 private day school at national average fees, for a typical private pupil (at the earnings place each scenario implies). Fees level after inflation, no extras, no bursary. Fees not discounted: £165k. At the two ends of the central scenario's range the net gain at 3.5% is −£117k to +£7k for a boy and −£123k to −£18k for a girl.*
+*Table 8. 11-18 private day school at national average fees, for a typical private pupil (at the earnings place each scenario implies). Fees level after inflation, no extras, no bursary. Fees not discounted: £165k. Gilt rates are the Bank of England's curve for 4 November 2026; these gilts track RPI rather than CPI. At the two ends of the central scenario's range the net gain at 3.5% is −£117k to +£7k for a boy and −£123k to −£18k for a girl.*
 
-In the central scenario, the fees earn 1.8% a year for a boy and 1.3% for a girl after inflation. A mortgage costs more than that. Over a career the boy earns £291k more after tax, comfortably more than the £165k of fees. The catch is timing: the fees are paid in the child's teens, and the extra pay arrives over the following 50 years.
+In the central scenario, the fees earn 1.8% a year above inflation for a boy and 1.3% for a girl. Index-linked gilts pay 1.9%-2.4% at almost no risk, so the same money saved would do better: at gilt rates the net gain is −£17k for a boy and −£39k for a girl. Over a career the boy earns £291k more after tax, comfortably more than the £165k of fees. The catch is timing: the fees are paid in the child's teens, and the extra pay arrives over the following 50 years.
 
 Private sixth form alone (16-18, £48k of fees, counted at 16) needs a lifetime pay advantage of 8% (boys) or 11% (girls) in the middle of the ranking. For a typical sixth-former (about the 74th percentile, since the assumed pay advantage is small), the net gain at 16 is −£36k for a boy and −£38k for a girl in the central scenario, and −£7k and −£12k in the high one.
 
@@ -645,7 +641,7 @@ In the Next Steps study of people born in 1989-90, 78% of privately educated men
 
 ## 10. How this was done
 
-**Sources.** DfE (16-18 results and value added, GCSE results and Progress 8, university entry, destinations, graduate employment); Get Information About Schools; University of Cambridge admissions statistics and figures by school, 2013-2025; Oxford admissions reports; Sutton Trust (Elitist Britain 2025, and its 2009 study of Royal Society and British Academy fellows); IFS briefing on access to postgraduate degrees; ONS (earnings gaps by free-school-meal status 2022, national earnings survey ASHE 2025 and its top-earner tables); DfE research report RR1125; IFS (2026) lifetime returns to degrees; ISC census 2026; school fee pages, admissions pages and charity accounts; grammar-school admission documents, the London Borough of Sutton's transfer booklet and replies from four schools to freedom of information requests; OBR (March 2026 forecast, July 2026 long-run); HMRC and gov.uk tax and stamp-duty rates; UK House Price Index. Every download is logged with its address, date and a fingerprint (hash).
+**Sources.** DfE (16-18 results and value added, GCSE results and Progress 8, university entry, destinations, graduate employment); Get Information About Schools; University of Cambridge admissions statistics and figures by school, 2013-2025; Oxford admissions reports; Sutton Trust (Elitist Britain 2025, and its 2009 study of Royal Society and British Academy fellows); IFS briefing on access to postgraduate degrees; ONS (earnings gaps by free-school-meal status 2022, national earnings survey ASHE 2025 and its top-earner tables); DfE research report RR1125; IFS (2026) lifetime returns to degrees; ISC census 2026; school fee pages, admissions pages and charity accounts; grammar-school admission documents, the London Borough of Sutton's transfer booklet and replies from four schools to freedom of information requests; OBR (March 2026 forecast, July 2026 long-run); Bank of England yield curves; HMRC and gov.uk tax and stamp-duty rates; UK House Price Index. Every download is logged with its address, date and a fingerprint (hash).
 
 **Checks.** Each table built from the sources was checked by a script against the published figure it reproduces (national DfE totals, Cambridge tables, ONS percentiles, fees and accounts, admission figures, and quotes from 25 papers; the section 8 figures are read by a script from their five source documents and checked against them). Every check passes, with three limits. The IFS (2026) lifetime figure could be checked only part by part. 9 of the 312 figures from the literature could not be checked against a source, and none of them is used. Two papers were checked against their working-paper versions (Green, Machin, Murphy and Zhu: IZA DP 5018; Clark and Del Bono: IZA DP 8617). The tax calculation matches an online take-home-pay calculator to within £4 at five salaries. The sums reproduce the IFS (2026) discounting and its share of tax in a degree's extra pay to within 10%. Every result number in this article is filled in by a script from the results files, and a check fails if any is typed by hand (inputs such as the tutoring cost and the house-price premium are stated as assumptions).
 
