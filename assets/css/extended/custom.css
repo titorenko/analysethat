@@ -44,26 +44,37 @@
    spread, leaving a wide column of short numbers. Capped near the width of a date or a short phrase. */
 .md-content .table-wrap .table-scroll table th { vertical-align: bottom; max-width: 16ch; }
 .md-content .table-wrap .table-scroll table td.nw { white-space: nowrap; }
+/* Column hints ("Label ⟦hint⟧" in a header cell, layouts/_markup/render-table.html): dotted underline; the hint opens
+   below the header on hover, keyboard focus or tap, inside the table's scroll box (so it opens downwards). */
+.th-hint { position: relative; text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
+.th-hint:hover::after, .th-hint:focus::after {
+  content: attr(data-hint); position: absolute; top: 100%; left: 0; z-index: 5; margin-top: 6px;
+  width: max-content; max-width: min(22em, 70vw); padding: .45em .65em; white-space: normal; text-align: left;
+  font-size: .85em; font-weight: 400; line-height: 1.4; color: var(--primary);
+  background: var(--entry); border: 1px solid var(--border); border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+th:nth-last-child(-n+2) .th-hint:hover::after, th:nth-last-child(-n+2) .th-hint:focus::after { left: auto; right: 0; }
+.th-hint:focus { outline: none; }
 
-/* Use more of large screens: widen the column and scale type with it so the measure stays at roughly 85-90
-   characters while the side margins shrink. */
+/* Use more of large screens: widen the column and scale type with it, so the side margins shrink; the column is
+   about 15% wider than the type alone would need (narrow margins, wide tables). */
 @media (min-width: 1280px) {
-  :root { --main-width: 56rem; }
+  :root { --main-width: 64rem; }
 }
 @media (min-width: 1440px) {
-  :root { --main-width: 64rem; }
+  :root { --main-width: 74rem; }
   .post-content { font-size: 1.1875rem; }
 }
 @media (min-width: 1920px) {
-  :root { --main-width: 74rem; }
+  :root { --main-width: 85rem; }
   .post-content { font-size: 1.3125rem; }
 }
 @media (min-width: 2400px) {
-  :root { --main-width: 84rem; }
+  :root { --main-width: 97rem; }
   .post-content { font-size: 1.5rem; }
 }
 @media (min-width: 3600px) {
-  :root { --main-width: 104rem; }
+  :root { --main-width: 120rem; }
   .post-content { font-size: 1.875rem; }
 }
 

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 232" width="820" height="232" role="img" aria-labelledby="t d">
+<title id="t">Counting Oxford, Cambridge and Imperial together, private sixth-formers lead</title><desc id="d">Places at Oxford, Cambridge and Imperial together per 1,000 A-level students, 2023, English schools: private 69.5, grammar 57.4 (possible range 55.5-61.9), other state 13.1.</desc>
+<style>
+  .surface { fill: #fcfcfb; stroke: rgba(11,11,11,.10); }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .t3 { fill: #6b6a65; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; } .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .ind { fill: #2a78d6; stroke: #2a78d6; } .ind-l { stroke: #2a78d6; fill: none; } .ind-band { fill: #2a78d6; opacity: .18; }
+  .gra { fill: #eb6834; stroke: #eb6834; } .gra-l { stroke: #eb6834; fill: none; }
+  .com { fill: #1baf7a; stroke: #1baf7a; } .com-l { stroke: #1baf7a; fill: none; }
+  .neu { fill: #898781; stroke: #898781; } .neu-l { stroke: #898781; fill: none; } .neu-band { fill: #898781; opacity: .14; }
+  .abr { fill: #d9d8d1; }
+  .hollow { fill: #fcfcfb; stroke-width: 2; }
+  .ink { stroke: #0b0b0b; fill: none; }
+  .dash { stroke-dasharray: 5 4; }
+  .halo { paint-order: stroke; stroke: #fcfcfb; stroke-width: 4px; stroke-linejoin: round; }
+  text { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; stroke: rgba(255,255,255,.10); }
+    .t1 { fill: #ffffff; } .t2 { fill: #c3c2b7; } .t3 { fill: #a9a8a1; }
+    .grid { stroke: #2c2c2a; } .axis { stroke: #383835; }
+    .ind { fill: #3987e5; stroke: #3987e5; } .ind-l { stroke: #3987e5; } .ind-band { fill: #3987e5; }
+    .gra { fill: #d95926; stroke: #d95926; } .gra-l { stroke: #d95926; }
+    .com { fill: #199e70; stroke: #199e70; } .com-l { stroke: #199e70; }
+    .hollow { fill: #1a1a19; }
+    .abr { fill: #3d3d3a; }
+    .ink { stroke: #ffffff; }
+    .halo { stroke: #1a1a19; }
+  }
+</style>
+<rect class="surface" x="0.5" y="0.5" width="819" height="231" rx="8"/>
+<text class="t1" x="24.0" y="30.0" font-size="15" text-anchor="start" font-weight="600">Counting Oxford, Cambridge and Imperial together, private sixth-formers lead</text>
+<text class="t3" x="24.0" y="50.0" font-size="11" text-anchor="start">Places at Oxford, Cambridge and Imperial together per 1,000 A-level students, 2023, English schools</text>
+<line class="grid" x1="130.0" y1="68.0" x2="130.0" y2="182.0" stroke-width="1"/>
+<text class="t3" x="130.0" y="198.0" font-size="11" text-anchor="middle">0</text>
+<line class="grid" x1="272.5" y1="68.0" x2="272.5" y2="182.0" stroke-width="1"/>
+<text class="t3" x="272.5" y="198.0" font-size="11" text-anchor="middle">20</text>
+<line class="grid" x1="415.0" y1="68.0" x2="415.0" y2="182.0" stroke-width="1"/>
+<text class="t3" x="415.0" y="198.0" font-size="11" text-anchor="middle">40</text>
+<line class="grid" x1="557.5" y1="68.0" x2="557.5" y2="182.0" stroke-width="1"/>
+<text class="t3" x="557.5" y="198.0" font-size="11" text-anchor="middle">60</text>
+<line class="grid" x1="700.0" y1="68.0" x2="700.0" y2="182.0" stroke-width="1"/>
+<text class="t3" x="700.0" y="198.0" font-size="11" text-anchor="middle">80</text>
+<text class="t1" x="24.0" y="93.0" font-size="13" text-anchor="start" font-weight="600">Private</text>
+<rect class="ind" x="130.0" y="76.0" width="495.2" height="26.0" rx="3"/>
+<text class="t1" x="633.2" y="93.0" font-size="12" text-anchor="start" font-weight="600">69.5</text>
+<text class="t1" x="24.0" y="133.0" font-size="13" text-anchor="start" font-weight="600">Grammar</text>
+<rect class="gra" x="130.0" y="116.0" width="409.2" height="26.0" rx="3"/>
+<line class="ink" x1="525.5" y1="129.0" x2="571.3" y2="129.0" stroke-width="1.5"/>
+<line class="ink" x1="525.5" y1="123.0" x2="525.5" y2="135.0" stroke-width="1.5"/>
+<line class="ink" x1="571.3" y1="123.0" x2="571.3" y2="135.0" stroke-width="1.5"/>
+<text class="t1" x="579.3" y="133.0" font-size="12" text-anchor="start" font-weight="600">57.4</text>
+<text class="t1" x="24.0" y="173.0" font-size="13" text-anchor="start" font-weight="600">Other state</text>
+<rect class="com" x="130.0" y="156.0" width="93.4" height="26.0" rx="3"/>
+<text class="t1" x="231.4" y="173.0" font-size="12" text-anchor="start" font-weight="600">13.1</text>
+<text class="t3" x="24.0" y="216.0" font-size="11" text-anchor="start">Private includes pupils from outside the UK. Grammar: on the government's list of selective schools; the line spans Oxford's withheld counts.</text>
+</svg>

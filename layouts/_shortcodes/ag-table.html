@@ -1,0 +1,60 @@
+{{- /* Wrap a markdown table to show it as a sortable AG Grid, styled like the school table (oxbridge-lookup):
+     {{< ag-table >}}
+     | A | B |
+     |---|---|
+     {{< /ag-table >}}
+   The table is rendered as usual first, so without JavaScript (or before AG Grid loads) readers see the plain table; the
+   grid replaces it when it nears the screen. Cell HTML is kept; sorting reads the number at the start of a cell
+   ("21.3-24.0" by its midpoint), text otherwise; blank and dash cells sort last. Optional: widths="30,10,10,10,20" (relative
+   column widths, default: first column 2, the rest 1). */ -}}
+{{- partial "ag-grid-common.html" .Page -}}
+<div class="ag-table">{{ .Inner | .Page.RenderString }}</div>
+<script>
+(function () {
+  var box = document.currentScript.previousElementSibling, widths = {{ .Get "widths" | default "" }};
+  function val(t) {
+    var m = t.replace(/[≈£,]/g, '').match(/^\s*([+\-−]?\d+(?:\.\d+)?)(?:\s*-\s*(\d+(?:\.\d+)?))?/);
+    if (!m) return null;
+    var a = parseFloat(m[1].replace('−', '-'));
+    return m[2] ? (a + parseFloat(m[2])) / 2 : a;
+  }
+  function cmp(a, b, na, nb, desc) {
+    var x = a.text, y = b.text, vx = val(x), vy = val(y);
+    var ex = !x.trim() || /^[—–-]$/.test(x.trim()), ey = !y.trim() || /^[—–-]$/.test(y.trim());
+    if (ex || ey) return ex === ey ? 0 : (ex ? 1 : -1) * (desc ? -1 : 1);
+    if (vx !== null && vy !== null) return vx - vy;
+    return x.localeCompare(y);
+  }
+  agGridLazy(box, function () {
+    agGridLoad().then(function () {
+      var table = box.querySelector('table');
+      if (!table) return;
+      var heads = [].map.call(table.tHead.rows[0].cells, function (th) { return th.textContent.trim(); });
+      var hints = [].map.call(table.tHead.rows[0].cells, function (th) {   // "Label ⟦hint⟧" headers (render-table.html)
+        var h = th.querySelector('.th-hint'); return h ? h.getAttribute('data-hint') : undefined; });
+      var w = widths ? String(widths).split(',').map(Number) : heads.map(function (_, i) { return i ? 1 : 2; });
+      var rows = [].map.call(table.tBodies[0].rows, function (tr) {
+        var o = {};
+        [].forEach.call(tr.cells, function (td, i) { o['c' + i] = { html: td.innerHTML, text: td.textContent }; });
+        return o;
+      });
+      var wide = document.createElement('div'), grid = document.createElement('div');
+      wide.className = 'ag-wide-wrap';
+      wide.innerHTML = '<div class="ag-wide"></div>';
+      wide.firstChild.appendChild(grid);
+      agGrid.createGrid(grid, {
+        rowData: rows, theme: agGridTheme(), domLayout: 'autoHeight', tooltipShowDelay: 200,
+        defaultColDef: { sortable: true, resizable: true, wrapText: true, autoHeight: true, wrapHeaderText: true,
+          autoHeaderHeight: true, suppressMovable: true, comparator: cmp, sortingOrder: ['asc', 'desc', null],
+          cellStyle: { lineHeight: '1.4', paddingTop: '6px', paddingBottom: '6px', wordBreak: 'normal' } },
+        columnDefs: heads.map(function (h, i) {
+          return { headerName: h, headerTooltip: hints[i], field: 'c' + i, flex: w[i] || 1, minWidth: i ? 90 : 160, pinned: i ? null : 'left',
+            cellRenderer: function (p) { return p.value ? p.value.html : ''; } };
+        })
+      });
+      var old = table.closest('.table-wrap') || table;
+      old.replaceWith(wide);
+    }, function () {});
+  });
+})();
+</script>

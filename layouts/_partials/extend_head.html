@@ -1,0 +1,27 @@
+{{- /* Click handler for the school-note shortcode: a table link to #school-... opens its <template> as a row under that
+   school; a second click closes it. It runs in the capture phase so PaperMod's smooth-scroll script, which claims every
+   "#" link, never sees these clicks. In the head (not the shortcode, whose once-per-page flag goes stale under hugo
+   server; and not the footer, which PaperMod caches across pages) so it is emitted exactly once per page. */ -}}
+{{- if .HasShortcode "school-note" }}
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('a[href^="#school-"]');
+  if (!a) return;
+  e.preventDefault();
+  e.stopPropagation();
+  var tr = a.closest('tr'), next = tr.nextElementSibling;
+  if (next && next.className === 'school-more') {
+    next.remove();
+    a.setAttribute('aria-expanded', 'false');
+    return;
+  }
+  var row = tr.parentNode.insertRow(tr.sectionRowIndex + 1), td = row.insertCell();
+  row.className = 'school-more';
+  td.colSpan = tr.cells.length;
+  var body = td.appendChild(document.createElement('div'));
+  body.className = 'school-more-body';
+  body.appendChild(document.getElementById(a.getAttribute('href').slice(1)).content.cloneNode(true));
+  a.setAttribute('aria-expanded', 'true');
+}, true);
+</script>
+{{- end }}

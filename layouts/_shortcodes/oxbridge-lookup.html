@@ -1,0 +1,111 @@
+{{- /* Oxford, Cambridge and Imperial applications and places by school, with places as % of sixth-form leavers: an AG Grid
+   (loaded by the partial ag-grid-common.html) of every school, with a name filter and a type dropdown above it.
+   Data: oxbridge-schools.json in the page bundle (fingerprinted URL, so a new build is never served from a stale cache), rows
+   [name, postcode area, type, leavers, Oxford applied, places, %, Cambridge ..., Imperial ..., all three 2022-24 ..., website];
+   "4*" = the middle of the possible range where Oxford or Cambridge withhold a small count. Ctrl/Cmd+click opens the website.
+   Opens sorted by the combined % of leavers, highest first. Sorting by a % column puts schools with fewer than
+   MIN_LEAVERS leavers last, in either direction. */ -}}
+{{- partial "ag-grid-common.html" .Page -}}
+{{- with .Page.Resources.Get "oxbridge-schools.json" -}}
+<div class="oxbridge-lookup" data-src="{{ (. | fingerprint).RelPermalink }}">
+<style>
+.oxbridge-lookup .ox-controls { display: flex; flex-wrap: wrap; gap: .5em .8em; align-items: center; margin: .3em 0 .5em; }
+.oxbridge-lookup .ox-controls input, .oxbridge-lookup .ox-controls select { font: inherit; font-size: .9em; padding: .3em .5em;
+  background: var(--entry); color: var(--primary); border: 1px solid var(--tertiary); border-radius: 4px; }
+.oxbridge-lookup .ox-controls input { flex: 1 1 14em; max-width: 22em; }
+.oxbridge-lookup .ox-status { color: var(--secondary); font-size: .85em; }
+.oxbridge-lookup .ox-grid { height: min(80vh, 40em); }
+</style>
+<div class="ox-controls">
+<input type="search" aria-label="Filter by school name" autocomplete="off" placeholder="Filter by school name">
+<select aria-label="School type"><option value="">All types</option><option>Private</option><option>Grammar</option><option>State</option></select>
+<span class="ox-status" aria-live="polite"></span>
+</div>
+<div class="ag-wide-wrap" style="margin-block:0"><div class="ag-wide"><div class="ox-grid"></div></div></div>
+</div>
+<noscript><p>The table needs JavaScript; the same figures are in the replication files.</p></noscript>
+<script>
+(function () {
+  var box = document.querySelector('.oxbridge-lookup'), q = box.querySelector('input'), kind = box.querySelector('select'),
+      status = box.querySelector('.ox-status'), el = box.querySelector('.ox-grid'), MIN_LEAVERS = 100,
+      F = ['name', 'area', 'kind', 'leavers', 'oxA', 'oxP', 'oxPct', 'camA', 'camP', 'camPct', 'impA', 'impP', 'impPct', 'allA', 'allP', 'allPct', 'url'],
+      EST = ' * an estimate: the middle of the possible range where Oxford or Cambridge withheld a count below 3.';
+  function norm(s) { return s.toLowerCase().replace(/&/g, ' and ').replace(/['’.]/g, '').replace(/[^a-z0-9]+/g, ' ').trim(); }
+  // "1,039" -> 1039; "51*" -> 51; "33.6%*" -> 33.6; "–" -> null
+  function val(c) {
+    var p = String(c).replace(/[≈%,*]/g, '').split('-').map(Number);
+    return c === '–' || isNaN(p[0]) ? null : (p.length > 1 ? (p[0] + p[1]) / 2 : p[0]);
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function numCmp(a, b, na, nb, desc) {                // blanks last whichever way the column is sorted
+    var x = val(a), y = val(b);
+    if (x === null || y === null) return x === y ? 0 : (x === null ? 1 : -1) * (desc ? -1 : 1);
+    return x - y;
+  }
+  function pctCmp(a, b, na, nb, desc) {                // schools with few leavers last whichever way
+    var sa = !(val(na.data.leavers) >= MIN_LEAVERS), sb = !(val(nb.data.leavers) >= MIN_LEAVERS);
+    if (sa !== sb) return (sa ? 1 : -1) * (desc ? -1 : 1);
+    return numCmp(a, b, na, nb, desc);
+  }
+  var K = agGridScale(), NUM = { comparator: numCmp, type: 'rightAligned', sortingOrder: ['desc', 'asc', null], width: 74 * K, minWidth: 64 * K };
+  function group(title, p, sort) {
+    var est = p === 'imp' ? '' : EST;                  // Imperial withholds nothing
+    return { headerName: title, wrapHeaderText: true, autoHeaderHeight: true, children: [
+      Object.assign({ headerName: 'Applied', field: p + 'A', headerTooltip: 'Applications.' + est }, NUM),
+      Object.assign({ headerName: 'Places', field: p + 'P', headerTooltip: 'Places (acceptances).' + est }, NUM, { width: 70 * K }),
+      Object.assign({ headerName: '% of leavers', field: p + 'Pct', headerTooltip: "Places divided by the school's sixth-form " +
+        'leavers over the same years.' + est + ' Also * where leavers were estimated from fewer years.' },
+        NUM, { comparator: pctCmp, width: (sort ? 100 : 84) * K, minWidth: (sort ? 84 : 74) * K, sort: sort || null })] };
+  }
+  function build(rows) {
+    var words = [], type = '';
+    var api = agGrid.createGrid(el, {
+      rowData: rows,
+      autoSizeStrategy: { type: 'fitGridWidth' },   // fill the width; below the columns' minimum widths it scrolls
+      theme: agGridTheme(), tooltipShowDelay: 200,
+      onCellClicked: function (p) {                  // Ctrl+click (Cmd+click on a Mac) opens the school's website
+        if ((p.event.ctrlKey || p.event.metaKey) && p.data.url) window.open(p.data.url, '_blank', 'noopener');
+      },
+      defaultColDef: { sortable: true, resizable: true, wrapHeaderText: true, autoHeaderHeight: true, suppressMovable: true },
+      columnDefs: [
+        { headerName: 'School', headerTooltip: "Postcode area under the name. Ctrl+click a row (⌘+click on a Mac) to open the school's website.",
+          field: 'name', pinned: 'left', width: 170 * K, minWidth: 140 * K, wrapText: true, autoHeight: true,
+          comparator: function (a, b) { return a.localeCompare(b); },
+          cellRenderer: function (p) { return esc(p.data.name) + '<small>' + esc(p.data.area) + '</small>'; },
+          cellStyle: { lineHeight: '1.3', paddingTop: '4px', paddingBottom: '4px' } },
+        { headerName: 'Type', field: 'kind', width: 80 * K, minWidth: 70 * K },
+        Object.assign({ headerName: 'Sixth-form leavers, 2022-25', field: 'leavers', headerTooltip: 'Students finishing 16-18 ' +
+          'study with academic qualifications such as A levels (DfE), summers 2022-2025.' }, NUM, { width: 92 * K }),
+        group('Oxford + Cambridge + Imperial, 2022-24', 'all', 'desc'), group('Oxford, 2022-25', 'ox'), group('Cambridge, 2022-25', 'cam'),
+        group('Imperial, 2022-24', 'imp')],
+      isExternalFilterPresent: function () { return words.length > 0 || type !== ''; },
+      doesExternalFilterPass: function (n) {
+        return (!type || n.data.kind === type) && words.every(function (w) { return n.data.key.indexOf(' ' + w) !== -1; });
+      },
+      onFilterChanged: count, onSortChanged: count
+    });
+    function count() {
+      var sorted = api.getColumnState().filter(function (c) { return c.sort; })[0];
+      status.textContent = api.getDisplayedRowCount().toLocaleString() + ' of ' + rows.length.toLocaleString() + ' schools' +
+        (sorted && /Pct$/.test(sorted.colId) ? '; schools with fewer than ' + MIN_LEAVERS + ' leavers sorted last.' : '.');
+    }
+    count();
+    q.addEventListener('input', function () { words = norm(q.value).split(' ').filter(Boolean); api.onFilterChanged(); });
+    kind.addEventListener('change', function () { type = kind.value; api.onFilterChanged(); });
+  }
+  agGridLazy(box, function () {
+    status.textContent = 'Loading…';
+    var data = fetch(box.dataset.src).then(function (r) { return r.json(); });
+    Promise.all([agGridLoad(), data]).then(function (v) {
+      build(v[1].map(function (c) {
+        var o = { key: ' ' + norm(c[0]) };
+        F.forEach(function (f, i) { o[f] = c[i]; });
+        return o;
+      }));
+    }).catch(function (e) { status.textContent = 'The school table could not be loaded.'; console.error(e); });
+  });
+})();
+</script>
+{{- else -}}
+{{- errorf "oxbridge-lookup: oxbridge-schools.json not found in bundle of %q" $.Page.Path -}}
+{{- end -}}

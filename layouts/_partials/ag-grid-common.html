@@ -1,0 +1,45 @@
+{{- /* Shared by the shortcodes that draw an AG Grid (oxbridge-lookup, ag-table); emitted once per page.
+   window.agGridLoad() loads the vendored AG Grid Community (MIT, 1.8 MB) once, on first call.
+   window.agGridTheme() follows the site's colour variables, so the grid switches with the light/dark toggle.
+   window.agGridLazy(el, fn) calls fn when el comes within 1200px of the screen.
+   Emitted by every such shortcode (a .Store flag fails: Hugo renders the page content more than once, so the flag is
+   already set in the final pass); the script sets things up only once. */ -}}
+<style>
+.ag-wide-wrap { container-type: inline-size; margin-block: 1.5em; }   /* 100cqw = the text column */
+@media (min-width: 1024px) {   /* spread into the side margins, like the article's wide tables */
+  .post-content > .ag-wide-wrap > .ag-wide, .post-content > div > .ag-wide-wrap > .ag-wide {
+    --wide: max(100cqw, min(100vw - 4rem, 1300px)); width: var(--wide); margin-inline: calc((100cqw - var(--wide)) / 2); }
+}
+.ag-wide .ag-header-group-cell-label { justify-content: center; text-align: center; }
+.ag-wide small { display: block; opacity: .65; font-size: .8em; }
+</style>
+<script>
+(function () {
+  if (window.agGridLoad) return;
+  var lib = {{ "vendor/ag-grid-community-36.3.0/ag-grid-community.min.js" | relURL }}, loading = null;
+  window.agGridLoad = function () {
+    if (!loading) loading = new Promise(function (ok, fail) {
+      var s = document.createElement('script');
+      s.src = lib; s.onload = ok; s.onerror = function () { loading = null; fail(); };
+      document.head.appendChild(s);
+    });
+    return loading;
+  };
+  function size() {                              // grid type: about three-quarters of the article's, which grows on big screens
+    var base = parseFloat(getComputedStyle(document.querySelector('.post-content') || document.body).fontSize) || 18;
+    return Math.round(base * 0.75);
+  }
+  window.agGridScale = function () { return size() / 13; };   // for column widths set in px at 13px type
+  window.agGridTheme = function () {
+    var size = window.agGridScale() * 13;
+    return agGrid.themeQuartz.withParams({ backgroundColor: 'var(--theme)', foregroundColor: 'var(--primary)',
+      headerBackgroundColor: 'var(--entry)', chromeBackgroundColor: 'var(--entry)', borderColor: 'var(--border)',
+      browserColorScheme: 'inherit', fontFamily: 'inherit', fontSize: size, headerFontSize: size, spacing: Math.round(size / 3.5), wrapperBorderRadius: 0 });
+  };
+  window.agGridLazy = function (el, fn) {
+    if (!('IntersectionObserver' in window)) return fn();
+    var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { io.disconnect(); fn(); } }, { rootMargin: '1200px 0px' });
+    io.observe(el);
+  };
+})();
+</script>

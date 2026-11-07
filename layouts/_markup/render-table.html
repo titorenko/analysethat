@@ -7,9 +7,11 @@
       {{- range .THead }}
       <tr>
         {{- range . }}
+        {{- /* "Label ⟦hint⟧" in a header cell: the hint shows on hover or focus (CSS .th-hint in custom.css) */}}
+        {{- $m := findRESubmatch `(?s)^(.*?)\s*⟦(.*)⟧\s*$` (string .Text) 1 }}
         <th
           {{- with .Alignment }}{{ printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}{{ end -}}
-        >{{- .Text -}}</th>
+        >{{- with $m }}<span class="th-hint" tabindex="0" data-hint="{{ index (index . 0) 2 | plainify }}">{{ index (index . 0) 1 | safeHTML }}</span>{{ else }}{{ .Text }}{{ end -}}</th>
         {{- end }}
       </tr>
       {{- end }}
