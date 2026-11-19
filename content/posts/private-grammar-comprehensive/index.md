@@ -2,7 +2,7 @@
 title: "Private, Grammar or Comprehensive? What Each School Does for Results, Careers and Lifetime Pay"
 description: "English private, grammar and comprehensive schools compared on university entry, A levels and lifetime earnings, before and after allowing for who gets in, with outcomes beyond pay, a cost-benefit calculation and profiles of the top and bottom private and grammar schools"
 date: 2026-10-10
-updated: 2026-11-07
+updated: 2026-11-19
 draft: false
 summary: "Private and grammar school pupils do far better than everyone else, but much of that is who walks through the door. On the best evidence available, private day school from 11 to 18 probably does not pay for itself in earnings for a typical pupil: in today's money a boy ends up about £53k worse off and a girl about £68k, though the evidence leaves room for a boy to break even."
 tags: ["education", "earnings", "cost-benefit", "england", "reproducibility"]
@@ -585,7 +585,7 @@ As the school's website or accounts give them, read November 2026; a year is sho
 | 2 | [Colchester RGS](#school-colchester-rgs) | 50.6 | 78% | +0.19 [+0.11, +0.28] | +1.09 | 11.8 | no |
 | 3 | [Pate's GS](#school-pates-gs) | 50.3 | 78% | +0.15 [+0.07, +0.22] | +1.01 | 5.6 | – |
 | 4 | [Henrietta Barnett](#school-hbs) | 50.1 | 72% | −0.35 [−0.45, −0.26] | +1.09 | 14.1 | probable § |
-| 5 | [Wilson's](#school-wilsons) | 50.0 | 80% | +0.03 [−0.05, +0.11] | +1.27 | 9.6 | – |
+| 5 | [Wilson's](#school-wilsons) | 50.0 | 80% | +0.03 [−0.05, +0.11] | +1.27 | 9.6 | yes |
 | 6 | [St Olave's](#school-st-olaves) | 49.9 | 78% | +0.10 [+0.02, +0.17] | +1.27 | 7.9 | probable |
 | 7 | [Tiffin Girls'](#school-tiffin-girls) | 49.8 | 72% | −0.05 [−0.14, +0.05] | +1.06 | 5.0 | probable |
 | 8 | [Tiffin](#school-tiffin) | 49.3 | 71% | +0.10 [+0.03, +0.17] | +0.86 | 8.3 | yes |
@@ -596,14 +596,14 @@ As the school's website or accounts give them, read November 2026; a year is sho
 | 13 | [Colyton GS](#school-colyton-gs) | 47.5 | 66% | +0.04 [−0.06, +0.14] | +0.99 | 7.8 | no |
 | 14 | [Latymer](#school-latymer) | 47.3 | 66% | −0.03 [−0.11, +0.05] | +0.74 | 7.0 | probable |
 | 15 | [KES Stratford](#school-kes-stratford) | 47.2 | 60% | −0.22 [−0.31, −0.14] | +1.21 | 2.1 | no |
-| 16 | [Wallington County](#school-wallington-county) | 47.2 | 68% | +0.31 [+0.22, +0.40] | +0.95 | 3.1 | – |
+| 16 | [Wallington County](#school-wallington-county) | 47.2 | 68% | +0.31 [+0.22, +0.40] | +0.95 | 3.1 | probable |
 | 17 | [Dr Challoner's GS](#school-dr-challoners-gs) | 47.1 | 65% | +0.13 [+0.04, +0.21] | +1.18 | 7.3 | no |
 | 18 | [Camp Hill Boys](#school-camp-hill-boys) | 47.1 | 65% | −0.14 [−0.23, −0.04] | +1.09 | 3.8 | no |
 | 19 | [St Michael's (Barnet)](#school-st-michaels-barnet) | 46.9 | 61% | +0.11 [−0.02, +0.23] | +0.98 | 2.4 | – |
 | 20 | [Judd](#school-judd) | 46.7 | 67% | +0.13 [+0.06, +0.20] | +0.85 | 4.0 | no |
 | 21 | [Chelmsford County High](#school-cchs) | 46.5 | 62% | +0.03 [−0.06, +0.13] | +0.76 | 6.0 | yes |
 | 22 | [Altrincham Boys](#school-altrincham-boys) | 46.3 | 60% | −0.02 [−0.11, +0.07] | +1.32 | 3.0 | no |
-| 23 | [Sutton GS](#school-sutton-gs) | 46.2 | 67% | +0.28 [+0.19, +0.37] | +1.16 | 4.7 | – |
+| 23 | [Sutton GS](#school-sutton-gs) | 46.2 | 67% | +0.28 [+0.19, +0.37] | +1.16 | 4.7 | probable |
 | 24 | [Stratford Girls'](#school-stratford-girls) | 45.9 | 52% | −0.02 [−0.13, +0.10] | +1.07 | 2.2 | no |
 | 25 | [Chesham GS](#school-chesham-gs) | 45.9 | 59% | +0.34 [+0.26, +0.42] | +0.84 | 1.4 | no |
 | 26 | [Blue Coat](#school-blue-coat) | 45.8 | 64% | +0.18 [+0.09, +0.27] | +0.77 | 5.5 | yes |
@@ -709,14 +709,14 @@ Scores, ranks and distances are at national offer day unless marked. Scores: Glo
 {{< school-note id="school-wilsons" >}}
 **Wilson's: admission figures.** It admits 186 a year.
 
-| Entry | Second stage | Pass mark, first stage | Pass mark, second stage | Places | Places, sport and music places | Put it first (DfE) | Offers (DfE) |
-|---|---|---|---|---|---|---|---|
-| 2023 | 1,207 | 212 | 475 | 186 | 18 | 430 | 210 |
-| 2024 | 1,249 | 212 | 475 | 186 | 18 | 416 | 212 |
-| 2025 | 1,242 | 212 | 480 | 186 | 18 | 403 | 209 |
-| 2026 | – | – | – | – | – | 413 | 215 |
+| Entry | Took the test, all Sutton test schools, boys and girls | Qualified | Second stage | Pass mark, first stage | Pass mark, second stage | Lowest score offered | Places | Places, sport and music places | Offers | Put it first (DfE) | Offers (DfE) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2023 | 5,607 | 1,207 | 1,185 | 212 | 475 | 520-529 | 186 | 18 | 252 | 430 | 210 |
+| 2024 | 5,811 | 1,249 | 1,228 | 212 | 475 | 520-529 | 186 | 18 | 220 | 416 | 212 |
+| 2025 | 5,925 | 1,242 | 1,230 | 212 | 480 | 530-539 | 186 | 18 | 255 | 403 | 209 |
+| 2026 | 5,841 | – | 1,385 | – | – | 530-539 | – | – | 216 | 413 | 215 |
 
-Scores: SET standardised score; Wilson's combined score (SET and second stage, 1:2:2). From sutton.gov.uk ([1](https://www.sutton.gov.uk/sites/default/files/2026-04/TSS%20Guidance%20Booklet%202026v2.pdf), [2](https://web.archive.org/web/20241102032044id_/https://www.sutton.gov.uk/documents/d/guest/tss-guidance-booklet-2025), [3](https://web.archive.org/web/20240328062711id_/https://www.sutton.gov.uk/documents/20124/209563/TSS+Guidance+Booklet+2024+v241023.pdf/98fcf1f6-939e-f3e9-bd64-2165fdd36e58)), whatdotheyknow.com ([1](https://web.archive.org/web/20250402204225id_/https://www.whatdotheyknow.com/request/freedom_of_information_request_e_108), [2](https://web.archive.org/web/20251103074203id_/https://www.whatdotheyknow.com/request/number_of_places_offered_per_yea)), and the DfE's offer-day statistics (applications and offers by school).
+Scores, ranks and distances are at national offer day unless marked. Scores: Wilson's combined score (SET and second stage, 1:2:2); SET standardised score. "Took the test" is the whole Sutton test, taken for all its schools, so it is not Wilson's own count. "Offers" is the school's count with no round stated: it is above the DfE's offer-day count in 2023 to 2025 (255 against 209 in 2025), so it probably includes waiting-list offers. The school gives the lowest score only as a band of ten points, and cites the personal-information exemption for what it withheld without saying which part. From sutton.gov.uk ([1](https://www.sutton.gov.uk/sites/default/files/2026-04/TSS%20Guidance%20Booklet%202026v2.pdf), [2](https://web.archive.org/web/20241102032044id_/https://www.sutton.gov.uk/documents/d/guest/tss-guidance-booklet-2025), [3](https://web.archive.org/web/20240328062711id_/https://www.sutton.gov.uk/documents/20124/209563/TSS+Guidance+Booklet+2024+v241023.pdf/98fcf1f6-939e-f3e9-bd64-2165fdd36e58)), whatdotheyknow.com ([1](https://web.archive.org/web/20250402204225id_/https://www.whatdotheyknow.com/request/freedom_of_information_request_e_108), [2](https://web.archive.org/web/20251103074203id_/https://www.whatdotheyknow.com/request/number_of_places_offered_per_yea)), a freedom of information reply, and the DfE's offer-day statistics (applications and offers by school).
 {{< /school-note >}}
 
 {{< school-note id="school-st-olaves" >}}
@@ -1324,7 +1324,7 @@ In the Next Steps study of people born in 1989-90, 78% of privately educated men
 
 ## 10. How this was done
 
-**Sources.** DfE (16-18 results and value added, GCSE results and Progress 8, university entry, destinations, graduate employment); Get Information About Schools; University of Cambridge admissions statistics and figures by school, 2013-2025; Oxford admissions reports, and Oxford's admissions dashboard by school, 2021-2025 (its answer to a freedom of information request); Imperial College London application figures by school, 2020-2024; Sutton Trust (Elitist Britain 2025, and its 2009 study of Royal Society and British Academy fellows); IFS briefing on access to postgraduate degrees; ONS (earnings gaps by free-school-meal status 2022, national earnings survey ASHE 2025 and its top-earner tables); DfE research report RR1125; IFS (2026) lifetime returns to degrees; ISC census 2026; school fee pages, admissions pages and charity accounts; grammar-school admission documents, the London Borough of Sutton's transfer booklet and replies from four schools to freedom of information requests; OBR (March 2026 forecast, July 2026 long-run); Bank of England yield curves; HMRC and gov.uk tax and stamp-duty rates; UK House Price Index. Every download is logged with its address, date and a fingerprint (hash).
+**Sources.** DfE (16-18 results and value added, GCSE results and Progress 8, university entry, destinations, graduate employment); Get Information About Schools; University of Cambridge admissions statistics and figures by school, 2013-2025; Oxford admissions reports, and Oxford's admissions dashboard by school, 2021-2025 (its answer to a freedom of information request); Imperial College London application figures by school, 2020-2024; Sutton Trust (Elitist Britain 2025, and its 2009 study of Royal Society and British Academy fellows); IFS briefing on access to postgraduate degrees; ONS (earnings gaps by free-school-meal status 2022, national earnings survey ASHE 2025 and its top-earner tables); DfE research report RR1125; IFS (2026) lifetime returns to degrees; ISC census 2026; school fee pages, admissions pages and charity accounts; grammar-school admission documents, the London Borough of Sutton's transfer booklet and replies from five schools to freedom of information requests; OBR (March 2026 forecast, July 2026 long-run); Bank of England yield curves; HMRC and gov.uk tax and stamp-duty rates; UK House Price Index. Every download is logged with its address, date and a fingerprint (hash).
 
 **Checks.** Each table built from the sources was checked by a script against the published figure it reproduces (national DfE totals, Cambridge tables, ONS percentiles, fees and accounts, admission figures, and quotes from 25 papers; the section 8 figures are read by a script from their five source documents and checked against them). Oxford publishes its figures by school only as an online dashboard, read here from screen images by text-recognition software; a script checks the row counts, rows read by eye and the dashboard's three-year totals, and an independent AI reviewer (Fable) checked the analysis. The Imperial figures match the totals in Imperial's own file. Every check passes, with three limits. The IFS (2026) lifetime figure could be checked only part by part. 9 of the 312 figures from the literature could not be checked against a source, and none of them is used. Two papers were checked against their working-paper versions (Green, Machin, Murphy and Zhu: IZA DP 5018; Clark and Del Bono: IZA DP 8617). The tax calculation matches an online take-home-pay calculator to within £4 at five salaries. The sums reproduce the IFS (2026) discounting and its share of tax in a degree's extra pay to within 10%. Every result number in this article is filled in by a script from the results files, and a check fails if any is typed by hand (inputs such as the tutoring cost and the house-price premium are stated as assumptions).
 
